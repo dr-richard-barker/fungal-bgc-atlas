@@ -1,0 +1,65 @@
+\section{Results}
+
+\subsection{Resource composition}
+
+The current snapshot (21 August 2026) integrates \textbf{609 fungal BGC dossiers}, each linked to a
+MIBiG accession, spanning primary references from 1991 to 2024 (Table~1, Fig.~3). The dossiers cover
+\textbf{371 curated organisms} and 1018 distinct strain labels; where taxonomy could be resolved,
+organisms span three phyla (167 Ascomycota, 10 Basidiomycota, 1 Mortierellomycota) and 68 genera, and
+of the 609 dossiers with a genus-resolved organism (283 of 609; genus is not yet resolved for the
+remaining organisms, Discussion), \textit{Aspergillus} accounts for 113 dossiers, \textit{Penicillium}
+36, and \textit{Fusarium} 17 (Fig.~1), consistent with the historical emphasis of fungal
+natural-product genome mining on these genera. Beyond the cluster level, the Atlas resolves 1572
+genes, 807 metabolites, 915 experiments, 936 measurements and 1641 observations (Table~1).
+
+\input{../../tables/table1_summary_metrics}
+
+\subsection{Biosynthetic and chemical diversity}
+
+MIBiG-reported BGC classes are dominated by polyketide synthase (PKS) and non-ribosomal peptide
+synthetase (NRPS) clusters: of the 20 most common raw class labels, ``PKS (Unknown)'' (63 dossiers),
+``NRPS (Type I)'' (57) and ``PKS (Type I)'' (38) are the largest single categories, with a further 19
+dossiers combining NRPS and PKS machinery and 18 assigned to terpene biosynthesis (Table~3, Fig.~2).
+Beyond this single class label, each BGC is independently characterised along 27 facet axes spanning
+biosynthesis, chemistry, ecology, genome context and activation conditions (\texttt{BGC\_FACET}, 7800
+rows), allowing a cluster to be queried simultaneously by, for example, chemical class, host
+organism ecology, and the developmental state under which it is known to be expressed -- without
+collapsing these into a single forced category.
+
+\subsection{Knowledge graph of curated relationships}
+
+The \texttt{RELATIONSHIP} table records 1264 curated statements of the form
+subject--predicate--object (e.g.\ gene \emph{encoded\_by} protein, cluster \emph{produces}
+metabolite, intervention \emph{required\_for} phenotype); 994 of these have a complete triple and
+are rendered as the Atlas knowledge graph (1870 entity nodes, 994 typed edges), which can be
+filtered interactively by predicate in the dashboard (Fig.~4 of the online dashboard; Materials and
+methods). The most common predicates are \emph{produces} (60 instances), \emph{required\_for} (31),
+\emph{synthesizes} (28), \emph{cyclizes} (27) and \emph{encoded\_by} (26), reflecting the underlying
+emphasis on causal, pathway-level evidence rather than purely descriptive annotation.
+
+\subsection{Evidence, provenance and preserved uncertainty}
+
+Every claim, measurement, gene function and relationship in the Atlas is traceable to a
+\texttt{SOURCE} record (2575 sources) through an explicit \texttt{EVIDENCE\_LINK} (47\,768 links),
+so a user can move from any field back to the literature or database record that supports it
+(Fig.~4). Rather than resolving disagreement editorially, 995 \texttt{CONFLICT} records preserve
+boundary disputes, strain- or assay-dependent discordance, and unresolved causal questions as
+first-class, queryable data; the most common issue types are ecological-role ambiguity (20 records),
+BGC boundary-scope disagreement (18) and depth-of-evidence questions about gene function (13)
+(Table~4, Fig.~5). Of the 995 conflicts, 220 remain explicitly open and 199 are marked
+resolved-for-this-Atlas, with the remainder spanning provenance- or curation-specific resolutions --
+the full distribution is available in \texttt{supplementary/supp\_table9\_conflict\_status.csv}.
+
+\subsection{Interactive dashboard}
+
+The Atlas is published as a single self-contained web page
+(\url{https://dr-richard-barker.github.io/fungal-bgc-atlas/}) with nine linked panels: an
+\textbf{Overview} of headline metrics and per-dossier evidence-coverage completeness (Fig.~6); a
+\textbf{Taxonomy Explorer} (phylum--class--order--genus composition); a \textbf{Chemistry \&
+Biosynthesis} panel switching between BGC class, chemical class, product family and biological role;
+a \textbf{Facet Explorer} over all 27 facet axes; the \textbf{Knowledge Graph} described above; an
+\textbf{Evidence \& Provenance} panel (source types, publication timeline, evidence-link density); a
+\textbf{Conflicts \& Uncertainty} panel; a searchable \textbf{Dossier Browser} that assembles, for any
+of the 609 BGCs, its full cross-table record (organism, strain, genes, metabolites, experiments,
+measurements, claims, relationships, conflicts and sources, joined on \texttt{dossier\_id}); and a
+live \textbf{Data Dictionary} rendered directly from the source workbook's own schema documentation.

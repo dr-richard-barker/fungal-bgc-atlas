@@ -1,0 +1,916 @@
+experiment_key,dossier_id,experiment_id,organism_key,strain_key,strain_raw,source_ids,note,source_row
+M4-FUNG-0001:E001,M4-FUNG-0001,E001,NCBITAXON:5599,STR_0300b4073198,NAF8,S002,Keep gene-level causal evidence distinct from chromosome-level evidence,128
+M4-FUNG-0001:E002,M4-FUNG-0001,E002,NCBITAXON:5599,STR_1f13d74e5d62,YM-19,S004,Different strain from NAF8 genetic study,129
+M4-FUNG-0002:E001,M4-FUNG-0002,E001,NCBITAXON:5062,STR_2a36239590e1,A. oryzae RIB40 + nine group-1 RIB strains,S002,A. parasiticus NFRI-95 served as pathway-positive control.,141
+M4-FUNG-0002:E002,M4-FUNG-0002,E002,NCBITAXON:5062,STR_f3f771dbeaac,210 A. oryzae RIB strains,S002,Shows widespread retention or degeneration of AF-homologous loci across A. oryzae RIB strains.,142
+M4-FUNG-0002:E003,M4-FUNG-0002,E003,NCBITAXON:5062,STR_be1437168091,A. oryzae RIB67 recipient; RIB40 and A. flavus regulator alleles,S003,"Diagnostic regulatory experiment, not complete aflatoxin-pathway rescue in intact RIB40.",143
+M4-FUNG-0002:E004,M4-FUNG-0002,E004,NCBITAXON:5062,STR_4e253b51e9ad,RIB40-type A. flavus clinical isolates,S004,"Evidence is from related A. flavus isolates, not direct RIB40 metabolite production.",144
+M4-FUNG-0002:E005,M4-FUNG-0002,E005,NCBITAXON:5062,STR_54c7c8abbe21,A. oryzae RIB62 and group-2 strains,S005,Population context; not the RIB40 group-1 genotype.,145
+M4-FUNG-0003:E001,M4-FUNG-0003,E001,NCBITAXON:5067,STR_922f99f32451,SU-1 / SRRC 143 / ATCC 56775 / NRRL 5862,S002; S003; S004,Defines the sequence-level reference architecture.,147
+M4-FUNG-0003:E002,M4-FUNG-0003,E002,NCBITAXON:5067,STR_c8ccd7a4803f,A. parasiticus pksA-disruption background,S005,Keep exact strain details linked to source if later extracting full methods.,148
+M4-FUNG-0003:E003,M4-FUNG-0003,E003,NCBITAXON:5067,STR_00925fe1e0bf,"SU1-N3 (pHSP), derivative of SU-1",S006,Strong example of regulatory bypass of an environmental inhibitory condition.,149
+M4-FUNG-0003:E004,M4-FUNG-0003,E004,NCBITAXON:5067,STR_46777a22f41e,A. parasiticus OMST-accumulating aflR-disruption strain,S007,Strong causal regulator evidence.,150
+M4-FUNG-0003:E005,M4-FUNG-0003,E005,NCBITAXON:5067,STR_1a61b6d61788,A. parasiticus NR-1 / reporter transformants,S008,Demonstrates both temporal gating and chromosomal-position dependence.,151
+M4-FUNG-0003:E006,M4-FUNG-0003,E006,NCBITAXON:5067,STR_53f3000f7b3c,A. parasiticus BN009E cypA-disruption transformants,S009,5 mL YES reported in the study; branch-specific causal experiment.,152
+M4-FUNG-0003:E007,M4-FUNG-0003,E007,NCBITAXON:5067,STR_a62265bdcfc7,ATCC 56775 / SU-1 strain background,S010,Important copy-number/degeneration context within the same reference strain.,153
+M4-FUNG-0004:E001,M4-FUNG-0004,E001,NCBITAXON:5059,STR_a0dee8d62a32,AF13 / ATCC 96044,S002; S004,Sequence completeness is not equivalent to B/G functional completeness.,139
+M4-FUNG-0004:E002,M4-FUNG-0004,E002,NCBITAXON:5059,STR_1d949971fc31,AF13 and AF70; A. parasiticus comparators,S004,"Mechanistic cypA knockout was performed in A. parasiticus BN009E, not AF13.",140
+M4-FUNG-0004:E003,M4-FUNG-0004,E003,NCBITAXON:5059,STR_0b3b1fa7ccd2,AF13,S006,"70 mL medium in 250 mL flasks, dark. Under these fermentations AF13 produced only AFB1.",141
+M4-FUNG-0004:E004,M4-FUNG-0004,E004,NCBITAXON:5059,STR_b0d05d31bed8,AF13 versus NRRL3357,S005,Useful relative-production benchmark; absolute titer not extracted in this pass.,142
+M4-FUNG-0004:E005,M4-FUNG-0004,E005,NCBITAXON:5059,STR_25f9add09d5b,"AF13 ΔatfC-1, ΔatfC-2, WT and empty-vector controls",S005,atfC lies outside the aflatoxin BGC in an AF13-specific chromosome-1 insertion.,143
+M4-FUNG-0004:E006,M4-FUNG-0004,E006,NCBITAXON:5059,STR_8d9fbce9a723,"AF13 ΔatfC mutants, WT and NRRL3357",S005,Discordant mutant phenotypes make a simple causal atfC→aflatoxin conclusion unsafe.,144
+M4-FUNG-0004:E007,M4-FUNG-0004,E007,NCBITAXON:5059,STR_63ec8e3cfaf8,AF13 alone versus AF13 + atoxigenic AF36,S008,"Ecological suppression is an experimental context effect, not evidence of intrinsic BGC shutdown.",145
+M4-FUNG-0004:E008,M4-FUNG-0004,E008,NCBITAXON:5059,STR_dd0647b06dda,A. parasiticus BN009E cypA disruptants,S004,Mechanistic comparator used to interpret the fixed AF13 norB–cypA deletion; not an AF13 perturbation.,146
+M4-FUNG-0005:E001,M4-FUNG-0005,E001,NCBITAXON:2059437,STR_f118591308d8,BN008R,S002,"70 mL medium in 250-mL flasks; ~5,000 conidia; initial pH 4.7; n=3.",141
+M4-FUNG-0005:E002,M4-FUNG-0005,E002,NCBITAXON:2059437,STR_39c34aa697e0,S_BG isolates including BN008R,S003,Group-level S_BG result; do not encode every fold as BN008R-specific.,142
+M4-FUNG-0005:E003,M4-FUNG-0005,E003,NCBITAXON:2059437,STR_a43ff2880593,BN008R / ATCC MYA-379,S005,Unbuffered experiment.,143
+M4-FUNG-0005:E004,M4-FUNG-0005,E004,NCBITAXON:2059437,STR_a43ff2880593,BN008R / ATCC MYA-379,S005,High-value transcript–product decoupling experiment.,144
+M4-FUNG-0005:E005,M4-FUNG-0005,E005,NCBITAXON:2059437,STR_54149a8b82a0,BN008R and related Aspergillus clusters,S004,Supports intact G-aflatoxin branch.,145
+M4-FUNG-0005:E006,M4-FUNG-0005,E006,NCBITAXON:2059437,STR_9f3c0345aef3,A. parasiticus BN009E cypA disruptants,S004,"Mechanistic comparator, not a BN008R genetic perturbation.",146
+M4-FUNG-0006:E001,M4-FUNG-0006,E001,NCBITAXON:5059,STR_2feabbbcc7c9,AF70 versus NRRL3357,S005,Relative comparison; exact concentration values are in figure-level data.,139
+M4-FUNG-0006:E002,M4-FUNG-0006,E002,NCBITAXON:5059,STR_9c03112e8892,AF70,S006,Only one high-quality RNA-seq library per strain×condition was sequenced; toxin assays provide separate validation.,140
+M4-FUNG-0006:E003,M4-FUNG-0006,E003,NCBITAXON:5059,STR_9c03112e8892,AF70,S007,Useful environmental-gating experiment for B-only AF70.,141
+M4-FUNG-0006:E004,M4-FUNG-0006,E004,NCBITAXON:5059,STR_a9c5beecbd06,"AF70 Δhbx1, control and complemented strain",S008,Strong extra-cluster developmental-regulator evidence.,142
+M4-FUNG-0006:E005,M4-FUNG-0006,E005,NCBITAXON:5059,STR_ad7c8bb2ab7d,"AF70 Δhbx1, control, complemented",S009,"Global-regulator effect, not specific direct binding evidence.",143
+M4-FUNG-0006:E006,M4-FUNG-0006,E006,NCBITAXON:5059,STR_c88702fabe2a,"AF70 WT, ΔfhpA1, OEfhpA4",S010,No functional complementation strain could be generated; interpret deletion phenotype with this caveat.,144
+M4-FUNG-0006:E007,M4-FUNG-0006,E007,NCBITAXON:5059,STR_14e39e485ea9,AF70 / NRRL3357 aflatoxin-cluster comparison,S005,Cluster polymorphism is extensive and not reducible to one variant.,145
+M4-FUNG-0007:E001,M4-FUNG-0007,E001,NCBITAXON:41061,STR_af9a39e47959,NRRL 13137 / ATCC 15546,S003,Historical species name A. nomius; current name A. nomiae.,141
+M4-FUNG-0007:E002,M4-FUNG-0007,E002,NCBITAXON:41061,STR_986c4edc766c,NRRL 13137 plus A. flavus/A. parasiticus comparators,S004,cypA disruption itself was performed in A. parasiticus BN009E.,142
+M4-FUNG-0007:E003,M4-FUNG-0007,E003,NCBITAXON:41061,STR_35954cc70af5,NRRL 13137,S006,50-mL cultures; demonstrates density×nutrient interaction rather than density effect alone.,143
+M4-FUNG-0007:E004,M4-FUNG-0007,E004,NCBITAXON:41061,STR_35954cc70af5,NRRL 13137,S007,Ecological chemical cue with simultaneous developmental and metabolite effects.,144
+M4-FUNG-0007:E005,M4-FUNG-0007,E005,NCBITAXON:41061,STR_35954cc70af5,NRRL 13137,S005,"Genome experiment, not a toxin-production assay.",145
+M4-FUNG-0007:E006,M4-FUNG-0007,E006,NCBITAXON:41061,STR_daecb74be9f7,seven Brazil-nut A. nomiae isolates (not NRRL 13137),S009,Species-level comparative evidence; do not merge quantitatively with NRRL 13137.,146
+M4-FUNG-0007:E007,M4-FUNG-0007,E007,NCBITAXON:41061,STR_a1855369bc35,two Brazil-nut A. nomiae isolates (not NRRL 13137),S010,High-value temporal evidence that transcription precedes detectable product.,147
+M4-FUNG-0008:E001,M4-FUNG-0008,E001,NCBITAXON:5059,STR_5e7569038b45,AF36 versus toxigenic AF13,S003,Northern assayed pksA transcript; decisive evidence is coding-sequence loss of function.,139
+M4-FUNG-0008:E002,M4-FUNG-0008,E002,NCBITAXON:5059,STR_2ad374ef7dd4,AF36 within 35 non-aflatoxigenic A. flavus genotypes,S005,Demonstrates that gene presence is not equivalent to pathway competence.,140
+M4-FUNG-0008:E003,M4-FUNG-0008,E003,NCBITAXON:5059,STR_898eb8f12234,YV36 isolates from Mexico including AF36 lineage,S007,Shows lesion persistence across a natural VCG population.,141
+M4-FUNG-0008:E004,M4-FUNG-0008,E004,NCBITAXON:5059,STR_89e2a7680215,AF36/YV36 in commercial pistachio orchards,S009,Ecological consequence of stable pathway inactivation rather than BGC activation.,142
+M4-FUNG-0008:E005,M4-FUNG-0008,E005,NCBITAXON:5059,STR_f4186e68e537,AF36 / NRRL18543,S008,Not an aflatoxin-rescue experiment.,143
+M4-FUNG-0009:E001,M4-FUNG-0009,E001,NCBITAXON:138278,STR_bb00fb3058d4,A. ochraceoroseus SRRC 1432,S010,Early physiological evidence; exact quantitative values not extracted in this pass.,143
+M4-FUNG-0009:E002,M4-FUNG-0009,E002,NCBITAXON:138278,STR_bb00fb3058d4,A. ochraceoroseus SRRC 1432,S005,Strong native-product confirmation.,144
+M4-FUNG-0009:E003,M4-FUNG-0009,E003,NCBITAXON:138278,STR_bb00fb3058d4,A. ochraceoroseus SRRC 1432,S004,Defines BGC architecture.,145
+M4-FUNG-0009:E004,M4-FUNG-0009,E004,NCBITAXON:138278,STR_99aed140dc24,A. nidulans aflR mutant + A. ochraceoroseus aflR,S004,Direct demonstration that Ao AflR is functional across species.,146
+M4-FUNG-0009:E005,M4-FUNG-0009,E005,NCBITAXON:138278,STR_57592aea37d2,A. parasiticus aflQ/ordA mutant SRRC 2670 + A. ochraceoroseus aflQ,S006,Demonstrates essential late function outside the BGC boundary.,147
+M4-FUNG-0009:E006,M4-FUNG-0009,E006,NCBITAXON:138278,STR_0b684d060cae,A. rambellii genomic DNA,S004,Evolutionary/architecture comparator.,148
+M4-FUNG-0010:E001,M4-FUNG-0010,E001,NCBITAXON:48100,STR_77dc542787bd,Alternaria solani; strain NR,S002; S003,Defines cluster architecture but not native final metabolite output.,124
+M4-FUNG-0010:E002,M4-FUNG-0010,E002,NCBITAXON:48100,STR_b23f4d7db95e,Aspergillus oryzae transformant expressing A. solani alt5,S003,Direct proof of Alt5 function; Alt1–Alt4 absent from construct.,125
+M4-FUNG-0010:E003,M4-FUNG-0010,E003,NCBITAXON:48100,STR_b943beb83191,A. oryzae Alt5 product,S003,Defines PKSN iterative programming.,126
+M4-FUNG-0010:E004,M4-FUNG-0010,E004,NCBITAXON:48100,STR_fab267e7843b,Parastagonospora nodorum alternapyrone-family cluster,S007,"Comparator, not direct A. solani native evidence.",127
+M4-FUNG-0010:E005,M4-FUNG-0010,E005,NCBITAXON:48100,STR_a9dec325bd69,Arthrinium arundinis alt′ homologous cluster,S008,Useful functional-homology evidence but exact enzyme roles may differ from A. solani.,128
+M4-FUNG-0010:E006,M4-FUNG-0010,E006,NCBITAXON:48100,STR_b15f510b39f6,Dothideomycetes / Pleosporales genome collection,S009,"Distribution evidence, not product confirmation in every genome.",129
+M4-FUNG-0011:E001,M4-FUNG-0011,E001,NCBITAXON:227321,STR_2609e7f2d587,FGSC-A4-derived strains,S003,Important negative: presumed regulator activation did not unlock useful product.,124
+M4-FUNG-0011:E002,M4-FUNG-0011,E002,NCBITAXON:227321,STR_8f1a2518f04d,FGSC-A4-derived pkgA promoter-replacement strain,S003,Shows core biosynthesis can be engaged but release/output remains limiting.,125
+M4-FUNG-0011:E003,M4-FUNG-0011,E003,NCBITAXON:227321,STR_82c84e9a5a9f,FGSC-A4-derived pkgA+pkgB dual promoter-replacement strain,S003,Core defining activation experiment.,126
+M4-FUNG-0011:E004,M4-FUNG-0011,E004,NCBITAXON:227321,STR_d2f17f081cf8,FGSC-A4-derived activation panel,S003,Experimental architecture alters precursor competition and analytical background; preserve as context.,127
+M4-FUNG-0011:E005,M4-FUNG-0011,E005,NCBITAXON:227321,STR_a49870a543b8,A. nidulans TNO2A3 expressing P. nodorum SnPKS19,S005,Comparator supports that alternariol can be made by an alternative stand-alone PKS and provides a defined condition where endogenous pkg genes are off.,128
+M4-FUNG-0011:E006,M4-FUNG-0011,E006,NCBITAXON:227321,STR_1ab23c17668e,Alternaria alternata alternariol cluster,S006,Shows that alternariol pathway architecture varies substantially across fungi; do not expand BGC0000013 to six genes by homology.,129
+M4-FUNG-0012:E001,M4-FUNG-0012,E001,NCBITAXON:227321,STR_b44b31fcaa82,A. nidulans FGSC-A4-derived strains,S003,Primary native-locus activation experiment.,127
+M4-FUNG-0012:E002,M4-FUNG-0012,E002,NCBITAXON:227321,STR_3acd2f3550ac,Afo-gene deletion panel in activated background,S003,Defines functional border and distinguishes required from co-located genes.,128
+M4-FUNG-0012:E003,M4-FUNG-0012,E003,NCBITAXON:227321,STR_8495e617a529,afoD deletion strain,S003,Strong pathway-order evidence.,129
+M4-FUNG-0012:E004,M4-FUNG-0012,E004,NCBITAXON:227321,STR_653d15f2267a,SB3.5 alcAp-scpR versus wild type/repressed controls,S004,Direct cross-cluster regulatory coupling.,130
+M4-FUNG-0012:E005,M4-FUNG-0012,E005,NCBITAXON:227321,STR_3c0cd494e202,SB2.7 inpB-deletion + alcAp-scpR,S004,Supports transcription-factor cross-talk rather than metabolite-mediated activation.,131
+M4-FUNG-0012:E006,M4-FUNG-0012,E006,NCBITAXON:227321,STR_f3ed04420a93,ALF1.1 afoA-deletion + alcAp-scpR,S004,Places AfoA downstream of ScpR.,132
+M4-FUNG-0012:E007,M4-FUNG-0012,E007,NCBITAXON:227321,STR_638469b7a83c,purified asperfuranone in A549 cells,S005,"Compound-level pharmacology, separate from fungal biological role.",133
+M4-FUNG-0013:E001,M4-FUNG-0013,E001,NCBITAXON:89488,STR_ed419cc3667e,Monascus purpureus WT vs W13 T-DNA mutant,S003,"Discovery experiment is M. purpureus, not M. pilosus.",140
+M4-FUNG-0013:E002,M4-FUNG-0013,E002,NCBITAXON:89488,STR_5713d9a435d0,Monascus purpureus BIJ-4 ΔMpPKS5,S003,Direct core-enzyme causality.,141
+M4-FUNG-0013:E003,M4-FUNG-0013,E003,NCBITAXON:89488,STR_c90f80320d1a,M. purpureus F9 ΔMpfasB2,S004,Localizes short-chain acyl-supply competence downstream/parallel to core PKS.,142
+M4-FUNG-0013:E004,M4-FUNG-0013,E004,NCBITAXON:89488,STR_f884fc5611a3,M. purpureus ΔmppE and mppE-overexpression strains,S005,Direct evidence for context-sensitive branch control.,143
+M4-FUNG-0013:E005,M4-FUNG-0013,E005,NCBITAXON:89488,STR_9a7a35860a4b,M. purpureus ΔmppG,S006,Supports divergent yellow vs orange branches rather than simple yellow→orange oxidation.,144
+M4-FUNG-0013:E006,M4-FUNG-0013,E006,NCBITAXON:89488,STR_3a7db09eca56,M. pilosus genomic sequence KC148521,S002; S003,Sequence assignment relies on homology from M. purpureus functional discovery.,145
+M4-FUNG-0014:E001,M4-FUNG-0014,E001,NCBITAXON:1279085,STR_432529208c40,F. fujikuroi IMI58289 WT and Δbik1,S003; S004,Core scaffold causality.,124
+M4-FUNG-0014:E002,M4-FUNG-0014,E002,NCBITAXON:1279085,STR_81d8222b442b,IMI58289 Δbik2 and Δbik3,S003; S005,,125
+M4-FUNG-0014:E003,M4-FUNG-0014,E003,NCBITAXON:1279085,STR_3d6ca495c57d,"IMI58289 Δbik4, Δbik5, Δbik6",S003,Separates regulation from transport.,126
+M4-FUNG-0014:E004,M4-FUNG-0014,E004,NCBITAXON:1279085,STR_c935ab68c4f5,"IMI58289 WT, ΔpacC and dominant-active PacC strains",S003,pH gate is upstream/global rather than cluster encoded.,127
+M4-FUNG-0014:E005,M4-FUNG-0014,E005,NCBITAXON:1279085,STR_64cfedf046a7,IMI58289 under low versus high nitrogen and acidic versus alkaline regimes,S006,Genome-wide context confirms strong state dependence.,128
+M4-FUNG-0014:E006,M4-FUNG-0014,E006,NCBITAXON:1279085,STR_457ec4751727,F. fujikuroi cultures with sucrose/carbohydrate and salt-starvation manipulations,S007,Mechanisms may include growth/metabolic-state effects rather than one specific receptor.,129
+M4-FUNG-0014:E007,M4-FUNG-0014,E007,NCBITAXON:1279085,STR_6bb8f71cb37a,IMI58289 + R. solanacearum GMI1000 versus ΔrmyA,S008,Strong spatial/ecological cue experiment.,130
+M4-FUNG-0014:E008,M4-FUNG-0014,E008,NCBITAXON:1279085,STR_f1f36bd3d094,IMI58289 treated with conditioned medium or purified ralsolamycin under high and low nitrogen,S008,Demonstrates ecological signal can override nutritional repression.,131
+M4-FUNG-0014:E009,M4-FUNG-0014,E009,NCBITAXON:1279085,STR_ee7642ec1c8a,WT vs Δbik1 chlamydospores challenged with GFP-Ralstonia,S008,Links pathway output to a specific ecological phenotype.,132
+M4-FUNG-0015:E001,M4-FUNG-0015,E001,NCBITAXON:227321,STR_7bf4d4804a88,LO2026 stcJΔ/nkuAΔ parental background,S003,stcJ deletion removes sterigmatocystin and may change precursor/analytical background.,126
+M4-FUNG-0015:E002,M4-FUNG-0015,E002,NCBITAXON:227321,STR_3146b8e283fc,cicA–cicH and flanking-gene deletion panel,S003,Defines seven required local genes despite internal nonessential gene.,127
+M4-FUNG-0015:E003,M4-FUNG-0015,E003,NCBITAXON:227321,STR_2668edc67b0e,cicBΔ and cicCΔ strains,S003,Initial routine organic extraction missed these intermediates; sample chemistry was itself a recoverability gate.,128
+M4-FUNG-0015:E004,M4-FUNG-0015,E004,NCBITAXON:227321,STR_655df4f1dc6c,CicF/AN6448 overexpression strain,S004,Core-enzyme activation resolves the first committed chemical step but is not sufficient for final cichorine.,129
+M4-FUNG-0015:E005,M4-FUNG-0015,E005,NCBITAXON:227321,STR_2fcc91bbcdad,LO8030 genetic-dereplication parental vs ΔpkbA,S006,Highly engineered background; useful for pathway attribution but not native ecological state.,130
+M4-FUNG-0015:E006,M4-FUNG-0015,E006,NCBITAXON:227321,STR_4e4fa726f720,aspercryptin discovery strains,S005,Cichorine BGC contributes precursor chemistry to a metabolite assigned to another BGC family.,131
+M4-FUNG-0015:E007,M4-FUNG-0015,E007,NCBITAXON:227321,STR_497534be7385,A. nidulans A1145/cicD,S007,Modern confirmation that regulator activation expands the accessible chemical state space.,132
+M4-FUNG-0016:E001,M4-FUNG-0016,E001,NCBITAXON:5077,STR_b6a3e3afc4af,P. citrinum source producer,S003,Defining cluster study.,125
+M4-FUNG-0016:E002,M4-FUNG-0016,E002,NCBITAXON:5077,STR_b07e8c29f14b,P. citrinum cluster-copy transformants,S004,Direct dosage-output evidence.,126
+M4-FUNG-0016:E003,M4-FUNG-0016,E003,NCBITAXON:5077,STR_6d0ec61c6123,P. citrinum mlcD mutant,S004,Direct target-protection evidence.,127
+M4-FUNG-0016:E004,M4-FUNG-0016,E004,NCBITAXON:5077,STR_264bd9b6d05d,MlcR functional/regulatory strains,S005; S006,,128
+M4-FUNG-0017:E001,M4-FUNG-0017,E001,NCBITAXON:33178,STR_1cb0eac61e92,A. terreus AH-02-30-F7,S005,Producer provenance predates BGC cloning.,124
+M4-FUNG-0017:E002,M4-FUNG-0017,E002,NCBITAXON:33178,STR_1cb0eac61e92,A. terreus AH-02-30-F7,S003,No native gene knockout was required to define the minimal chemical machinery.,125
+M4-FUNG-0017:E003,M4-FUNG-0017,E003,NCBITAXON:33178,STR_9511e4e3aba4,S. cerevisiae BJ5464-NpgA expressing AtCURS1 + AtCURS2,S003,Strong sufficiency evidence.,126
+M4-FUNG-0017:E004,M4-FUNG-0017,E004,NCBITAXON:33178,STR_011a654f396e,S. cerevisiae BJ5464-NpgA expressing AtCURS2 only,S003,Bypasses CurS1 and tests CurS2 substrate/programming directly.,127
+M4-FUNG-0017:E005,M4-FUNG-0017,E005,NCBITAXON:33178,STR_6e9cb29837fb,S. cerevisiae control vectors,S003,Supports construct-specific attribution.,128
+M4-FUNG-0017:E006,M4-FUNG-0017,E006,NCBITAXON:33178,STR_371068293126,A. terreus NIH2624 and A. flavus NRRL3357 genomic comparators,Important strain specificity: species-level genome presence cannot substitute for source-strain evidence.,,129
+M4-FUNG-0018:E001,M4-FUNG-0018,E001,NCBITAXON:622360,STR_dc2e05617522,A. brassicicola ATCC 96836 and independent dep2 mutants,S003,Two independent dep2 mutants were generated in the defining study.,124
+M4-FUNG-0018:E002,M4-FUNG-0018,E002,NCBITAXON:622360,STR_feed2684333e,A. brassicicola ATCC 96836 and independent dep4 mutants,S003,Two independent dep4 mutants were generated.,125
+M4-FUNG-0018:E003,M4-FUNG-0018,E003,NCBITAXON:622360,STR_d13562d8c31a,A. brassicicola ATCC 96836 dep5 mutants,S003; S006,Defines early scaffold gate.,126
+M4-FUNG-0018:E004,M4-FUNG-0018,E004,NCBITAXON:622360,STR_61d6fdc788bd,A. brassicicola ATCC 96836 dep6 mutants,S003,Defines transcriptional boundary.,127
+M4-FUNG-0018:E005,M4-FUNG-0018,E005,NCBITAXON:622360,STR_3ce41e48cbbc,WT vs depudecin-minus mutants on cabbage,S003,Minor rather than dominant virulence contribution.,128
+M4-FUNG-0018:E006,M4-FUNG-0018,E006,NCBITAXON:622360,STR_8535758d4bfe,WT vs depudecin-minus mutants on Arabidopsis,S003,Host-species dependence.,129
+M4-FUNG-0018:E007,M4-FUNG-0018,E007,NCBITAXON:622360,STR_52cfbc18de8f,A. brassicicola culture-condition panel,S005,Demonstrates context-dependent native output.,130
+M4-FUNG-0018:E008,M4-FUNG-0018,E008,NCBITAXON:622360,STR_8579c7d579f7,A. brassicicola liquid cultures with epigenetic modifiers,S005,Useful negative activation evidence; depudecin not broadly unlocked by these chromatin perturbations.,131
+M4-FUNG-0018:E009,M4-FUNG-0018,E009,NCBITAXON:622360,STR_2f3de69828af,Fusarium langsethiae DEP-homolog cluster,S006,"Comparative evolutionary evidence, not direct ATCC96836 experiment.",132
+M4-FUNG-0019:E001,M4-FUNG-0019,E001,NCBITAXON:675120,STR_efa4a41348ad,D. septosporum pksA mutants including FJT3,S002,Clean first-committed-step localization.,151
+M4-FUNG-0019:E002,M4-FUNG-0019,E002,NCBITAXON:675120,STR_e02758b9e32f,D. septosporum NZE5 dotA/Ver1 mutants,S003,Strong biochemical intermediate evidence.,152
+M4-FUNG-0019:E003,M4-FUNG-0019,E003,NCBITAXON:675120,STR_250dc5fcd4fb,NZE7 and NZE10,S005,Unusual timing relative to classical late-phase fungal secondary metabolism.,153
+M4-FUNG-0019:E004,M4-FUNG-0019,E004,NCBITAXON:675120,STR_02b68d2da95e,reference genome NZE10 / comparative genomic analysis,S006,Establishes dispersed functional-programme architecture.,154
+M4-FUNG-0019:E005,M4-FUNG-0019,E005,NCBITAXON:675120,STR_742ae2c12c41,ΔDsAflR vs WT,S007,Direct proof that dispersed loci share a pathway-specific regulator.,155
+M4-FUNG-0019:E006,M4-FUNG-0019,E006,NCBITAXON:675120,STR_e2c59b456bb6,ΔDsLaeA vs WT,S009,Direction opposite canonical positive LaeA role in many Aspergillus pathways.,156
+M4-FUNG-0019:E007,M4-FUNG-0019,E007,NCBITAXON:675120,STR_cbc1667d29de,chromatin-regulator / ChIP experiments,S010,Evidence for chromatin coordination across physically separated loci.,157
+M4-FUNG-0019:E008,M4-FUNG-0019,E008,NCBITAXON:675120,STR_e49d204fb85f,NZE10 vs ΔPksA/ΔVbsA/ΔHexA mutants on Pinus radiata,S008,Distinguishes pathogenicity from degree of virulence.,158
+M4-FUNG-0019:E009,M4-FUNG-0019,E009,NCBITAXON:675120,STR_e6aeb695e57a,DotC deletion/overexpression/GFP localization,S011,Important negative annotation test.,159
+M4-FUNG-0019:E010,M4-FUNG-0019,E010,NCBITAXON:675120,STR_9a73dc78a457,global NZ D. septosporum isolate panel,S012,Association only; aneuploidy mechanism not established.,160
+M4-FUNG-0020:E001,M4-FUNG-0020,E001,NCBITAXON:227321,STR_4dc55694f4fd,A. nidulans wild type across 20 culture conditions,S003,Demonstrates native accessibility by culture condition alone.,132
+M4-FUNG-0020:E002,M4-FUNG-0020,E002,NCBITAXON:227321,STR_228f1caface2,A. nidulans cclAΔ versus control,S005,Initial chromatin-access route.,133
+M4-FUNG-0020:E003,M4-FUNG-0020,E003,NCBITAXON:227321,STR_81f3aa7247f8,A. nidulans + 58 soil actinomycete screen,S004,Inducer historically reported as S. hygroscopicus and subsequently as S. rapamycinicus.,134
+M4-FUNG-0020:E004,M4-FUNG-0020,E004,NCBITAXON:227321,STR_f4db2c8b84a8,A. nidulans + S. rapamycinicus contact controls,S004,Strong signal-access/geometry evidence.,135
+M4-FUNG-0020:E005,M4-FUNG-0020,E005,NCBITAXON:227321,STR_599b651522c6,"WT, ΔgcnE and ΔadaB A. nidulans ± S. rapamycinicus",S006,Places histone acetylation mechanistically downstream of bacterial contact.,136
+M4-FUNG-0020:E006,M4-FUNG-0020,E006,NCBITAXON:227321,STR_f4973c28dc95,ten NR-PKS deletion panel,S003,Strong candidate-identity test.,137
+M4-FUNG-0020:E007,M4-FUNG-0020,E007,NCBITAXON:227321,STR_6d996f632109,local AN7901–AN7908 and AN7911–AN7915 deletion panel,S003,Direct falsification of transcript-defined membership.,138
+M4-FUNG-0020:E008,M4-FUNG-0020,E008,NCBITAXON:227321,STR_70827e8ad815,orsBΔ and orsCΔ scale-up strains,S003,Chemically distinguishes downstream tailoring states.,139
+M4-FUNG-0020:E009,M4-FUNG-0020,E009,NCBITAXON:227321,STR_24ac3431b357,"WT, ΔveA, OE::mvlAΔveA, ΔveAΔgcnE and related strains",S007,H3K9 acetylation is necessary in this context but not sufficient by itself.,140
+M4-FUNG-0020:E010,M4-FUNG-0020,E010,NCBITAXON:227321,STR_8ee6297b1fa0,ΔcclA versus WT at metabolic-stage transitions,S009,Modern confirmation that CclA action is not a single time-invariant switch.,141
+M4-FUNG-0021:E001,M4-FUNG-0021,E001,NCBITAXON:334819,STR_9007ca8ce5c1,M-3125 / FGSC7600 Δfum21 mutants + complementation,S005,Direct activation-gate experiment.,133
+M4-FUNG-0021:E002,M4-FUNG-0021,E002,NCBITAXON:334819,STR_1c39d4e4dde0,fum1 mutants and producing controls in maize field tests,S004,Strong biological-role restraint.,134
+M4-FUNG-0021:E003,M4-FUNG-0021,E003,NCBITAXON:334819,STR_5f6bf8f411cb,"Δfum1, Δfum6, Δfum8 single cultures and mutant cocultures",S006,Rare mutant-mutant cross-feeding evidence.,135
+M4-FUNG-0021:E004,M4-FUNG-0021,E004,NCBITAXON:334819,STR_9e730d615333,Δfum13 vs WT,S018,Demonstrates both reaction and partial redundancy.,136
+M4-FUNG-0021:E005,M4-FUNG-0021,E005,NCBITAXON:334819,STR_1104c8b79047,Δfum7/10/11/14/16 deletion panel,S007,Later FUM16 self-protection function resolves the older null biosynthesis phenotype.,137
+M4-FUNG-0021:E006,M4-FUNG-0021,E006,NCBITAXON:334819,STR_bb8f8e69de41,purified Fum14 + hydrolyzed fumonisin substrates,S021,Direct enzyme-level proof.,138
+M4-FUNG-0021:E007,M4-FUNG-0021,E007,NCBITAXON:334819,STR_198a15f1404c,WT/Δfum19/OE::FUM19 and FUM17/18 mutants,S008,"Separates export annotation, feedback regulation and resistance.",139
+M4-FUNG-0021:E008,M4-FUNG-0021,E008,NCBITAXON:334819,STR_c813625df352,FUM15/FUM16 mutants and heterologous yeast tests,S009,Modern reinterpretation of cluster edge.,140
+M4-FUNG-0021:E009,M4-FUNG-0021,E009,NCBITAXON:334819,STR_8617f1c45fc7,WT under inducing vs noninducing media ± TSA,S013,"Chromatin effect is gene-specific, not uniform across the cluster.",141
+M4-FUNG-0021:E010,M4-FUNG-0021,E010,NCBITAXON:334819,STR_102c50d246c2,M3125 Fum protein localization studies,S008; S015,Spatial competence is part of the productive state.,142
+M4-FUNG-0022:E001,M4-FUNG-0022,E001,NCBITAXON:5507,STR_f2b3d8d87eb2,F. oxysporum FRC O-1890,S003,Shows chemistry differs without major cluster rearrangement.,133
+M4-FUNG-0022:E002,M4-FUNG-0022,E002,NCBITAXON:5507,STR_18193380c602,F. verticillioides fum8 mutant + wild-type FvFUM8 or FoFUM8,S003,Direct allelic-enzyme determinant of product family.,134
+M4-FUNG-0022:E003,M4-FUNG-0022,E003,NCBITAXON:5507,STR_e94d017b689d,F. verticillioides fum8 mutant + FvFUM8 A580V / FoFUM8 V580A,S004,Very strong causal resolution at one amino-acid position.,135
+M4-FUNG-0022:E004,M4-FUNG-0022,E004,NCBITAXON:5507,STR_bfc8419c76f6,O-1890 / NRRL39464 WT vs Δfum15,S004,Directly falsifies FUM15 as the required hydroxy-FC1 hydroxylase.,136
+M4-FUNG-0022:E005,M4-FUNG-0022,E005,NCBITAXON:5507,STR_dbbb5d8aab6a,O-1890 provenance/toxin phenotype,S005; S008,Product profile is strain-specific within FOSC.,137
+M4-FUNG-0022:E006,M4-FUNG-0022,E006,NCBITAXON:5507,STR_f1e450023478,Fusarium comparative FUM-cluster phylogenomics,S006,Evolutionary association does not prove CPM1 chemical necessity.,138
+M4-FUNG-0023:E001,M4-FUNG-0023,E001,NCBITAXON:117187,STR_fe65f9c427f5,F. moniliforme source strain of AY604568 and F. venenatum,S002,Exact F. moniliforme strain designation not resolved.,129
+M4-FUNG-0023:E002,M4-FUNG-0023,E002,NCBITAXON:117187,STR_20e51c46b7f3,F. fujikuroi IMI58289,S003,Comparator establishes full cluster architecture/mechanism.,130
+M4-FUNG-0023:E003,M4-FUNG-0023,E003,NCBITAXON:117187,STR_626cf827154b,"F. fujikuroi Δfus1, Δfus2, Δfus8, Δfus9 and Δfus2-9 strains",S003,,131
+M4-FUNG-0023:E004,M4-FUNG-0023,E004,NCBITAXON:117187,STR_21aeac798f37,F. fujikuroi Δfus3–Δfus7 strains,S003,Direct co-expression ≠ necessity case.,132
+M4-FUNG-0023:E005,M4-FUNG-0023,E005,NCBITAXON:117187,STR_99357ad473ee,F. fujikuroi Δfus1 + Δfus2-9 coculture and Fus2/Fus8 reconstitution backgrounds,S003,Functional sufficiency logic.,133
+M4-FUNG-0023:E006,M4-FUNG-0023,E006,NCBITAXON:117187,STR_b786091307fd,F. fujikuroi FKMC1995 and IMI58289,S004,"Light effect includes compound photolability, not only transcription.",134
+M4-FUNG-0023:E007,M4-FUNG-0023,E007,NCBITAXON:117187,STR_0e524eb5b51e,F. verticillioides M-3125 + Ustilago maydis,S008,Ecological induction without demonstrated adaptive role.,135
+M4-FUNG-0023:E008,M4-FUNG-0023,E008,NCBITAXON:117187,STR_f490b194792b,F. verticillioides M-3125 ΔFvstuA mutants,S015,Strong regulation but pleiotropic morphology/development confounds direct pathway specificity.,136
+M4-FUNG-0023:E009,M4-FUNG-0023,E009,NCBITAXON:117187,STR_9763a993610c,Fusarium species comparative four-condition panel,S006,Includes F. verticillioides M-3125 and other Fusarium species.,137
+M4-FUNG-0024:E001,M4-FUNG-0024,E001,NCBITAXON:36650,STR_5d0c14b96b39,P. aethiopicum IBT5753 WT,S003,,138
+M4-FUNG-0024:E002,M4-FUNG-0024,E002,NCBITAXON:36650,STR_c37b455f565c,ΔgsfA,S003,,139
+M4-FUNG-0024:E003,M4-FUNG-0024,E003,NCBITAXON:36650,STR_0f83f02d397f,ΔgsfI,S003,,140
+M4-FUNG-0024:E004,M4-FUNG-0024,E004,NCBITAXON:36650,STR_e0d91a253153,ΔgsfB/ΔgsfC/ΔgsfD,S004,,141
+M4-FUNG-0024:E005,M4-FUNG-0024,E005,NCBITAXON:36650,STR_b866ec903fec,ΔgsfF,S004,,142
+M4-FUNG-0024:E006,M4-FUNG-0024,E006,NCBITAXON:36650,STR_d8151009fc29,ΔgsfE vs ΔgsfK,S004,Strong positive/negative paralog test.,143
+M4-FUNG-0024:E007,M4-FUNG-0024,E007,NCBITAXON:36650,STR_3c07b45ec856,ΔgsfH,S004,,144
+M4-FUNG-0024:E008,M4-FUNG-0024,E008,NCBITAXON:36650,STR_0794c29271fb,purified GsfA/B/C/D/E/F/I system,S004,Strongest sufficiency evidence.,145
+M4-FUNG-0024:E009,M4-FUNG-0024,E009,NCBITAXON:36650,STR_20d082ce38d9,GsfF purified-enzyme/mechanistic study,S008,Mechanism beyond pathway membership.,146
+M4-FUNG-0025:E001,M4-FUNG-0025,E001,NCBITAXON:193393,STR_faa02f32e701,H. subiculosus DSM11931 vs DSM11932 cluster sequencing,S003,EU520417=DSM11931; EU520418=DSM11932.,125
+M4-FUNG-0025:E002,M4-FUNG-0025,E002,NCBITAXON:193393,STR_13ba6f68a3ef,DSM11931 transformation attempt,S003,Direct experimental-access difference between nearly identical BGC strains.,126
+M4-FUNG-0025:E003,M4-FUNG-0025,E003,NCBITAXON:193393,STR_94e6e3760153,DSM11932 hpm5/OMT disruption,S003,"Evidence belongs to DSM11932, not BGC0000076 sequence strain.",127
+M4-FUNG-0025:E004,M4-FUNG-0025,E004,NCBITAXON:193393,STR_1d4e46ff8a36,S. cerevisiae expressing Hpm3 + Hpm8,S003,Direct two-enzyme sufficiency for scaffold/macrolactone.,128
+M4-FUNG-0025:E005,M4-FUNG-0025,E005,NCBITAXON:193393,STR_2d304a32173e,dual-PKS yeast + Hpm5 or Hpm7 or Hpm1,S003,Order among these early post-PKS steps is flexible.,129
+M4-FUNG-0025:E006,M4-FUNG-0025,E006,NCBITAXON:193393,STR_8869e839ca6f,purified Hpm5 and Hpm7,S003,Broad substrate tolerance.,130
+M4-FUNG-0025:E007,M4-FUNG-0025,E007,NCBITAXON:193393,STR_439e174d267f,purified Hpm2 / RAL isomerization,S003,Creates a mechanistic paradox because native hypothemycin is cis-major.,131
+M4-FUNG-0025:E008,M4-FUNG-0025,E008,NCBITAXON:193393,STR_5bb9bfb04e0c,DSM11931/DSM11932 natural-product isolation,S004,Compound diversity spans both near-identical producer strains.,132
+M4-FUNG-0026:E001,M4-FUNG-0026,E001,NCBITAXON:193393,STR_faa02f32e701,H. subiculosus DSM11931 vs DSM11932 cluster sequencing,S003,EU520417=DSM11931; EU520418=DSM11932.,125
+M4-FUNG-0026:E002,M4-FUNG-0026,E002,NCBITAXON:193393,STR_13ba6f68a3ef,DSM11931 transformation attempt,S003,Direct experimental-access difference between nearly identical BGC strains.,126
+M4-FUNG-0026:E003,M4-FUNG-0026,E003,NCBITAXON:193393,STR_94e6e3760153,DSM11932 hpm5/OMT disruption,S003,"Evidence belongs to DSM11932, not BGC0000076 sequence strain.",127
+M4-FUNG-0026:E004,M4-FUNG-0026,E004,NCBITAXON:193393,STR_1d4e46ff8a36,S. cerevisiae expressing Hpm3 + Hpm8,S003,Direct two-enzyme sufficiency for scaffold/macrolactone.,128
+M4-FUNG-0026:E005,M4-FUNG-0026,E005,NCBITAXON:193393,STR_2d304a32173e,dual-PKS yeast + Hpm5 or Hpm7 or Hpm1,S003,Order among these early post-PKS steps is flexible.,129
+M4-FUNG-0026:E006,M4-FUNG-0026,E006,NCBITAXON:193393,STR_8869e839ca6f,purified Hpm5 and Hpm7,S003,Broad substrate tolerance.,130
+M4-FUNG-0026:E007,M4-FUNG-0026,E007,NCBITAXON:193393,STR_439e174d267f,purified Hpm2 / RAL isomerization,S003,Creates a mechanistic paradox because native hypothemycin is cis-major.,131
+M4-FUNG-0026:E008,M4-FUNG-0026,E008,NCBITAXON:193393,STR_5bb9bfb04e0c,DSM11931/DSM11932 natural-product isolation,S004,Compound diversity spans both near-identical producer strains.,132
+M4-FUNG-0027:E001,M4-FUNG-0027,E001,NCBITAXON:285217,STR_108b0ca825b7,A. terreus canonical producer / cloned lovastatin genes,S003,Defining pathway architecture.,136
+M4-FUNG-0027:E002,M4-FUNG-0027,E002,NCBITAXON:285217,STR_83f4d5049d89,lovastatin blocked mutants,S004,,137
+M4-FUNG-0027:E003,M4-FUNG-0027,E003,NCBITAXON:285217,STR_e9e3a95c2dea,purified LovB ± LovC ± NADPH/SAM,S005,Strong execution-gate experiment.,138
+M4-FUNG-0027:E004,M4-FUNG-0027,E004,NCBITAXON:285217,STR_cb534d580619,heterologous yeast expressing LovA,S006,One P450 executes two distinct pathway oxidations.,139
+M4-FUNG-0027:E005,M4-FUNG-0027,E005,NCBITAXON:285217,STR_3794ed2d7d77,LovG deletion/reconstitution systems,S007,Separates scaffold synthesis from product release.,140
+M4-FUNG-0027:E006,M4-FUNG-0027,E006,NCBITAXON:285217,STR_440483757b69,LovF/LovD biochemical transfer system,S008,Strong spatial/substrate-channeling evidence.,141
+M4-FUNG-0027:E007,M4-FUNG-0027,E007,NCBITAXON:285217,STR_9a9e6c3b90d0,A. terreus chemically defined-medium study,S010,"Activation is physiological, not merely gene presence.",142
+M4-FUNG-0027:E008,M4-FUNG-0027,E008,NCBITAXON:285217,STR_a19f6daa19ab,A. terreus submerged and solid-state fermentations ± antioxidants/H2O2,S013,Connects redox state to pathway transcription.,143
+M4-FUNG-0028:E001,M4-FUNG-0028,E001,NCBITAXON:33178,STR_e2b86cf29a91,legacy A. terreus sequence record,S002; S004,"Database-history experiment analogue, not wet-lab evidence.",122
+M4-FUNG-0028:E002,M4-FUNG-0028,E002,NCBITAXON:33178,STR_ee54a0b912a1,A. terreus genome comparison,S003,Supports linking rather than duplicating BGC0000088/0089.,123
+M4-FUNG-0029:E001,M4-FUNG-0029,E001,NCBITAXON:89488,STR_e58e45a6bbc4,M. pilosus BCRC38072 WT vs mokA disruptant,S003,Defining source-strain experiment.,125
+M4-FUNG-0029:E002,M4-FUNG-0029,E002,NCBITAXON:89488,STR_2ddd35d448d3,M. pilosus NBRC4480 WT vs mokB disruptant,S004,"Same species, different strain.",126
+M4-FUNG-0029:E003,M4-FUNG-0029,E003,NCBITAXON:89488,STR_573db5bd6232,M. pilosus mokH-overexpression transformants,S005,Direct activation by cluster-local TF.,127
+M4-FUNG-0029:E004,M4-FUNG-0029,E004,NCBITAXON:89488,STR_f1dee86929bc,Monascus M1 / CGMCC3.0568 original vs +10 mM glutamate medium,S006,mokA behaves differently from the other cluster genes.,128
+M4-FUNG-0029:E005,M4-FUNG-0029,E005,NCBITAXON:89488,STR_b6cceb2436e1,Monascus fuliginosus CG-6,S007,Comparative species; no constant-25°C arm.,129
+M4-FUNG-0029:E006,M4-FUNG-0029,E006,NCBITAXON:89488,STR_cb961e1ecff6,"M. pilosus MS-1 WT, Δmpclr4, Δmpdot1, Δmplig4",S010,"Global chromatin/DDR regulators, not cluster-local genes.",130
+M4-FUNG-0029:E007,M4-FUNG-0029,E007,NCBITAXON:89488,STR_401751b2eaf5,M. pilosus mokI-overexpression strains,S008,Supports recovery association but not direct substrate transport.,131
+M4-FUNG-0029:E008,M4-FUNG-0029,E008,NCBITAXON:89488,STR_666c007d3e36,"M. pilosus MS-1 WT, ΔmokE, complemented and PgpdA-mokE strains",S009,Direct modern assignment of MokE as essential LovC-like trans ER.,132
+M4-FUNG-0030:E001,M4-FUNG-0030,E001,NCBITAXON:1077442,STR_e7f91c7123f0,T. marneffei PM1 pks1–pks25 knockdown panel,S003,Strong candidate-gene localization across the full 25-PKS repertoire.,124
+M4-FUNG-0030:E002,M4-FUNG-0030,E002,NCBITAXON:1077442,STR_a3ccc6eb9a1c,PM1 pks3 + 14-neighbor knockdown panel,S003,Direct falsification of broader neighborhood membership.,125
+M4-FUNG-0030:E003,M4-FUNG-0030,E003,NCBITAXON:1077442,STR_de7874b205a2,WT and pks3/rp1/rp2/rp3/rp4 knockdowns,S003,Central causal metabolomic experiment.,126
+M4-FUNG-0030:E004,M4-FUNG-0030,E004,NCBITAXON:1077442,STR_662fdd0367a9,WT and pks3 knockdown + individual amino-acid supplements,S003,Supports chemical conjugation after scaffold formation.,127
+M4-FUNG-0030:E005,M4-FUNG-0030,E005,NCBITAXON:1077442,STR_e378bbb456be,PM1 WT mold versus yeast developmental conditions,S003; S004,Developmental-state access is strongly temperature coupled.,128
+M4-FUNG-0031:E001,M4-FUNG-0031,E001,NCBITAXON:227321,STR_3b3794492499,A. nidulans WT vs cclA-loss strains,S005,Foundational chromatin-access experiment.,134
+M4-FUNG-0031:E002,M4-FUNG-0031,E002,NCBITAXON:227321,STR_606d1f7d42be,cclAΔ background + individual mdp deletions,S003,,135
+M4-FUNG-0031:E003,M4-FUNG-0031,E003,NCBITAXON:227321,STR_1defed7ddc39,"alcA(p)-mdpE, alcA(p)-mdpA and combined regulatory strains",S003,Direct pathway-specific activation experiment.,136
+M4-FUNG-0031:E004,M4-FUNG-0031,E004,NCBITAXON:227321,STR_935436884e8b,mdpH deletion in cclAΔ background,S003; S006,Later reannotation splits MdpH1/H2 functions.,137
+M4-FUNG-0031:E005,M4-FUNG-0031,E005,NCBITAXON:227321,STR_9153e605cec2,mdp/xpt/AN7999 targeted deletion series,S004,Strong distributed-programme evidence.,138
+M4-FUNG-0031:E006,M4-FUNG-0031,E006,NCBITAXON:227321,STR_49229c1501f2,purified/recombinant XptB,S008,Directly refines pathway chemistry.,139
+M4-FUNG-0031:E007,M4-FUNG-0031,E007,NCBITAXON:227321,STR_fb1be9cbcf7a,sexual-development/Hülle-cell metabolomics ± arthropod fungivores,S009,Rare direct ecological-function evidence.,140
+M4-FUNG-0032:E001,M4-FUNG-0032,E001,NCBITAXON:5074,STR_7c23263f35f4,P. brevicompactum IBT23078 WT vs clean mpaC::hph mutant,S003,Direct source-strain causal evidence.,128
+M4-FUNG-0032:E002,M4-FUNG-0032,E002,NCBITAXON:5074,STR_fa910783c6fe,A. nidulans NID211 expressing mpaC,S003; S004,,129
+M4-FUNG-0032:E003,M4-FUNG-0032,E003,NCBITAXON:5074,STR_0894ce8a702d,A. nidulans NID416 expressing mpaC + full mpaDE fusion,S004,,130
+M4-FUNG-0032:E004,M4-FUNG-0032,E004,NCBITAXON:5074,STR_58edfad23597,A. nidulans NID944 expressing mpaC + mpaD domain only,S004,,131
+M4-FUNG-0032:E005,M4-FUNG-0032,E005,NCBITAXON:5074,STR_2caee2723fae,fungal IMPDH-A versus cluster IMPDH-B/MpaF systems,S005,,132
+M4-FUNG-0032:E006,M4-FUNG-0032,E006,NCBITAXON:5074,STR_583729151482,P. brevicompactum NRRL864 homologous mpa' pathway in engineered Aspergillus systems,S006,Comparative homologous strain; central spatial-competence evidence.,133
+M4-FUNG-0032:E007,M4-FUNG-0032,E007,NCBITAXON:5074,STR_009127e26a12,purified/peroxisomal MpaH' structural-biochemical system,S007,,134
+M4-FUNG-0032:E008,M4-FUNG-0032,E008,NCBITAXON:5074,STR_4f24d3887983,"purified MpaG' with DMMPA, FDHMP and FDHMP-3C",S008,,135
+M4-FUNG-0033:E001,M4-FUNG-0033,E001,NCBITAXON:227321,STR_b3ee0f1619cc,A. nidulans wA mutants / FGSC A4,S003; S007,Developmental color-genetics experiment.,122
+M4-FUNG-0033:E002,M4-FUNG-0033,E002,NCBITAXON:227321,STR_d7f8389c48d4,A. oryzae expressing reconstructed full-length A. nidulans wA,S004,Definitive product re-identification.,123
+M4-FUNG-0033:E003,M4-FUNG-0033,E003,NCBITAXON:227321,STR_163e39c2a5f3,FGSC A4 vegetative hyphae → filter-induced conidiation,S005,Direct developmental-access kinetics.,124
+M4-FUNG-0033:E004,M4-FUNG-0033,E004,NCBITAXON:227321,STR_8352baf5034d,yA mutant and yA31 temperature-sensitive strains,S005,Direct enzyme/phenotype linkage.,125
+M4-FUNG-0033:E005,M4-FUNG-0033,E005,NCBITAXON:227321,STR_dcaad35a03be,yA promoter/abaA regulatory strains,S006,Pathway regulation outside the BGC.,126
+M4-FUNG-0033:E006,M4-FUNG-0033,E006,NCBITAXON:227321,STR_92707e82bd0d,clean chaA and fwA deletion/complementation strains,S008,Neither deletion restricts growth.,127
+M4-FUNG-0033:E007,M4-FUNG-0033,E007,NCBITAXON:227321,STR_a16c1c658cb2,wA/yA/chaA/fwA double/triple deletion combinations,S008,"Pathway order inferred from phenotype, not direct metabolite structures.",128
+M4-FUNG-0034:E001,M4-FUNG-0034,E001,NCBITAXON:27334,STR_673679562bd0,P. expansum NRRL35695,S003,,135
+M4-FUNG-0034:E002,M4-FUNG-0034,E002,NCBITAXON:27334,STR_5786e70caa9b,WT vs ΔpatL/complement,S004,13 apple cultivars were tested.,136
+M4-FUNG-0034:E003,M4-FUNG-0034,E003,NCBITAXON:27334,STR_19325e804061,systematic 15-gene knockout panel,S006,,137
+M4-FUNG-0034:E004,M4-FUNG-0034,E004,NCBITAXON:27334,STR_d3be486536f1,eGFP-tagged Pat proteins,S006,,138
+M4-FUNG-0034:E005,M4-FUNG-0034,E005,NCBITAXON:27334,STR_d9436f598205,ΔpatE and signal-peptide-deficient PatE rescue,S006,,139
+M4-FUNG-0034:E006,M4-FUNG-0034,E006,NCBITAXON:27334,STR_7f7880f6ccfa,WT and velvet-family mutants,S006,,140
+M4-FUNG-0034:E007,M4-FUNG-0034,E007,NCBITAXON:27334,STR_67eea1276031,P. expansum across ambient-pH conditions,S010,pH-context assay.,141
+M4-FUNG-0035:E001,M4-FUNG-0035,E001,NCBITAXON:1229662,STR_eb2f40d0a021,P. fici W106-1 WT vs ptaA disruption,S003,Strongest pathway-entry causality.,133
+M4-FUNG-0035:E002,M4-FUNG-0035,E002,NCBITAXON:1229662,STR_c68bce54a06e,W106-1 WT vs ptaE disruption,S003; S006,Direct diphenyl-ether-formation assignment.,134
+M4-FUNG-0035:E003,M4-FUNG-0035,E003,NCBITAXON:1229662,STR_3ff2151dad3e,W106-1 WT vs ptaM disruption,S003; S006,Direct chlorination assignment.,135
+M4-FUNG-0035:E004,M4-FUNG-0035,E004,NCBITAXON:1229662,STR_8e0d77e3d4c0,W106-1 fermentation transcription/metabolite series,S003; S004; S014,Correlation is not equivalent to regulator causality.,136
+M4-FUNG-0035:E005,M4-FUNG-0035,E005,NCBITAXON:1229662,STR_c0e8465dc49d,comparative emodin-family pathway analysis,S005,Comparative evidence explicitly labeled.,137
+M4-FUNG-0035:E006,M4-FUNG-0035,E006,NCBITAXON:1229662,STR_2d3774c0be90,PtaM substrate-order analysis from primary/reviewed pathway evidence,S006; S008,Strong example of non-rigid pathway order.,138
+M4-FUNG-0035:E007,M4-FUNG-0035,E007,NCBITAXON:1229662,STR_8f386b00de9d,Pestalotiopsis sp. RE-1214 compound-bioactivity assay,S009,Different producing Pestalotiopsis strain; compound-level evidence only.,139
+M4-FUNG-0036:E001,M4-FUNG-0036,E001,NCBITAXON:330879,STR_94c725f0fd09,F37 genes in A. oryzae M-2-3,S003,F37 provenance.,125
+M4-FUNG-0036:E002,M4-FUNG-0036,E002,NCBITAXON:330879,STR_bcb9ad497eee,P. coprobium PF1169 homolog systems,S004; S005,Comparative provenance.,126
+M4-FUNG-0036:E003,M4-FUNG-0036,E003,NCBITAXON:330879,STR_29436edd9f2e,A. fumigatus WT vs Δpyr2-1/Δpyr2-2,S008,Strong native causality.,127
+M4-FUNG-0036:E004,M4-FUNG-0036,E004,NCBITAXON:330879,STR_33f3d4d17689,WT/Δpyr2 mono- vs P. aeruginosa dual biofilm,S008,,128
+M4-FUNG-0036:E005,M4-FUNG-0036,E005,NCBITAXON:330879,STR_85b6b49fe917,WT vs ΔgpaB in dual biofilm,S008,External regulator.,129
+M4-FUNG-0036:E006,M4-FUNG-0036,E006,NCBITAXON:330879,STR_a9196ddb0bc2,WT vs Δpyr2 host models,S008,,130
+M4-FUNG-0037:E001,M4-FUNG-0037,E001,NCBITAXON:280754,STR_1cd34f13e18c,P. chlamydosporia source cluster,S003,,121
+M4-FUNG-0037:E002,M4-FUNG-0037,E002,NCBITAXON:280754,STR_888fb281f9bf,Rdc5+Rdc1 in S. cerevisiae and cell-free systems,S004,,122
+M4-FUNG-0037:E003,M4-FUNG-0037,E003,NCBITAXON:280754,STR_34cad43ed550,Rdc1 TE mutants/deletions,S004,,123
+M4-FUNG-0037:E004,M4-FUNG-0037,E004,NCBITAXON:280754,STR_aa51ef4f9329,purified/reconstituted Rdc2,S005,,124
+M4-FUNG-0037:E005,M4-FUNG-0037,E005,NCBITAXON:280754,STR_dcb6e08131f0,P. chlamydosporia ± NaBr/other halides,S006,,125
+M4-FUNG-0037:E006,M4-FUNG-0037,E006,NCBITAXON:280754,STR_fa1ca058de38,C. chiversii radicicol ortholog knockouts,S007,"Comparative provenance, not P. chlamydosporia source genetics.",126
+M4-FUNG-0038:E001,M4-FUNG-0038,E001,NCBITAXON:48100,STR_8651110d6655,A. oryzae expressing sol1,S003; S006,Direct PKS-product localization.,126
+M4-FUNG-0038:E002,M4-FUNG-0038,E002,NCBITAXON:48100,STR_781489baab80,Pichia pastoris expressing Sol5,S003,Direct Diels-Alderase evidence.,127
+M4-FUNG-0038:E003,M4-FUNG-0038,E003,NCBITAXON:48100,STR_f18c72921564,A. solani ALS1/ALS2 WT vs independent Δsol5 mutants,S004,Direct feedback and pathway-intermediate evidence.,128
+M4-FUNG-0038:E004,M4-FUNG-0038,E004,NCBITAXON:48100,STR_dcb6f41f8dec,ALS1/ALS2 WT vs Δsol5 on potato/tomato leaves,S004,Strong falsification of 'phytotoxin = required virulence factor'.,129
+M4-FUNG-0038:E005,M4-FUNG-0038,E005,NCBITAXON:48100,STR_799a3577a1b5,A. oryzae NSAR1 sol1→sol1/2→sol1/2/6→sol1/2/6/5 series,S006,Excellent host-context and intervention-order experiment.,130
+M4-FUNG-0038:E006,M4-FUNG-0038,E006,NCBITAXON:48100,STR_d695e418c80a,A. oryzae sol1/sol2 with incorrect versus corrected sol6 model,S006,Direct annotation-to-function example.,131
+M4-FUNG-0038:E007,M4-FUNG-0038,E007,NCBITAXON:48100,STR_6151dbeb7382,A. rabiei Δsol4 and sol4-overexpression strains,S005,Near-identical comparative cluster; regulator evidence transferred explicitly by orthology.,132
+M4-FUNG-0038:E008,M4-FUNG-0038,E008,NCBITAXON:48100,STR_f86cb4679545,purified solanapyrone A/C and prosolanapyrone II-diol plant assays,S004,Compound phenotype separated from fungal pathogenicity.,133
+M4-FUNG-0039:E001,M4-FUNG-0039,E001,NCBITAXON:162425,STR_8f54f9b24fec,A. nidulans stcA/pksST disruption strains,S005,,141
+M4-FUNG-0039:E002,M4-FUNG-0039,E002,NCBITAXON:162425,STR_8d8d09f9ed3f,U34740 cluster transcript mapping,S003,Primary boundary evidence.,142
+M4-FUNG-0039:E003,M4-FUNG-0039,E003,NCBITAXON:162425,STR_e58e89b70682,stcS disruption + precursor feeding,S004,Shows multi-enzyme late gate with StcU.,143
+M4-FUNG-0039:E004,M4-FUNG-0039,E004,NCBITAXON:162425,STR_4ba47115e383,stcP disruption strains,S008,,144
+M4-FUNG-0039:E005,M4-FUNG-0039,E005,NCBITAXON:162425,STR_c12ac2fcefb3,NOR-accumulating mutagenesis screen,S006,,145
+M4-FUNG-0039:E006,M4-FUNG-0039,E006,NCBITAXON:162425,STR_b83b4a1006dc,A. nidulans veA+ vs ΔveA,S009,Development/light-regulation experiment.,146
+M4-FUNG-0039:E007,M4-FUNG-0039,E007,NCBITAXON:162425,STR_479591da9f15,ΔlaeA / laeA-overexpression strains,S012,,147
+M4-FUNG-0039:E008,M4-FUNG-0039,E008,NCBITAXON:162425,STR_66777c786cce,A. nidulans WT under 1% vs 2% glucose × light/dark,S011,Factorial light-carbon cross-talk experiment.,148
+M4-FUNG-0039:E009,M4-FUNG-0039,E009,NCBITAXON:162425,STR_830ed7986f87,AflR DNA-binding-site mutagenesis,S014,,149
+M4-FUNG-0040:E001,M4-FUNG-0040,E001,NCBITAXON:441959,STR_c2db6b31da7f,T. stipitatus WT vs tropA knockout,S003,,135
+M4-FUNG-0040:E002,M4-FUNG-0040,E002,NCBITAXON:441959,STR_d4e63720eac0,A. oryzae genomic tropA vs intronless tropA-egfp,S003,Strong splicing/host-competence example.,136
+M4-FUNG-0040:E003,M4-FUNG-0040,E003,NCBITAXON:441959,STR_06f2bce69cdf,T. stipitatus WT vs ΔtropB plus purified TropB,S003; S005,,137
+M4-FUNG-0040:E004,M4-FUNG-0040,E004,NCBITAXON:441959,STR_f14f35950808,T. stipitatus WT vs ΔtropC plus purified TropC,S003,,138
+M4-FUNG-0040:E005,M4-FUNG-0040,E005,NCBITAXON:441959,STR_9bc339877ffc,T. stipitatus WT vs ΔtropD,S003; S004,,139
+M4-FUNG-0040:E006,M4-FUNG-0040,E006,NCBITAXON:441959,STR_f245f568dc97,T. stipitatus late-pathway knockout panel,S004,Includes extra-boundary TropG.,140
+M4-FUNG-0040:E007,M4-FUNG-0040,E007,NCBITAXON:441959,STR_b92b6ddcb870,TropH + TropI + TropJ in-vitro combination,S004,,141
+M4-FUNG-0040:E008,M4-FUNG-0040,E008,NCBITAXON:441959,STR_fd4604095057,purified TropB kinetic/substrate panel,S005,,142
+M4-FUNG-0040:E009,M4-FUNG-0040,E009,NCBITAXON:441959,STR_f40c2769ce32,SpoC/TropC-family radical-ring-expansion study,S007,Detailed experiments primarily use SpoC.,143
+M4-FUNG-0041:E001,M4-FUNG-0041,E001,NCBITAXON:665024,STR_d082dccdcc9c,Race T PKS1 disruption strains,S003,,126
+M4-FUNG-0041:E002,M4-FUNG-0041,E002,NCBITAXON:665024,STR_d569d4448b6b,DEC1/RED1 targeted mutants,S004,,127
+M4-FUNG-0041:E003,M4-FUNG-0041,E003,NCBITAXON:665024,STR_ce6c2d090e6b,PKS2 disruption strains,S005,,128
+M4-FUNG-0041:E004,M4-FUNG-0041,E004,NCBITAXON:665024,STR_74352871d418,six accessory-gene deletion panel,S006,,129
+M4-FUNG-0041:E005,M4-FUNG-0041,E005,NCBITAXON:665024,STR_ba65f844c3bb,C4 WT/Chlae1/Chvel1 under light vs dark,S007,,130
+M4-FUNG-0041:E006,M4-FUNG-0041,E006,NCBITAXON:665024,STR_2dfcb1b0cab3,C4 PacBio long-read architecture,S009; S010,,131
+M4-FUNG-0041:E007,M4-FUNG-0041,E007,NCBITAXON:665024,STR_fb6ccf8f88c9,T-urf13 maize susceptibility mutants,S011,"Host-side gate, not fungal-pathway genetics.",132
+M4-FUNG-0042:E001,M4-FUNG-0042,E001,NCBITAXON:380704,STR_548bb942dddb,A. niger ATCC1015 WT vs AdaR-overexpression transformant,S003,Direct native activation/attribution.,122
+M4-FUNG-0042:E002,M4-FUNG-0042,E002,NCBITAXON:380704,STR_64144f32d468,S. cerevisiae BJ5464-NpgA with AdaA ± AdaB ± AdaC ± AdaD,S003,Core mechanistic experiment.,123
+M4-FUNG-0042:E003,M4-FUNG-0042,E003,NCBITAXON:380704,STR_93c1c9510d56,purified AdaA/AdaC with MβL comparative systems,S003,Keep AdaB-specific and AptB-homolog evidence distinct.,124
+M4-FUNG-0042:E004,M4-FUNG-0042,E004,NCBITAXON:380704,STR_1ad8a09c481c,A. niger NRRL2270-derived glaA::adaR CRISPR strains,S006,CRISPR paper uses pathway activation as an integration reporter.,125
+M4-FUNG-0042:E005,M4-FUNG-0042,E005,NCBITAXON:380704,STR_f0fce7846118,engineered S. cerevisiae promoter library ± putative AdaE efflux pump,S008,Direct evidence that export/tolerance can be an independent productivity gate.,126
+M4-FUNG-0042:E006,M4-FUNG-0042,E006,NCBITAXON:380704,STR_db3dd2d21739,engineered Saccharomyces boulardii pathway library,S008,Host-generalization experiment.,127
+M4-FUNG-0042:E007,M4-FUNG-0042,E007,NCBITAXON:380704,STR_10618c94b3e1,A. niger methyltransferase-replacement strains,S010,Graduate-thesis evidence; useful but lower tier than peer-reviewed pathway chemistry.,128
+M4-FUNG-0043:E001,M4-FUNG-0043,E001,NCBITAXON:341663,STR_f21b7d9e3f81,A. terreus NIH2624 12-gene neighborhood deletion panel,S003,Boundary-defining genetics.,125
+M4-FUNG-0043:E002,M4-FUNG-0043,E002,NCBITAXON:341663,STR_010f028327e9,P. pastoris npgA+atX ± atA/atE/atG,S004,,126
+M4-FUNG-0043:E003,M4-FUNG-0043,E003,NCBITAXON:341663,STR_49c519d81e40,P. pastoris AtX/A/E ± atD/atG,S004,Revises 2014 proposal.,127
+M4-FUNG-0043:E004,M4-FUNG-0043,E004,NCBITAXON:341663,STR_691cb563924c,P. pastoris AtX/A/E/D ± atC/atG,S004,,128
+M4-FUNG-0043:E005,M4-FUNG-0043,E005,NCBITAXON:341663,STR_1a66ef951f87,matched AtG add-back series,S004,Mechanism unresolved.,129
+M4-FUNG-0043:E006,M4-FUNG-0043,E006,NCBITAXON:341663,STR_838955d7fddb,A. terreus atFΔ vs WT,S003,Pathway-specific regulatory gate.,130
+M4-FUNG-0044:E001,M4-FUNG-0044,E001,NCBITAXON:341663,STR_64b1d6c0c89e,A. terreus NIH2624/SBUG844 WT vs ΔterA,S003,Native pathway attribution; serendipitous discovery during conidial-pigment search.,129
+M4-FUNG-0044:E002,M4-FUNG-0044,E002,NCBITAXON:341663,STR_a4dcd7525196,A. terreus WT vs ΔterR and heterologous A. niger expressing terR,S005,Direct regulatory necessity and sufficiency.,130
+M4-FUNG-0044:E003,M4-FUNG-0044,E003,NCBITAXON:341663,STR_ef4556d8d39d,PterA:lacZ reporter across minimal/complex/fruit media,S004,Environmental-signal screen.,131
+M4-FUNG-0044:E004,M4-FUNG-0044,E004,NCBITAXON:341663,STR_e2b08cf169cc,A. terreus on minimal medium ± methionine / nitrogen limitation,S004,Independent upstream inputs converge on terR.,132
+M4-FUNG-0044:E005,M4-FUNG-0044,E005,NCBITAXON:341663,STR_d9574d4f5c7f,A. terreus ± iron / ΔhapX,S004,Iron-signal test.,133
+M4-FUNG-0044:E006,M4-FUNG-0044,E006,NCBITAXON:341663,STR_5a232a6156ca,"banana/apple/nectarine infection with WT, ΔterA, ΔterR",S004,Direct ecological/host-surface consequence.,134
+M4-FUNG-0044:E007,M4-FUNG-0044,E007,NCBITAXON:341663,STR_1b6a8bae169a,purified terrein + Fe3+ redox assay,S004,Direct extracellular iron-reduction chemistry.,135
+M4-FUNG-0044:E008,M4-FUNG-0044,E008,NCBITAXON:341663,STR_40ef73fe2d3b,"WT, ΔsidA and ΔterAΔsidA under iron limitation",S004,Rare direct producer-benefit evidence.,136
+M4-FUNG-0044:E009,M4-FUNG-0044,E009,NCBITAXON:341663,STR_3a909967fcdb,TerA + TerB heterologous/in-vitro system,S006,Direct post-PKS cooperation.,137
+M4-FUNG-0044:E010,M4-FUNG-0044,E010,NCBITAXON:341663,STR_fa75aac7f2e5,TerC/TerD heterologous and in-vitro assays,S007,Mechanistic refinement beyond 2014 genetics.,138
+M4-FUNG-0044:E011,M4-FUNG-0044,E011,NCBITAXON:341663,STR_568677585c97,hstD deletion strains,S009,Direct chromatin-level modifier outside the BGC.,139
+M4-FUNG-0045:E001,M4-FUNG-0045,E001,NCBITAXON:36650,STR_758c170e019b,P. aethiopicum WT vs ΔvrtA,S003,Core attribution.,130
+M4-FUNG-0045:E002,M4-FUNG-0045,E002,NCBITAXON:36650,STR_a3cf774dbae6,purified recombinant VrtC,S004,,131
+M4-FUNG-0045:E003,M4-FUNG-0045,E003,NCBITAXON:36650,STR_d4f6dbc1222d,P. aethiopicum ΔvrtD,S003,Dedicated GPP-supply evidence.,132
+M4-FUNG-0045:E004,M4-FUNG-0045,E004,NCBITAXON:36650,STR_217c7dcdbaef,S. cerevisiae expressing VrtK + fed previridicatumtoxin,S005,P450 terpene-cyclase proof.,133
+M4-FUNG-0046:E001,M4-FUNG-0046,E001,NCBITAXON:380704,STR_6f097eaadef3,A. niger ATCC1015 yanA deletion,S003,,126
+M4-FUNG-0046:E002,M4-FUNG-0046,E002,NCBITAXON:380704,STR_9085e3229f93,10-gene yan deletion series,S003,,127
+M4-FUNG-0046:E003,M4-FUNG-0046,E003,NCBITAXON:380704,STR_87dd733e0a77,yanI functional analysis,S003,,128
+M4-FUNG-0046:E004,M4-FUNG-0046,E004,NCBITAXON:380704,STR_0530eebf12e5,yanuthone-X1 tracing,S003,Alternate-scaffold branch experiment.,129
+M4-FUNG-0047:E001,M4-FUNG-0047,E001,NCBITAXON:341663,STR_c7194613dabe,A. terreus NIH2624 targeted ata deletion panel,S003,Core boundary/mechanism experiment.,126
+M4-FUNG-0047:E002,M4-FUNG-0047,E002,NCBITAXON:341663,STR_57d888afda96,ΔataP,S003,Core scaffold causality.,127
+M4-FUNG-0047:E003,M4-FUNG-0047,E003,NCBITAXON:341663,STR_8160e98dbefa,accessory/tailoring mutants,S003,,128
+M4-FUNG-0048:E001,M4-FUNG-0048,E001,NCBITAXON:331117,STR_048f947a06da,purified AnaPS/module assays,S004,,122
+M4-FUNG-0048:E002,M4-FUNG-0048,E002,NCBITAXON:331117,STR_25b8284472a6,purified AnaPT,S003,,123
+M4-FUNG-0048:E003,M4-FUNG-0048,E003,NCBITAXON:331117,STR_56cc79240ec2,purified AnaAT,S003,,124
+M4-FUNG-0049:E001,M4-FUNG-0049,E001,NCBITAXON:298378,STR_1b966d2ebf18,KCTC16676 random T-DNA mutants,S003,,127
+M4-FUNG-0049:E002,M4-FUNG-0049,E002,NCBITAXON:298378,STR_27eabb2d55f4,19-gene targeted deletion panel,S003,Boundary-defining experiment.,128
+M4-FUNG-0049:E003,M4-FUNG-0049,E003,NCBITAXON:298378,STR_8b4d8be3173a,Δaps3,S003,,129
+M4-FUNG-0049:E004,M4-FUNG-0049,E004,NCBITAXON:298378,STR_d1a39c778e06,Δaps9 / Δaps7,S003,,130
+M4-FUNG-0049:E005,M4-FUNG-0049,E005,NCBITAXON:298378,STR_be3da817270b,APS2 overexpression,S003,,131
+M4-FUNG-0050:E001,M4-FUNG-0050,E001,NCBITAXON:5580,STR_4310ecc2575a,A. pullulans BP-1938 aba1 module-4 replacement,S003,Native gene-disruption; direct one-gene causality.,122
+M4-FUNG-0050:E002,M4-FUNG-0050,E002,NCBITAXON:5580,STR_177c7e3df469,A. pullulans precursor-feeding cultures,S005,Shows substrate-pool control over congener output.,123
+M4-FUNG-0051:E001,M4-FUNG-0051,E001,NCBITAXON:176275,STR_22eef8d32b12,B. bassiana WT vs ΔbbBsls,S003,Native knockout; specificity control.,122
+M4-FUNG-0051:E002,M4-FUNG-0051,E002,NCBITAXON:176275,STR_130d770497bb,WT vs ΔbbBsls on three insect hosts,S003,Direct ecological-function experiment.,123
+M4-FUNG-0052:E001,M4-FUNG-0052,E001,NCBITAXON:176275,STR_0e122cdb60ba,B. bassiana WT vs ΔbbBeas,S003,Native knockout; direct causality.,122
+M4-FUNG-0052:E002,M4-FUNG-0052,E002,NCBITAXON:176275,STR_11da4984f209,E. coli expressing BbBEAS,S003,Direct enzyme-competence experiment.,123
+M4-FUNG-0052:E003,M4-FUNG-0052,E003,NCBITAXON:176275,STR_583fc5d1372c,WT vs ΔbbBeas on three insect hosts,S003,Direct host-phenotype experiment.,124
+M4-FUNG-0052:E004,M4-FUNG-0052,E004,NCBITAXON:176275,STR_f299ee88b3c6,KIVR functional-analysis strains,S004,Precursor-supply experiment.,125
+M4-FUNG-0053:E001,M4-FUNG-0053,E001,NCBITAXON:857340,STR_89ea600628a7,A. chrysogenum pcbAB/pcbC cloning and complementation,S003,,124
+M4-FUNG-0053:E002,M4-FUNG-0053,E002,NCBITAXON:857340,STR_05874f42c211,WT vs ΔcefP,S004,,125
+M4-FUNG-0053:E003,M4-FUNG-0053,E003,NCBITAXON:857340,STR_0b3df98b9f97,WT vs ΔcefM,S005,,126
+M4-FUNG-0053:E004,M4-FUNG-0053,E004,NCBITAXON:857340,STR_5ded084c94f3,cefR deletion/overexpression,S006,,127
+M4-FUNG-0053:E005,M4-FUNG-0053,E005,NCBITAXON:857340,STR_16d6505efc1b,cefT deletion/amplification,S012,,128
+M4-FUNG-0054:E001,M4-FUNG-0054,E001,NCBITAXON:857340,STR_58f093c39782,A. chrysogenum cefG-disruption strains,S003,Direct terminal-step causality.,122
+M4-FUNG-0054:E002,M4-FUNG-0054,E002,NCBITAXON:857340,STR_e59a067460a2,cefG cDNA expression in yeast,S010,,123
+M4-FUNG-0054:E003,M4-FUNG-0054,E003,NCBITAXON:857340,STR_1137807f6399,cefEF/cefG copy-number engineering,S008,,124
+M4-FUNG-0054:E004,M4-FUNG-0054,E004,NCBITAXON:857340,STR_ff426c2e0dfa,A. chrysogenum methionine-supplemented fermentation,S009,Cross-cluster nutrient-regulation context.,125
+M4-FUNG-0055:E001,M4-FUNG-0055,E001,NCBITAXON:1934374,STR_926ed24e5db4,C. virescens historical producer,S004,,126
+M4-FUNG-0055:E002,M4-FUNG-0055,E002,NCBITAXON:1934374,STR_926ed24e5db4,C. virescens historical producer,S005,,127
+M4-FUNG-0056:E001,M4-FUNG-0056,E001,NCBITAXON:29910,STR_31b5435d2cc0,T. inflatum NRRL 8044,S004,,133
+M4-FUNG-0056:E002,M4-FUNG-0056,E002,NCBITAXON:29910,STR_164c8326115c,sim deletion strains,S005,,134
+M4-FUNG-0056:E003,M4-FUNG-0056,E003,NCBITAXON:29910,STR_29c4b953e879,ΔsimB,S005,,135
+M4-FUNG-0056:E004,M4-FUNG-0056,E004,NCBITAXON:29910,STR_6e17cdd65915,simL overexpression strain,S005,,136
+M4-FUNG-0056:E005,M4-FUNG-0056,E005,NCBITAXON:29910,STR_1fa3a449f8c4,T. inflatum with competitor fungus,S005,,137
+M4-FUNG-0056:E006,M4-FUNG-0056,E006,NCBITAXON:29910,STR_3897fba18b9a,insect infection model,S005,,138
+M4-FUNG-0057:E001,M4-FUNG-0057,E001,NCBITAXON:655844,STR_fbbd20507440,M. robertsii ARSEF 23,S004,,134
+M4-FUNG-0057:E002,M4-FUNG-0057,E002,NCBITAXON:655844,STR_f87bc95e6f45,ΔdtxS1,S004,,135
+M4-FUNG-0057:E003,M4-FUNG-0057,E003,NCBITAXON:655844,STR_1abd8ca6c9f2,ΔdtxS2,S004,,136
+M4-FUNG-0057:E004,M4-FUNG-0057,E004,NCBITAXON:655844,STR_7f0a24c71504,ΔdtxS3,S004,,137
+M4-FUNG-0057:E005,M4-FUNG-0057,E005,NCBITAXON:655844,STR_665e277603cc,ΔdtxS4,S004,,138
+M4-FUNG-0057:E006,M4-FUNG-0057,E006,NCBITAXON:655844,STR_dcb53229e2f2,WT and mutants,S004,,139
+M4-FUNG-0058:E001,M4-FUNG-0058,E001,ORG_d1a8dbb0ed6b,STR_1b6e1142d155,E. rugulosa NRRL 11440,S004,,125
+M4-FUNG-0058:E002,M4-FUNG-0058,E002,ORG_d1a8dbb0ed6b,STR_50ef367f90a0,ΔhtyA,S004,,126
+M4-FUNG-0058:E003,M4-FUNG-0058,E003,ORG_d1a8dbb0ed6b,STR_7dd888b14af4,purified EcdI/EcdA-M1,S004,,127
+M4-FUNG-0058:E004,M4-FUNG-0058,E004,ORG_d1a8dbb0ed6b,STR_67a068cfb3d2,ΔecdB,S005,,128
+M4-FUNG-0059:E001,M4-FUNG-0059,E001,NCBITAXON:61235,STR_7d2a880bacf0,Fusarium scirpi historical producer,S004,,114
+M4-FUNG-0059:E002,M4-FUNG-0059,E002,NCBITAXON:61235,STR_453e445bd273,Esyn1 biochemical system,S004,,115
+M4-FUNG-0059:E003,M4-FUNG-0059,E003,NCBITAXON:61235,STR_7d2a880bacf0,Fusarium scirpi historical producer,S006,,116
+M4-FUNG-0060:E001,M4-FUNG-0060,E001,NCBITAXON:73839,STR_a4f09018685d,E. festucae / N. lolii endophyte,S004,,120
+M4-FUNG-0060:E002,M4-FUNG-0060,E002,NCBITAXON:73839,STR_5cd0be035087,lpsB mutant DFM3,S004,,121
+M4-FUNG-0060:E003,M4-FUNG-0060,E003,NCBITAXON:73839,STR_e9fd3127b034,complemented DFM3,S004,,122
+M4-FUNG-0061:E001,M4-FUNG-0061,E001,NCBITAXON:330879,STR_b194d226a07c,purified FmqA modules,S004,,119
+M4-FUNG-0061:E002,M4-FUNG-0061,E002,NCBITAXON:330879,STR_173ff0cc2a12,purified FmqB/FmqC,S005,,120
+M4-FUNG-0061:E003,M4-FUNG-0061,E003,NCBITAXON:330879,STR_c0e16a15cd24,FmqD biochemical/native strains,S005,,121
+M4-FUNG-0061:E004,M4-FUNG-0061,E004,NCBITAXON:330879,STR_80cce7e35fe7,ΔbrlA / developmental strains,S006,,122
+M4-FUNG-0061:E005,M4-FUNG-0061,E005,NCBITAXON:330879,STR_ff7a7f86f093,FmqD localization strains,S006,,123
+M4-FUNG-0061:E006,M4-FUNG-0061,E006,NCBITAXON:330879,STR_d8a8e10f11f1,MpkA/RlmA regulatory mutants,S007,,124
+M4-FUNG-0062:E001,M4-FUNG-0062,E001,NCBITAXON:500485,STR_0e99bebd88c7,P. chrysogenum/P. rubens host strain,S004,,121
+M4-FUNG-0062:E002,M4-FUNG-0062,E002,NCBITAXON:500485,STR_bf3a98f6b26e,ΔhcpA,S004,,122
+M4-FUNG-0062:E003,M4-FUNG-0062,E003,NCBITAXON:500485,STR_84d02a5a769d,WT vs ΔhcpA,S004,,123
+M4-FUNG-0063:E001,M4-FUNG-0063,E001,NCBITAXON:330879,STR_01d383e26e43,A. fumigatus Af293,S004,,125
+M4-FUNG-0063:E002,M4-FUNG-0063,E002,NCBITAXON:330879,STR_deda9ea8ada8,ΔgliP,S005,,126
+M4-FUNG-0063:E003,M4-FUNG-0063,E003,NCBITAXON:330879,STR_cb8737fa8879,WT vs ΔgliP,S005,,127
+M4-FUNG-0063:E004,M4-FUNG-0063,E004,NCBITAXON:330879,STR_cc091d57fd17,ΔgliZ and gliZ multi-copy,S006,,128
+M4-FUNG-0063:E005,M4-FUNG-0063,E005,NCBITAXON:330879,STR_3067ff35303e,GliT / ΔgliT,S007,,129
+M4-FUNG-0063:E006,M4-FUNG-0063,E006,NCBITAXON:330879,STR_6eb44e68db46,ΔgliA,S008,,130
+M4-FUNG-0064:E001,M4-FUNG-0064,E001,NCBITAXON:5017,STR_74541d3b5c5a,C. carbonum race 1,S005,,119
+M4-FUNG-0064:E002,M4-FUNG-0064,E002,NCBITAXON:5017,STR_0b691f1fcd5f,TOXC multi-copy knockout,S006,,120
+M4-FUNG-0064:E003,M4-FUNG-0064,E003,NCBITAXON:5017,STR_a1f56fd7c40c,ΔTOXE,S007,,121
+M4-FUNG-0064:E004,M4-FUNG-0064,E004,NCBITAXON:5017,STR_30a05f5b140b,TOXF all-copy disruption,S008,,122
+M4-FUNG-0064:E005,M4-FUNG-0064,E005,NCBITAXON:5017,STR_5f17e535a8e4,SB111 and Tox2+ isolates,S004,,123
+M4-FUNG-0064:E006,M4-FUNG-0064,E006,NCBITAXON:5017,STR_2f77e0d20012,meiotic TOX2 deletion derivatives,S009,,124
+M4-FUNG-0065:E001,M4-FUNG-0065,E001,NCBITAXON:330879,STR_b4ff596dfa90,A. fumigatus Af293 OE::hasA,S003,,121
+M4-FUNG-0065:E002,M4-FUNG-0065,E002,NCBITAXON:330879,STR_d0684dc9b60e,OE::hasA hasB–hasH deletion series,S003,,122
+M4-FUNG-0065:E003,M4-FUNG-0065,E003,NCBITAXON:330879,STR_8a59812b3684,WT versus HAS-overproducing strains,S003,,123
+M4-FUNG-0065:E004,M4-FUNG-0065,E004,NCBITAXON:330879,STR_6d1bab6cbd2e,iron-manipulated A. fumigatus,S004,,124
+M4-FUNG-0066:E001,M4-FUNG-0066,E001,NCBITAXON:5076,STR_55bd48195641,industrial P. chrysogenum strain panel,S003,,118
+M4-FUNG-0066:E002,M4-FUNG-0066,E002,NCBITAXON:5076,STR_59bd79e19797,industrial producer panel,S004,,119
+M4-FUNG-0066:E003,M4-FUNG-0066,E003,NCBITAXON:5076,STR_67c14c46e05e,gene-dose engineered strains,S005,,120
+M4-FUNG-0066:E004,M4-FUNG-0066,E004,NCBITAXON:5076,STR_0bb1feda3845,peroxisome-manipulated P. chrysogenum,S008,,121
+M4-FUNG-0067:E001,M4-FUNG-0067,E001,NCBITAXON:5076,STR_a0376ba996fc,P. chrysogenum Wisconsin 54-1255,S003,,117
+M4-FUNG-0067:E002,M4-FUNG-0067,E002,NCBITAXON:5076,STR_f6fa4ffa2987,heterologous host,S004,,118
+M4-FUNG-0067:E003,M4-FUNG-0067,E003,NCBITAXON:5076,STR_29ce97362db4,copy-number engineered P. chrysogenum,S005,,119
+M4-FUNG-0067:E004,M4-FUNG-0067,E004,NCBITAXON:5076,STR_06377cbb901e,peroxisome-localization studies,S006,,120
+M4-FUNG-0068:E001,M4-FUNG-0068,E001,NCBITAXON:500485,STR_a1957c682176,P. rubens roq knockout panel,S003,,124
+M4-FUNG-0068:E002,M4-FUNG-0068,E002,NCBITAXON:500485,STR_343c79c3fc91,P. rubens ± phenylacetic acid,S003,,125
+M4-FUNG-0068:E003,M4-FUNG-0068,E003,NCBITAXON:500485,STR_dd51d9c68135,pathway branch analysis,S004,,126
+M4-FUNG-0068:E004,M4-FUNG-0068,E004,NCBITAXON:500485,STR_0f12fec1a339,PcLaeA perturbation,S005,,127
+M4-FUNG-0069:E001,M4-FUNG-0069,E001,NCBITAXON:227321,STR_3227f693db9b,E. coli expressing TdiA–E,S003,,119
+M4-FUNG-0069:E002,M4-FUNG-0069,E002,NCBITAXON:227321,STR_0ddf19274dba,component-subtraction E. coli strains,S003,,120
+M4-FUNG-0069:E003,M4-FUNG-0069,E003,NCBITAXON:227321,STR_ea2eedfc96d1,A. nidulans tdi mutants / LaeA analysis,S004,,121
+M4-FUNG-0070:E001,M4-FUNG-0070,E001,NCBITAXON:1756136,STR_1217b7405455,Lecanicillium sp. HF627,S003,,117
+M4-FUNG-0070:E002,M4-FUNG-0070,E002,NCBITAXON:1756136,STR_231354344d48,ΔvlmA / ΔvlmB,S003,,118
+M4-FUNG-0070:E003,M4-FUNG-0070,E003,NCBITAXON:1756136,STR_8fbf31b0312d,VlmS sequence/domain analysis,S004,,119
+M4-FUNG-0071:E001,M4-FUNG-0071,E001,NCBITAXON:332952,STR_b989adfed5f2,A. flavus NRRL3357,S003,,131
+M4-FUNG-0071:E002,M4-FUNG-0071,E002,NCBITAXON:332952,STR_761de597e447,A. flavus candidate-gene knockouts,S003; S004,,132
+M4-FUNG-0071:E003,M4-FUNG-0071,E003,NCBITAXON:332952,STR_2c30d0e5bec9,A. oryzae RIB40 + ustR expression,S005,,133
+M4-FUNG-0071:E004,M4-FUNG-0071,E004,NCBITAXON:332952,STR_2021194c230d,A. oryzae ΔkexB with active ust cluster,S005,,134
+M4-FUNG-0071:E005,M4-FUNG-0071,E005,NCBITAXON:332952,STR_43a4ecaeaebe,Ust enzyme analysis,S006,,135
+M4-FUNG-0072:E001,M4-FUNG-0072,E001,NCBITAXON:5059,STR_da28592a3832,A. flavus aflatrem producer,S003,,122
+M4-FUNG-0072:E002,M4-FUNG-0072,E002,NCBITAXON:5059,STR_15bbd79fd315,P. paxilli complementation strains,S003; S004,,123
+M4-FUNG-0072:E003,M4-FUNG-0072,E003,NCBITAXON:5059,STR_29b2b00d7996,A. flavus dual-locus transcript analysis,S004,,124
+M4-FUNG-0072:E004,M4-FUNG-0072,E004,NCBITAXON:5059,STR_48b0d3872ef7,A. flavus ΔveA mutant and wild type,S005,,125
+M4-FUNG-0073:E001,M4-FUNG-0073,E001,NCBITAXON:332648,STR_598c9836151d,B. cinerea B05.10,,,122
+M4-FUNG-0073:E002,M4-FUNG-0073,E002,NCBITAXON:332648,STR_ad1fea44d60b,recombinant BcBOT2,,,123
+M4-FUNG-0073:E003,M4-FUNG-0073,E003,NCBITAXON:332648,STR_598c9836151d,B. cinerea B05.10,,,124
+M4-FUNG-0073:E004,M4-FUNG-0073,E004,NCBITAXON:332648,STR_598c9836151d,B. cinerea B05.10,,,125
+M4-FUNG-0074:E001,M4-FUNG-0074,E001,NCBITAXON:1365484,STR_092777798e79,P. roqueforti,,,128
+M4-FUNG-0074:E002,M4-FUNG-0074,E002,NCBITAXON:1365484,STR_a3a5643cbd96,P. chrysogenum Wisconsin 54-1255 / npe10,,,129
+M4-FUNG-0074:E003,M4-FUNG-0074,E003,NCBITAXON:1365484,STR_21449b79de52,P. roqueforti FM164,,,130
+M4-FUNG-0074:E004,M4-FUNG-0074,E004,NCBITAXON:1365484,STR_6f4c36d920ba,P. roqueforti population panel,,,131
+M4-FUNG-0075:E001,M4-FUNG-0075,E001,NCBITAXON:227321,STR_82858ff7670e,A. nidulans FGSC A4 oe:PbcR versus wild type,S003,,121
+M4-FUNG-0075:E002,M4-FUNG-0075,E002,NCBITAXON:227321,STR_3dedebf037f1,engineered A. nidulans diterpene producer,S004,,122
+M4-FUNG-0075:E003,M4-FUNG-0075,E003,NCBITAXON:227321,STR_71692d981db9,heterologous fungal diterpene cyclase systems,S005,,123
+M4-FUNG-0075:E004,M4-FUNG-0075,E004,NCBITAXON:227321,STR_14eb147b1042,A. nidulans multi-cluster-deletion background with inducible PbcR,S006,,124
+M4-FUNG-0076:E001,M4-FUNG-0076,E001,NCBITAXON:1979465,STR_85e9e8a8b4fc,Phoma betae native producer,S003,,119
+M4-FUNG-0076:E002,M4-FUNG-0076,E002,NCBITAXON:1979465,STR_45539d0146d3,Aspergillus oryzae heterologous host,S004,,120
+M4-FUNG-0076:E003,M4-FUNG-0076,E003,NCBITAXON:1979465,STR_9282799eb22a,Saccharomyces cerevisiae heterologous host,S004,,121
+M4-FUNG-0076:E004,M4-FUNG-0076,E004,NCBITAXON:1979465,STR_ac57b7b955ae,A. oryzae expressing aphidicolin enzymes,S005,,122
+M4-FUNG-0076:E005,M4-FUNG-0076,E005,NCBITAXON:1979465,STR_85e9e8a8b4fc,Phoma betae native producer,S008,,123
+M4-FUNG-0077:E001,M4-FUNG-0077,E001,NCBITAXON:227321,STR_6888d8f728e1,A. nidulans targeted-deletion panel,S003,,64
+M4-FUNG-0323:E001,M4-FUNG-0323,E001,NCBITAXON:331117,,,S002,,85
+M4-FUNG-0323:E002,M4-FUNG-0323,E002,NCBITAXON:331117,,,S002,,86
+M4-FUNG-0323:E003,M4-FUNG-0323,E003,NCBITAXON:331117,,,S002,,87
+M4-FUNG-0324:E001,M4-FUNG-0324,E001,NCBITAXON:1028729,,,S002,,85
+M4-FUNG-0324:E002,M4-FUNG-0324,E002,NCBITAXON:1028729,,,S002,,86
+M4-FUNG-0324:E003,M4-FUNG-0324,E003,NCBITAXON:1028729,,,S006,,87
+M4-FUNG-0325:E001,M4-FUNG-0325,E001,NCBITAXON:35717,,,S002,,83
+M4-FUNG-0325:E002,M4-FUNG-0325,E002,NCBITAXON:35717,,,S002,,84
+M4-FUNG-0325:E003,M4-FUNG-0325,E003,NCBITAXON:35717,,,S002,,85
+M4-FUNG-0326:E001,M4-FUNG-0326,E001,NCBITAXON:321614,,,S002,,83
+M4-FUNG-0326:E002,M4-FUNG-0326,E002,NCBITAXON:321614,,,S002,,84
+M4-FUNG-0326:E003,M4-FUNG-0326,E003,NCBITAXON:321614,,,S002,,85
+M4-FUNG-0327:E001,M4-FUNG-0327,E001,NCBITAXON:332952,,,S002,,83
+M4-FUNG-0327:E002,M4-FUNG-0327,E002,NCBITAXON:332952,,,S002,,84
+M4-FUNG-0327:E003,M4-FUNG-0327,E003,NCBITAXON:332952,,,S002,,85
+M4-FUNG-0328:E001,M4-FUNG-0328,E001,NCBITAXON:1549217,,,S002,,85
+M4-FUNG-0328:E002,M4-FUNG-0328,E002,NCBITAXON:1549217,,,S002,,86
+M4-FUNG-0328:E003,M4-FUNG-0328,E003,NCBITAXON:1549217,,,S002,,87
+M4-FUNG-0329:E001,M4-FUNG-0329,E001,NCBITAXON:690307,,,S002,,83
+M4-FUNG-0329:E002,M4-FUNG-0329,E002,NCBITAXON:690307,,,S002,,84
+M4-FUNG-0329:E003,M4-FUNG-0329,E003,NCBITAXON:690307,,,S002,,85
+M4-FUNG-0330:E001,M4-FUNG-0330,E001,NCBITAXON:1549217,,,S002,,85
+M4-FUNG-0330:E002,M4-FUNG-0330,E002,NCBITAXON:1549217,,,S002,,86
+M4-FUNG-0330:E003,M4-FUNG-0330,E003,NCBITAXON:1549217,,,S002,,87
+M4-FUNG-0331:E001,M4-FUNG-0331,E001,NCBITAXON:380704,,,S002,,84
+M4-FUNG-0331:E002,M4-FUNG-0331,E002,NCBITAXON:380704,,,S002,,85
+M4-FUNG-0331:E003,M4-FUNG-0331,E003,NCBITAXON:380704,,,S002,,86
+M4-FUNG-0332:E001,M4-FUNG-0332,E001,NCBITAXON:229533,,,S002,,86
+M4-FUNG-0332:E002,M4-FUNG-0332,E002,NCBITAXON:229533,,,S002,,87
+M4-FUNG-0332:E003,M4-FUNG-0332,E003,NCBITAXON:229533,,,S002,,88
+M4-FUNG-0333:E001,M4-FUNG-0333,E001,NCBITAXON:451804,,,S002,,86
+M4-FUNG-0333:E002,M4-FUNG-0333,E002,NCBITAXON:451804,,,S002,,87
+M4-FUNG-0333:E003,M4-FUNG-0333,E003,NCBITAXON:451804,,,S002,,88
+M4-FUNG-0426:E001,M4-FUNG-0426,E001,NCBITAXON:341663,STR_0f684983aeec,Aspergillus terreus NIH2624,S002,Defining native genetic evidence.,122
+M4-FUNG-0426:E002,M4-FUNG-0426,E002,NCBITAXON:341663,STR_0f684983aeec,Aspergillus terreus NIH2624,S002; S004,Supports regulatory coupling rather than a claim about environmental induction.,123
+M4-FUNG-0426:E003,M4-FUNG-0426,E003,NCBITAXON:341663,STR_096f12128ecc,heterologous fungal/yeast systems reported in pathway literature,S004,Heterologous evidence retained with provenance boundary.,124
+M4-FUNG-0427:E001,M4-FUNG-0427,E001,NCBITAXON:5081,STR_d2aca9c1191c,Penicillium FKI-1938,,,124
+M4-FUNG-0427:E002,M4-FUNG-0427,E002,NCBITAXON:5081,STR_70b6a4ca9377,Aspergillus nidulans A1145,,,125
+M4-FUNG-0427:E003,M4-FUNG-0427,E003,NCBITAXON:5081,STR_70b6a4ca9377,Aspergillus nidulans A1145,,,126
+M4-FUNG-0427:E004,M4-FUNG-0427,E004,NCBITAXON:5081,STR_70b6a4ca9377,Aspergillus nidulans A1145,,,127
+M4-FUNG-0427:E005,M4-FUNG-0427,E005,NCBITAXON:5081,STR_70b6a4ca9377,Aspergillus nidulans A1145,,,128
+M4-FUNG-0428:E001,M4-FUNG-0428,E001,NCBITAXON:240499,STR_59f7ce637337,C. arbuscula aurovertin-null mutant,S003,"Competing-pathway deletion is contextual, not proof of mca17 catalysis.",122
+M4-FUNG-0428:E002,M4-FUNG-0428,E002,NCBITAXON:240499,STR_b40ec1204c1b,mca17 regulator-overexpression derivative,S003,Direct access evidence.,123
+M4-FUNG-0429:E001,M4-FUNG-0429,E001,NCBITAXON:655844,STR_0165a4ace49b,M. robertsii SWN deletion strains,S003,Direct genetic pathway dissection.,122
+M4-FUNG-0429:E002,M4-FUNG-0429,E002,NCBITAXON:655844,STR_c42fd8e1d2ed,swnK heterologous-expression system,S003,Mechanistic core-enzyme evidence.,123
+M4-FUNG-0429:E003,M4-FUNG-0429,E003,NCBITAXON:655844,STR_f6ebe03c1514,SWN mutant feeding experiments,S003,Used with genetics rather than alone.,124
+M4-FUNG-0429:E004,M4-FUNG-0429,E004,NCBITAXON:655844,STR_eb3c5030518a,wild-type and SW-deficient M. robertsii,S003,"Negative result is assay-specific, not proof of no ecological role.",125
+M4-FUNG-0430:E001,M4-FUNG-0430,E001,NCBITAXON:341663,STR_2252ee133c40,A. terreus NIH2624 wild type and atqA deletion mutant,S003,Deletion-library evidence.,122
+M4-FUNG-0431:E001,M4-FUNG-0431,E001,NCBITAXON:341663,STR_22ae0b283f55,A. terreus NIH2624 wild type and anaPS deletion mutant,S003,Deletion-library evidence.,122
+M4-FUNG-0432:E001,M4-FUNG-0432,E001,NCBITAXON:341663,STR_efb58d621a62,A. terreus NIH2624 wild type and btyA deletion mutant,S003,Direct deletion-library evidence.,122
+M4-FUNG-0433:E001,M4-FUNG-0433,E001,NCBITAXON:341663,STR_252905f6c58c,A. terreus NIH2624 wild type and apvA deletion mutant,S003,Direct deletion-library evidence.,122
+M4-FUNG-0434:E001,M4-FUNG-0434,E001,NCBITAXON:1450533,STR_30cc68f3e60c,Aspergillus nidulans heterologous host,S003,Direct pathway sufficiency evidence.,122
+M4-FUNG-0434:E002,M4-FUNG-0434,E002,NCBITAXON:1450533,STR_746abe3c3de7,purified AnOMT,S003,Boiled-enzyme control reported.,123
+M4-FUNG-0434:E003,M4-FUNG-0434,E003,NCBITAXON:1450533,STR_f3d784dbfc06,AnATPKS A-domain / A. nidulans transformants,S003,Direct programmability context.,124
+M4-FUNG-0435:E001,M4-FUNG-0435,E001,NCBITAXON:227321,STR_758840366cd8,purified A. nidulans ATRR,S003,Structure-guided biochemical validation.,122
+M4-FUNG-0435:E002,M4-FUNG-0435,E002,NCBITAXON:227321,STR_fe73748d83be,A. nidulans wild type and Δatrr,S003,Direct physiological validation.,123
+M4-FUNG-0436:E001,M4-FUNG-0436,E001,NCBITAXON:5382,STR_cb8514653649,recombinant GreA,S003,Direct biochemical reconstruction.,122
+M4-FUNG-0437:E001,M4-FUNG-0437,E001,NCBITAXON:104259,STR_ad6c9ff30a0a,P. brasilianum WZXY-M122-9 wild type vs ΔPbhdaA,S003,Direct chromatin-access intervention.,122
+M4-FUNG-0437:E002,M4-FUNG-0437,E002,NCBITAXON:104259,STR_3ef772bf324b,ΔPbhdaA/ΔbrsA and related brs deletion strains,S003,Tailoring deletion phenotypes are interpreted conservatively.,123
+M4-FUNG-0437:E003,M4-FUNG-0437,E003,NCBITAXON:104259,STR_1885c8bf1e5a,purified full-length BrsA,S003,Direct core-enzyme evidence.,124
+M4-FUNG-0437:E004,M4-FUNG-0437,E004,NCBITAXON:104259,STR_3eca79cf92f5,purified BrsJ,S003,Direct tailoring chemistry.,125
+M4-FUNG-0437:E005,M4-FUNG-0437,E005,NCBITAXON:104259,STR_df938f743777,P. brasilianum brs transcription comparison,S003,Supports coordinated activation.,126
+M4-FUNG-0438:E001,M4-FUNG-0438,E001,NCBITAXON:1128401,STR_ef22d0fefb3d,O. olearius VT 653.13,S003,"Supports native programme coherence, not exact catalytic steps.",122
+M4-FUNG-0438:E002,M4-FUNG-0438,E002,NCBITAXON:1128401,STR_554b5935c553,recombinant Omp6,S003,Direct Omp6 catalytic evidence.,123
+M4-FUNG-0438:E003,M4-FUNG-0438,E003,NCBITAXON:1128401,STR_6c988632d598,recombinant Omp7,S003,Direct Omp7 catalytic evidence.,124
+M4-FUNG-0439:E001,M4-FUNG-0439,E001,NCBITAXON:1128401,STR_ef22d0fefb3d,O. olearius VT 653.13,S003,"Supports native programme coherence, not exact catalytic steps.",122
+M4-FUNG-0439:E002,M4-FUNG-0439,E002,NCBITAXON:1128401,STR_554b5935c553,recombinant Omp6,S003,Direct Omp6 catalytic evidence.,123
+M4-FUNG-0439:E003,M4-FUNG-0439,E003,NCBITAXON:1128401,STR_6c988632d598,recombinant Omp7,S003,Direct Omp7 catalytic evidence.,124
+M4-FUNG-0440:E001,M4-FUNG-0440,E001,NCBITAXON:249398,STR_41e0d0b7cbaa,A. nidulans ΔSTΔEM,S003,Direct core reconstruction.,122
+M4-FUNG-0440:E002,M4-FUNG-0440,E002,NCBITAXON:249398,STR_41e0d0b7cbaa,A. nidulans ΔSTΔEM,S003,Supports C11 hydroxylation-triggered cyclization.,123
+M4-FUNG-0440:E003,M4-FUNG-0440,E003,NCBITAXON:249398,STR_41e0d0b7cbaa,A. nidulans ΔSTΔEM,S003,Late phenyl para-hydroxylation.,124
+M4-FUNG-0440:E004,M4-FUNG-0440,E004,NCBITAXON:249398,STR_f16995601484,purified SmbG,S003,Direct biochemical proof.,125
+M4-FUNG-0440:E005,M4-FUNG-0440,E005,NCBITAXON:249398,STR_69dc38416b19,F. commune genomic DNA,S003,Not a native F. commune production assay.,126
+M4-FUNG-0441:E001,M4-FUNG-0441,E001,NCBITAXON:1896107,STR_3e29376801aa,heterologous fungal expression strains,S003,Direct pathway sufficiency evidence.,122
+M4-FUNG-0441:E002,M4-FUNG-0441,E002,NCBITAXON:1896107,STR_6fdd3ef85e3a,heterologous pathway strains,S003,Feeding evidence interpreted with reconstruction.,123
+M4-FUNG-0441:E003,M4-FUNG-0441,E003,NCBITAXON:1896107,STR_81f75955f239,BisI enzyme system,S003,Defining mechanistic experiment.,124
+M4-FUNG-0442:E001,M4-FUNG-0442,E001,NCBITAXON:370937,STR_3b384f13b174,recombinant AshL,S003,Direct AshL mechanism.,122
+M4-FUNG-0442:E002,M4-FUNG-0442,E002,NCBITAXON:370937,STR_2900eaffcfba,four related fungal laccases,S003,Comparative context; do not assign flexible behavior specifically to AshL unless demonstrated.,123
+M4-FUNG-0442:E003,M4-FUNG-0442,E003,NCBITAXON:370937,STR_32476a3655fe,AshP/AshL pathway system,S003,Core two-enzyme programme.,124
+M4-FUNG-0443:E001,M4-FUNG-0443,E001,NCBITAXON:28576,STR_6e6d67544ab5,A. nidulans heterologous host,S003,Defines nonenzymatic competing pathway.,122
+M4-FUNG-0443:E002,M4-FUNG-0443,E002,NCBITAXON:28576,STR_6e6d67544ab5,A. nidulans heterologous host,S003,Carboxylative deactivation.,123
+M4-FUNG-0443:E003,M4-FUNG-0443,E003,NCBITAXON:28576,STR_6e6d67544ab5,A. nidulans heterologous host,S003,Pathway sufficiency and branch logic.,124
+M4-FUNG-0443:E004,M4-FUNG-0443,E004,NCBITAXON:28576,STR_ba734d778941,purified PvhB,S003,Direct pericyclase mechanism.,125
+M4-FUNG-0444:E001,M4-FUNG-0444,E001,NCBITAXON:500485,STR_0969ac66a507,Aspergillus oryzae heterologous host,S003,Direct pathway sufficiency.,122
+M4-FUNG-0444:E002,M4-FUNG-0444,E002,NCBITAXON:500485,STR_90d14f77bbd9,bifunctional terpene synthase,S003,Direct mechanism.,123
+M4-FUNG-0444:E003,M4-FUNG-0444,E003,NCBITAXON:500485,STR_f86aa3c674f3,P450-containing heterologous strain,S003,Direct terminal-step evidence.,124
+M4-FUNG-0445:E001,M4-FUNG-0445,E001,NCBITAXON:2163413,STR_0bc5bbf53c3c,M. pulcherrima APC 1.2 WT vs W8 snf2 mutant,S003,Global Snf2 pleiotropy is explicit.,122
+M4-FUNG-0445:E002,M4-FUNG-0445,E002,NCBITAXON:2163413,STR_564df479335a,W8 snf2 mutant + wild-type SNF2 complementation,S003,"Strong regulatory causality for Snf2, not pathway-specific causality for pulcherrimin alone.",123
+M4-FUNG-0445:E003,M4-FUNG-0445,E003,NCBITAXON:2163413,STR_13f24927d5a2,"WT, W8 snf2 mutant, SNF2-complemented strain",S003,Direct genotype-metabolite evidence.,124
+M4-FUNG-0445:E004,M4-FUNG-0445,E004,NCBITAXON:2163413,STR_e79594e503d3,WT and snf2 mutant,S003,Reduced activity may reflect multiple Snf2-controlled mechanisms.,125
+M4-FUNG-0445:E005,M4-FUNG-0445,E005,NCBITAXON:2163413,STR_73a46f030009,M. pulcherrima pathway chemistry,S003,Exact degradation chemistry remains partly unresolved.,126
+M4-FUNG-0446:E001,M4-FUNG-0446,E001,NCBITAXON:341663,STR_62ff0892a192,A. terreus NIH2624 wild type and ΔmelA/ΔtyrP,S003,Direct native causal evidence.,122
+M4-FUNG-0446:E002,M4-FUNG-0446,E002,NCBITAXON:341663,STR_e93cb7b961b5,MelA biochemical system,S003,Direct biochemical assignment.,123
+M4-FUNG-0446:E003,M4-FUNG-0446,E003,NCBITAXON:341663,STR_cea19857a5a0,TyrP biochemical/reconstitution system,S003,Direct oxidation/polymerization pathway evidence.,124
+M4-FUNG-0446:E004,M4-FUNG-0446,E004,NCBITAXON:341663,STR_e7f594b48d84,wild type versus Asp-melanin-deficient conidia,S003,Functional biological-role evidence.,125
+M4-FUNG-0446:E005,M4-FUNG-0446,E005,NCBITAXON:341663,STR_e7f594b48d84,wild type versus Asp-melanin-deficient conidia,S003,Separates protective effect from canonical phagolysosome-acidification blockade.,126
+M4-FUNG-0447:E001,M4-FUNG-0447,E001,NCBITAXON:5077,STR_d8e64902d1e9,P. citrinum ATCC 9849 WT / ΔctdQ,S003,Direct BGC attribution.,122
+M4-FUNG-0447:E002,M4-FUNG-0447,E002,NCBITAXON:5077,STR_459764629e8b,P. citrinum ΔctdU / ΔctdE,S003,Native genetic pathway ordering.,123
+M4-FUNG-0447:E003,M4-FUNG-0447,E003,NCBITAXON:5077,STR_220540c84b5c,purified recombinant CtdE,S003,Direct enzyme function.,124
+M4-FUNG-0447:E004,M4-FUNG-0447,E004,NCBITAXON:5077,STR_efe42d6b294c,CtdE protein,S003,Mechanistic structural evidence.,125
+M4-FUNG-0448:E001,M4-FUNG-0448,E001,NCBITAXON:2259629,STR_2c7e0de17860,Cladosporium sp. SW67,S003,Direct metabolite evidence.,122
+M4-FUNG-0448:E002,M4-FUNG-0448,E002,NCBITAXON:2259629,STR_e2c009ae515f,SW67 / comparative Cladosporium genomes,S003; S004,"Correlative, not causal.",123
+M4-FUNG-0449:E001,M4-FUNG-0449,E001,NCBITAXON:655844,STR_a80a3efc559c,Aspergillus oryzae NSAR1,S003,"Cross-cluster common-core experiment used as mechanistic support, not strain-specific native expression evidence.",122
+M4-FUNG-0449:E002,M4-FUNG-0449,E002,NCBITAXON:655844,STR_c16c57d000ff,A. oryzae common-intermediate producer,S003,Direct pathway-branch sufficiency evidence.,123
+M4-FUNG-0449:E003,M4-FUNG-0449,E003,NCBITAXON:655844,STR_ee39a24c8eaa,Drosophila DL-1 cells,S003,,124
+M4-FUNG-0449:E004,M4-FUNG-0449,E004,NCBITAXON:655844,STR_6b9724a91167,adult Drosophila,S003,Does not replace native fungal virulence genetics.,125
+M4-FUNG-0450:E001,M4-FUNG-0450,E001,NCBITAXON:229533,STR_bf06895adae6,Aspergillus oryzae NSAR1 with F. graminearum 50218 dpfg genes,S003,"Donor is 50218, not canonical PH-1.",122
+M4-FUNG-0450:E002,M4-FUNG-0450,E002,NCBITAXON:229533,STR_74ebd133d3c3,F. graminearum native C16 PKS mutant,S004,Native causal attribution.,123
+M4-FUNG-0450:E003,M4-FUNG-0450,E003,NCBITAXON:229533,STR_1e7a7acd7aa8,F. graminearum native C16 terpene-synthase mutant,S004,,124
+M4-FUNG-0450:E004,M4-FUNG-0450,E004,NCBITAXON:229533,STR_e5b54d55da33,F. graminearum challenged wheat heads,S004,Product presence does not alone establish virulence contribution.,125
+M4-FUNG-0451:E001,M4-FUNG-0451,E001,NCBITAXON:759273,STR_14ae5cea3158,Aspergillus oryzae NSAR1 with C. higginsianum MAFF305635 dpch genes,S003,Donor strain differs from canonical IMI 349063.,122
+M4-FUNG-0451:E002,M4-FUNG-0451,E002,NCBITAXON:759273,STR_1b03c4d490e4,C. higginsianum IMI 349063 ΔcclA,S004,Global chromatin perturbation; not pathway-specific transcription-factor activation.,123
+M4-FUNG-0451:E003,M4-FUNG-0451,E003,NCBITAXON:759273,STR_80c732e10ff0,Arabidopsis seedlings,S006,Direct compound effect; endogenous infection concentration not established.,124
+M4-FUNG-0451:E004,M4-FUNG-0451,E004,NCBITAXON:759273,STR_b1cac889c845,human A431 cells,S005,,125
+M4-FUNG-0452:E001,M4-FUNG-0452,E001,NCBITAXON:1892770,STR_1464c8910c37,Pseudopithomyces chartarum sequenced isolate,S003,Genome resource underlying candidate-cluster search.,122
+M4-FUNG-0452:E002,M4-FUNG-0452,E002,NCBITAXON:1892770,STR_f1095c692b97,Pseudopithomyces chartarum genome,S003,"This is candidate discovery, not experimental BGC validation.",123
+M4-FUNG-0453:E001,M4-FUNG-0453,E001,NCBITAXON:47427,STR_03297cf3e1a0,A. gallica FU02472 / recombinant Pro1,S005,Direct core-cyclization proof.,122
+M4-FUNG-0453:E002,M4-FUNG-0453,E002,NCBITAXON:47427,STR_97a18a573bfd,S. cerevisiae CEN.PK2-1C CYP-Arm strains,S003,Direct comparative CYP screen.,123
+M4-FUNG-0453:E003,M4-FUNG-0453,E003,NCBITAXON:47427,STR_e63ac8eff370,engineered S. cerevisiae Pro1 + CYP-Arm3 system,S003,Product-scale confirmation of branch chemistry.,124
+M4-FUNG-0453:E004,M4-FUNG-0453,E004,NCBITAXON:47427,STR_99469863ba42,recombinant Pro1,S003; S005,Prior Pro1 characterization integrated with 2020 cluster study.,125
+M4-FUNG-0454:E001,M4-FUNG-0454,E001,NCBITAXON:45130,STR_a95d5f62473b,B. sorokiniana BS11134 wild type and BFTS deletion mutant,S003,Strong native causal evidence.,122
+M4-FUNG-0454:E002,M4-FUNG-0454,E002,NCBITAXON:45130,STR_ef44b5135dd3,recombinant/heterologous BsPS,S003,Direct scaffold chemistry.,123
+M4-FUNG-0454:E003,M4-FUNG-0454,E003,NCBITAXON:45130,STR_3e8a353fdcdf,B. sorokiniana BS11134,S003,Compound-specific activity kept separate from scaffold attribution.,124
+M4-FUNG-0454:E004,M4-FUNG-0454,E004,NCBITAXON:45130,STR_4a63de0cd4f8,RAW264.7 murine macrophage-like cells,S003,Does not establish fungal ecological role.,125
+M4-FUNG-0455:E001,M4-FUNG-0455,E001,NCBITAXON:180999,STR_44f6e20d5f29,C. uncialis mycobiont genome,S003,"Candidate-selection evidence, not pathway causality.",122
+M4-FUNG-0455:E002,M4-FUNG-0455,E002,NCBITAXON:180999,STR_6da5dd02cdd3,C. uncialis intact lichen sample,S003,"Strong correlation, but no pathway-specific perturbation.",123
+M4-FUNG-0455:E003,M4-FUNG-0455,E003,NCBITAXON:180999,STR_fdd08bb5c1a7,lichen PKS comparative set,S003; S005,Cross-lichen support remains inferential.,124
+M4-FUNG-0456:E001,M4-FUNG-0456,E001,NCBITAXON:303698,STR_f27a6d96d3ab,P. steckii YE,S003,Direct native product evidence.,122
+M4-FUNG-0456:E002,M4-FUNG-0456,E002,NCBITAXON:303698,STR_ca9e1b24d7b7,isolated ETP congeners,S003,Key direct mechanistic result of the paper.,123
+M4-FUNG-0456:E003,M4-FUNG-0456,E003,NCBITAXON:303698,STR_05a7bd53be45,P. steckii YE genome,S003,Association evidence; no pathway-specific perturbation.,124
+M4-FUNG-0456:E004,M4-FUNG-0456,E004,NCBITAXON:303698,STR_aef042605ba8,PC-3 and LNCaP cells / C. elegans,S003,Bioactivity is congener-specific and separate from BGC causality.,125
+M4-FUNG-0457:E001,M4-FUNG-0457,E001,NCBITAXON:5127,STR_ffb0673b31be,G9 × G1 genetic cross,S003,Direct cluster linkage.,122
+M4-FUNG-0457:E002,M4-FUNG-0457,E002,NCBITAXON:5127,STR_bbdf2263b879,G9 vs G1,S003,Supports regulatory defect.,123
+M4-FUNG-0457:E003,M4-FUNG-0457,E003,NCBITAXON:5127,STR_422e2910cc1b,G1 transformants,S003,Strong native allelic causality.,124
+M4-FUNG-0457:E004,M4-FUNG-0457,E004,NCBITAXON:5127,STR_84e209896de9,selected complemented G1 strains and G9/G1 parents,S003,LOQ explicitly reported.,125
+M4-FUNG-0458:E001,M4-FUNG-0458,E001,NCBITAXON:2480843,STR_baeafa979227,X. sinensis ML-31,S003,Native production evidence.,123
+M4-FUNG-0458:E002,M4-FUNG-0458,E002,NCBITAXON:2480843,STR_073db4c34d9b,X. sinensis ML-31 mutants,S003,Direct native genetics.,124
+M4-FUNG-0458:E003,M4-FUNG-0458,E003,NCBITAXON:2480843,STR_b80dae4ebc50,Aspergillus nidulans,S003,Pathway sufficiency evidence.,125
+M4-FUNG-0458:E004,M4-FUNG-0458,E004,NCBITAXON:2480843,STR_a04b5bbff86d,engineered pathway system,S003,Mechanistic cascade.,126
+M4-FUNG-0459:E001,M4-FUNG-0459,E001,NCBITAXON:108922,STR_8af5d3139370,heterologous expression strains,S003,Pathway sufficiency context.,123
+M4-FUNG-0459:E002,M4-FUNG-0459,E002,NCBITAXON:108922,STR_91b6112d4dfe,heterologous SpoL/SpoF system,S003,Defining mechanistic experiment.,124
+M4-FUNG-0460:E001,M4-FUNG-0460,E001,NCBITAXON:1353983,STR_adf7eee63b3f,C. macilenta KoLRI003786 purple and white axenic mycobiont chemotypes,S003,"Strong association, not pathway-specific perturbational causality.",122
+M4-FUNG-0460:E002,M4-FUNG-0460,E002,NCBITAXON:1353983,STR_efc04b16cf06,C. macilenta lichen-forming fungus culture,S005,Bioactivity is compound-level evidence and does not establish native ecological function.,123
+M4-FUNG-0460:E003,M4-FUNG-0460,E003,NCBITAXON:1353983,STR_c007083f2f1c,Cladonia comparative species set,S003,"Comparative presence supports pathway-family plausibility, not biruloquinone production in every homolog-bearing species.",124
+M4-FUNG-0461:E001,M4-FUNG-0461,E001,NCBITAXON:1400770,STR_143d4f25e4f0,Cladonia metacorallifera KoLRI002260,S003,Direct production evidence.,124
+M4-FUNG-0461:E002,M4-FUNG-0461,E002,NCBITAXON:1400770,STR_143d4f25e4f0,Cladonia metacorallifera KoLRI002260,S004,"Candidate-locus evidence, not causal genetics.",125
+M4-FUNG-0462:E001,M4-FUNG-0462,E001,NCBITAXON:5454,STR_d1e0278f3741,Ascochyta rabiei AR628,S003,Direct causal BGC evidence.,124
+M4-FUNG-0462:E002,M4-FUNG-0462,E002,NCBITAXON:5454,STR_b9c20dfb7ac2,Ascochyta rabiei,S003,Shows regulatory sufficiency.,125
+M4-FUNG-0463:E001,M4-FUNG-0463,E001,NCBITAXON:1325723,STR_f17896edeb9d,Fusarium neocosmosporiellum,S003,Stage-resolved evidence.,124
+M4-FUNG-0463:E002,M4-FUNG-0463,E002,NCBITAXON:1325723,STR_f17896edeb9d,Fusarium neocosmosporiellum,S003,Direct gene-phenotype evidence.,125
+M4-FUNG-0465:E001,M4-FUNG-0465,E001,NCBITAXON:29916,STR_5f7f6cde9b44,Fusarium sp. RK97-94,S003,Direct activation evidence.,124
+M4-FUNG-0465:E002,M4-FUNG-0465,E002,NCBITAXON:29916,STR_5f7f6cde9b44,Fusarium sp. RK97-94,S003,Functional core smaller than MIBiG interval.,125
+M4-FUNG-0466:E001,M4-FUNG-0466,E001,NCBITAXON:5065,STR_7cb466f8ad0b,heterologous/defined spt system,S003,Mechanistic pathway evidence.,124
+M4-FUNG-0467:E001,M4-FUNG-0467,E001,NCBITAXON:1087732,STR_46de6a3edb0c,Chaetomium olivaceum SD-80A,S003,Pathway assignment proposed from genomic context.,124
+M4-FUNG-0468:E001,M4-FUNG-0468,E001,NCBITAXON:2502037,STR_3f9e874bd8fe,Discosia rubi isolates,S003,Direct product/bioactivity evidence.,124
+M4-FUNG-0468:E002,M4-FUNG-0468,E002,NCBITAXON:2502037,STR_6a71cc00bf43,Cryptococcus neoformans,S003,"Supports target mechanism, not producer BGC causality.",125
+M4-FUNG-0469:E001,M4-FUNG-0469,E001,NCBITAXON:168477,STR_712a8af47813,Penicillium arenicola NRRL 8095,S003,"Strong comparative assignment, not a knockout series.",124
+M4-FUNG-0470:E001,M4-FUNG-0470,E001,NCBITAXON:38033,STR_85b4304053a2,Chaetomium globosum,S003,BGC assignment is candidate-level.,124
+M4-FUNG-0471:E001,M4-FUNG-0471,E001,NCBITAXON:2828659,STR_8b7cdd56d741,heterologous atranorin reconstruction study,S003,Recorded as evidence against treating the cited paper as salazinic-specific validation.,122
+M4-FUNG-0472:E001,M4-FUNG-0472,E001,NCBITAXON:2046025,STR_12b78d203b83,Acremonium tubakii W. Gams isolate,S003,"Strong integrated assignment, not causal genetics.",122
+M4-FUNG-0473:E001,M4-FUNG-0473,E001,NCBITAXON:5078,STR_cfe5672cc9e6,P. griseofulvum / heterologous pathway system,S003,Defining pathway study.,122
+M4-FUNG-0473:E002,M4-FUNG-0473,E002,NCBITAXON:5078,STR_b670c2610d6e,P. griseofulvum NRRL 35584,S004,Original natural-product provenance.,123
+M4-FUNG-0474:E001,M4-FUNG-0474,E001,NCBITAXON:341663,STR_8ce44d59e998,Aspergillus nidulans heterologous host,S003,Direct cluster sufficiency.,122
+M4-FUNG-0475:E001,M4-FUNG-0475,E001,NCBITAXON:136282,STR_0c81107ecfc5,engineered Saccharomyces cerevisiae,S003,Direct enzyme sufficiency in heterologous host.,122
+M4-FUNG-0476:E001,M4-FUNG-0476,E001,NCBITAXON:229533,STR_d039833e9345,Fusarium graminearum PH-1 derivatives,S003,Direct activation/causality evidence.,122
+M4-FUNG-0477:E001,M4-FUNG-0477,E001,NCBITAXON:2696576,STR_569abada4328,Antrodia cinnamomea / Taiwanofungus camphoratus study strain,S003,Direct precursor-pathway evidence.,122
+M4-FUNG-0478:E001,M4-FUNG-0478,E001,NCBITAXON:1111077,STR_68404375bef4,Claviceps purpurea 20.1,S003,High gene→chemotype evidence from overexpression.,122
+M4-FUNG-0479:E001,M4-FUNG-0479,E001,NCBITAXON:357447,STR_b5e8fe4356fe,Aspergillus westerdijkiae food isolates,S003,Species-specific genotype/chemotype evidence.,122
+M4-FUNG-0479:E002,M4-FUNG-0479,E002,NCBITAXON:357447,STR_0dc0ed9b470e,Aspergillus westerdijkiae historical mutant,S004,Supports PKS necessity in producer species.,123
+M4-FUNG-0480:E001,M4-FUNG-0480,E001,NCBITAXON:746128,STR_5a204b26ceb1,Aspergillus fumigatus MF071,S003,No MF071-specific fga knockout/reconstruction.,122
+M4-FUNG-0481:E001,M4-FUNG-0481,E001,NCBITAXON:746128,STR_5a204b26ceb1,Aspergillus fumigatus MF071,S003,Evidence remains candidate-level.,124
+M4-FUNG-0482:E001,M4-FUNG-0482,E001,NCBITAXON:746128,STR_5a204b26ceb1,Aspergillus fumigatus MF071,S003,No BGC0002601-specific causal experiment.,124
+M4-FUNG-0483:E001,M4-FUNG-0483,E001,NCBITAXON:5059,STR_d53374e7f109,Aspergillus flavus,S003,Defining functional study.,124
+M4-FUNG-0484:E001,M4-FUNG-0484,E001,NCBITAXON:46472,STR_064ad6afb35a,Aspergillus oryzae,S003,Direct BGC sufficiency.,124
+M4-FUNG-0484:E002,M4-FUNG-0484,E002,NCBITAXON:46472,STR_064ad6afb35a,Aspergillus oryzae,S003,Direct tailoring/modularity evidence.,125
+M4-FUNG-0485:E001,M4-FUNG-0485,E001,NCBITAXON:1287682,STR_541569bcceb4,Aspergillus oryzae engineered pathway,S003,Direct module-level functional evidence.,124
+M4-FUNG-0486:E001,M4-FUNG-0486,E001,NCBITAXON:40993,STR_01a58ae50d13,Aspergillus carbonarius OTA-producing strains,S003,"Strong correlation, not designed knockout.",124
+M4-FUNG-0487:E001,M4-FUNG-0487,E001,NCBITAXON:5061,STR_84e46571cf8a,Aspergillus niger OTA-producing strains,S003,"Strong correlation, not designed knockout.",124
+M4-FUNG-0488:E001,M4-FUNG-0488,E001,NCBITAXON:357447,STR_f47a54218d94,Aspergillus westerdijkiae OTA-producing strains,S003,"Strong correlation, not designed knockout.",124
+M4-FUNG-0489:E001,M4-FUNG-0489,E001,NCBITAXON:306088,STR_669b92d08a2f,Aspergillus steynii OTA-producing strains,S003,"Strong correlation, not designed knockout.",124
+M4-FUNG-0490:E001,M4-FUNG-0490,E001,NCBITAXON:1341132,STR_baf658d49d69,Aspergillus niger / Aspergillus welwitschiae isolate panel,S003,"Strong natural association, not targeted gene deletion.",124
+M4-FUNG-0491:E001,M4-FUNG-0491,E001,NCBITAXON:1549217,STR_ab8274d6bc1a,Stl-TS expression system,S003,,124
+M4-FUNG-0491:E002,M4-FUNG-0491,E002,NCBITAXON:1549217,STR_5467b27595c7,Stl-TS + Stl-P450 expression system,S003,,125
+M4-FUNG-0492:E001,M4-FUNG-0492,E001,NCBITAXON:1810919,STR_983107765059,Aspergillus sydowi No. Y-30462 / A. mulundensis,S004,,124
+M4-FUNG-0492:E002,M4-FUNG-0492,E002,NCBITAXON:1810919,STR_34f01edd2cf6,A. mulundensis DSMZ 5745,S003,,125
+M4-FUNG-0493:E001,M4-FUNG-0493,E001,NCBITAXON:1549217,STR_6a77af360a7f,anditomin-pathway heterologous expression system,S003,,124
+M4-FUNG-0493:E002,M4-FUNG-0493,E002,NCBITAXON:1549217,STR_bf84fcc69f15,AndA assay/reconstruction,S003,,125
+M4-FUNG-0493:E003,M4-FUNG-0493,E003,NCBITAXON:1549217,STR_5c9d7b0f3b87,AndF assay/reconstruction,S003,,126
+M4-FUNG-0494:E001,M4-FUNG-0494,E001,NCBITAXON:904690,STR_ce30be33c654,Aspergillus oryzae heterologous host,S003,,124
+M4-FUNG-0494:E002,M4-FUNG-0494,E002,NCBITAXON:904690,STR_c717d3085b4e,Aspergillus oryzae + P. shearii esdp genes,S005,,125
+M4-FUNG-0494:E003,M4-FUNG-0494,E003,NCBITAXON:904690,STR_e9693902f629,heterologous DDP product panel,S003; S005,,126
+M4-FUNG-0495:E001,M4-FUNG-0495,E001,NCBITAXON:374132,STR_579b668c9c28,P. terrestre LM2 derivatives,S003,,124
+M4-FUNG-0496:E001,M4-FUNG-0496,E001,NCBITAXON:5082,STR_4ac9221882c5,P. roqueforti F43-1,S003,,124
+M4-FUNG-0496:E002,M4-FUNG-0496,E002,NCBITAXON:5082,STR_c537419956f2,55 P. roqueforti strains,S003,,125
+M4-FUNG-0497:E001,M4-FUNG-0497,E001,NCBITAXON:1813945,STR_4e1a14b558a1,Penicillium sp. YT-2016 ΔpsyA,S003,,124
+M4-FUNG-0498:E001,M4-FUNG-0498,E001,NCBITAXON:36656,STR_4a9ac694d616,P. crustosum ΔpenP,S003,,124
+M4-FUNG-0498:E002,M4-FUNG-0498,E002,NCBITAXON:36656,STR_564ae28a3e87,Aspergillus oryzae reconstruction hosts,S004,,125
+M4-FUNG-0499:E001,M4-FUNG-0499,E001,NCBITAXON:5074,STR_bcd735466c46,recombinant MpaG′,S003,,124
+M4-FUNG-0500:E001,M4-FUNG-0500,E001,NCBITAXON:1873369,STR_02b2a391409f,A. hancockii HknR-overexpression strain,S003,,124
+M4-FUNG-0500:E002,M4-FUNG-0500,E002,NCBITAXON:1873369,STR_46329233d47e,HknE heterologous/in-vitro system,S003,,125
+M4-FUNG-0501:E001,M4-FUNG-0501,E001,NCBITAXON:77044,STR_feff43e3ef23,Aspergillus nidulans expressing S. araneosa sdn genes,S004,,124
+M4-FUNG-0501:E002,M4-FUNG-0501,E002,NCBITAXON:77044,STR_39ef3c7d031f,Saccharomyces cerevisiae RC01,S004,,125
+M4-FUNG-0502:E001,M4-FUNG-0502,E001,NCBITAXON:1859971,STR_e5f8aa17061c,P. roridum NRRL 2183,S003,,124
+M4-FUNG-0502:E002,M4-FUNG-0502,E002,NCBITAXON:1859971,STR_ad8bd86a433b,P. roridum NRRL 2183 genome,S003,No genetic or heterologous validation.,125
+M4-FUNG-0503:E001,M4-FUNG-0503,E001,NCBITAXON:284135,STR_3f528a7ca3fc,A. nidulans 1145 ΔEMΔST,S003,,124
+M4-FUNG-0503:E002,M4-FUNG-0503,E002,NCBITAXON:284135,STR_9bdad64b8feb,purified PdxG/AdxG/EpiG SDR homologs,S003,Direct for SDR homologs; supports but does not directly assay SdxG.,125
+M4-FUNG-0503:E003,M4-FUNG-0503,E003,NCBITAXON:284135,STR_3ffe559d44b8,chemical control,S003,Critical control establishing spontaneous late cyclization.,126
+M4-FUNG-0504:E001,M4-FUNG-0504,E001,NCBITAXON:2784450,STR_109148bcc9e4,Xylaria sp. 218_066,S003,Culture details reported in defining study/full-text methods.,124
+M4-FUNG-0504:E002,M4-FUNG-0504,E002,NCBITAXON:2784450,STR_efe0a95c0288,Xylaria sp. 218_066 genome,S003,Not a causal genetic or enzymatic validation experiment.,125
+M4-FUNG-0505:E001,M4-FUNG-0505,E001,NCBITAXON:426428,STR_f8dc99c42b77,recombinant FfnC,S003,,124
+M4-FUNG-0505:E002,M4-FUNG-0505,E002,NCBITAXON:426428,STR_8f2bf514d366,recombinant FfnD,S003,,125
+M4-FUNG-0505:E003,M4-FUNG-0505,E003,NCBITAXON:426428,STR_8f2bf514d366,recombinant FfnD,S003,,126
+M4-FUNG-0506:E001,M4-FUNG-0506,E001,NCBITAXON:741705,STR_92e9413fc68c,E. coli expressing Copu5,S003,,124
+M4-FUNG-0506:E002,M4-FUNG-0506,E002,NCBITAXON:741705,STR_f6fb9113be36,optimized E. coli Copu5 fed-batch,S003,,125
+M4-FUNG-0507:E001,M4-FUNG-0507,E001,NCBITAXON:741705,STR_71c2ae47e6db,E. coli expressing Copu9,S003,,124
+M4-FUNG-0507:E002,M4-FUNG-0507,E002,NCBITAXON:741705,STR_a2da4147975b,optimized E. coli Copu9 fed-batch,S003,,125
+M4-FUNG-0507:E003,M4-FUNG-0507,E003,NCBITAXON:741705,STR_d35e25ecb5a9,purified Copu9,S003; S004,,126
+M4-FUNG-0508:E001,M4-FUNG-0508,E001,NCBITAXON:229533,STR_1323c9cf3c26,F. graminearum PH-1 pathway mutants,S003,,124
+M4-FUNG-0508:E002,M4-FUNG-0508,E002,NCBITAXON:229533,STR_f53eedacf6ae,G. zeae/F. graminearum GIP2 mutants,S004,,125
+M4-FUNG-0508:E003,M4-FUNG-0508,E003,NCBITAXON:229533,STR_6233f13eb68c,F. graminearum PH-1 ΔaurZ/ΔaurS/ΔaurT panel,S005,,126
+M4-FUNG-0509:E001,M4-FUNG-0509,E001,NCBITAXON:655844,STR_9c4c731c4df4,M. robertsii ARSEF 23 WT,S003,,124
+M4-FUNG-0509:E002,M4-FUNG-0509,E002,NCBITAXON:655844,STR_af0efd39b5e4,ΔmrsidA and ΔmrsidD,S003,,125
+M4-FUNG-0509:E003,M4-FUNG-0509,E003,NCBITAXON:655844,STR_d70b88ee2398,ΔmrapdA,S003,,126
+M4-FUNG-0510:E001,M4-FUNG-0510,E001,NCBITAXON:45130,STR_d5d0e54cc794,B. sorokiniana 11134,S003,,124
+M4-FUNG-0510:E002,M4-FUNG-0510,E002,NCBITAXON:45130,STR_6bc17a61cc0f,isolated compound bioactivity panel,S003,,125
+M4-FUNG-0511:E001,M4-FUNG-0511,E001,NCBITAXON:1735992,STR_3162dca98f17,Neonectria sp. DH2,S003,,126
+M4-FUNG-0511:E002,M4-FUNG-0511,E002,NCBITAXON:1735992,STR_896c77c00161,A. nidulans pDH5,S003,,127
+M4-FUNG-0512:E001,M4-FUNG-0512,E001,NCBITAXON:690307,STR_606a239ee39e,A. aculeatus ATCC 16872,S003,Native causal evidence.,124
+M4-FUNG-0512:E002,M4-FUNG-0512,E002,NCBITAXON:690307,STR_8aef1918dbef,S. cerevisiae,S003,,125
+M4-FUNG-0512:E003,M4-FUNG-0512,E003,NCBITAXON:690307,STR_9d8605f3f3ac,S. cerevisiae / A. oryzae,S003,,126
+M4-FUNG-0512:E004,M4-FUNG-0512,E004,NCBITAXON:690307,STR_f49434ff9034,A. aculeatus deletion strains,S003,,127
+M4-FUNG-0513:E001,M4-FUNG-0513,E001,NCBITAXON:367110,STR_70613cf46ca6,A. nidulans,S003,,124
+M4-FUNG-0513:E002,M4-FUNG-0513,E002,NCBITAXON:367110,STR_70613cf46ca6,A. nidulans,S003,,125
+M4-FUNG-0513:E003,M4-FUNG-0513,E003,NCBITAXON:367110,STR_ab30b5229efe,N. crassa OR74A,S003,,126
+M4-FUNG-0514:E001,M4-FUNG-0514,E001,NCBITAXON:104259,STR_d9279a042554,P. brasilianum HBU-136,S003,,124
+M4-FUNG-0514:E002,M4-FUNG-0514,E002,NCBITAXON:104259,STR_b8994eff1114,isolated compounds,S003,,125
+M4-FUNG-0515:E001,M4-FUNG-0515,E001,NCBITAXON:2582783,STR_36d859984aed,A. nanangensis MST-FP2251,S003,,124
+M4-FUNG-0515:E002,M4-FUNG-0515,E002,NCBITAXON:2582783,STR_ed1f2cafe341,isolated nanangenines,S003,,125
+M4-FUNG-0516:E001,M4-FUNG-0516,E001,NCBITAXON:341663,STR_9602553ce484,S. cerevisiae,S003,,124
+M4-FUNG-0516:E002,M4-FUNG-0516,E002,NCBITAXON:341663,STR_9602553ce484,S. cerevisiae,S003,,125
+M4-FUNG-0516:E003,M4-FUNG-0516,E003,NCBITAXON:341663,STR_9018ad7ea605,ATEG_03630 biochemical/function tests,S003,,126
+M4-FUNG-0517:E001,M4-FUNG-0517,E001,NCBITAXON:341663,STR_ede6ba5e5f29,heterologous host expressing AtAS,S003,,124
+M4-FUNG-0517:E002,M4-FUNG-0517,E002,NCBITAXON:341663,STR_17817ed28a96,heterologous system,S003,,125
+M4-FUNG-0518:E001,M4-FUNG-0518,E001,NCBITAXON:60169,STR_0ebe5bdaed75,P. polonicum X6 WT and ΔverA,S003,,124
+M4-FUNG-0518:E002,M4-FUNG-0518,E002,NCBITAXON:60169,STR_0ebe5bdaed75,P. polonicum X6 WT and ΔverA,S003,,125
+M4-FUNG-0518:E003,M4-FUNG-0518,E003,NCBITAXON:60169,STR_cf49d3ad4f3d,P. polonicum / P. aurantiogriseum / P. crustosum,S003,,126
+M4-FUNG-0518:E004,M4-FUNG-0518,E004,NCBITAXON:60169,STR_10d84a42b303,P. polonicum NRRL995,S005,Different strain/product context; ortholog evidence not promoted to X6-direct.,127
+M4-FUNG-0519:E001,M4-FUNG-0519,E001,NCBITAXON:1314807,STR_837a66c6492f,D. bispora CBS 962.96,S003,,124
+M4-FUNG-0519:E002,M4-FUNG-0519,E002,NCBITAXON:1314807,STR_4775e1da5c91,P. pastoris GS115,S003,"Hybrid precursor/protease system, not intact DbiMA1+DbiP reconstruction.",125
+M4-FUNG-0519:E003,M4-FUNG-0519,E003,NCBITAXON:1314807,STR_82fdac5d2a4c,M. incognita J2 larvae,S003,,126
+M4-FUNG-0519:E004,M4-FUNG-0519,E004,NCBITAXON:1314807,STR_7ae0ebdb4d15,prior heterologous DbiMA1 protein system,S003,,127
+M4-FUNG-0520:E001,M4-FUNG-0520,E001,NCBITAXON:5353,STR_7c68c884cc05,L. edodes 4312,S003,,124
+M4-FUNG-0520:E002,M4-FUNG-0520,E002,NCBITAXON:5353,STR_e4dc159fd680,P. pastoris GS115,S003,,125
+M4-FUNG-0520:E003,M4-FUNG-0520,E003,NCBITAXON:5353,STR_080e63697b5a,M. incognita J2,S003,,126
+M4-FUNG-0520:E004,M4-FUNG-0520,E004,NCBITAXON:5353,STR_9a744e0d4157,P. pastoris LedP tests,S003,,127
+M4-FUNG-0521:E001,M4-FUNG-0521,E001,NCBITAXON:41067,STR_6b5cbba31d27,A. oryzae heterologous transformants,S003,,124
+M4-FUNG-0521:E002,M4-FUNG-0521,E002,NCBITAXON:41067,STR_b9f264423e18,AcdB heterologous system,S003,,125
+M4-FUNG-0521:E003,M4-FUNG-0521,E003,NCBITAXON:41067,STR_bf75542e964d,product structure characterization,S003,,126
+M4-FUNG-0521:E004,M4-FUNG-0521,E004,NCBITAXON:41067,STR_7e390ca60703,AcdD precursor-supply context,S001; S003,,127
+M4-FUNG-0522:E001,M4-FUNG-0522,E001,NCBITAXON:227321,STR_d396d0649545,A. nidulans csnE perturbation strains,S003,Global perturbation is pleiotropic; pathway specificity is established by later native dba genetics.,124
+M4-FUNG-0522:E002,M4-FUNG-0522,E002,NCBITAXON:227321,STR_2db0b2cf421e,A. nidulans AGB552-derived strains,S004,Defines a chemically triggered transcriptional gate without assigning the upstream sensor.,125
+M4-FUNG-0522:E003,M4-FUNG-0522,E003,NCBITAXON:227321,STR_45c0723d8592,A. nidulans native single-gene deletion panel,S004,Principal native gene-to-product attribution experiment.,126
+M4-FUNG-0522:E004,M4-FUNG-0522,E004,NCBITAXON:227321,STR_ef5a138cb234,A. nidulans with Streptomyces mobaraensis and comparator Streptomyces spp.,S004,Links a bacterial chemical signal to fungal BGC activation.,127
+M4-FUNG-0522:E005,M4-FUNG-0522,E005,NCBITAXON:227321,STR_8fc58314b604,bacterial indicator bioassay with A. nidulans extracts,S004,Extract-level ecological evidence; not a single-purified-compound causality test.,128
+M4-FUNG-0523:E001,M4-FUNG-0523,E001,NCBITAXON:293381,STR_f624f721f04e,heterologous fungal expression system,S003,Primary cluster-level causal evidence.,124
+M4-FUNG-0523:E002,M4-FUNG-0523,E002,NCBITAXON:293381,STR_91db09b66f9d,purified BrvJ assay,S003,Strongest enzyme-level mechanistic evidence.,125
+M4-FUNG-0523:E003,M4-FUNG-0523,E003,NCBITAXON:293381,STR_0cd44f3f8a49,BrvJ/SetK variant comparison,S003,Prevents ortholog/homolog function from being treated as automatically transferable.,126
+M4-FUNG-0524:E001,M4-FUNG-0524,E001,NCBITAXON:759273,STR_7bf0b5e072f0,C. higginsianum ΔcclA,S004,"Activation evidence, not yet direct cluster causality.",124
+M4-FUNG-0524:E002,M4-FUNG-0524,E002,NCBITAXON:759273,STR_1deecd21300f,S. cerevisiae BJNBC-008,S003,Diagnoses protein-expression bottleneck rather than disproving ctc4 function.,125
+M4-FUNG-0524:E003,M4-FUNG-0524,E003,NCBITAXON:759273,STR_8a65eafc1ea7,S. cerevisiae BJNBC-015,S003,Principal cluster-reconstruction experiment.,126
+M4-FUNG-0524:E004,M4-FUNG-0524,E004,NCBITAXON:759273,STR_3821f1c4645f,engineered yeast versus native C. higginsianum,S003,"Relative production result, not universal for every congener.",127
+M4-FUNG-0525:E001,M4-FUNG-0525,E001,NCBITAXON:330879,STR_28c9b7144278,A. nidulans dereplication/refactoring strains carrying A. fumigatus spy genes,S003,Core causal access experiment.,124
+M4-FUNG-0525:E002,M4-FUNG-0525,E002,NCBITAXON:330879,STR_d1f2d17e1e10,A. nidulans LO11839 agsBΔ refactored spy strain,S003,Host-engineering yield enhancement; not a native activation cue.,125
+M4-FUNG-0525:E003,M4-FUNG-0525,E003,NCBITAXON:330879,STR_5233cb496c68,A. nidulans spyA-deletion derivative,S003,Direct requirement evidence with a small heterologous-host residual.,126
+M4-FUNG-0525:E004,M4-FUNG-0525,E004,NCBITAXON:330879,STR_f3900ecff412,A. nidulans spyB-deletion derivative,S003,Also validates downstream SpyB start site.,127
+M4-FUNG-0525:E005,M4-FUNG-0525,E005,NCBITAXON:330879,STR_ff9533b3f047,A. nidulans spyC/spyD/spyE deletion derivatives,S003,Strong gene-to-step localization.,128
+M4-FUNG-0525:E006,M4-FUNG-0525,E006,NCBITAXON:330879,STR_41759ac8af6b,A. nidulans individual SpyA expression strain,S003,Direct biochemical-execution evidence for the initiating NR-PKS.,129
+M4-FUNG-0526:E001,M4-FUNG-0526,E001,NCBITAXON:655844,STR_c531aceaa1c7,Aspergillus nidulans 1145 expressing Ma_OvaA/B/C,,,125
+M4-FUNG-0526:E002,M4-FUNG-0526,E002,NCBITAXON:655844,STR_18fd3e80d73a,A. nidulans combinatorial Ova expression strains,,,126
+M4-FUNG-0527:E001,M4-FUNG-0527,E001,NCBITAXON:75552,STR_a3155136ad31,Aspergillus oryzae expressing drcA,,,125
+M4-FUNG-0527:E002,M4-FUNG-0527,E002,NCBITAXON:75552,STR_35093a3712f6,A. oryzae expressing drcA+drcB,,,126
+M4-FUNG-0527:E003,M4-FUNG-0527,E003,NCBITAXON:75552,STR_44f8f2e99746,recombinant DrcA/SAT-domain constructs,,,127
+M4-FUNG-0528:E001,M4-FUNG-0528,E001,NCBITAXON:2715282,STR_dc2d85d59107,A. luteorubrus MST-FP2246,,,125
+M4-FUNG-0528:E002,M4-FUNG-0528,E002,NCBITAXON:2715282,STR_a1f5514a479c,A. nidulans LO8030 expressing ltbABCD / gene subsets,,,126
+M4-FUNG-0528:E003,M4-FUNG-0528,E003,NCBITAXON:2715282,STR_3c949a88d86b,A. nidulans expressing ltbA-ΔcAT ± ltbB,,,127
+M4-FUNG-0528:E004,M4-FUNG-0528,E004,NCBITAXON:2715282,STR_fca096117f37,A. nidulans expressing LtbA with glucinol feeding,,,128
+M4-FUNG-0529:E001,M4-FUNG-0529,E001,NCBITAXON:3077947,STR_150394bb2281,Aspergillus oryzae expressing PbpsA,,,125
+M4-FUNG-0530:E001,M4-FUNG-0530,E001,NCBITAXON:469280,STR_d5e9cd7e1abe,P. paxilli PAX mutant/null strains complemented with EST1 genes,,,125
+M4-FUNG-0531:E001,M4-FUNG-0531,E001,NCBITAXON:2911399,STR_80a274385ae1,Aspergillus nidulans A1145 expressing MollA-MollF,,,125
+M4-FUNG-0531:E002,M4-FUNG-0531,E002,NCBITAXON:2911399,STR_2fa7d761e507,A. nidulans gene-combination derivatives,,,126
+M4-FUNG-0532:E001,M4-FUNG-0532,E001,NCBITAXON:2003561,STR_912f8fb446a8,P. meliponae MMSRG-058 wild type,,,125
+M4-FUNG-0532:E002,M4-FUNG-0532,E002,NCBITAXON:2003561,STR_2ac385d4f8c4,P. meliponae ΔsclA,,,126
+M4-FUNG-0532:E003,M4-FUNG-0532,E003,NCBITAXON:2003561,STR_79912ad70f75,P. meliponae ΔsclI,,,127
+M4-FUNG-0533:E001,M4-FUNG-0533,E001,NCBITAXON:5503,STR_09ccaf89629e,Curvularia lunata ATCC 74067,,,125
+M4-FUNG-0533:E002,M4-FUNG-0533,E002,NCBITAXON:5503,STR_84a3f1360417,A. nidulans A1145ΔSTΔEM expressing clz gene combinations,,,126
+M4-FUNG-0533:E003,M4-FUNG-0533,E003,NCBITAXON:5503,STR_43610a0279f7,A. nidulans clz14-omission derivative,,,127
+M4-FUNG-0533:E004,M4-FUNG-0533,E004,NCBITAXON:5503,STR_e490dcdf94b1,A. nidulans clz17-omission derivative,,,128
+M4-FUNG-0533:E005,M4-FUNG-0533,E005,NCBITAXON:5503,STR_b64bc647a5d5,A. nidulans expressing clz14+clz17+clz11,,,129
+M4-FUNG-0534:E001,M4-FUNG-0534,E001,NCBITAXON:1400770,STR_3aaf4031d6c0,C. metacorallifera KoLRI002260,,,126
+M4-FUNG-0534:E002,M4-FUNG-0534,E002,NCBITAXON:1400770,STR_8957951bc48f,same strain,,,127
+M4-FUNG-0534:E003,M4-FUNG-0534,E003,NCBITAXON:1400770,STR_8957951bc48f,same strain,,,128
+M4-FUNG-0534:E004,M4-FUNG-0534,E004,NCBITAXON:1400770,STR_8957951bc48f,same strain,,,129
+M4-FUNG-0534:E005,M4-FUNG-0534,E005,NCBITAXON:1400770,STR_8957951bc48f,same strain,,,130
+M4-FUNG-0535:E001,M4-FUNG-0535,E001,NCBITAXON:1810909,STR_4884cc629d88,P. paxilli PAX-null strain expressing desB+paxG+paxC+desM,,,125
+M4-FUNG-0535:E002,M4-FUNG-0535,E002,NCBITAXON:1810909,STR_749eff671872,P. paxilli PaxM mutant complemented with DesM,,,126
+M4-FUNG-0536:E001,M4-FUNG-0536,E001,NCBITAXON:983644,STR_31450f1a9020,Aspergillus nidulans expressing C. militaris cryptic three-gene module,,,124
+M4-FUNG-0536:E002,M4-FUNG-0536,E002,NCBITAXON:983644,STR_eadb5bb6d995,Cordyceps militaris CM01 genome,,,125
+M4-FUNG-0537:E001,M4-FUNG-0537,E001,NCBITAXON:1353983,STR_0243f9ad48df,C. macilenta biruloquinone-producing LFF variant,,,124
+M4-FUNG-0537:E002,M4-FUNG-0537,E002,NCBITAXON:1353983,STR_2d845d1fc22b,C. macilenta non-producing LFF variant,,,125
+M4-FUNG-0538:E001,M4-FUNG-0538,E001,NCBITAXON:162425,STR_47c62c800677,S. cerevisiae BJ5464-npgA expressing sidC+sidA+sidL,,,124
+M4-FUNG-0538:E002,M4-FUNG-0538,E002,NCBITAXON:162425,STR_7cd7ae6620a8,purified holo-SidC,,,125
+M4-FUNG-0538:E003,M4-FUNG-0538,E003,NCBITAXON:162425,STR_614116785a69,SidC domain-deletion/isolated-domain constructs,,,126
+M4-FUNG-0539:E001,M4-FUNG-0539,E001,NCBITAXON:645133,STR_ae6e3669ec66,C. graminicola M1.001 / maize interaction,,,124
+M4-FUNG-0539:E002,M4-FUNG-0539,E002,NCBITAXON:645133,STR_381410da8d43,C. graminicola native cultures/tissues from cited chemistry studies,,,125
+M4-FUNG-0540:E001,M4-FUNG-0540,E001,NCBITAXON:1756131,STR_eac89b815464,Arthrinium sp. NF2194 wild type under optimized medium,,,124
+M4-FUNG-0540:E002,M4-FUNG-0540,E002,NCBITAXON:1756131,STR_00af5d27f33f,atn gene-inactivation strains,,,125
+M4-FUNG-0540:E003,M4-FUNG-0540,E003,NCBITAXON:1756131,STR_ae61c9ed8715,heterologous atn-expression constructs,,,126
+M4-FUNG-0540:E004,M4-FUNG-0540,E004,NCBITAXON:1756131,STR_659f7c266d31,recombinant pathway enzymes,,,127
+M4-FUNG-0541:E001,M4-FUNG-0541,E001,NCBITAXON:1341132,STR_765cf1cb8e53,fumonisin-producing A. welwitschiae isolates,,,124
+M4-FUNG-0541:E002,M4-FUNG-0541,E002,NCBITAXON:1341132,STR_8bf38fd0ff00,fumonisin-nonproducing A. welwitschiae isolates,,,125
+M4-FUNG-0541:E003,M4-FUNG-0541,E003,NCBITAXON:1341132,STR_c68191f20319,A. niger comparison panel,,,126
+M4-FUNG-0542:E001,M4-FUNG-0542,E001,NCBITAXON:2696576,STR_7d1fe1abf02b,heterologous anc-cluster expression system,,,124
+M4-FUNG-0542:E002,M4-FUNG-0542,E002,NCBITAXON:2696576,STR_131ca10bc976,recombinant AncC,,,125
+M4-FUNG-0542:E003,M4-FUNG-0542,E003,NCBITAXON:2696576,STR_26e7b25b7694,recombinant AncA and active-site variants,,,126
+M4-FUNG-0543:E001,M4-FUNG-0543,E001,NCBITAXON:1229662,STR_02e044906aab,A. nidulans expressing fnsA,,,124
+M4-FUNG-0543:E002,M4-FUNG-0543,E002,NCBITAXON:1229662,STR_4671c6f6c10e,S. cerevisiae expressing fnsA,,,125
+M4-FUNG-0543:E003,M4-FUNG-0543,E003,NCBITAXON:1229662,STR_6f7e09bbd3c3,FnsA precursor-feeding strains,,,126
+M4-FUNG-0543:E004,M4-FUNG-0543,E004,NCBITAXON:1229662,STR_0ff1ac264d4f,recombinant FnsA/A-domain assays,,,127
+M4-FUNG-0544:E001,M4-FUNG-0544,E001,NCBITAXON:1835702,STR_2a327dc05dec,A. oryzae NSAR1 astE/astEA/astEAG derivatives,,,124
+M4-FUNG-0544:E002,M4-FUNG-0544,E002,NCBITAXON:1835702,STR_c3f0a57a3e9c,A. oryzae multi-gene ast derivatives,,,125
+M4-FUNG-0544:E003,M4-FUNG-0544,E003,NCBITAXON:1835702,STR_30c17b2a97c3,recombinant AstI,,,126
+M4-FUNG-0544:E004,M4-FUNG-0544,E004,NCBITAXON:1835702,STR_b7ae6df446ac,recombinant AstB/AstL/AstK,,,127
+M4-FUNG-0544:E005,M4-FUNG-0544,E005,NCBITAXON:1835702,STR_3d799b0fbd2c,A. oryzae astC-containing constructs,,,128
+M4-FUNG-0545:E001,M4-FUNG-0545,E001,NCBITAXON:1635095,STR_664f7aa0b9fb,P. paxilli CY2 expressing sesE+sesM+sesB,,,124
+M4-FUNG-0545:E002,M4-FUNG-0545,E002,NCBITAXON:1635095,STR_ca52e74d94de,P. paxilli SES tailoring combinations,,,125
+M4-FUNG-0545:E003,M4-FUNG-0545,E003,NCBITAXON:1635095,STR_4f6dcd15deec,P. paxilli strains combining SES and TER products/genes,,,126
+M4-FUNG-0545:E004,M4-FUNG-0545,E004,NCBITAXON:1635095,STR_79acedea9454,reference SPD-cluster constructs,,,127
+M4-FUNG-0546:E001,M4-FUNG-0546,E001,NCBITAXON:87276,STR_07bc53b621e5,U. deusta representative genome,,,124
+M4-FUNG-0546:E002,M4-FUNG-0546,E002,NCBITAXON:87276,STR_18040c8c848a,15 Umbilicaria genomes from nine GA-producing species,,,125
+M4-FUNG-0546:E003,M4-FUNG-0546,E003,NCBITAXON:87276,STR_bb70d24c8257,native lichen specimens,,,126
+M4-FUNG-0557:E001,M4-FUNG-0557,E001,NCBITAXON:69781,STR_28276a393539,P. oxalicum MEFC104 WT and PKS-NRPS deletion mutants,,,124
+M4-FUNG-0557:E002,M4-FUNG-0557,E002,NCBITAXON:69781,STR_2b31088b9f4d,individual opd-gene deletion series,,,125
+M4-FUNG-0558:E001,M4-FUNG-0558,E001,NCBITAXON:69789,STR_fa9e702e182f,"P. soppii WT, ΔPscyA and ΔPscyB",,,124
+M4-FUNG-0558:E002,M4-FUNG-0558,E002,NCBITAXON:69789,STR_74757c60eea6,A. oryzae NSAR1 + PscyA/PscyB,,,125
+M4-FUNG-0558:E003,M4-FUNG-0558,E003,NCBITAXON:69789,STR_4234f088464d,ΔPscyA feeding strains,,,126
+M4-FUNG-0559:E001,M4-FUNG-0559,E001,NCBITAXON:293374,STR_dd7198371b5b,A. nidulans vdo transformants,,,124
+M4-FUNG-0560:E001,M4-FUNG-0560,E001,NCBITAXON:1053259,STR_dcf19309f900,N. discophora SNB-CN63,,,124
+M4-FUNG-0561:E001,M4-FUNG-0561,E001,NCBITAXON:1365484,STR_f9344085b0e2,P. roqueforti genes in A. nidulans,,,124
+M4-FUNG-0562:E001,M4-FUNG-0562,E001,NCBITAXON:2041049,STR_195d76c74a7b,C. gorgonifer WT versus ΔCgPKS4/Rsf1,,,124
+M4-FUNG-0563:E001,M4-FUNG-0563,E001,NCBITAXON:3047880,STR_482b04d47fa9,CF-150626 and A. oryzae NSAR1 constructs,,,124
+M4-FUNG-0564:E001,M4-FUNG-0564,E001,NCBITAXON:5065,STR_d1c3904d33fa,SX7S7 gene-disruption and heterologous/in-vitro systems,,,124
+M4-FUNG-0565:E001,M4-FUNG-0565,E001,NCBITAXON:1126212,STR_e78be6be795d,M. phaseolina genes in heterologous host,,,124
+M4-FUNG-0565:E002,M4-FUNG-0565,E002,NCBITAXON:1126212,STR_ade8251169e5,MacC enzyme reactions,,,125
+M4-FUNG-0566:E001,M4-FUNG-0566,E001,NCBITAXON:69788,STR_28b0adf33018,P. sclerotiorum SNB-CN111,,,124
+M4-FUNG-0567:E001,M4-FUNG-0567,E001,NCBITAXON:330879,STR_26d6afb1c31b,A. fumigatus Af293 WT and ΔcrmA,,,124
+M4-FUNG-0567:E002,M4-FUNG-0567,E002,NCBITAXON:330879,STR_9f1608173d8b,A. fumigatus Af293 crmA overexpression,,,125
+M4-FUNG-0568:E001,M4-FUNG-0568,E001,NCBITAXON:36652,STR_e4f5f87a6007,P. crustosum PRB-2 deletion mutants,,,124
+M4-FUNG-0568:E002,M4-FUNG-0568,E002,NCBITAXON:36652,STR_e9c146f72e3c,heterologous fungal host,,,125
+M4-FUNG-0569:E001,M4-FUNG-0569,E001,NCBITAXON:69789,STR_c77ca30ae886,A. oryzae heterologous host,,,124
+M4-FUNG-0570:E001,M4-FUNG-0570,E001,NCBITAXON:40382,STR_a3cbdd18a23e,A. nidulans heterologous gdlS,,,124
+M4-FUNG-0570:E002,M4-FUNG-0570,E002,NCBITAXON:40382,STR_34a0c51eac79,A. ustus 3.3904,,,125
+M4-FUNG-0570:E003,M4-FUNG-0570,E003,NCBITAXON:40382,STR_10e384d62092,recombinant GdlS,,,126
+M4-FUNG-0571:E001,M4-FUNG-0571,E001,NCBITAXON:665912,STR_d6e243945b02,heterologous SatA/SatB/SatC system,,,124
+M4-FUNG-0571:E002,M4-FUNG-0571,E002,NCBITAXON:665912,STR_cea6f1c51048,enzyme/substrate combinations,,,125
+M4-FUNG-0572:E001,M4-FUNG-0572,E001,NCBITAXON:1279085,STR_e272aff04313,F. fujikuroi WT vs ΔHDA1,,,124
+M4-FUNG-0572:E002,M4-FUNG-0572,E002,NCBITAXON:1279085,STR_8d80223eab4b,F. fujikuroi ΔBEA3,,,125
+M4-FUNG-0572:E003,M4-FUNG-0572,E003,NCBITAXON:1279085,STR_14533d198fd3,F. fujikuroi chromatin/regulator mutants,,,126
+M4-FUNG-0573:E001,M4-FUNG-0573,E001,NCBITAXON:685557,STR_6a26ff702729,M. alpina ATCC 32222,,,124
+M4-FUNG-0573:E002,M4-FUNG-0573,E002,NCBITAXON:685557,STR_6a26ff702729,M. alpina ATCC 32222,,,125
+M4-FUNG-0573:E003,M4-FUNG-0573,E003,NCBITAXON:685557,STR_a627d49cb249,E. coli recombinant A domains,,,126
+M4-FUNG-0574:E001,M4-FUNG-0574,E001,NCBITAXON:41900,STR_2dffba6f15a3,heterologous fungal TndC host,,,124
+M4-FUNG-0574:E002,M4-FUNG-0574,E002,NCBITAXON:41900,STR_535c4484efab,TndC expression system,,,125
+M4-FUNG-0574:E003,M4-FUNG-0574,E003,NCBITAXON:41900,STR_cdba768e6ac3,A. flavipes / pathway culture,,,126
+M4-FUNG-0575:E001,M4-FUNG-0575,E001,NCBITAXON:685557,STR_6a26ff702729,M. alpina ATCC 32222,,,124
+M4-FUNG-0575:E002,M4-FUNG-0575,E002,NCBITAXON:685557,STR_6a26ff702729,M. alpina ATCC 32222,,,125
+M4-FUNG-0575:E003,M4-FUNG-0575,E003,NCBITAXON:685557,STR_a627d49cb249,E. coli recombinant A domains,,,126
+M4-FUNG-0576:E001,M4-FUNG-0576,E001,NCBITAXON:229533,STR_d3af7d2ea40c,F. graminearum PH-1 NRPS4-overexpression strain,,,124
+M4-FUNG-0576:E002,M4-FUNG-0576,E002,NCBITAXON:229533,STR_02b333542a2e,F. graminearum PH-1 control/WT,,,125
+M4-FUNG-0577:E001,M4-FUNG-0577,E001,NCBITAXON:1388766,STR_2c5ddab9e782,Aspergillus nidulans heterologous host,,,123
+M4-FUNG-0577:E002,M4-FUNG-0577,E002,NCBITAXON:1388766,STR_773d37d9c9ec,E. coli expressing EchPT1/EchPT2,,,124
+M4-FUNG-0577:E003,M4-FUNG-0577,E003,NCBITAXON:1388766,STR_dabc8e084cdd,heterologous EchP450 system,,,125
+M4-FUNG-0577:E004,M4-FUNG-0577,E004,NCBITAXON:1388766,STR_61eccb4d9735,A. ruber QEN-0407-G2,,,126
+M4-FUNG-0578:E001,M4-FUNG-0578,E001,NCBITAXON:40382,STR_243e612833c1,Aspergillus nidulans,,,123
+M4-FUNG-0578:E002,M4-FUNG-0578,E002,NCBITAXON:40382,STR_34a0c51eac79,A. ustus 3.3904,,,124
+M4-FUNG-0578:E003,M4-FUNG-0578,E003,NCBITAXON:40382,STR_71b9c69dce85,E. coli BL21(DE3),,,125
+M4-FUNG-0578:E004,M4-FUNG-0578,E004,NCBITAXON:40382,STR_d28a9aec176b,A. nidulans ucdA-ucdG expression strain DJ04,,,126
+M4-FUNG-0579:E001,M4-FUNG-0579,E001,NCBITAXON:40382,STR_14b928401b31,Aspergillus ustus 3.3904,,,123
+M4-FUNG-0579:E002,M4-FUNG-0579,E002,NCBITAXON:40382,STR_243e612833c1,Aspergillus nidulans,,,124
+M4-FUNG-0579:E003,M4-FUNG-0579,E003,NCBITAXON:40382,STR_b85c9d44dddb,recombinant flavin oxygenase system,,,125
+M4-FUNG-0580:E001,M4-FUNG-0580,E001,NCBITAXON:201291,STR_9a5a29faee8b,Penicillium brocae MA-231,,,123
+M4-FUNG-0580:E002,M4-FUNG-0580,E002,NCBITAXON:201291,STR_ce1f26472f88,Aspergillus oryzae,,,124
+M4-FUNG-0580:E003,M4-FUNG-0580,E003,NCBITAXON:201291,STR_715bba019b37,in vitro enzyme systems,,,125
+M4-FUNG-0580:E004,M4-FUNG-0580,E004,NCBITAXON:201291,STR_2a6ce569f4fa,P. brocae / engineered strains,,,126
+M4-FUNG-0581:E001,M4-FUNG-0581,E001,NCBITAXON:2604179,STR_623e58677c38,Aspergillus oryzae NSAR1,,,129
+M4-FUNG-0581:E002,M4-FUNG-0581,E002,NCBITAXON:2604179,STR_bab47a54ba43,A. oryzae heterologous system,,,130
+M4-FUNG-0581:E003,M4-FUNG-0581,E003,NCBITAXON:2604179,STR_2554bae92323,Diaporthe sp. SYSU-MS4722 ΔphoE,,,131
+M4-FUNG-0581:E004,M4-FUNG-0581,E004,NCBITAXON:2604179,STR_c635a7692653,Diaporthe sp. SYSU-MS4722 WT,,,132
+M4-FUNG-0582:E001,M4-FUNG-0582,E001,NCBITAXON:2633043,STR_3439262e09b1,Phaeosphaeria sp. TTI001159 cluster in A. nidulans,,,125
+M4-FUNG-0582:E002,M4-FUNG-0582,E002,NCBITAXON:2633043,STR_c3fb52605a45,Aspergillus uvarum CBS121591,,,126
+M4-FUNG-0582:E003,M4-FUNG-0582,E003,NCBITAXON:2633043,STR_5f11978c7461,human CDK2/cyclin E1,,,127
+M4-FUNG-0582:E004,M4-FUNG-0582,E004,NCBITAXON:2633043,STR_3e2fc0faefad,HCT116 cells,,,128
+M4-FUNG-0583:E001,M4-FUNG-0583,E001,NCBITAXON:192010,STR_e8a169b9e277,F. mangiferae MRC7560 WT,,,123
+M4-FUNG-0583:E002,M4-FUNG-0583,E002,NCBITAXON:192010,STR_f79bc4bf3e25,F. mangiferae ΔFmKmt1 / chromatin mutants,,,124
+M4-FUNG-0583:E003,M4-FUNG-0583,E003,NCBITAXON:192010,STR_d81691271c6d,F. mangiferae cluster-gene deletion strains,,,125
+M4-FUNG-0583:E004,M4-FUNG-0583,E004,NCBITAXON:192010,STR_042514faf396,F. mangiferae comparative nitrogen cultures,,,126
+M4-FUNG-0584:E001,M4-FUNG-0584,E001,NCBITAXON:2011797,STR_b44a9ddb9967,Leptobacillium sp. CF-236968,,,123
+M4-FUNG-0584:E002,M4-FUNG-0584,E002,NCBITAXON:2011797,STR_9af96efea461,Aspergillus oryzae NSAR1,,,124
+M4-FUNG-0584:E003,M4-FUNG-0584,E003,NCBITAXON:2011797,STR_88c4c33a9196,A. oryzae pathway strains,,,125
+M4-FUNG-0585:E001,M4-FUNG-0585,E001,NCBITAXON:1718872,STR_4654c2ebf917,Stachybotrys sp. g12-derived genes,,,123
+M4-FUNG-0585:E002,M4-FUNG-0585,E002,NCBITAXON:1718872,STR_92013edc0380,engineered StrA constructs,,,124
+M4-FUNG-0585:E003,M4-FUNG-0585,E003,NCBITAXON:1718872,STR_4214278fee8e,StrC-containing pathway constructs,,,125
+M4-FUNG-0586:E001,M4-FUNG-0586,E001,NCBITAXON:1955268,STR_13a225162d36,J. multiformis stromata,,,123
+M4-FUNG-0586:E002,M4-FUNG-0586,E002,NCBITAXON:1955268,STR_37950a92cde4,Hypoxylaceae genome panel including J. multiformis,,,124
+M4-FUNG-0587:E001,M4-FUNG-0587,E001,NCBITAXON:36656,STR_bc060753b43c,heterologous fungal host expressing oesA,,,123
+M4-FUNG-0587:E002,M4-FUNG-0587,E002,NCBITAXON:36656,STR_2fa0029ff2c3,engineered oesA ACP-domain variants,,,124
+M4-FUNG-0587:E003,M4-FUNG-0587,E003,NCBITAXON:36656,STR_873440c0ed1a,heterologous oesA system,,,125
+M4-FUNG-0588:E001,M4-FUNG-0588,E001,NCBITAXON:2487000,STR_af5b7f7494b3,Hypomontagnella monticulosa MUCL 54604,,,123
+M4-FUNG-0588:E002,M4-FUNG-0588,E002,NCBITAXON:2487000,STR_0f6077db0fee,Aspergillus oryzae,,,124
+M4-FUNG-0588:E003,M4-FUNG-0588,E003,NCBITAXON:2487000,STR_a7fd2bcac079,A. oryzae mfn gene combinations,,,125
+M4-FUNG-0589:E001,M4-FUNG-0589,E001,NCBITAXON:690307,STR_67cd2ede1d29,Aspergillus oryzae,,,123
+M4-FUNG-0589:E002,M4-FUNG-0589,E002,NCBITAXON:690307,STR_67cd2ede1d29,Aspergillus oryzae,,,124
+M4-FUNG-0589:E003,M4-FUNG-0589,E003,NCBITAXON:690307,STR_22d14e5131f6,A. oryzae engineered strains,,,125
+M4-FUNG-0590:E001,M4-FUNG-0590,E001,NCBITAXON:1955266,STR_dba432418b5b,J. minutella stromata,,,123
+M4-FUNG-0590:E002,M4-FUNG-0590,E002,NCBITAXON:1955266,STR_e036173594c2,Hypoxylaceae comparative genome panel,,,124
+M4-FUNG-0591:E001,M4-FUNG-0591,E001,NCBITAXON:425011,STR_a703ceb57c19,A. niger CBS 513.88 WT and ΔktnS,,,123
+M4-FUNG-0591:E002,M4-FUNG-0591,E002,NCBITAXON:425011,STR_11c38b6059d3,A. niger ΔktnB/ΔktnC,,,124
+M4-FUNG-0592:E001,M4-FUNG-0592,E001,NCBITAXON:756982,STR_58a669e8a947,"A. oligospora WT, ΔAo415, ΔAo414",,,123
+M4-FUNG-0592:E002,M4-FUNG-0592,E002,NCBITAXON:756982,STR_c721f51cb86d,A. oligospora WT/mutants,,,124
+M4-FUNG-0592:E003,M4-FUNG-0592,E003,NCBITAXON:756982,STR_8d0ae6935e45,A. oligospora,,,125
+M4-FUNG-0593:E001,M4-FUNG-0593,E001,NCBITAXON:27334,STR_47841411d705,E. coli BL21(DE3) engineered MEP host,,,123
+M4-FUNG-0593:E002,M4-FUNG-0593,E002,NCBITAXON:27334,STR_8f78233882de,E. coli PeTS1 fusion variants,,,124
+M4-FUNG-0594:E001,M4-FUNG-0594,E001,NCBITAXON:229533,STR_fc0578567544,F. graminearum 50218 genes in A. oryzae NSAR1,,,123
+M4-FUNG-0594:E002,M4-FUNG-0594,E002,NCBITAXON:229533,STR_f38b87bc743a,F. graminearum PH-1 WT / ΔPKS15,,,124
+M4-FUNG-0594:E003,M4-FUNG-0594,E003,NCBITAXON:229533,STR_659646012007,F. graminearum PH-1 WT / ΔTS,,,125
+M4-FUNG-0594:E004,M4-FUNG-0594,E004,NCBITAXON:229533,STR_56163c47e644,F. graminearum PH-1 WT and transformants,,,126
+M4-FUNG-0595:E001,M4-FUNG-0595,E001,ORG_3705c8ce96de,STR_a1038fb80c47,P. furfuracea physodic-acid chemotype,,,123
+M4-FUNG-0595:E002,M4-FUNG-0595,E002,ORG_3705c8ce96de,STR_0ee296154e12,P. furfuracea olivetoric-acid chemotype,,,124
+M4-FUNG-0595:E003,M4-FUNG-0595,E003,ORG_3705c8ce96de,STR_571d2fbe36bc,both chemotypes,,,125
+M4-FUNG-0595:E004,M4-FUNG-0595,E004,ORG_3705c8ce96de,STR_571d2fbe36bc,both chemotypes,,,126
+M4-FUNG-0596:E001,M4-FUNG-0596,E001,NCBITAXON:1126212,STR_4e309b15f519,A. nidulans A1145,,,123
+M4-FUNG-0596:E002,M4-FUNG-0596,E002,NCBITAXON:1126212,STR_4e309b15f519,A. nidulans A1145,,,124
+M4-FUNG-0596:E003,M4-FUNG-0596,E003,NCBITAXON:1126212,STR_4e309b15f519,A. nidulans A1145,,,125
+M4-FUNG-0597:E001,M4-FUNG-0597,E001,NCBITAXON:124418,STR_f8dd6e096f73,T. album TAS1 homologue,,,123
+M4-FUNG-0597:E002,M4-FUNG-0597,E002,NCBITAXON:124418,STR_0861e57ef4e1,Taslactam C,,,124
+M4-FUNG-0598:E001,M4-FUNG-0598,E001,NCBITAXON:319629,STR_bde39cb01cf3,A. brasiliensis WT / ΔmlfA,,,123
+M4-FUNG-0598:E002,M4-FUNG-0598,E002,NCBITAXON:319629,STR_62f2f816c430,ΔmlfA + mlfA complementation,,,124
+M4-FUNG-0599:E001,M4-FUNG-0599,E001,NCBITAXON:660028,STR_9f49eced4908,F. oxysporum MN25 TAS1 homologue,,,123
+M4-FUNG-0599:E002,M4-FUNG-0599,E002,NCBITAXON:660028,STR_569ff4c08a21,taslactam-family compounds,,,124
+M4-FUNG-0600:E001,M4-FUNG-0600,E001,NCBITAXON:487627,STR_0698d67ef8d5,A. fabae WT / ΔpksAC,,,123
+M4-FUNG-0600:E002,M4-FUNG-0600,E002,NCBITAXON:487627,STR_6bc5d3c5c014,AV22 + A. fabae genomes,,,124
+M4-FUNG-0600:E003,M4-FUNG-0600,E003,NCBITAXON:487627,STR_0698d67ef8d5,A. fabae WT / ΔpksAC,,,125
+M4-FUNG-0601:E001,M4-FUNG-0601,E001,NCBITAXON:1365484,STR_f9344085b0e2,P. roqueforti genes in A. nidulans,,,123
+M4-FUNG-0601:E002,M4-FUNG-0601,E002,NCBITAXON:1365484,STR_029460918f8f,selected anu deletion/feeding strains,,,124
+M4-FUNG-0601:E003,M4-FUNG-0601,E003,NCBITAXON:1365484,STR_6ccc5595f9f4,AnuG enzyme,,,125
+M4-FUNG-0602:E001,M4-FUNG-0602,E001,NCBITAXON:948311,STR_483e5f0c7a4b,WT / ΔFUP1,,,123
+M4-FUNG-0602:E002,M4-FUNG-0602,E002,NCBITAXON:948311,STR_344f532257f3,WT / ΔFUP3 / ΔFUP4,,,124
+M4-FUNG-0602:E003,M4-FUNG-0602,E003,NCBITAXON:948311,STR_13b0f345e7a1,WT / ΔFUP5,,,125
+M4-FUNG-0603:E001,M4-FUNG-0603,E001,NCBITAXON:5059,STR_2a48a9e40cfe,A. flavus NRRL3357 CPA-gene disruptions,,,123
+M4-FUNG-0603:E002,M4-FUNG-0603,E002,NCBITAXON:5059,STR_b24109dbf313,cpaA expressed in A. oryzae,,,124
+M4-FUNG-0603:E003,M4-FUNG-0603,E003,NCBITAXON:5059,STR_edbd2ff742d4,CpaD enzyme,,,125
+M4-FUNG-0604:E001,M4-FUNG-0604,E001,NCBITAXON:198730,STR_5b23fa1118d1,S. cerevisiae YZL141 + TvTS,,,123
+M4-FUNG-0604:E002,M4-FUNG-0604,E002,NCBITAXON:198730,STR_df9bb0ca8cfd,T. verruculosus amyB::TvTS,,,124
+M4-FUNG-0604:E003,M4-FUNG-0604,E003,NCBITAXON:198730,STR_feeaf2e7ef4f,TvTS-PT / TvTS-TC domains,,,125
+M4-FUNG-0605:E001,M4-FUNG-0605,E001,NCBITAXON:1126212,STR_5261ce15fe34,S. cerevisiae + MpMS,,,123
+M4-FUNG-0605:E002,M4-FUNG-0605,E002,NCBITAXON:1126212,STR_56c67ef7c499,purified recombinant MpMS,,,124
+M4-FUNG-0605:E003,M4-FUNG-0605,E003,NCBITAXON:1126212,STR_4f297ca82a2c,MpMS D114A/N115A and other variants,,,125
+M4-FUNG-0606:E001,M4-FUNG-0606,E001,NCBITAXON:474922,STR_b246e54b2473,S. cerevisiae + CgCS from C. gloeosporioides ES026,,,123
+M4-FUNG-0607:E001,M4-FUNG-0607,E001,NCBITAXON:1037530,STR_ad6ab3bca638,P. ipomoeae IasaF13 in infected I. asarifolia,,,123
+M4-FUNG-0607:E002,M4-FUNG-0607,E002,NCBITAXON:1037530,STR_e66a6da86e77,P. ipomoeae and comparative Clavicipitaceae panel,,,124
+M4-FUNG-0608:E001,M4-FUNG-0608,E001,NCBITAXON:35717,STR_ecbb64620924,E. festucae Fl1 WT versus ΔlpsB,,,123
+M4-FUNG-0608:E002,M4-FUNG-0608,E002,NCBITAXON:35717,STR_095120b82d2c,E. festucae Fl1 ΔlpsB complemented,,,124
+M4-FUNG-0608:E003,M4-FUNG-0608,E003,NCBITAXON:35717,STR_0ca968b6c7e4,E. festucae Fl1 in planta versus axenic culture,,,125
+M4-FUNG-0609:E001,M4-FUNG-0609,E001,NCBITAXON:1037530,STR_ad6ab3bca638,P. ipomoeae IasaF13 in infected I. asarifolia,,,123
+M4-FUNG-0609:E002,M4-FUNG-0609,E002,NCBITAXON:1037530,STR_e66a6da86e77,P. ipomoeae and comparative Clavicipitaceae panel,,,124

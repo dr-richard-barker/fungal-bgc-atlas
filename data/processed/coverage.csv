@@ -1,0 +1,610 @@
+dossier_id,mibig_accession,organism_name,facets,genes,metabolites,experiments,measurements,claims,relationships,conflicts,sources,normalization_queue_rows
+M4-FUNG-0001,BGC0000003,Alternaria alternata,27,6,3,2,1,4,4,3,5,0
+M4-FUNG-0002,BGC0000004,Aspergillus oryzae,27,23,1,5,5,5,5,4,8,0
+M4-FUNG-0003,BGC0000005,Aspergillus parasiticus,27,29,4,7,7,8,9,5,17,0
+M4-FUNG-0004,BGC0000006,Aspergillus flavus,27,23,2,8,15,6,8,6,15,0
+M4-FUNG-0005,BGC0000007,Aspergillus aflatoxiformans,27,25,2,6,16,7,7,4,15,0
+M4-FUNG-0006,BGC0000008,Aspergillus flavus,27,23,2,7,15,7,8,5,11,0
+M4-FUNG-0007,BGC0000009,Aspergillus nomiae (MIBiG historical label: Aspergillus nomius),27,25,4,7,14,7,8,5,13,0
+M4-FUNG-0008,BGC0000010,Aspergillus flavus,27,23,1,5,9,6,7,5,9,0
+M4-FUNG-0009,BGC0000011,Aspergillus ochraceoroseus,27,27,3,6,6,6,7,5,10,0
+M4-FUNG-0010,BGC0000012,Alternaria solani,27,5,2,6,12,7,8,5,10,3
+M4-FUNG-0011,BGC0000013,Aspergillus nidulans,27,2,4,6,10,7,8,6,7,0
+M4-FUNG-0012,BGC0000022,Aspergillus nidulans,27,11,2,7,14,8,9,6,7,4
+M4-FUNG-0013,BGC0000027,Monascus pilosus,27,24,5,6,10,7,8,5,6,0
+M4-FUNG-0014,BGC0000030,Fusarium fujikuroi,27,7,4,9,13,9,12,6,8,0
+M4-FUNG-0015,BGC0000037,Aspergillus nidulans,27,8,8,7,13,9,10,6,10,3
+M4-FUNG-0016,BGC0000039,Penicillium citrinum,27,9,2,4,5,4,7,3,7,1
+M4-FUNG-0017,BGC0000045,Aspergillus terreus,27,8,3,6,14,8,8,6,5,5
+M4-FUNG-0018,BGC0000046,Alternaria brassicicola,27,6,3,9,11,9,11,7,8,1
+M4-FUNG-0019,BGC0000048,Dothistroma septosporum,27,35,3,10,13,10,12,8,14,0
+M4-FUNG-0020,BGC0000057,Aspergillus nidulans,27,15,7,10,13,9,12,7,9,0
+M4-FUNG-0021,BGC0000062,Fusarium verticillioides,27,16,7,10,14,11,13,8,22,0
+M4-FUNG-0022,BGC0000063,Fusarium oxysporum,27,17,5,6,12,7,8,6,8,0
+M4-FUNG-0023,BGC0000064,Fusarium verticillioides,27,11,8,9,12,10,10,7,15,2
+M4-FUNG-0024,BGC0000070,Penicillium aethiopicum,27,21,7,9,10,8,10,6,8,0
+M4-FUNG-0025,BGC0000076,Hypomyces subiculosus,27,9,6,8,17,9,10,7,8,0
+M4-FUNG-0026,BGC0000077,Hypomyces subiculosus,27,10,6,8,17,9,10,7,8,0
+M4-FUNG-0027,BGC0000088,Aspergillus terreus,27,19,7,8,14,9,11,7,14,0
+M4-FUNG-0028,BGC0000089,Aspergillus terreus,27,0,1,2,4,3,4,3,4,0
+M4-FUNG-0029,BGC0000098,Monascus pilosus,27,9,3,8,19,11,12,9,12,0
+M4-FUNG-0030,BGC0000099,Talaromyces marneffei,27,5,8,5,23,9,11,8,6,0
+M4-FUNG-0031,BGC0000101,Aspergillus nidulans,27,16,8,7,11,10,12,7,10,0
+M4-FUNG-0032,BGC0000104,Penicillium brevicompactum,27,9,9,8,13,9,13,7,11,0
+M4-FUNG-0033,BGC0000107,Aspergillus nidulans,27,5,4,7,14,8,11,8,12,1
+M4-FUNG-0034,BGC0000120,Penicillium expansum,27,15,10,7,7,5,10,5,10,1
+M4-FUNG-0035,BGC0000121,Pestalotiopsis fici,27,16,7,7,11,9,11,8,19,5
+M4-FUNG-0036,BGC0000129,Aspergillus fumigatus,27,9,5,6,6,4,6,4,7,1
+M4-FUNG-0037,BGC0000134,Pochonia chlamydosporia,27,5,5,6,5,5,8,4,9,1
+M4-FUNG-0038,BGC0000146,Alternaria solani,27,6,10,8,15,9,13,8,10,1
+M4-FUNG-0039,BGC0000152,Aspergillus nidulans,27,25,6,9,12,6,10,5,19,1
+M4-FUNG-0040,BGC0000154,Talaromyces stipitatus,27,13,12,9,14,9,14,8,11,4
+M4-FUNG-0041,BGC0000155,Bipolaris maydis,27,10,2,7,10,5,8,4,13,1
+M4-FUNG-0042,BGC0000156,Aspergillus niger,27,6,5,7,15,8,12,8,11,2
+M4-FUNG-0043,BGC0000160,Aspergillus terreus,27,9,6,6,8,5,8,5,10,0
+M4-FUNG-0044,BGC0000161,Aspergillus terreus,27,11,8,11,18,10,14,8,13,3
+M4-FUNG-0045,BGC0000168,Penicillium aethiopicum,27,14,3,4,4,3,4,3,6,1
+M4-FUNG-0046,BGC0000170,Aspergillus niger ATCC 1015,27,10,5,4,4,3,4,3,4,1
+M4-FUNG-0047,BGC0000292,Aspergillus terreus NIH2624,27,10,3,3,5,3,3,3,3,1
+M4-FUNG-0048,BGC0000293,Aspergillus fischeri NRRL 181,27,3,3,3,8,3,3,3,4,0
+M4-FUNG-0049,BGC0000304,Fusarium incarnatum,27,11,4,5,8,3,4,4,5,3
+M4-FUNG-0050,BGC0000307,Aureobasidium pullulans,27,1,2,2,7,3,3,3,7,6
+M4-FUNG-0051,BGC0000312,Beauveria bassiana,27,1,1,2,3,3,3,3,3,1
+M4-FUNG-0052,BGC0000313,Beauveria bassiana,27,5,2,4,5,3,3,3,5,3
+M4-FUNG-0053,BGC0000317,Hapsidospora chrysogena ATCC 11550,27,8,4,5,7,3,6,4,13,0
+M4-FUNG-0054,BGC0000318,Hapsidospora chrysogena ATCC 11550,27,2,4,4,3,3,4,4,11,1
+M4-FUNG-0055,BGC0000321,Achaetomiella virescens,27,15,1,2,2,2,2,2,6,0
+M4-FUNG-0056,BGC0000334,Tolypocladium inflatum NRRL 8044,27,20,3,6,4,3,4,2,5,0
+M4-FUNG-0057,BGC0000337,Metarhizium robertsii ARSEF 23,27,21,3,6,6,3,4,1,6,0
+M4-FUNG-0058,BGC0000338,Aspergillus pachycristatus NRRL 11440,27,12,3,4,3,3,3,3,7,0
+M4-FUNG-0059,BGC0000342,Fusarium equiseti,27,1,3,3,4,3,1,1,6,0
+M4-FUNG-0060,BGC0000348,Epichloe festucae var. lolii,27,6,4,3,2,4,3,2,5,0
+M4-FUNG-0061,BGC0000355,Aspergillus fumigatus Af293,27,5,4,6,2,3,3,2,7,0
+M4-FUNG-0062,BGC0000357,Penicillium rubens Wisconsin 54-1255,27,1,10,3,4,2,2,1,5,0
+M4-FUNG-0063,BGC0000361,Aspergillus fumigatus Af293,27,12,3,6,2,4,4,2,8,0
+M4-FUNG-0064,BGC0000370,Bipolaris zeicola,27,7,2,6,6,4,5,3,14,0
+M4-FUNG-0065,BGC0000372,Aspergillus fumigatus Af293,27,8,3,4,3,3,4,2,5,0
+M4-FUNG-0066,BGC0000404,Penicillium chrysogenum,27,6,2,4,4,3,3,2,8,0
+M4-FUNG-0067,BGC0000405,Penicillium chrysogenum,27,3,4,4,3,3,4,1,6,0
+M4-FUNG-0068,BGC0000420,Penicillium rubens Wisconsin 54-1255,27,7,7,4,3,3,4,2,5,0
+M4-FUNG-0069,BGC0000442,Aspergillus nidulans FGSC A4,27,5,4,3,3,3,4,2,5,0
+M4-FUNG-0070,BGC0000456,Lecanicillium sp. HF627,27,4,3,3,3,3,3,2,5,0
+M4-FUNG-0071,BGC0000627,Aspergillus flavus NRRL3357,27,19,2,5,4,3,4,3,6,0
+M4-FUNG-0072,BGC0000629,Aspergillus flavus,27,8,4,4,4,3,4,2,5,0
+M4-FUNG-0073,BGC0000631,Botrytis cinerea B05.10,27,7,5,4,3,4,5,3,7,0
+M4-FUNG-0074,BGC0000667,Penicillium roqueforti FM164,27,11,7,4,4,4,5,4,6,0
+M4-FUNG-0075,BGC0000673,Aspergillus nidulans FGSC A4,27,8,3,4,4,4,4,3,6,0
+M4-FUNG-0076,BGC0000676,Neocamarosporium betae (historically Phoma betae),27,6,4,5,4,4,4,3,8,0
+M4-FUNG-0077,BGC0000680,Aspergillus nidulans FGSC A4,6,2,3,1,0,2,2,1,3,0
+M4-FUNG-0078,BGC0000682,Aspergillus terreus NIH2624,2,4,0,0,0,0,0,1,4,10
+M4-FUNG-0079,BGC0000684,Aspergillus nidulans FGSC A4,1,0,0,0,0,0,0,1,3,8
+M4-FUNG-0080,BGC0000685,Alternaria brassicicola ATCC 96836,2,0,0,0,0,0,0,0,5,8
+M4-FUNG-0081,BGC0000686,Aspergillus fumigatus Af293,2,0,0,0,0,0,0,0,4,8
+M4-FUNG-0082,BGC0000687,Diaporthe amygdali (historical paper: Phomopsis amygdali),1,0,0,0,0,0,0,0,3,8
+M4-FUNG-0083,BGC0000688,Diaporthe amygdali (historical paper: Phomopsis amygdali),1,0,0,0,0,0,0,1,3,8
+M4-FUNG-0084,BGC0000811,Aspergillus fumigatus Af293,2,0,0,0,0,0,0,1,4,8
+M4-FUNG-0085,BGC0000812,Shiraia sp. Slf14,1,0,0,0,0,0,0,0,5,11
+M4-FUNG-0086,BGC0000815,Epichloë uncinata (historical literature: Neotyphodium uncinatum),3,0,0,0,0,0,0,0,6,9
+M4-FUNG-0087,BGC0000816,Malbranchea aurantiaca,1,0,0,0,0,0,0,0,3,5
+M4-FUNG-0088,BGC0000818,Aspergillus versicolor,1,0,0,0,0,0,0,0,2,5
+M4-FUNG-0089,BGC0000819,Penicillium fellutanum,1,0,0,0,0,0,0,0,3,4
+M4-FUNG-0090,BGC0000894,Monascus aurantiacus,1,0,0,0,0,0,0,0,6,4
+M4-FUNG-0091,BGC0000900,Aspergillus oryzae,1,0,0,0,0,0,0,0,2,3
+M4-FUNG-0092,BGC0000901,Aspergillus niger,1,0,0,0,0,0,0,0,3,3
+M4-FUNG-0093,BGC0000930,Fusarium graminearum (historical literature: Gibberella zeae),1,0,0,0,0,0,0,0,4,4
+M4-FUNG-0094,BGC0000931,Fusarium graminearum,1,0,0,0,0,0,0,0,2,3
+M4-FUNG-0095,BGC0000959,Aspergillus nidulans FGSC A4,1,0,0,0,0,0,0,0,4,4
+M4-FUNG-0096,BGC0000968,Penicillium expansum,1,0,0,0,0,0,0,0,3,5
+M4-FUNG-0097,BGC0000977,Aspergillus oryzae,1,0,0,0,0,0,0,0,3,2
+M4-FUNG-0098,BGC0000983,Aspergillus clavatus NRRL 1,1,0,0,0,0,0,0,0,2,3
+M4-FUNG-0099,BGC0000992,Fusarium heterosporum,1,0,0,0,0,0,0,0,2,0
+M4-FUNG-0100,BGC0001026,Metarhizium robertsii; source atlas historical label M. anisopliae,2,0,0,0,0,0,0,0,2,0
+M4-FUNG-0101,BGC0001030,Penicillium nordicum,1,0,0,0,0,0,0,0,2,0
+M4-FUNG-0102,BGC0001035,Glarea lozoyensis ATCC 20868,1,0,0,0,0,0,0,0,2,0
+M4-FUNG-0103,BGC0001037,Aspergillus fumigatus Af293,1,0,0,0,0,0,0,0,2,0
+M4-FUNG-0104,BGC0001044,Leptosphaeria maculans,2,0,0,0,0,0,0,0,4,0
+M4-FUNG-0105,BGC0001049,Beauveria bassiana,2,0,0,0,0,0,0,0,3,0
+M4-FUNG-0106,BGC0001057,Fusarium graminearum (teleomorph historical literature: Gibberella zeae),1,0,0,0,0,0,0,0,2,0
+M4-FUNG-0107,BGC0001067,Aspergillus fumigatus Af293,1,0,0,0,0,0,0,0,3,6
+M4-FUNG-0108,BGC0001081,Epichloë festucae var. lolii; historical literature uses Neotyphodium lolii,1,0,0,0,0,0,0,0,4,4
+M4-FUNG-0109,BGC0001082,Penicillium paxilli,1,0,0,0,0,0,0,0,4,4
+M4-FUNG-0110,BGC0001084,Aspergillus sp. MF297-2,1,0,0,0,0,0,0,0,3,4
+M4-FUNG-0111,BGC0001118,Aspergillus fumigatus Af293,1,0,0,0,0,0,0,0,3,5
+M4-FUNG-0112,BGC0001121,Aspergillus nidulans FGSC A4,1,0,0,0,0,0,0,0,3,5
+M4-FUNG-0113,BGC0001122,Aspergillus terreus NIH2624,1,0,0,0,0,0,0,0,2,5
+M4-FUNG-0114,BGC0001123,Aspergillus oryzae RIB40,1,0,0,0,0,0,0,0,4,4
+M4-FUNG-0115,BGC0001124,Aspergillus niger ATCC 1015,1,0,0,0,0,0,0,0,3,5
+M4-FUNG-0116,BGC0001136,Beauveria bassiana,1,0,0,0,0,0,0,0,2,4
+M4-FUNG-0117,BGC0001141,Penicillium brefeldianum,1,0,0,0,0,0,0,0,2,4
+M4-FUNG-0118,BGC0001142,Penicillium aethiopicum,1,0,0,0,0,0,0,0,2,3
+M4-FUNG-0119,BGC0001143,Aspergillus niger ATCC 1015,0,0,0,0,0,0,0,0,3,2
+M4-FUNG-0120,BGC0001144,Trichophyton tonsurans CBS 112818,1,0,0,0,0,0,0,0,3,3
+M4-FUNG-0121,BGC0001158,Botrytis cinerea,1,0,0,0,0,0,0,0,2,2
+M4-FUNG-0122,BGC0001166,Alternaria jesenskae,1,0,0,0,0,0,0,0,3,2
+M4-FUNG-0123,BGC0001187,Glarea lozoyensis,1,0,0,0,0,0,0,0,2,2
+M4-FUNG-0124,BGC0001190,Fusarium verticillioides 7600,1,0,0,0,0,0,0,0,2,2
+M4-FUNG-0125,BGC0001205,Penicillium expansum,0,0,0,0,0,0,0,0,3,2
+M4-FUNG-0126,BGC0001218,Cordyceps fumosorosea,1,0,0,0,0,0,0,0,2,3
+M4-FUNG-0127,BGC0001219,Chaetomium globosum CBS 148.51,1,0,0,0,0,2,0,1,3,7
+M4-FUNG-0128,BGC0001220,Aspergillus japonicus,2,0,0,0,0,1,0,2,5,6
+M4-FUNG-0129,BGC0001234,Aspergillus flavus NRRL3357,0,0,0,0,0,1,0,2,3,3
+M4-FUNG-0130,BGC0001238,Aspergillus nidulans,1,0,0,0,0,0,1,1,4,5
+M4-FUNG-0131,BGC0001239,Aspergillus nidulans,1,0,0,0,0,0,1,1,4,5
+M4-FUNG-0132,BGC0001240,Metarhizium robertsii,1,0,0,0,0,0,0,2,4,6
+M4-FUNG-0133,BGC0001241,Claviceps fusiformis,0,0,0,0,0,0,0,2,4,7
+M4-FUNG-0134,BGC0001242,Fusarium fujikuroi,1,0,0,0,0,0,0,2,3,8
+M4-FUNG-0135,BGC0001243,Botrytis cinerea,0,0,0,0,0,0,0,0,3,7
+M4-FUNG-0136,BGC0001244,Parastagonospora nodorum,0,0,0,0,0,0,0,2,3,6
+M4-FUNG-0137,BGC0001245,Lasiodiplodia theobromae,1,0,0,0,0,0,0,0,3,8
+M4-FUNG-0138,BGC0001246,Sarocladium zeae (historical primary paper: Acremonium zeae),1,0,0,0,0,0,0,0,2,6
+M4-FUNG-0139,BGC0001247,Cercospora nicotianae,1,0,0,0,0,0,0,0,4,6
+M4-FUNG-0140,BGC0001248,Hypholoma sublateritium,1,0,0,0,0,0,0,0,3,5
+M4-FUNG-0141,BGC0001249,Alternaria alternata,1,0,0,0,0,0,0,0,2,6
+M4-FUNG-0142,BGC0001250,Epichloë festucae,1,0,0,0,0,0,0,0,4,7
+M4-FUNG-0143,BGC0001251,Epichloë festucae,1,0,0,0,0,0,0,0,3,4
+M4-FUNG-0144,BGC0001252,Alternaria alternata rough-lemon pathotype,1,0,0,0,0,0,0,0,3,6
+M4-FUNG-0145,BGC0001253,Alternaria alternata tangerine pathotype,1,0,0,0,0,0,0,0,5,5
+M4-FUNG-0146,BGC0001254,Alternaria alternata tangerine pathotype,1,0,0,0,0,0,0,0,6,7
+M4-FUNG-0147,BGC0001255,Fusarium heterosporum,2,0,0,0,0,2,1,1,5,5
+M4-FUNG-0148,BGC0001256,Tapinella panuoides,2,0,0,0,0,1,1,1,4,3
+M4-FUNG-0149,BGC0001257,Nodulisporium sp. ATCC 74245,2,0,0,0,0,1,1,1,4,3
+M4-FUNG-0150,BGC0001258,Glarea lozoyensis,1,0,0,0,0,1,1,1,4,3
+M4-FUNG-0151,BGC0001259,Elsinoë fawcettii,2,0,0,0,0,2,1,1,5,4
+M4-FUNG-0152,BGC0001260,Tolypocladium album; historical paper name Chaunopycnis alba,1,0,0,0,0,2,1,1,3,5
+M4-FUNG-0153,BGC0001261,"Alternaria alternata, apple pathotype",2,0,0,0,0,1,1,1,3,3
+M4-FUNG-0154,BGC0001262,"Alternaria alternata, Japanese-pear pathotype",3,0,0,0,0,2,1,1,4,5
+M4-FUNG-0155,BGC0001263,Claviceps purpurea,1,0,0,0,0,1,1,2,3,4
+M4-FUNG-0156,BGC0001264,Neocamarosporium betae; historical literature/MIBiG source name Phoma betae,2,0,0,0,0,2,1,1,3,4
+M4-FUNG-0157,BGC0001265,Bipolaris oryzae,2,0,0,0,0,2,1,1,4,4
+M4-FUNG-0158,BGC0001266,Cladonia grayi,2,0,0,0,0,2,1,1,3,5
+M4-FUNG-0159,BGC0001267,Claviceps fusiformis,2,0,0,0,0,2,1,1,3,5
+M4-FUNG-0160,BGC0001268,Fusarium fujikuroi,2,0,0,0,0,2,1,1,4,5
+M4-FUNG-0161,BGC0001269,Sphaceloma manihoticola,2,0,0,0,0,2,1,1,3,5
+M4-FUNG-0162,BGC0001270,Fusarium fujikuroi,2,0,0,0,0,2,1,1,4,5
+M4-FUNG-0163,BGC0001271,Aspergillus nidulans FGSC A4,2,0,0,0,0,2,1,1,3,5
+M4-FUNG-0164,BGC0001272,Elsinoë fawcettii,2,0,0,0,0,2,1,1,5,5
+M4-FUNG-0165,BGC0001273,Aspergillus ochraceus in MIBiG; defining paper reports Aspergillus westerdijkiae,2,0,0,0,0,2,1,1,4,5
+M4-FUNG-0166,BGC0001274,Starmerella bombicola (historical literature: Candida bombicola),2,0,0,0,0,2,1,1,4,5
+M4-FUNG-0167,BGC0001275,Glarea lozoyensis,3,0,0,0,0,2,1,1,4,6
+M4-FUNG-0168,BGC0001276,Aspergillus terreus,3,0,0,0,0,2,1,1,4,6
+M4-FUNG-0169,BGC0001277,Fusarium graminearum,1,0,0,0,0,2,1,1,4,6
+M4-FUNG-0170,BGC0001278,Fusarium sporotrichioides,1,0,0,0,0,2,1,1,4,6
+M4-FUNG-0171,BGC0001279,Paramyrothecium roridum (historical Myrothecium roridum),1,0,0,0,0,2,1,1,4,6
+M4-FUNG-0172,BGC0001280,historical Phoma betae,1,0,0,0,0,2,1,1,3,6
+M4-FUNG-0173,BGC0001281,Ustilago maydis 521,1,0,0,0,0,2,1,1,4,6
+M4-FUNG-0174,BGC0001282,Epichloë coenophiala,1,0,0,0,0,2,1,1,4,6
+M4-FUNG-0175,BGC0001284,Parastagonospora nodorum SN15,1,0,0,0,0,2,1,1,3,5
+M4-FUNG-0176,BGC0001286,Ustilago maydis,1,0,0,0,0,2,1,1,3,6
+M4-FUNG-0177,BGC0001290,Aspergillus nidulans FGSC A4,1,0,0,0,0,2,1,1,3,5
+M4-FUNG-0178,BGC0001304,Aspergillus flavus NRRL3357,1,0,0,0,0,2,1,1,3,5
+M4-FUNG-0179,BGC0001305,Fusarium fujikuroi IMI 58289,1,0,0,0,0,2,1,1,3,5
+M4-FUNG-0180,BGC0001306,Aspergillus flavus NRRL3357,1,0,0,0,0,2,1,1,3,5
+M4-FUNG-0181,BGC0001309,Cladonia uncialis mycobiont,1,0,0,0,0,2,1,1,3,5
+M4-FUNG-0182,BGC0001338,Monascus ruber,1,0,0,0,0,2,1,1,3,5
+M4-FUNG-0183,BGC0001339,Phoma sp. MF5453,1,0,0,0,0,2,1,1,3,5
+M4-FUNG-0184,BGC0001340,"Byssochlamys fulva, historical producer strain IMI 40021",1,0,0,0,0,2,1,1,4,5
+M4-FUNG-0185,BGC0001358,Purpureocillium lilacinum,1,0,0,0,0,2,1,1,3,5
+M4-FUNG-0186,BGC0001360,Penicillium roqueforti FM164,1,0,0,0,0,2,1,1,3,5
+M4-FUNG-0187,BGC0001365,Claviceps purpurea 20.1,1,0,0,0,0,2,1,1,3,6
+M4-FUNG-0188,BGC0001371,Aspergillus nidulans NRRL 8112,1,0,0,0,0,1,1,1,3,4
+M4-FUNG-0189,BGC0001372,Penicillium thymicola,1,0,0,0,0,1,1,1,3,6
+M4-FUNG-0190,BGC0001373,Sordaria araneosa,1,0,0,0,0,1,1,1,4,6
+M4-FUNG-0191,BGC0001375,Penicillium simplicissimum,1,0,0,0,0,1,1,1,3,6
+M4-FUNG-0192,BGC0001385,Byssochlamys fulva,1,0,0,0,0,1,1,1,3,6
+M4-FUNG-0193,BGC0001390,Stachybotrys bisbyi,1,0,0,0,0,1,1,1,3,6
+M4-FUNG-0194,BGC0001398,Phomopsis leptostromiformis,1,0,0,0,0,2,1,1,5,6
+M4-FUNG-0195,BGC0001399,Aspergillus nidulans FGSC A4,1,0,0,0,0,2,1,1,3,5
+M4-FUNG-0196,BGC0001400,Aspergillus terreus NIH2624 in the canonical record,1,0,0,0,0,1,1,1,3,5
+M4-FUNG-0197,BGC0001401,Armillaria mellea,1,0,0,0,0,1,1,1,3,6
+M4-FUNG-0198,BGC0001403,Aspergillus fumigatus Af293,1,0,0,0,0,1,1,1,5,6
+M4-FUNG-0199,BGC0001404,Penicillium rubens Wisconsin 54-1255,1,0,0,0,0,1,1,1,4,6
+M4-FUNG-0200,BGC0001405,Chaetomium globosum CBS 148.51,1,0,0,0,0,1,1,1,4,6
+M4-FUNG-0201,BGC0001445,Aspergillus flavus NRRL 3357,1,0,0,0,0,1,1,1,3,6
+M4-FUNG-0202,BGC0001446,Aspergillus flavus NRRL 3357,1,0,0,0,0,1,1,1,4,6
+M4-FUNG-0203,BGC0001449,Thermothelomyces thermophilus,1,0,0,0,0,1,1,1,3,6
+M4-FUNG-0204,BGC0001450,Penicillium terrestre,1,0,0,0,0,1,1,1,4,6
+M4-FUNG-0205,BGC0001466,Talaromyces wortmannii,1,0,0,0,0,1,1,1,3,6
+M4-FUNG-0206,BGC0001475,Aspergillus terreus NIH2624,1,0,0,0,0,1,1,1,3,6
+M4-FUNG-0207,BGC0001481,Fusarium fujikuroi IMI 58289,1,0,0,0,0,1,1,1,3,6
+M4-FUNG-0208,BGC0001489,Cladonia uncialis subsp. uncialis,1,0,0,0,0,1,1,1,3,6
+M4-FUNG-0209,BGC0001508,Penicillium roqueforti,1,0,0,0,0,1,1,1,3,6
+M4-FUNG-0210,BGC0001515,Aspergillus nidulans FGSC A4,1,0,0,0,0,1,1,1,3,6
+M4-FUNG-0211,BGC0001516,Aspergillus flavus NRRL3357,1,0,0,0,0,1,1,1,3,6
+M4-FUNG-0212,BGC0001517,Aspergillus terreus NIH2624,1,0,0,0,0,1,1,1,3,6
+M4-FUNG-0213,BGC0001518,Aspergillus oryzae RIB40,1,0,0,0,0,1,1,1,3,6
+M4-FUNG-0214,BGC0001527,Gelatoporia subvermispora,1,0,0,0,0,1,1,1,3,6
+M4-FUNG-0215,BGC0001528,Historical record: Phoma betae,1,0,0,0,0,1,1,1,3,6
+M4-FUNG-0216,BGC0001541,Cercospora beticola,1,0,0,0,0,1,1,1,3,6
+M4-FUNG-0217,BGC0001542,Cercospora zeina,1,0,0,0,0,1,1,1,3,6
+M4-FUNG-0218,BGC0001544,Aspergillus campestris IBT 28561,2,0,0,0,0,1,1,1,3,6
+M4-FUNG-0219,BGC0001545,Fusarium graminearum PH-1,2,0,0,0,0,1,1,1,4,6
+M4-FUNG-0220,BGC0001547,Aspergillus stellatus,2,0,0,0,0,1,1,1,3,6
+M4-FUNG-0221,BGC0001557,"Canonical source: Paecilomyces divaricatus, TaxID 644132",2,0,0,0,0,1,1,1,3,6
+M4-FUNG-0222,BGC0001563,"Canonical source: Cochliobolus pallescens, TaxID 318706",2,0,0,0,0,1,1,1,3,6
+M4-FUNG-0223,BGC0001565,"Canonical source/MIBiG: Beauveria felina, TaxID 37994",2,0,0,0,0,1,1,1,3,6
+M4-FUNG-0224,BGC0001571,Nodulisporium sp.,2,0,0,0,0,1,1,1,3,6
+M4-FUNG-0225,BGC0001573,Claviceps africana,2,0,0,0,0,1,1,1,3,6
+M4-FUNG-0226,BGC0001578,Talaromyces stipitatus ATCC 10500,2,0,0,0,0,1,1,1,3,6
+M4-FUNG-0227,BGC0001585,Escovopsis weberi,2,0,0,0,0,1,1,1,4,6
+M4-FUNG-0228,BGC0001600,Fusarium graminearum,2,0,0,0,0,1,1,1,4,6
+M4-FUNG-0229,BGC0001604,Fusarium fujikuroi,2,0,0,0,0,1,1,1,4,6
+M4-FUNG-0230,BGC0001606,Fusarium fujikuroi IMI 58289,2,0,0,0,0,1,1,1,3,6
+M4-FUNG-0231,BGC0001609,Trichoderma virens Gv29-8,2,0,0,0,0,1,1,1,3,6
+M4-FUNG-0232,BGC0001613,Trichoderma hypoxylon,2,0,0,0,0,1,1,1,4,6
+M4-FUNG-0233,BGC0001616,Aspergillus japonicus,2,0,0,0,0,1,1,1,4,6
+M4-FUNG-0234,BGC0001617,Stereum hirsutum FP-91666 SS1,2,0,0,0,0,1,1,1,3,6
+M4-FUNG-0235,BGC0001621,Aspergillus flavus NRRL3357,2,0,0,0,0,1,1,1,3,6
+M4-FUNG-0236,BGC0001624,Pestalotiopsis fici,2,0,0,0,0,1,1,1,6,6
+M4-FUNG-0237,BGC0001626,Stachybotrys chlorohalonata IBT 40285,2,0,0,0,0,1,1,1,3,6
+M4-FUNG-0238,BGC0001636,Curvularia clavata,3,0,0,0,0,1,1,0,3,0
+M4-FUNG-0239,BGC0001642,Fusarium fujikuroi IMI 58289,2,0,0,0,0,1,1,0,3,0
+M4-FUNG-0240,BGC0001659,Fusarium equiseti,2,0,0,0,0,1,1,0,3,0
+M4-FUNG-0241,BGC0001668,Aspergillus nidulans FGSC A4,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0242,BGC0001677,Penicillium roqueforti,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0243,BGC0001679,Aspergillus nidulans FGSC A4,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0244,BGC0001691,Thelonectria discophora,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0245,BGC0001697,Neurospora crassa OR74A,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0246,BGC0001699,Aspergillus nidulans FGSC A4,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0247,BGC0001706,Hypoxylon pulicicidum,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0248,BGC0001708,Aspergillus novofumigatus IBT 16806,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0249,BGC0001712,Aspergillus steynii IBT 23096,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0250,BGC0001717,Penicillium simplicissimum,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0251,BGC0001718,Aspergillus aculeatus ATCC 16872,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0252,BGC0001720,Beauveria bassiana ARSEF 2860,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0253,BGC0001722,Aspergillus nidulans FGSC A4,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0254,BGC0001724,Penicillium oxalicum 114-2,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0255,BGC0001729,Penicillium brasilianum,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0256,BGC0001734,historical record: Aspergillus sp.; original isolation: Penicillium sp. CNL-338; later pathway study: Aspergillus flavipes CNL-338,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0257,BGC0001738,Pyrenochaetopsis sp.,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0258,BGC0001741,Phyllosticta cirsii,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0259,BGC0001749,Pyricularia oryzae 70-15 (pathway paper uses Magnaporthe oryzae),3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0260,BGC0001768,current taxonomy: Fusarium vanettenii 77-13-4; historical/MIBiG: [Nectria] haematococca mpVI 77-13-4 / Fusarium solani,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0261,BGC0001775,Cordana terrestris,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0262,BGC0001776,Penicillium janthinellum,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0263,BGC0001793,Chaetothyriaceae sp.,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0264,BGC0001794,Alternaria oxytropis,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0265,BGC0001811,Fusarium asiaticum,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0266,BGC0001820,historical MIBiG: Gliocladium sp.; defining study: Clonostachys rogersoniana (formerly Gliocladium sp. 6.102),3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0267,BGC0001821,historical duplicate record: Gliocladium sp.,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0268,BGC0001827,Sarocladium sp. 'schorii'; defining study proposes Sarocladium schorii for former Acremonium strictum IMI 501407,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0269,BGC0001839,Aspergillus sp. Z5,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0270,BGC0001854,Trichoderma harzianum t-22,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0271,BGC0001857,MIBiG: Aspergillus sp. CLMG-2019a; defining paper: Aspergillus burnettii,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0272,BGC0001858,Parastagonospora nodorum SN15,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0273,BGC0001865 v4,Parastagonospora nodorum SN15,3,0,0,0,0,4,1,3,4,0
+M4-FUNG-0274,BGC0001866 v4,Byssochlamys spectabilis,3,0,0,0,0,4,1,3,4,0
+M4-FUNG-0275,BGC0001874 v4,Aspergillus flavus,3,0,0,0,0,4,1,3,4,0
+M4-FUNG-0276,BGC0001881 v4,Pyricularia grisea,3,0,0,0,0,4,1,3,4,0
+M4-FUNG-0277,BGC0001882 v3,Penicillium rubens Wisconsin 54-1255,3,0,0,0,0,4,1,3,4,0
+M4-FUNG-0278,BGC0001886 v2,Claviceps purpurea 20.1,3,0,0,0,0,4,1,3,4,0
+M4-FUNG-0279,BGC0001888 v2,Ustilago maydis 521,3,0,0,0,0,4,1,3,4,0
+M4-FUNG-0280,BGC0001893 v3,Botrytis cinerea B05.10,3,0,0,0,0,4,1,3,4,0
+M4-FUNG-0281,BGC0001899 v3,Leptosphaeria maculans JN3; current MIBiG display uses Plenodomus lingam JN3,3,0,0,0,0,4,1,3,4,0
+M4-FUNG-0282,BGC0001901 v3,Trichoderma harzianum,3,0,0,0,0,4,1,3,4,0
+M4-FUNG-0283,BGC0001906 v2,Daldinia eschscholzii IFB-TL01,3,0,0,0,0,4,1,3,4,0
+M4-FUNG-0284,BGC0001907 v2,Daldinia eschscholzii IFB-TL01,3,0,0,0,0,4,1,3,4,0
+M4-FUNG-0285,BGC0001909 v3,Strobilurus tenacellus,3,0,0,0,0,4,1,3,4,0
+M4-FUNG-0286,BGC0001913 v3,fungal sp. ATCC 74256,3,0,0,0,0,4,1,3,4,0
+M4-FUNG-0287,BGC0001915 v3,Phoma betae,3,0,0,0,0,4,1,3,4,0
+M4-FUNG-0288,BGC0001923 v3,Acremonium egyptiacum,3,0,0,0,0,4,1,3,4,0
+M4-FUNG-0289,BGC0001924 v3,Acremonium egyptiacum,3,0,0,0,0,4,1,3,4,0
+M4-FUNG-0290,BGC0001926 v3,Talaromyces verruculosus,3,0,0,0,0,4,1,3,4,0
+M4-FUNG-0291,BGC0001936 v3,Hypoxylon pulicicidum,3,0,0,0,0,4,1,3,4,0
+M4-FUNG-0292,BGC0001954 v2,Talaromyces wortmannii,3,0,0,0,0,4,1,3,4,0
+M4-FUNG-0293,BGC0001966 v3,Phoma sp. F3723,3,0,0,0,0,4,1,4,3,0
+M4-FUNG-0294,BGC0001969 v3,Talaromyces wortmannii,3,0,0,0,0,4,1,4,3,0
+M4-FUNG-0295,BGC0001976 v3,Phoma sp. CGMCC 10481,3,0,0,0,0,4,1,3,4,0
+M4-FUNG-0296,BGC0001977 v3,Phoma sp.,3,0,0,0,0,4,1,4,3,0
+M4-FUNG-0297,BGC0001978 v3,Aspergillus sp. CLMG-2019a / Aspergillus burnettii study provenance,3,0,0,0,0,4,1,4,3,0
+M4-FUNG-0298,BGC0001982 v3,Pyricularia grisea,3,0,0,0,0,4,1,4,3,0
+M4-FUNG-0299,BGC0001988 v3,Aspergillus novofumigatus IBT 16806,3,0,0,0,0,4,1,4,3,0
+M4-FUNG-0300,BGC0001989 v3,Kluyveromyces lactis,3,0,0,0,0,4,1,3,4,0
+M4-FUNG-0301,BGC0001995 v3,Aspergillus oryzae RIB40,3,0,0,0,0,4,1,4,3,0
+M4-FUNG-0302,BGC0001996 v2,Aspergillus oryzae RIB40,3,0,0,0,0,4,1,4,3,0
+M4-FUNG-0303,BGC0001998 v2,Aspergillus nidulans FGSC A4,3,0,0,0,0,4,1,4,3,0
+M4-FUNG-0304,BGC0002030 v3,Byssochlamys spectabilis,3,0,0,0,0,4,1,4,3,0
+M4-FUNG-0305,BGC0002035 v3,Neonectria sp. DH2,3,0,0,0,0,4,1,4,3,0
+M4-FUNG-0306,BGC0002062 v2,Paecilomyces divaricatus,3,0,0,0,0,4,1,4,3,0
+M4-FUNG-0307,BGC0002063 v3,Cryptosporiopsis sp. 8999,3,0,0,0,0,4,1,4,3,0
+M4-FUNG-0308,BGC0002065 v2,Strobilurus tenacellus,3,0,0,0,0,4,1,4,3,0
+M4-FUNG-0309,BGC0002066 v3,Trichoderma harzianum,3,0,0,0,0,4,1,4,3,0
+M4-FUNG-0310,BGC0002067 v3,Penicillium oxalicum 114-2,3,0,0,0,0,4,1,4,3,0
+M4-FUNG-0311,BGC0002093 v2,Talaromyces variabilis,3,0,0,0,0,4,1,4,3,0
+M4-FUNG-0312,BGC0002113 v3,Fusarium sp. 190-020-2,3,0,0,0,0,4,1,4,3,0
+M4-FUNG-0313,BGC0002139 v3,Aspergillus burnettii FRR 5400,3,0,0,0,0,3,1,3,4,0
+M4-FUNG-0314,BGC0002146 v2,Cladobotryum sp. No. 11231 / Cladobotryum sp.,3,0,0,0,0,3,1,3,4,0
+M4-FUNG-0315,BGC0002149 v2,Aspergillus alliaceus ATCC 20738,3,0,0,0,0,3,1,3,3,0
+M4-FUNG-0316,BGC0002154 v2,Pyricularia oryzae 70-15,3,0,0,0,0,3,1,3,4,0
+M4-FUNG-0317,BGC0002155 v3,Pyricularia oryzae 70-15,3,0,0,0,0,3,1,3,4,0
+M4-FUNG-0318,BGC0002156 v2,Fulvia fulva CBS 131901 (syn. Cladosporium fulvum),3,0,0,0,0,4,1,3,3,0
+M4-FUNG-0319,BGC0002157 v2,Aspergillus flavus,3,0,0,0,0,4,1,3,3,0
+M4-FUNG-0320,BGC0002158 v2,Pyricularia oryzae 70-15,3,0,0,0,0,4,1,3,5,0
+M4-FUNG-0321,BGC0002159 v3,Coprinopsis cinerea okayama7#130,3,0,0,0,0,4,1,3,4,0
+M4-FUNG-0322,BGC0002161 v2,Pestalotiopsis fici W106-1,3,0,0,0,0,4,1,3,4,0
+M4-FUNG-0323,BGC0002162,Aspergillus fischeri NRRL 181,13,2,3,3,2,3,2,2,7,0
+M4-FUNG-0324,BGC0002163,Fusarium pseudograminearum CS3096,13,3,3,3,2,3,2,2,8,0
+M4-FUNG-0325,BGC0002164,Epichloë festucae,13,2,2,3,2,3,2,2,7,0
+M4-FUNG-0326,BGC0002165,Parastagonospora nodorum SN15,13,2,2,3,2,3,2,2,7,0
+M4-FUNG-0327,BGC0002167,Aspergillus flavus NRRL 3357,13,2,2,3,2,3,2,2,7,0
+M4-FUNG-0328,BGC0002168,Aspergillus stellatus,13,3,3,3,2,3,3,2,7,0
+M4-FUNG-0329,BGC0002169,Aspergillus aculeatus ATCC 16872,13,3,1,3,2,3,2,2,7,0
+M4-FUNG-0330,BGC0002170,Aspergillus stellatus (current MIBiG mapping),13,2,3,3,2,3,2,2,7,0
+M4-FUNG-0331,BGC0002171,Aspergillus niger ATCC 1015,13,2,3,3,2,3,2,2,7,0
+M4-FUNG-0332,BGC0002172,Fusarium graminearum PH-1,13,4,2,3,3,3,3,2,7,0
+M4-FUNG-0333,BGC0002173,Aspergillus fumigatus A1163,13,4,2,3,3,3,4,3,8,0
+M4-FUNG-0334,BGC0002174,Epichloe festucae,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0335,BGC0002175,Aspergillus oryzae RIB40,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0336,BGC0002176,Fusarium graminearum PH-1,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0337,BGC0002177,Ustilaginoidea virens,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0338,BGC0002178,Fusarium graminearum PH-1,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0339,BGC0002179,Alternaria alternata,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0340,BGC0002180,Aspergillus nidulans FGSC A4,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0341,BGC0002181,Rhodocybe pseudopiperita,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0342,BGC0002182,Trichoderma virens,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0343,BGC0002183,Wickerhamiella pararugosa,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0344,BGC0002184,Aspergillus clavatus NRRL 1,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0345,BGC0002185,Penicillium sp. sh18; canonical source lists Penicillium sp.,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0346,BGC0002186,Fusarium graminearum PH-1,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0347,BGC0002187,Pochonia chlamydosporia 170,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0348,BGC0002188,Fusarium pseudograminearum CS3096,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0349,BGC0002189,Fusarium pseudograminearum CS5834 in canonical source; defining paper refers to C5834,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0350,BGC0002190,Acremonium chrysogenum ATCC 11550,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0351,BGC0002191,Fusarium graminearum PH-1,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0352,BGC0002192,fungal sp. No.14919; species unresolved in canonical source,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0353,BGC0002193,Aspergillus terreus NIH2624,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0354,BGC0002194,Epicoccum nigrum,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0355,BGC0002195,Aspergillus oryzae RIB40,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0356,BGC0002196,Penicillium crustosum,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0357,BGC0002197,Penicillium crustosum,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0358,BGC0002198,Aspergillus terreus var. terreus,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0359,BGC0002199,Aspergillus nanangensis,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0360,BGC0002200,Calcarisporium arbuscula,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0361,BGC0002201,Bipolaris victoriae FI3; defining paper uses historical Cochliobolus victoriae nomenclature,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0362,BGC0002202,Bipolaris victoriae FI3; historical Cochliobolus victoriae in defining literature,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0363,BGC0002203,Beauveria bassiana ARSEF 2860,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0364,BGC0002204,Aspergillus flavipes; defining study strain CNL-338,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0365,BGC0002205,Parastagonospora nodorum SN15,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0366,BGC0002206,Trichoderma guizhouense,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0367,BGC0002207,Psilocybe cyanescens,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0368,BGC0002208,Aspergillus ustus,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0369,BGC0002209,Aspergillus ustus,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0370,BGC0002210,Aspergillus violaceofuscus CBS 115571,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0371,BGC0002211,Paraphaeosphaeria sporulosa,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0372,BGC0002212,Moniliophthora roreri MCA 2997,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0373,BGC0002213,Punctularia strigosozonata HHB-11173 SS5,3,0,0,0,0,1,1,0,4,0
+M4-FUNG-0374,BGC0002214,,1,0,0,0,0,1,1,0,3,0
+M4-FUNG-0375,BGC0002215,,1,0,0,0,0,1,1,0,3,0
+M4-FUNG-0376,BGC0002216,,1,0,0,0,0,1,1,0,3,0
+M4-FUNG-0377,BGC0002218,,1,0,0,0,0,1,1,0,3,0
+M4-FUNG-0378,BGC0002219,,1,0,0,0,0,1,1,0,3,0
+M4-FUNG-0379,BGC0002220,,1,0,0,0,0,1,1,0,3,0
+M4-FUNG-0380,BGC0002221,,1,0,0,0,0,1,1,0,3,0
+M4-FUNG-0381,BGC0002222,,1,0,0,0,0,1,1,0,3,0
+M4-FUNG-0382,BGC0002223,,1,0,0,0,0,1,1,0,3,0
+M4-FUNG-0383,BGC0002224,,1,0,0,0,0,1,1,0,3,0
+M4-FUNG-0384,BGC0002225,,1,0,0,0,0,1,1,0,3,0
+M4-FUNG-0385,BGC0002226,,1,0,0,0,0,1,1,0,3,0
+M4-FUNG-0386,BGC0002227,,1,0,0,0,0,1,1,0,3,0
+M4-FUNG-0387,BGC0002228,,1,0,0,0,0,1,1,0,3,0
+M4-FUNG-0388,BGC0002229,,1,0,0,0,0,1,1,0,3,0
+M4-FUNG-0389,BGC0002230,,1,0,0,0,0,1,1,0,3,0
+M4-FUNG-0390,BGC0002231,,1,0,0,0,0,1,1,0,3,0
+M4-FUNG-0391,BGC0002232,,1,0,0,0,0,1,1,0,3,0
+M4-FUNG-0392,BGC0002233,,1,0,0,0,0,1,1,0,3,0
+M4-FUNG-0393,BGC0002234,,1,0,0,0,0,1,1,0,3,0
+M4-FUNG-0394,BGC0002235,,1,0,0,0,0,1,1,0,3,0
+M4-FUNG-0395,BGC0002236,,1,0,0,0,0,1,1,0,3,0
+M4-FUNG-0396,BGC0002237,,1,0,0,0,0,1,1,0,3,0
+M4-FUNG-0397,BGC0002238,,1,0,0,0,0,1,1,0,3,0
+M4-FUNG-0398,BGC0002239,,1,0,0,0,0,1,1,0,3,0
+M4-FUNG-0399,BGC0002240,,1,0,0,0,0,1,1,0,3,0
+M4-FUNG-0400,BGC0002241,,1,0,0,0,0,1,1,0,3,0
+M4-FUNG-0401,BGC0002242,,1,0,0,0,0,1,1,0,3,0
+M4-FUNG-0402,BGC0002243,,1,0,0,0,0,1,1,0,3,0
+M4-FUNG-0403,BGC0002244,,1,0,0,0,0,1,1,0,3,0
+M4-FUNG-0404,BGC0002245,,1,0,0,0,0,1,1,0,3,0
+M4-FUNG-0405,BGC0002246,,1,0,0,0,0,1,1,0,4,0
+M4-FUNG-0406,BGC0002247,,1,0,0,0,0,1,1,0,3,0
+M4-FUNG-0407,BGC0002248,,1,0,0,0,0,1,1,0,3,0
+M4-FUNG-0408,BGC0002249,,1,0,0,0,0,1,1,0,3,0
+M4-FUNG-0409,BGC0002250,,1,0,0,0,0,1,1,0,3,0
+M4-FUNG-0410,BGC0002251,,1,0,0,0,0,1,1,0,3,0
+M4-FUNG-0411,BGC0002252,,1,0,0,0,0,1,1,0,3,0
+M4-FUNG-0412,BGC0002253,,1,0,0,0,0,1,1,0,3,0
+M4-FUNG-0413,BGC0002254,,1,0,0,0,0,1,1,0,3,0
+M4-FUNG-0414,BGC0002255,,1,0,0,0,0,1,1,0,3,0
+M4-FUNG-0415,BGC0002256,,1,0,0,0,0,1,1,0,3,0
+M4-FUNG-0416,BGC0002257,,1,0,0,0,0,1,1,0,3,0
+M4-FUNG-0417,BGC0002258,,1,0,0,0,0,1,1,0,3,0
+M4-FUNG-0418,BGC0002259,,1,0,0,0,0,1,1,0,3,0
+M4-FUNG-0419,BGC0002260,,1,0,0,0,0,1,1,0,3,0
+M4-FUNG-0420,BGC0002261,,1,0,0,0,0,1,1,0,3,0
+M4-FUNG-0421,BGC0002262,,1,0,0,0,0,1,1,0,3,0
+M4-FUNG-0422,BGC0002263,,1,0,0,0,0,1,1,0,3,0
+M4-FUNG-0423,BGC0002264,,1,0,0,0,0,1,1,0,3,0
+M4-FUNG-0424,BGC0002265,,1,0,0,0,0,1,1,0,3,0
+M4-FUNG-0425,BGC0002266,,1,0,0,0,0,1,1,0,3,0
+M4-FUNG-0426,BGC0002267,Aspergillus terreus NIH2624,27,5,4,3,3,3,3,3,4,0
+M4-FUNG-0427,BGC0002268,Penicillium sp.,27,7,8,5,3,6,8,5,5,0
+M4-FUNG-0428,BGC0002269,Calcarisporium arbuscula,27,2,1,2,1,2,2,2,4,0
+M4-FUNG-0429,BGC0002270,Metarhizium robertsii ARSEF 23,27,7,3,4,1,3,3,2,5,0
+M4-FUNG-0430,BGC0002271,Aspergillus terreus NIH2624,27,4,1,1,1,1,1,2,5,0
+M4-FUNG-0431,BGC0002272,Aspergillus terreus NIH2624,27,6,2,1,1,2,1,2,5,0
+M4-FUNG-0432,BGC0002273,Aspergillus terreus NIH2624,27,7,2,1,2,2,2,2,6,0
+M4-FUNG-0433,BGC0002274,Aspergillus terreus NIH2624,27,1,2,1,1,2,2,2,4,0
+M4-FUNG-0434,BGC0002275,Aspergillus niger CBS 101883,27,2,3,3,2,3,3,2,5,0
+M4-FUNG-0435,BGC0002276,Aspergillus nidulans FGSC A4,27,1,3,2,3,2,2,2,4,0
+M4-FUNG-0436,BGC0002277,Suillus grevillei,27,1,2,1,1,2,2,2,4,0
+M4-FUNG-0437,BGC0002278,Penicillium brasilianum,27,5,5,5,3,4,4,3,5,0
+M4-FUNG-0438,BGC0002279,Omphalotus olearius VT 653.13,27,2,2,3,4,3,3,2,4,0
+M4-FUNG-0439,BGC0002280,Omphalotus olearius VT 653.13,27,2,2,3,4,3,3,2,4,0
+M4-FUNG-0440,BGC0002281,Fusarium commune,27,6,4,5,7,4,4,3,4,0
+M4-FUNG-0441,BGC0002290,Biscogniauxia sp.,27,7,5,3,3,4,4,3,4,0
+M4-FUNG-0442,BGC0002301,Aschersonia paraphysata,27,3,2,3,3,3,3,3,4,0
+M4-FUNG-0443,BGC0002304,Talaromyces variabilis,27,7,5,4,7,4,4,3,4,0
+M4-FUNG-0444,BGC0002320,Penicillium rubens Wisconsin 54-1255,27,2,2,3,3,3,3,3,4,0
+M4-FUNG-0445,BGC0002321,Metschnikowia aff. pulcherrima,27,4,4,5,5,4,4,3,4,0
+M4-FUNG-0446,BGC0002348,Aspergillus terreus NIH2624,27,6,3,5,3,5,5,4,6,0
+M4-FUNG-0447,BGC0002368,Penicillium citrinum,27,5,4,4,4,4,4,3,5,0
+M4-FUNG-0448,BGC0002375,Cladosporium sp. SW67,27,5,3,2,2,3,2,2,4,0
+M4-FUNG-0449,BGC0002427,Metarhizium robertsii ARSEF 23,27,6,3,4,6,4,4,3,5,0
+M4-FUNG-0450,BGC0002428,Fusarium graminearum PH-1,27,7,5,4,4,4,4,4,6,0
+M4-FUNG-0451,BGC0002429,Colletotrichum higginsianum IMI 349063,27,7,5,4,4,4,5,4,7,0
+M4-FUNG-0452,BGC0002438,Pithomyces chartarum,27,7,2,2,6,4,3,3,5,0
+M4-FUNG-0453,BGC0002445,Armillaria gallica,27,6,3,4,5,4,4,4,5,0
+M4-FUNG-0454,BGC0002459,Bipolaris sorokiniana,27,6,5,4,4,4,4,4,6,0
+M4-FUNG-0455,BGC0002483,Cladonia uncialis subsp. uncialis,27,3,2,3,3,4,3,4,6,0
+M4-FUNG-0456,BGC0002501,Penicillium steckii,27,6,5,4,5,4,4,4,5,0
+M4-FUNG-0457,BGC0002502,Fusarium fujikuroi,27,6,3,4,6,4,4,4,6,0
+M4-FUNG-0458,BGC0002505,Xenoacremonium sinensis,27,7,4,4,3,5,5,3,6,0
+M4-FUNG-0459,BGC0002507,Chrysosporium merdarium,27,6,2,2,2,3,2,2,6,0
+M4-FUNG-0460,BGC0002511,Cladonia macilenta KoLRI003786,27,6,1,3,6,5,4,4,6,0
+M4-FUNG-0461,BGC0002513,Cladonia metacorallifera KoLRI002260,27,1,2,2,0,2,0,1,4,0
+M4-FUNG-0462,BGC0002515,Ascochyta rabiei,27,2,2,2,0,2,0,1,4,0
+M4-FUNG-0463,BGC0002516,Fusarium neocosmosporiellum,27,1,0,2,0,2,0,1,3,0
+M4-FUNG-0464,BGC0002519,Aspergillus fumigatus MF071,27,0,2,0,0,2,0,1,3,0
+M4-FUNG-0465,BGC0002525,Fusarium sp. RK97-94,27,7,0,2,0,2,0,1,3,0
+M4-FUNG-0466,BGC0002537,Aspergillus sp. TJ23,27,4,0,1,0,2,0,1,3,0
+M4-FUNG-0467,BGC0002538,Chaetomium olivaceum SD-80A,27,3,0,1,0,2,0,1,3,0
+M4-FUNG-0468,BGC0002539,Discosia rubi,27,4,0,2,0,3,0,1,3,0
+M4-FUNG-0469,BGC0002543,Phialomyces arenicola (studied as Penicillium arenicola NRRL 8095),27,7,0,1,0,2,0,1,3,0
+M4-FUNG-0470,BGC0002546,Chaetomium globosum,27,5,0,1,0,3,0,1,3,0
+M4-FUNG-0471,BGC0002549,Parmelia sp. 050094,27,0,0,1,0,2,0,1,3,0
+M4-FUNG-0472,BGC0002555,Acremonium sp.,27,3,2,1,0,2,0,1,3,0
+M4-FUNG-0473,BGC0002557,Penicillium griseofulvum,27,3,2,2,0,2,0,1,4,0
+M4-FUNG-0474,BGC0002592,Aspergillus terreus NIH2624,27,3,2,1,0,2,0,1,3,0
+M4-FUNG-0475,BGC0002593,Pseudevernia furfuracea,27,1,2,1,0,2,0,1,4,0
+M4-FUNG-0476,BGC0002594,Fusarium graminearum PH-1,27,2,2,1,0,2,0,1,3,0
+M4-FUNG-0477,BGC0002595,Taiwanofungus camphoratus,27,1,2,1,0,2,0,1,3,0
+M4-FUNG-0478,BGC0002596,Claviceps purpurea 20.1,27,1,3,1,0,2,0,1,3,0
+M4-FUNG-0479,BGC0002598,Aspergillus westerdijkiae,27,5,2,2,0,3,0,1,5,0
+M4-FUNG-0480,BGC0002599,Aspergillus fumigatus,27,0,0,1,0,2,0,1,3,0
+M4-FUNG-0481,BGC0002600,Aspergillus fumigatus,27,0,1,1,0,2,0,1,3,0
+M4-FUNG-0482,BGC0002601,Aspergillus fumigatus,27,0,1,1,0,2,0,1,3,0
+M4-FUNG-0483,BGC0002602,Aspergillus flavus,27,3,3,1,0,3,0,1,4,0
+M4-FUNG-0484,BGC0002603,Aspergillus versicolor,27,4,2,2,0,3,0,1,4,0
+M4-FUNG-0485,BGC0002604,Aspergillus felis,27,2,2,1,0,3,0,1,4,0
+M4-FUNG-0486,BGC0002605,Aspergillus carbonarius,27,5,1,1,0,3,0,1,4,0
+M4-FUNG-0487,BGC0002606,Aspergillus niger,27,5,1,1,0,3,0,1,4,0
+M4-FUNG-0488,BGC0002607,Aspergillus westerdijkiae,27,5,1,1,0,3,0,1,4,0
+M4-FUNG-0489,BGC0002608,Aspergillus steynii,27,5,1,1,0,3,0,1,4,0
+M4-FUNG-0490,BGC0002609,Aspergillus welwitschiae,27,5,1,1,0,3,0,1,4,0
+M4-FUNG-0491,BGC0002610,Aspergillus stellatus,27,2,2,2,1,3,2,1,4,0
+M4-FUNG-0492,BGC0002611,Aspergillus mulundensis,27,6,1,2,1,5,4,3,6,0
+M4-FUNG-0493,BGC0002612,Aspergillus stellatus,27,8,4,3,2,5,5,2,4,0
+M4-FUNG-0494,BGC0002614,Penicillium shearii,27,8,6,3,4,6,6,4,5,0
+M4-FUNG-0495,BGC0002615,Penicillium terrestre,27,3,0,1,0,2,0,1,3,0
+M4-FUNG-0496,BGC0002616,Penicillium roqueforti,27,2,0,2,2,2,0,1,3,0
+M4-FUNG-0497,BGC0002617,Penicillium sp. YT-2016,27,1,0,1,0,2,0,1,3,0
+M4-FUNG-0498,BGC0002618,Penicillium crustosum,27,3,0,2,1,2,0,1,4,0
+M4-FUNG-0499,BGC0002619,Penicillium brevicompactum,27,1,2,1,0,2,0,1,3,0
+M4-FUNG-0500,BGC0002646,Aspergillus hancockii,27,2,2,2,0,2,0,1,3,0
+M4-FUNG-0501,BGC0002651,Rosellinia necatrix,27,2,2,2,2,3,0,2,4,0
+M4-FUNG-0502,BGC0002655,Paramyrothecium roridum,27,1,3,2,1,3,2,2,3,0
+M4-FUNG-0503,BGC0002658,Sarocladium oryzae,27,6,4,3,2,4,3,3,4,0
+M4-FUNG-0504,BGC0002664,Xylaria sp. 218_066,27,2,1,2,2,3,2,2,3,0
+M4-FUNG-0505,BGC0002670,Fusarium oxysporum f. sp. lycopersici 4287,27,4,4,3,0,3,3,2,3,0
+M4-FUNG-0506,BGC0002707,Coniophora puteana RWD-64-598 SS2,27,2,2,2,2,3,2,2,3,0
+M4-FUNG-0507,BGC0002708,Coniophora puteana RWD-64-598 SS2,27,1,2,3,3,3,3,2,4,0
+M4-FUNG-0508,BGC0002709,Fusarium graminearum PH-1,27,6,3,3,0,3,3,2,5,0
+M4-FUNG-0509,BGC0002710,Metarhizium robertsii ARSEF 23,27,3,3,3,2,3,3,2,4,0
+M4-FUNG-0510,BGC0002726,Bipolaris sorokiniana,27,2,2,2,1,3,2,2,4,0
+M4-FUNG-0511,BGC0002727,Neonectria sp. DH2,27,5,2,2,0,2,1,1,3,0
+M4-FUNG-0512,BGC0002728,Aspergillus aculeatus ATCC 16872,27,7,4,4,0,4,5,2,3,0
+M4-FUNG-0513,BGC0002729,Neurospora crassa OR74A,27,7,3,3,3,4,4,2,3,0
+M4-FUNG-0514,BGC0002730,Penicillium brasilianum HBU-136,27,4,4,2,5,4,3,1,3,0
+M4-FUNG-0515,BGC0002731,Aspergillus nanangensis,27,3,3,2,0,3,3,2,3,0
+M4-FUNG-0516,BGC0002734,Aspergillus terreus NIH2624,27,2,2,3,0,3,3,1,4,0
+M4-FUNG-0517,BGC0002736,Aspergillus terreus NIH2624,27,2,2,2,0,3,3,2,3,0
+M4-FUNG-0518,BGC0002745,Penicillium polonicum,27,6,2,4,0,5,5,3,5,0
+M4-FUNG-0519,BGC0002746,Dendrothele bispora CBS 962.96,27,3,2,4,3,5,5,3,4,0
+M4-FUNG-0520,BGC0002747,Lentinula edodes,27,3,2,4,3,5,5,3,4,0
+M4-FUNG-0521,BGC0002749,Aspergillus candidus CBS 102.13,27,3,2,4,0,5,5,3,4,0
+M4-FUNG-0522,BGC0002758,Aspergillus nidulans FGSC A4,27,6,6,5,5,6,6,4,4,0
+M4-FUNG-0523,BGC0002759,Penicillium bialowiezense CBS 227.28,27,8,4,3,0,5,5,3,3,0
+M4-FUNG-0524,BGC0002812,Colletotrichum higginsianum IMI 349063,27,4,8,4,2,5,5,4,4,0
+M4-FUNG-0525,BGC0002845,Aspergillus fumigatus Af293,27,6,8,6,4,6,6,4,6,0
+M4-FUNG-0526,BGC0002847,Metarhizium robertsii ARSEF23,27,3,4,2,0,4,3,2,4,0
+M4-FUNG-0527,BGC0002848,Aspergillus duricaulis CBS 481.65,27,2,2,3,0,3,3,1,3,0
+M4-FUNG-0528,BGC0002849,Aspergillus luteorubrus MST-FP2246,27,5,3,4,3,5,4,2,3,0
+M4-FUNG-0529,BGC0002852,Pestalotiopsis sp. BRIP 39872,27,1,2,1,0,4,1,1,3,0
+M4-FUNG-0530,BGC0002855,Aspergillus striatus ATCC 64988,27,4,1,1,0,3,1,1,4,0
+M4-FUNG-0531,BGC0002864,Ovatospora sp. SCSIO SY280D,27,6,2,2,0,4,3,1,3,0
+M4-FUNG-0532,BGC0002867,Penicillium meliponae MMSRG-058,27,2,7,3,0,3,2,1,3,0
+M4-FUNG-0533,BGC0002872,Curvularia lunata ATCC 74067,27,8,2,5,1,4,3,3,3,0
+M4-FUNG-0534,BGC0002874,Cladonia metacorallifera KoLRI002260,27,9,1,5,0,3,2,1,3,0
+M4-FUNG-0535,BGC0002876,Aspergillus desertorum CBS 653.73,27,5,2,2,0,4,2,1,3,0
+M4-FUNG-0536,BGC0002877,Cordyceps militaris CM01,27,3,2,2,0,4,3,3,3,0
+M4-FUNG-0537,BGC0002883,Cladonia macilenta KoLRI003786,27,1,1,2,0,3,1,1,4,0
+M4-FUNG-0538,BGC0002884,Aspergillus nidulans FSGC A1145,27,3,2,3,0,4,3,1,3,0
+M4-FUNG-0539,BGC0002887,Colletotrichum graminicola M1.001,27,5,4,2,0,3,0,1,4,0
+M4-FUNG-0540,BGC0002891,Arthrinium sp. NF2194,27,8,3,4,0,5,4,2,3,0
+M4-FUNG-0541,BGC0002904,Aspergillus welwitschiae,27,3,2,3,0,4,0,2,4,0
+M4-FUNG-0542,BGC0002905,Taiwanofungus camphoratus S27,27,3,4,3,0,5,2,2,3,0
+M4-FUNG-0543,BGC0002911,Pestalotiopsis fici W106-1,27,1,2,4,0,5,2,1,3,0
+M4-FUNG-0544,BGC0002930,Penicillium arizonense IBT 12289,27,8,8,5,0,7,5,2,5,0
+M4-FUNG-0545,BGC0002933,Albophoma yamanashiensis (Tolypocladium album) FO-254,27,5,6,4,0,6,3,3,3,0
+M4-FUNG-0546,BGC0002936,Umbilicaria deusta,27,1,4,3,0,6,2,2,4,0
+M4-FUNG-0547,BGC0002938,Fusarium graminearum F15,27,0,0,0,0,0,0,0,1,0
+M4-FUNG-0548,BGC0002953,Annulohypoxylon moriforme CBS 123579,27,0,0,0,0,0,0,0,1,0
+M4-FUNG-0549,BGC0002956,Colletotrichum orbiculare 104-T (MAFF 240422),27,0,0,0,0,0,0,0,1,0
+M4-FUNG-0550,BGC0002966,Aspergillus luteorubrus MST-FP2246,27,0,0,0,0,0,0,0,1,0
+M4-FUNG-0551,BGC0002970,Penicillium crustosum PRB-2,27,0,0,0,0,0,0,0,1,0
+M4-FUNG-0552,BGC0002971,Fusarium graminearum PH-1,27,0,0,0,0,0,0,0,1,0
+M4-FUNG-0553,BGC0002980,Aspergillus fumigatus A1163,27,0,0,0,0,0,0,0,1,0
+M4-FUNG-0554,BGC0002984,Dactylonectria alcacerensis CT-6,27,0,0,0,0,0,0,0,1,0
+M4-FUNG-0555,BGC0002985,Paramyrothecium sp. XJ0827,27,0,0,0,0,0,0,0,1,0
+M4-FUNG-0556,BGC0002987,Fusarium scirpi CGMCC 3.3656,27,0,0,0,0,0,0,0,1,0
+M4-FUNG-0557,BGC0002993,Penicillium oxalicum MEFC104,27,3,2,2,0,3,2,1,3,0
+M4-FUNG-0558,BGC0002995,Penicillium soppii CBS 869.70,27,2,2,3,0,3,2,1,3,0
+M4-FUNG-0559,BGC0002996,Penicillium palitans NRRL 2033,27,2,3,1,0,3,2,1,3,0
+M4-FUNG-0560,BGC0002998,Neonectria discophora SNB-CN63,27,1,2,1,0,3,1,1,3,0
+M4-FUNG-0561,BGC0002999,Penicillium roqueforti FM164,27,1,1,1,0,3,1,1,3,0
+M4-FUNG-0562,BGC0003006,Cephalotrichum gorgonifer NG_p51,27,1,1,1,0,3,1,1,3,0
+M4-FUNG-0563,BGC0003011,Phaeosphaeriaceae sp. CF-150626,27,6,2,1,0,3,1,1,3,0
+M4-FUNG-0564,BGC0003013,Aspergillus sp. SCSIO SX7S7,27,5,2,1,0,3,1,1,3,0
+M4-FUNG-0565,BGC0003017,Macrophomina phaseolina MS6,27,1,2,2,0,2,1,1,3,0
+M4-FUNG-0566,BGC0003018,Penicillium sclerotiorum SNB-CN111,27,1,2,1,0,3,1,1,3,0
+M4-FUNG-0567,BGC0003024,Aspergillus fumigatus Af293,27,1,4,2,1,3,3,2,3,0
+M4-FUNG-0568,BGC0003028,Penicillium crustosum PRB-2,27,2,4,2,0,3,3,1,3,0
+M4-FUNG-0569,BGC0003032,Penicillium soppii Okera-1 / IBT 18220,27,3,3,1,0,3,3,2,3,0
+M4-FUNG-0570,BGC0003034,Aspergillus ustus 3.3904,27,1,2,3,3,4,3,2,4,0
+M4-FUNG-0571,BGC0003041,Bipolaris sorokiniana ND90Pr,27,3,3,2,0,4,3,1,3,0
+M4-FUNG-0572,BGC0003047,Fusarium fujikuroi isolate IMI58289,27,5,1,3,1,5,4,2,4,0
+M4-FUNG-0573,BGC0003053,Mortierella alpina ATCC 32222,27,1,3,3,4,4,3,2,4,0
+M4-FUNG-0574,BGC0003054,Aspergillus flavipes CNL-338,27,1,2,3,2,4,3,2,4,0
+M4-FUNG-0575,BGC0003058,Mortierella alpina ATCC 32222,27,1,6,3,4,5,4,2,3,0
+M4-FUNG-0576,BGC0003072,Fusarium graminearum PH-1,27,2,1,2,2,5,4,2,3,0
+M4-FUNG-0577,BGC0003076,Aspergillus ruber QEN-0407-G2 / genome reference CBS 135680,27,4,4,4,4,6,5,3,5,0
+M4-FUNG-0578,BGC0003077,Aspergillus ustus,27,6,6,4,4,6,6,3,5,0
+M4-FUNG-0579,BGC0003085,Aspergillus ustus,27,4,3,3,2,5,4,3,4,0
+M4-FUNG-0580,BGC0003088,Penicillium brocae,27,8,4,4,3,6,6,3,4,0
+M4-FUNG-0581,BGC0003093,Diaporthe sp. SYSU-MS4722,27,14,3,4,3,6,6,4,5,0
+M4-FUNG-0582,BGC0003094,Phaeosphaeria sp. TTI001159,27,10,3,4,4,6,6,3,4,0
+M4-FUNG-0583,BGC0003099,Fusarium mangiferae,27,8,4,4,4,6,6,3,4,0
+M4-FUNG-0584,BGC0003108,Leptobacillium sp. CF-236968,27,8,2,3,1,4,3,2,3,0
+M4-FUNG-0585,BGC0003109,Stachybotrys sp. g12,27,2,1,3,0,3,2,2,3,0
+M4-FUNG-0586,BGC0003113,Jackrogersella multiformis,27,4,2,2,0,3,2,2,4,0
+M4-FUNG-0587,BGC0003115,Penicillium crustosum,27,1,2,3,0,4,2,2,3,0
+M4-FUNG-0588,BGC0003118,Hypomontagnella monticulosa,27,8,1,3,0,4,3,2,3,0
+M4-FUNG-0589,BGC0003119,Aspergillus aculeatus,27,2,3,3,0,3,2,2,3,0
+M4-FUNG-0590,BGC0003120,Jackrogersella minutella,27,2,3,2,0,3,2,2,4,0
+M4-FUNG-0591,BGC0003126,Aspergillus niger,27,3,2,2,0,2,2,1,3,0
+M4-FUNG-0592,BGC0003130,Arthrobotrys oligospora,27,2,1,3,3,3,2,2,4,0
+M4-FUNG-0593,BGC0003140,Penicillium expansum,27,1,1,2,2,3,2,2,3,0
+M4-FUNG-0594,BGC0003142,Fusarium graminearum,27,10,3,4,5,7,7,5,5,1
+M4-FUNG-0595,BGC0003144,Pseudevernia furfuracea,27,10,3,4,5,7,7,5,3,0
+M4-FUNG-0596,BGC0003145,Macrophomina phaseolina,27,4,3,3,2,4,3,1,2,1
+M4-FUNG-0597,BGC0003147,Tolypocladium album,27,1,2,2,1,3,2,2,2,0
+M4-FUNG-0598,BGC0003148,Aspergillus brasiliensis,27,1,2,2,3,2,2,2,2,1
+M4-FUNG-0599,BGC0003149,Fusarium oxysporum,27,1,2,2,1,3,2,2,2,0
+M4-FUNG-0600,BGC0003150,Ascochyta viciae-villosae,27,2,2,3,3,4,2,2,2,1
+M4-FUNG-0601,BGC0003151,Penicillium roqueforti,27,4,2,3,2,2,3,1,2,1
+M4-FUNG-0602,BGC0003153,Fusarium proliferatum,27,5,3,3,3,4,3,1,2,1
+M4-FUNG-0603,BGC0003154,Aspergillus flavus,27,3,3,3,3,3,3,1,5,1
+M4-FUNG-0604,BGC0003157,Talaromyces verruculosus,27,1,2,3,3,3,3,1,2,1
+M4-FUNG-0605,BGC0003158,Macrophomina phaseolina,27,1,2,3,3,3,3,2,2,1
+M4-FUNG-0606,BGC0003159,Colletotrichum gloeosporioides,27,1,2,1,3,4,3,2,3,1
+M4-FUNG-0607,BGC0003161,Periglandula ipomoeae,27,10,3,2,1,4,4,3,3,0
+M4-FUNG-0608,BGC0003162,Epichloë festucae,27,4,3,3,1,5,4,3,4,1
+M4-FUNG-0609,BGC0003163,Periglandula ipomoeae,27,9,3,2,2,4,4,3,3,1

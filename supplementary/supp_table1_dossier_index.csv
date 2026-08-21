@@ -1,0 +1,610 @@
+dossier_id,mibig_accession,organism_name,primary_product_raw,mibig_bgc_class_raw,primary_reference_year,primary_reference_doi,genes,metabolites,experiments,claims,conflicts
+M4-FUNG-0001,BGC0000003,Alternaria alternata,AF-toxin,PKS (Unknown),2005.0,10.1007/s10327-004-0170-3,6,3,2,4,3
+M4-FUNG-0002,BGC0000004,Aspergillus oryzae,aflatoxin G1 (MIBiG annotation; not demonstrated as a native RIB40 product),PKS (Unknown),2006.0,10.1128/AEM.72.1.484-490.2006,23,1,5,5,4
+M4-FUNG-0003,BGC0000005,Aspergillus parasiticus,"aflatoxins B1, B2, G1 and G2",PKS,2004.0,10.1016/S0014-5793(04)00327-8,29,4,7,8,5
+M4-FUNG-0004,BGC0000006,Aspergillus flavus,aflatoxin B1 and aflatoxin B2,PKS (Unknown),2004.0,10.1128/AEM.70.11.6518-6524.2004,23,2,8,6,6
+M4-FUNG-0005,BGC0000007,Aspergillus aflatoxiformans,aflatoxin B1 and aflatoxin G1,PKS (Unknown),2002.0,10.1007/s00253-002-1094-5,25,2,6,7,4
+M4-FUNG-0006,BGC0000008,Aspergillus flavus,aflatoxin B1 and aflatoxin B2,PKS (Unknown),2004.0,10.1128/AEM.70.11.6518-6524.2004,23,2,7,7,5
+M4-FUNG-0007,BGC0000009,Aspergillus nomiae (MIBiG historical label: Aspergillus nomius),aflatoxin B1 and aflatoxin G1 (MIBiG-linked); NRRL 13137 is also a known B2/G2 producer,PKS (Unknown),2004.0,10.1128/AEM.70.11.6518-6524.2004,25,4,7,7,5
+M4-FUNG-0008,BGC0000010,Aspergillus flavus,no native aflatoxin product; MIBiG generically associates the locus with 'aflatoxin',PKS (Unknown),2004.0,10.1007/s00253-004-1670-y,23,1,5,6,5
+M4-FUNG-0009,BGC0000011,Aspergillus ochraceoroseus,sterigmatocystin; aflatoxin B1; aflatoxin B2,PKS (Unknown),2009.0,10.3852/08-173,27,3,6,6,5
+M4-FUNG-0010,BGC0000012,Alternaria solani,alternapyrone — directly demonstrated as Alt5/PKSN product in heterologous A. oryzae; not established as the native final product of the complete A. solani five-gene cluster,PKS (Unknown),2005.0,10.1016/j.chembiol.2005.09.015,5,2,6,7,5
+M4-FUNG-0011,BGC0000013,Aspergillus nidulans,alternariol,PKS (Unknown),2012.0,10.1021/ja3016395,2,4,6,7,6
+M4-FUNG-0012,BGC0000022,Aspergillus nidulans,asperfuranone,PKS (Unknown),2009.0,10.1021/ja8088185,11,2,7,8,6
+M4-FUNG-0013,BGC0000027,Monascus pilosus,ankaflavin; monascin; rubropunctatin; monascorubrin,PKS (Iterative type I),2013.0,10.1007/s00253-013-4745-9,24,5,6,7,5
+M4-FUNG-0014,BGC0000030,Fusarium fujikuroi,bikaverin,PKS (Unknown),2009.0,10.1111/j.1365-2958.2009.06695.x,7,4,9,9,6
+M4-FUNG-0015,BGC0000037,Aspergillus nidulans,cichorine,PKS (Unknown),2012.0,10.1039/C2MD20055D,8,8,7,9,6
+M4-FUNG-0016,BGC0000039,Penicillium citrinum,compactin (ML-236B; mevastatin),PKS (Unknown),2002.0,10.1007/s00438-002-0697-y,9,2,4,4,3
+M4-FUNG-0017,BGC0000045,Aspergillus terreus,"10,11-dehydrocurvularin",PKS (Unknown),2013.0,10.1128/AEM.03334-12,8,3,6,8,6
+M4-FUNG-0018,BGC0000046,Alternaria brassicicola,depudecin,PKS (Iterative type I),2009.0,10.1094/MPMI-22-10-1258,6,3,9,9,7
+M4-FUNG-0019,BGC0000048,Dothistroma septosporum,dothistromin,PKS (Unknown),2006.0,10.1007/s11046-006-0240-5,35,3,10,10,8
+M4-FUNG-0020,BGC0000057,Aspergillus nidulans,orsellinic acid; F9775A; F9775B,PKS (Iterative type I),2010.0,10.1039/b904541d,15,7,10,9,7
+M4-FUNG-0021,BGC0000062,Fusarium verticillioides,fumonisin B1; fumonisin B2; fumonisin B3,PKS (Unknown),1999.0,10.1006/fgbi.1999.1141,16,7,10,11,8
+M4-FUNG-0022,BGC0000063,Fusarium oxysporum,hydroxy-fumonisin C1; fumonisin C1; fumonisin C2; fumonisin C3; fumonisin B1,PKS (Unknown),2008.0,10.1016/j.fgb.2008.02.004,17,5,6,7,6
+M4-FUNG-0023,BGC0000064,Fusarium verticillioides,fusarin C; dihydrofusarin C; fusarin D; epi-fusarin C,NRPS (Type I); PKS (Type I),2004.0,10.1002/cbic.200400138,11,8,9,10,7
+M4-FUNG-0024,BGC0000070,Penicillium aethiopicum,griseofulvin; epidechlorogriseofulvin/dechlorogriseofulvin,PKS (Iterative type I),2010.0,10.1016/j.chembiol.2010.03.015,21,7,9,8,6
+M4-FUNG-0025,BGC0000076,Hypomyces subiculosus,hypothemycin,PKS (Unknown),2008.0,10.1128/AEM.00478-08,9,6,8,9,7
+M4-FUNG-0026,BGC0000077,Hypomyces subiculosus,hypothemycin,PKS (Unknown),2008.0,10.1128/AEM.00478-08,10,6,8,9,7
+M4-FUNG-0027,BGC0000088,Aspergillus terreus,lovastatin,PKS (Unknown),1999.0,10.1126/science.284.5418.1368,19,7,8,9,7
+M4-FUNG-0028,BGC0000089,Aspergillus terreus,lovastatin,PKS (Unknown),,NR,0,1,2,3,3
+M4-FUNG-0029,BGC0000098,Monascus pilosus,monacolin K (chemically identical to lovastatin),PKS (Unknown),2008.0,10.1021/jf800595k,9,3,8,11,9
+M4-FUNG-0030,BGC0000099,Talaromyces marneffei,monascorubrin,PKS (Unknown),2014.0,10.1038/srep06728,5,8,5,9,8
+M4-FUNG-0031,BGC0000101,Aspergillus nidulans,emodin; monodictyphenone; shamixanthone,PKS (Iterative type I),2010.0,10.1128/AEM.02187-09,16,8,7,10,7
+M4-FUNG-0032,BGC0000104,Penicillium brevicompactum,mycophenolic acid (MPA),PKS (Type I),2011.0,10.1128/AEM.03015-10,9,9,8,9,7
+M4-FUNG-0033,BGC0000107,Aspergillus nidulans,YWA1 naphthopyrone (yellow conidial-pigment intermediate),PKS (Type I),1992.0,10.1007/BF00279362,5,4,7,8,8
+M4-FUNG-0034,BGC0000120,Penicillium expansum,patulin,PKS (Iterative type I),2014.0,10.1016/j.ijfoodmicro.2014.07.028,15,10,7,5,5
+M4-FUNG-0035,BGC0000121,Pestalotiopsis fici,pestheic acid = RES-1214-2 = dihydromaldoxin,PKS (Type I),2014.0,10.1002/cbic.201300626,16,7,7,9,8
+M4-FUNG-0036,BGC0000129,Aspergillus fumigatus,pyripyropene A,PKS (Unknown),2010.0,10.1038/nchem.764,9,5,6,4,4
+M4-FUNG-0037,BGC0000134,Pochonia chlamydosporia,radicicol (monorden),PKS (Unknown),2008.0,10.1128/AEM.00478-08,5,5,6,5,4
+M4-FUNG-0038,BGC0000146,Alternaria solani,"solanapyrone D (MIBiG label); pathway also produces solanapyrones A, B, C and E",PKS (Unknown),2010.0,10.1002/cbic.201000173,6,10,8,9,8
+M4-FUNG-0039,BGC0000152,Aspergillus nidulans,sterigmatocystin,PKS (Unknown),1996.0,10.1073/pnas.93.4.1418,25,6,9,6,5
+M4-FUNG-0040,BGC0000154,Talaromyces stipitatus,stipitatic acid,PKS (Iterative type I),2012.0,10.1073/pnas.1201469109,13,12,9,9,8
+M4-FUNG-0041,BGC0000155,Bipolaris maydis,T-toxin family; major C41 component,PKS,1996.0,10.1105/tpc.8.11.2139,10,2,7,5,4
+M4-FUNG-0042,BGC0000156,Aspergillus niger,TAN-1612,PKS (Iterative type I),2011.0,10.1021/ja206906d,6,5,7,8,8
+M4-FUNG-0043,BGC0000160,Aspergillus terreus,terreic acid,PKS (Unknown),2014.0,10.1021/ol502242a,9,6,6,5,5
+M4-FUNG-0044,BGC0000161,Aspergillus terreus,terrein in the experimental literature; MIBiG currently labels isoterrein,PKS (Iterative type I),2014.0,10.1016/j.chembiol.2014.03.010,11,8,11,10,8
+M4-FUNG-0045,BGC0000168,Penicillium aethiopicum,viridicatumtoxin,PKS (Iterative type I),2010.0,10.1016/j.chembiol.2010.03.015,14,3,4,3,3
+M4-FUNG-0046,BGC0000170,Aspergillus niger ATCC 1015,yanuthone D,PKS (Unknown),2014.0,10.1016/j.chembiol.2014.01.013,10,5,4,3,3
+M4-FUNG-0047,BGC0000292,Aspergillus terreus NIH2624,acetylaranotin,NRPS (Type I),2013.0,10.1021/ja3123653,10,3,3,3,3
+M4-FUNG-0048,BGC0000293,Aspergillus fischeri NRRL 181,acetylaszonalenin,NRPS (Type I),2009.0,10.1074/jbc.M807303200,3,3,3,3,3
+M4-FUNG-0049,BGC0000304,Fusarium incarnatum,apicidin,NRPS (Type I),2010.0,10.1111/j.1365-2958.2010.07109.x,11,4,5,3,4
+M4-FUNG-0050,BGC0000307,Aureobasidium pullulans,AbT1 / aureobasidin A,NRPS (Type I),2009.0,10.1016/j.gene.2008.11.011,1,2,2,3,3
+M4-FUNG-0051,BGC0000312,Beauveria bassiana,bassianolide,NRPS (Type I),2009.0,10.1016/j.fgb.2009.03.001,1,1,2,3,3
+M4-FUNG-0052,BGC0000313,Beauveria bassiana,beauvericin,NRPS (Type I),2008.0,10.1016/j.chembiol.2008.07.011,5,2,4,3,3
+M4-FUNG-0053,BGC0000317,Hapsidospora chrysogena ATCC 11550,cephalosporin C at whole-programme level; early-locus terminal intermediate is penicillin N,NRPS (Type I),1991.0,10.1128/jb.173.7.2354-2365.1991,8,4,5,3,4
+M4-FUNG-0054,BGC0000318,Hapsidospora chrysogena ATCC 11550,cephalosporin C,NRPS (Type I),1992.0,10.1016/s0006-291x(05)80772-7,2,4,4,3,4
+M4-FUNG-0055,BGC0000321,Achaetomiella virescens,chaetocin,NRPS (Type I),2013.0,10.1002/cbic.201300513,15,1,2,2,2
+M4-FUNG-0056,BGC0000334,Tolypocladium inflatum NRRL 8044,cyclosporin A,NRPS (Type I),2013.0,10.1371/journal.pgen.1003496,20,3,6,3,2
+M4-FUNG-0057,BGC0000337,Metarhizium robertsii ARSEF 23,destruxin A,NRPS (Type I),2012.0,10.1073/pnas.1115983109,21,3,6,3,1
+M4-FUNG-0058,BGC0000338,Aspergillus pachycristatus NRRL 11440,echinocandin B,NRPS (Type I),2012.0,10.1021/ja307220z,12,3,4,3,3
+M4-FUNG-0059,BGC0000342,Fusarium equiseti,enniatin,NRPS (Type I),1993.0,10.1111/j.1365-2958.1993.tb01181.x,1,3,3,3,1
+M4-FUNG-0060,BGC0000348,Epichloe festucae var. lolii,ergovaline,NRPS (Type I),2007.0,10.1128/AEM.00257-07,6,4,3,4,2
+M4-FUNG-0061,BGC0000355,Aspergillus fumigatus Af293,fumiquinazoline C,NRPS (Type I),2010.0,10.1021/bi100198y,5,4,6,3,2
+M4-FUNG-0062,BGC0000357,Penicillium rubens Wisconsin 54-1255,cyclo-(D-Phe-L-Phe-D-Val-L-Val) / fungisporin-family product,NRPS (Type I),2014.0,10.1371/journal.pone.0098212,1,10,3,2,1
+M4-FUNG-0063,BGC0000361,Aspergillus fumigatus Af293,gliotoxin,NRPS (Type I),2005.0,10.1016/j.femsle.2005.05.046,12,3,6,4,2
+M4-FUNG-0064,BGC0000370,Bipolaris zeicola,HC-toxin,NRPS (Type I),2002.0,10.1006/fgbi.2001.1305,7,2,6,4,3
+M4-FUNG-0065,BGC0000372,Aspergillus fumigatus Af293,hexadehydroastechrome,NRPS (Type I),2013.0,10.1021/ja311145n,8,3,4,3,2
+M4-FUNG-0066,BGC0000404,Penicillium chrysogenum,penicillin,NRPS (Type I),2006.0,10.1016/j.fgb.2006.03.001,6,2,4,3,2
+M4-FUNG-0067,BGC0000405,Penicillium chrysogenum,benzylpenicillin / penicillin G under phenylacetate feeding,NRPS (Type I),2007.0,10.1016/j.fgb.2007.03.008,3,4,4,3,1
+M4-FUNG-0068,BGC0000420,Penicillium rubens Wisconsin 54-1255,meleagrine,NRPS (Type I),2013.0,10.1371/journal.pone.0065328,7,7,4,3,2
+M4-FUNG-0069,BGC0000442,Aspergillus nidulans FGSC A4,terrequinone A,NRPS (Type I),2007.0,10.1038/nchembio.2007.20,5,4,3,3,2
+M4-FUNG-0070,BGC0000456,Lecanicillium sp. HF627,verlamelin,NRPS (Type I),2014.0,10.1007/s00253-014-5803-7,4,3,3,3,2
+M4-FUNG-0071,BGC0000627,Aspergillus flavus NRRL3357,ustiloxin B,ribosomal (RiPP),2014.0,10.1016/j.fgb.2014.04.011,19,2,5,3,3
+M4-FUNG-0072,BGC0000629,Aspergillus flavus,aflatrem,terpene (Unknown),2004.0,10.1128/AEM.70.11.6875-6883.2004,8,4,4,3,2
+M4-FUNG-0073,BGC0000631,Botrytis cinerea B05.10,botrydial,terpene (Sesquiterpene),2008.0,10.1021/cb800225v,7,5,4,4,3
+M4-FUNG-0074,BGC0000667,Penicillium roqueforti FM164,PR-toxin,terpene (Unknown),2014.0,10.1016/j.fgb.2013.10.009,11,7,4,4,4
+M4-FUNG-0075,BGC0000673,Aspergillus nidulans FGSC A4,dipleosmarane and associated isopimarane diterpenoids under modern high-sensitivity cluster activation,terpene (Unknown),2012.0,10.1371/journal.pone.0035450,8,3,4,4,3
+M4-FUNG-0076,BGC0000676,Neocamarosporium betae (historically Phoma betae),aphidicolin,terpene (Diterpene),2004.0,10.1271/bbb.68.146,6,4,5,4,3
+M4-FUNG-0077,BGC0000680,Aspergillus nidulans FGSC A4,austinol; dehydroaustinol,,2012.0,10.1021/ja209809t,2,3,1,2,1
+M4-FUNG-0078,BGC0000682,Aspergillus terreus NIH2624,terretonin,,,10.1021/ol302682z,4,0,0,0,1
+M4-FUNG-0079,BGC0000684,Aspergillus nidulans FGSC A4,asperthecin,,,10.1128/AEM.01743-08,0,0,0,0,1
+M4-FUNG-0080,BGC0000685,Alternaria brassicicola ATCC 96836,brassicicene C,,,10.1016/j.bmcl.2008.12.052,0,0,0,0,0
+M4-FUNG-0081,BGC0000686,Aspergillus fumigatus Af293,helvolic acid,,,10.1021/ja8095976,0,0,0,0,0
+M4-FUNG-0082,BGC0000687,Diaporthe amygdali (historical paper: Phomopsis amygdali),phyllocladan-16α-ol,,,10.1271/bbb.70790,0,0,0,0,0
+M4-FUNG-0083,BGC0000688,Diaporthe amygdali (historical paper: Phomopsis amygdali),(+)-copalyl diphosphate,,,10.1271/bbb.70790,0,0,0,0,1
+M4-FUNG-0084,BGC0000811,Aspergillus fumigatus Af293,fumigaclavine C,,,,0,0,0,0,1
+M4-FUNG-0085,BGC0000812,Shiraia sp. Slf14,huperzine A,,,,0,0,0,0,0
+M4-FUNG-0086,BGC0000815,Epichloë uncinata (historical literature: Neotyphodium uncinatum),loline; N-acetylnorloline; N-formylloline,,,,0,0,0,0,0
+M4-FUNG-0087,BGC0000816,Malbranchea aurantiaca,malbrancheamide A,,,,0,0,0,0,0
+M4-FUNG-0088,BGC0000818,Aspergillus versicolor,notoamide A,,,,0,0,0,0,0
+M4-FUNG-0089,BGC0000819,Penicillium fellutanum,paraherquamide,,,,0,0,0,0,0
+M4-FUNG-0090,BGC0000894,Monascus aurantiacus,citrinin,,,,0,0,0,0,0
+M4-FUNG-0091,BGC0000900,Aspergillus oryzae,ferrichrome,,,,0,0,0,0,0
+M4-FUNG-0092,BGC0000901,Aspergillus niger,ferrichrome,,,,0,0,0,0,0
+M4-FUNG-0093,BGC0000930,Fusarium graminearum (historical literature: Gibberella zeae),nivalenol; 4-acetylnivalenol,,,,0,0,0,0,0
+M4-FUNG-0094,BGC0000931,Fusarium graminearum,trichothecene (historical generic assignment),,,,0,0,0,0,0
+M4-FUNG-0095,BGC0000959,Aspergillus nidulans FGSC A4,aspyridone A; aspyridone B,,,,0,0,0,0,0
+M4-FUNG-0096,BGC0000968,Penicillium expansum,chaetoglobosin A; chaetoglobosin C,,,,0,0,0,0,0
+M4-FUNG-0097,BGC0000977,Aspergillus oryzae,cyclopiazonic acid; 2-oxocyclopiazonic acid,,,,0,0,0,0,0
+M4-FUNG-0098,BGC0000983,Aspergillus clavatus NRRL 1,cytochalasin E; cytochalasin K,,,,0,0,0,0,0
+M4-FUNG-0099,BGC0000992,Fusarium heterosporum,fusaridione A,,,,0,0,0,0,0
+M4-FUNG-0100,BGC0001026,Metarhizium robertsii; source atlas historical label M. anisopliae,NG-391,,,,0,0,0,0,0
+M4-FUNG-0101,BGC0001030,Penicillium nordicum,ochratoxin A,,,,0,0,0,0,0
+M4-FUNG-0102,BGC0001035,Glarea lozoyensis ATCC 20868,pneumocandin B0; pneumocandin A0,,,,0,0,0,0,0
+M4-FUNG-0103,BGC0001037,Aspergillus fumigatus Af293,pseurotin; azaspirene,,,,0,0,0,0,0
+M4-FUNG-0104,BGC0001044,Leptosphaeria maculans,sirodesmin PL,,,,0,0,0,0,0
+M4-FUNG-0105,BGC0001049,Beauveria bassiana,tenellin,,,,0,0,0,0,0
+M4-FUNG-0106,BGC0001057,Fusarium graminearum (teleomorph historical literature: Gibberella zeae),zearalenone,,,,0,0,0,0,0
+M4-FUNG-0107,BGC0001067,Aspergillus fumigatus Af293,fumagillin,,,,0,0,0,0,0
+M4-FUNG-0108,BGC0001081,Epichloë festucae var. lolii; historical literature uses Neotyphodium lolii,lolitrem F (historical record context),,,,0,0,0,0,0
+M4-FUNG-0109,BGC0001082,Penicillium paxilli,"paxilline; 21,22-diprenylated paxilline",,,,0,0,0,0,0
+M4-FUNG-0110,BGC0001084,Aspergillus sp. MF297-2,notoamide A,,,,0,0,0,0,0
+M4-FUNG-0111,BGC0001118,Aspergillus fumigatus Af293,endocrocin,,,,0,0,0,0,0
+M4-FUNG-0112,BGC0001121,Aspergillus nidulans FGSC A4,orsellinic acid,,,,0,0,0,0,0
+M4-FUNG-0113,BGC0001122,Aspergillus terreus NIH2624,dihydroisoflavipucine; isoflavipucine,,,,0,0,0,0,0
+M4-FUNG-0114,BGC0001123,Aspergillus oryzae RIB40,aspirochlorine,,,,0,0,0,0,0
+M4-FUNG-0115,BGC0001124,Aspergillus niger ATCC 1015,pyranonigrin E,,,,0,0,0,0,0
+M4-FUNG-0116,BGC0001136,Beauveria bassiana,desmethylbassianin,,,,0,0,0,0,0
+M4-FUNG-0117,BGC0001141,Penicillium brefeldianum,4-epi-15-epi-brefeldin A,,,,0,0,0,0,0
+M4-FUNG-0118,BGC0001142,Penicillium aethiopicum,tryptoquialanine,,,,0,0,0,0,0
+M4-FUNG-0119,BGC0001143,Aspergillus niger ATCC 1015,,,,,0,0,0,0,0
+M4-FUNG-0120,BGC0001144,Trichophyton tonsurans CBS 112818,neosartoricin B,,,,0,0,0,0,0
+M4-FUNG-0121,BGC0001158,Botrytis cinerea,bikaverin,,,,0,0,0,0,0
+M4-FUNG-0122,BGC0001166,Alternaria jesenskae,HC-toxin,,,,0,0,0,0,0
+M4-FUNG-0123,BGC0001187,Glarea lozoyensis,xenolozoyenone,,,,0,0,0,0,0
+M4-FUNG-0124,BGC0001190,Fusarium verticillioides 7600,fusaric acid,,,,0,0,0,0,0
+M4-FUNG-0125,BGC0001205,Penicillium expansum,,,,,0,0,0,0,0
+M4-FUNG-0126,BGC0001218,Cordyceps fumosorosea,fumosorinone,,,,0,0,0,0,0
+M4-FUNG-0127,BGC0001219,Chaetomium globosum CBS 148.51,shanorellin,,,,0,0,0,2,1
+M4-FUNG-0128,BGC0001220,Aspergillus japonicus,aculeacin A,,,,0,0,0,1,2
+M4-FUNG-0129,BGC0001234,Aspergillus flavus NRRL3357,,,,,0,0,0,1,2
+M4-FUNG-0130,BGC0001238,Aspergillus nidulans,biotin,,,,0,0,0,0,1
+M4-FUNG-0131,BGC0001239,Aspergillus nidulans,biotin,,,,0,0,0,0,1
+M4-FUNG-0132,BGC0001240,Metarhizium robertsii,,,,,0,0,0,0,2
+M4-FUNG-0133,BGC0001241,Claviceps fusiformis,,,,,0,0,0,0,2
+M4-FUNG-0134,BGC0001242,Fusarium fujikuroi,,,,,0,0,0,0,2
+M4-FUNG-0135,BGC0001243,Botrytis cinerea,,,,,0,0,0,0,0
+M4-FUNG-0136,BGC0001244,Parastagonospora nodorum,,,,,0,0,0,0,2
+M4-FUNG-0137,BGC0001245,Lasiodiplodia theobromae,lasiodiplodin,,,,0,0,0,0,0
+M4-FUNG-0138,BGC0001246,Sarocladium zeae (historical primary paper: Acremonium zeae),trans-resorcylide,,,,0,0,0,0,0
+M4-FUNG-0139,BGC0001247,Cercospora nicotianae,cercosporin,,,,0,0,0,0,0
+M4-FUNG-0140,BGC0001248,Hypholoma sublateritium,clavaric acid,,,,0,0,0,0,0
+M4-FUNG-0141,BGC0001249,Alternaria alternata,dimethylcoprogen,,,,0,0,0,0,0
+M4-FUNG-0142,BGC0001250,Epichloë festucae,epichloënin A,,,,0,0,0,0,0
+M4-FUNG-0143,BGC0001251,Epichloë festucae,epichloënin A,,,,0,0,0,0,0
+M4-FUNG-0144,BGC0001252,Alternaria alternata rough-lemon pathotype,ACR-toxin (MIBiG compound field currently UNII-YC2Q1O94PT),,,,0,0,0,0,0
+M4-FUNG-0145,BGC0001253,Alternaria alternata tangerine pathotype,ACT-toxin I (historical MIBiG label),,,,0,0,0,0,0
+M4-FUNG-0146,BGC0001254,Alternaria alternata tangerine pathotype,ACT-toxin II,,,,0,0,0,0,0
+M4-FUNG-0147,BGC0001255,Fusarium heterosporum,equisetin,hybrid iterative type-I PKS / NRPS,,,0,0,0,2,1
+M4-FUNG-0148,BGC0001256,Tapinella panuoides,atromentin,,,,0,0,0,1,1
+M4-FUNG-0149,BGC0001257,Nodulisporium sp. ATCC 74245,"1,3,6,8-tetrahydroxynaphthalene; DHN-melanin precursor",,,,0,0,0,1,1
+M4-FUNG-0150,BGC0001258,Glarea lozoyensis,"1,3,6,8-tetrahydroxynaphthalene; DHN-melanin precursor",,,,0,0,0,1,1
+M4-FUNG-0151,BGC0001259,Elsinoë fawcettii,elsinochrome A; elsinochrome family phytotoxins,,,,0,0,0,2,1
+M4-FUNG-0152,BGC0001260,Tolypocladium album; historical paper name Chaunopycnis alba,terpendole E,,,,0,0,0,2,1
+M4-FUNG-0153,BGC0001261,"Alternaria alternata, apple pathotype",AM-toxin,,,,0,0,0,1,1
+M4-FUNG-0154,BGC0001262,"Alternaria alternata, Japanese-pear pathotype",AK-toxin I,,,,0,0,0,2,1
+M4-FUNG-0155,BGC0001263,Claviceps purpurea,,,,,0,0,0,1,2
+M4-FUNG-0156,BGC0001264,Neocamarosporium betae; historical literature/MIBiG source name Phoma betae,betaenone A; betaenone B; betaenone C,highly reducing iterative type-I PKS decalin pathway,,,0,0,0,2,1
+M4-FUNG-0157,BGC0001265,Bipolaris oryzae,DHN melanin,iterative fungal PKS-dependent DHN-melanin pathway,,,0,0,0,2,1
+M4-FUNG-0158,BGC0001266,Cladonia grayi,grayanic acid,lichen orcinol depside/depsidone PKS pathway,,,0,0,0,2,1
+M4-FUNG-0159,BGC0001267,Claviceps fusiformis,elymoclavine; agroclavine,ergot alkaloid / clavine pathway,,,0,0,0,2,1
+M4-FUNG-0160,BGC0001268,Fusarium fujikuroi,fusarin C,hybrid PKS/NRPS-derived fusarin mycotoxin pathway,,,0,0,0,2,1
+M4-FUNG-0161,BGC0001269,Sphaceloma manihoticola,gibberellins; defining study identifies GA4 as principal endpoint and absence of GA7/GA3/GA1 capacity,diterpene gibberellin pathway,,,0,0,0,2,1
+M4-FUNG-0162,BGC0001270,Fusarium fujikuroi,"gibberellins including GA3, GA1, GA7, GA4 and GA9 in the historical record",fungal diterpene gibberellin pathway,,,0,0,0,2,1
+M4-FUNG-0163,BGC0001271,Aspergillus nidulans FGSC A4,emericellin,polyketide-derived prenyl xanthone pathway,,,0,0,0,2,1
+M4-FUNG-0164,BGC0001272,Elsinoë fawcettii,elsinochrome B; elsinochrome C,perylenequinone polyketide phytotoxin pathway,,,0,0,0,2,1
+M4-FUNG-0165,BGC0001273,Aspergillus ochraceus in MIBiG; defining paper reports Aspergillus westerdijkiae,asperlactone; defining paper also tracks isoasperlactone,6-methylsalicylic-acid-derived polyketide pathway,,,0,0,0,2,1
+M4-FUNG-0166,BGC0001274,Starmerella bombicola (historical literature: Candida bombicola),non-acetylated open-chain sophorolipid; diacetylated lactonic sophorolipid,glycolipid biosurfactant pathway,,,0,0,0,2,1
+M4-FUNG-0167,BGC0001275,Glarea lozoyensis,6-methylsalicylic acid,iterative fungal polyketide synthase,,,0,0,0,2,1
+M4-FUNG-0168,BGC0001276,Aspergillus terreus,6-methylsalicylic acid,iterative fungal polyketide synthase,,,0,0,0,2,1
+M4-FUNG-0169,BGC0001277,Fusarium graminearum,15-acetyldeoxynivalenol; 3-decalonectrin,,,,0,0,0,2,1
+M4-FUNG-0170,BGC0001278,Fusarium sporotrichioides,T-2 toxin,,,,0,0,0,2,1
+M4-FUNG-0171,BGC0001279,Paramyrothecium roridum (historical Myrothecium roridum),deoxysambucinol; sambucinol; roridin E,,,,0,0,0,2,1
+M4-FUNG-0172,BGC0001280,historical Phoma betae,betaenone C; betaenone A,,,,0,0,0,2,1
+M4-FUNG-0173,BGC0001281,Ustilago maydis 521,ustilagic acid,,,,0,0,0,2,1
+M4-FUNG-0174,BGC0001282,Epichloë coenophiala,,,,,0,0,0,2,1
+M4-FUNG-0175,BGC0001284,Parastagonospora nodorum SN15,alternariol,,,,0,0,0,2,1
+M4-FUNG-0176,BGC0001286,Ustilago maydis,itaconic acid,,,,0,0,0,2,1
+M4-FUNG-0177,BGC0001290,Aspergillus nidulans FGSC A4,emericellamide A/B,,,,0,0,0,2,1
+M4-FUNG-0178,BGC0001304,Aspergillus flavus NRRL3357,aflavarin,,,,0,0,0,2,1
+M4-FUNG-0179,BGC0001305,Fusarium fujikuroi IMI 58289,fujikurins A–D,,,,0,0,0,2,1
+M4-FUNG-0180,BGC0001306,Aspergillus flavus NRRL3357,asperipin-2a,,,,0,0,0,2,1
+M4-FUNG-0181,BGC0001309,Cladonia uncialis mycobiont,usnic acid,,,,0,0,0,2,1
+M4-FUNG-0182,BGC0001338,Monascus ruber,citrinin,,,,0,0,0,2,1
+M4-FUNG-0183,BGC0001339,Phoma sp. MF5453,squalestatin S1,,,,0,0,0,2,1
+M4-FUNG-0184,BGC0001340,"Byssochlamys fulva, historical producer strain IMI 40021","byssochlamic acid, agnestadrides A/B, triketide maleidride monomer",,,,0,0,0,2,1
+M4-FUNG-0185,BGC0001358,Purpureocillium lilacinum,leucinostatin A/B,,,,0,0,0,2,1
+M4-FUNG-0186,BGC0001360,Penicillium roqueforti FM164,mycophenolic acid,,,,0,0,0,2,1
+M4-FUNG-0187,BGC0001365,Claviceps purpurea 20.1,"dithioclapurine, trithioclapurine, tetrathioclapurine",,,,0,0,0,2,1
+M4-FUNG-0188,BGC0001371,Aspergillus nidulans NRRL 8112,echinocandin B,,,,0,0,0,1,1
+M4-FUNG-0189,BGC0001372,Penicillium thymicola,penigequinolone A,,,,0,0,0,1,1
+M4-FUNG-0190,BGC0001373,Sordaria araneosa,sordarin,,,,0,0,0,1,1
+M4-FUNG-0191,BGC0001375,Penicillium simplicissimum,"penitrem A, B, C, D, E and F",,,,0,0,0,1,1
+M4-FUNG-0192,BGC0001385,Byssochlamys fulva,byssochlamic acid; agnestadrides,,,,0,0,0,1,1
+M4-FUNG-0193,BGC0001390,Stachybotrys bisbyi,LL-Z1272β,,,,0,0,0,1,1
+M4-FUNG-0194,BGC0001398,Phomopsis leptostromiformis,"phomopsin A, phomopsin B, phomopsin E",,,,0,0,0,2,1
+M4-FUNG-0195,BGC0001399,Aspergillus nidulans FGSC A4,fellutamide B,,,,0,0,0,2,1
+M4-FUNG-0196,BGC0001400,Aspergillus terreus NIH2624 in the canonical record,citreoviridin,,,,0,0,0,1,1
+M4-FUNG-0197,BGC0001401,Armillaria mellea,melleolide F; 6'-chloromelleolide F; 6'-bromomelleolide F,,,,0,0,0,1,1
+M4-FUNG-0198,BGC0001403,Aspergillus fumigatus Af293,"seed 3,820,195–3,845,905; trypacidin",,,,0,0,0,1,1
+M4-FUNG-0199,BGC0001404,Penicillium rubens Wisconsin 54-1255,"seed 1,187,590–1,216,347; sorbicillin",,,,0,0,0,1,1
+M4-FUNG-0200,BGC0001405,Chaetomium globosum CBS 148.51,"seed 2,447,651–2,507,160; chaetoviridin E; 11-epichaetomugilin A",,,,0,0,0,1,1
+M4-FUNG-0201,BGC0001445,Aspergillus flavus NRRL 3357,"seed 704,693–736,312; leporin B",,,,0,0,0,1,1
+M4-FUNG-0202,BGC0001446,Aspergillus flavus NRRL 3357,"seed 2,642,293–2,658,105; asparasone A",,,,0,0,0,1,1
+M4-FUNG-0203,BGC0001449,Thermothelomyces thermophilus,"seed 1,175,000–1,217,500; UCS1025A",,,,0,0,0,1,1
+M4-FUNG-0204,BGC0001450,Penicillium terrestre,"macrophorin A; 4'-oxomacrophorin A, D and E",,,,0,0,0,1,1
+M4-FUNG-0205,BGC0001466,Talaromyces wortmannii,wortmanamide,,,,0,0,0,1,1
+M4-FUNG-0206,BGC0001475,Aspergillus terreus NIH2624,"seed 472,400–482,020; aspterric acid",,,,0,0,0,1,1
+M4-FUNG-0207,BGC0001481,Fusarium fujikuroi IMI 58289,alpha-acorenol,,,,0,0,0,1,1
+M4-FUNG-0208,BGC0001489,Cladonia uncialis subsp. uncialis,MIBiG product label 6-hydroxymellein,,,,0,0,0,1,1
+M4-FUNG-0209,BGC0001508,Penicillium roqueforti,andrastin A,,,,0,0,0,1,1
+M4-FUNG-0210,BGC0001515,Aspergillus nidulans FGSC A4,aspercryptins,,,,0,0,0,1,1
+M4-FUNG-0211,BGC0001516,Aspergillus flavus NRRL3357,aspergillic acid,,,,0,0,0,1,1
+M4-FUNG-0212,BGC0001517,Aspergillus terreus NIH2624,asperphenamate,,,,0,0,0,1,1
+M4-FUNG-0213,BGC0001518,Aspergillus oryzae RIB40,astellolide A,,,,0,0,0,1,1
+M4-FUNG-0214,BGC0001527,Gelatoporia subvermispora,basidioferrin,,,,0,0,0,1,1
+M4-FUNG-0215,BGC0001528,Historical record: Phoma betae,betaestacin I; betaestacin II; four-gene pathway,,,,0,0,0,1,1
+M4-FUNG-0216,BGC0001541,Cercospora beticola,cercosporin,,,,0,0,0,1,1
+M4-FUNG-0217,BGC0001542,Cercospora zeina,MIBiG product label cercosporin; native in-vitro canonical cercosporin production not detected,,,,0,0,0,1,1
+M4-FUNG-0218,BGC0001544,Aspergillus campestris IBT 28561,chlorflavonin,,,,0,0,0,1,1
+M4-FUNG-0219,BGC0001545,Fusarium graminearum PH-1,chrysogine,,,,0,0,0,1,1
+M4-FUNG-0220,BGC0001547,Aspergillus stellatus,citreohybridonol,,,,0,0,0,1,1
+M4-FUNG-0221,BGC0001557,"Canonical source: Paecilomyces divaricatus, TaxID 644132",cornexistin,,,,0,0,0,1,1
+M4-FUNG-0222,BGC0001563,"Canonical source: Cochliobolus pallescens, TaxID 318706",curvupallide-B,,,,0,0,0,1,1
+M4-FUNG-0223,BGC0001565,"Canonical source/MIBiG: Beauveria felina, TaxID 37994",cyclosporin C,,,,0,0,0,1,1
+M4-FUNG-0224,BGC0001571,Nodulisporium sp.,demethoxyviridin,,,,0,0,0,1,1
+M4-FUNG-0225,BGC0001573,Claviceps africana,dihydrolysergic acid,,,,0,0,0,1,1
+M4-FUNG-0226,BGC0001578,Talaromyces stipitatus ATCC 10500,duclauxin,,,,0,0,0,1,1
+M4-FUNG-0227,BGC0001585,Escovopsis weberi,melinacidin IV,,,,0,0,0,1,1
+M4-FUNG-0228,BGC0001600,Fusarium graminearum,fusarielin H,,,,0,0,0,1,1
+M4-FUNG-0229,BGC0001604,Fusarium fujikuroi,"gibberellins, including gibberellic acid GA3",,,,0,0,0,1,1
+M4-FUNG-0230,BGC0001606,Fusarium fujikuroi IMI 58289,gibepyrone A,,,,0,0,0,1,1
+M4-FUNG-0231,BGC0001609,Trichoderma virens Gv29-8,gliovirin,,,,0,0,0,1,1
+M4-FUNG-0232,BGC0001613,Trichoderma hypoxylon,harzianum B,,,,0,0,0,1,1
+M4-FUNG-0233,BGC0001616,Aspergillus japonicus,himeic acid A,,,,0,0,0,1,1
+M4-FUNG-0234,BGC0001617,Stereum hirsutum FP-91666 SS1,hirsutene,,,,0,0,0,1,1
+M4-FUNG-0235,BGC0001621,Aspergillus flavus NRRL3357,imizoquin A; imizoquin B; imizoquin C; imizoquin D; TMC-2A; TMC-2B,,,,0,0,0,1,1
+M4-FUNG-0236,BGC0001624,Pestalotiopsis fici,iso-A82775C,,,,0,0,0,1,1
+M4-FUNG-0237,BGC0001626,Stachybotrys chlorohalonata IBT 40285,isoindolinone,,,,0,0,0,1,1
+M4-FUNG-0238,BGC0001636,Curvularia clavata,KK-1,NRPS (Type I),,,0,0,0,1,0
+M4-FUNG-0239,BGC0001642,Fusarium fujikuroi IMI 58289,koraiol,,,,0,0,0,1,0
+M4-FUNG-0240,BGC0001659,Fusarium equiseti,mangicol A,,,,0,0,0,1,0
+M4-FUNG-0241,BGC0001668,Aspergillus nidulans FGSC A4,microperfuranone,NRPS (Type I); NRPS-like core enzyme,,,0,0,0,1,0
+M4-FUNG-0242,BGC0001677,Penicillium roqueforti,mycophenolic acid,PKS (Unknown),,,0,0,0,1,0
+M4-FUNG-0243,BGC0001679,Aspergillus nidulans FGSC A4,N-acetyltryptophan,NRPS (Type I); NRPS-like IvoA pathway,,,0,0,0,1,0
+M4-FUNG-0244,BGC0001691,Thelonectria discophora,nectrisine,other (iminosugar biosynthesis),,,0,0,0,1,0
+M4-FUNG-0245,BGC0001697,Neurospora crassa OR74A,historical: neurosporin A; current locus interpretation: sordarial,PKS; pks-6 HR-PKS locus,,,0,0,0,1,0
+M4-FUNG-0246,BGC0001699,Aspergillus nidulans FGSC A4,nidulanin A,NRPS (Type I),,,0,0,0,1,0
+M4-FUNG-0247,BGC0001706,Hypoxylon pulicicidum,nodulisporic acid F,terpene / indole diterpene,,,0,0,0,1,0
+M4-FUNG-0248,BGC0001708,Aspergillus novofumigatus IBT 16806,novofumigatonin,PKS + terpene meroterpenoid,,,0,0,0,1,0
+M4-FUNG-0249,BGC0001712,Aspergillus steynii IBT 23096,ochrindole A,other; bis-indolyl benzenoid candidate pathway,,,0,0,0,1,0
+M4-FUNG-0250,BGC0001717,Penicillium simplicissimum,okaramine B,NRPS (Type I); indole alkaloid,,,0,0,0,1,0
+M4-FUNG-0251,BGC0001718,Aspergillus aculeatus ATCC 16872,okaramine D,NRPS (Type I); indole alkaloid,,,0,0,0,1,0
+M4-FUNG-0252,BGC0001720,Beauveria bassiana ARSEF 2860,oosporein,PKS (Unknown); dibenzoquinone polyketide,,,0,0,0,1,0
+M4-FUNG-0253,BGC0001722,Aspergillus nidulans FGSC A4,aspernidine A,PKS (Unknown); prenylated isoindolinone alkaloid,,,0,0,0,1,0
+M4-FUNG-0254,BGC0001724,Penicillium oxalicum 114-2,oxaleimide C,NRPS (Type I) + PKS; collaborative HRPKS/PKS-NRPS pathway,,,0,0,0,1,0
+M4-FUNG-0255,BGC0001729,Penicillium brasilianum,paraherquonin,PKS + terpene meroterpenoid,,,0,0,0,1,0
+M4-FUNG-0256,BGC0001734,historical record: Aspergillus sp.; original isolation: Penicillium sp. CNL-338; later pathway study: Aspergillus flavipes CNL-338,penilumamide A,NRPS (Type I),,,0,0,0,1,0
+M4-FUNG-0257,BGC0001738,Pyrenochaetopsis sp.,phomasetin; wakodecalines A; wakodecalines B,PKS-NRPS hybrid,,,0,0,0,1,0
+M4-FUNG-0258,BGC0001741,Phyllosticta cirsii,phyllostictine A; phyllostictine B,PKS-NRPS hybrid; tetramic acid,,,0,0,0,1,0
+M4-FUNG-0259,BGC0001749,Pyricularia oryzae 70-15 (pathway paper uses Magnaporthe oryzae),MIBiG: epipyriculol; defining genetics: pyriculol/pyriculariol family,PKS (Unknown); salicylaldehyde-family polyketide,,,0,0,0,1,0
+M4-FUNG-0260,BGC0001768,current taxonomy: Fusarium vanettenii 77-13-4; historical/MIBiG: [Nectria] haematococca mpVI 77-13-4 / Fusarium solani,sansalvamide,NRPS (Type I); cyclic pentadepsipeptide,,,0,0,0,1,0
+M4-FUNG-0261,BGC0001775,Cordana terrestris,sespendole,terpene; indole diterpene,,,0,0,0,1,0
+M4-FUNG-0262,BGC0001776,Penicillium janthinellum,shearinine D,terpene (Unknown); indole diterpene,,,0,0,0,1,0
+M4-FUNG-0263,BGC0001793,Chaetothyriaceae sp.,swainsonine,NRPS (Type I) + PKS (Unknown); SWN alkaloid pathway,,,0,0,0,1,0
+M4-FUNG-0264,BGC0001794,Alternaria oxytropis,swainsonine,NRPS (Type I) + PKS (Unknown); SWN alkaloid pathway,,,0,0,0,1,0
+M4-FUNG-0265,BGC0001811,Fusarium asiaticum,trichodiene-11-one,terpene (Unknown); trichothecene pathway,,,0,0,0,1,0
+M4-FUNG-0266,BGC0001820,historical MIBiG: Gliocladium sp.; defining study: Clonostachys rogersoniana (formerly Gliocladium sp. 6.102),verticillin,NRPS (Type I); dimeric epipolythiodioxopiperazine,,,0,0,0,1,0
+M4-FUNG-0267,BGC0001821,historical duplicate record: Gliocladium sp.,verticillins,NRPS (Type I),,,0,0,0,1,0
+M4-FUNG-0268,BGC0001827,Sarocladium sp. 'schorii'; defining study proposes Sarocladium schorii for former Acremonium strictum IMI 501407,xenovulene A,PKS (Unknown); fungal meroterpenoid/tropolone-terpene hybrid chemistry,,,0,0,0,1,0
+M4-FUNG-0269,BGC0001839,Aspergillus sp. Z5,squalestatin S1,terpene (Hemiterpene),,,0,0,0,1,0
+M4-FUNG-0270,BGC0001854,Trichoderma harzianum t-22,tricholignan A,PKS (Iterative type I); collaborating HRPKS/NRPKS system,,,0,0,0,1,0
+M4-FUNG-0271,BGC0001857,MIBiG: Aspergillus sp. CLMG-2019a; defining paper: Aspergillus burnettii,burnettramic acid A,NRPS (Type I) + PKS (Iterative type I) + other; PKS-NRPS-derived bolaamphiphile,,,0,0,0,1,0
+M4-FUNG-0272,BGC0001858,Parastagonospora nodorum SN15,alternapyrone B; alternapyrone C; alternapyrone D; alternapyrone E; alternapyrone F,PKS; highly reducing polyketide synthase with P450 tailoring,,,0,0,0,1,0
+M4-FUNG-0273,BGC0001865 v4,Parastagonospora nodorum SN15,elsinochrome C,iterative type-I PKS / perylenequinone,,,0,0,0,4,3
+M4-FUNG-0274,BGC0001866 v4,Byssochlamys spectabilis,viriditoxin,polyketide / xanthone dimer,,,0,0,0,4,3
+M4-FUNG-0275,BGC0001874 v4,Aspergillus flavus,alpha-cyclopiazonic acid,hybrid PKS-NRPS plus prenylation/oxidation,,,0,0,0,4,3
+M4-FUNG-0276,BGC0001881 v4,Pyricularia grisea,pyrichalasin H,iterative PKS-NRPS cytochalasan pathway,,,0,0,0,4,3
+M4-FUNG-0277,BGC0001882 v3,Penicillium rubens Wisconsin 54-1255,"chrysoxanthones A, B and C",PKS-associated xanthone candidate locus,,,0,0,0,4,3
+M4-FUNG-0278,BGC0001886 v2,Claviceps purpurea 20.1,secalonic acids A/B/C; endocrocin; clavorubin,polyketide / anthraquinone-ergochrome pathway,,,0,0,0,4,3
+M4-FUNG-0279,BGC0001888 v2,Ustilago maydis 521,"mannosylerythritol lipids A, B and C",other; glycolipid biosynthesis,,,0,0,0,4,3
+M4-FUNG-0280,BGC0001893 v3,Botrytis cinerea B05.10,abscisic acid,sesquiterpenoid ABA biosynthesis,,,0,0,0,4,3
+M4-FUNG-0281,BGC0001899 v3,Leptosphaeria maculans JN3; current MIBiG display uses Plenodomus lingam JN3,abscisic acid,PKS-associated fungal ABA pathway,,,0,0,0,4,3
+M4-FUNG-0282,BGC0001901 v3,Trichoderma harzianum,tricholignan A,PKS-associated tricholignan pathway,,,0,0,0,4,3
+M4-FUNG-0283,BGC0001906 v2,Daldinia eschscholzii IFB-TL01,"2-acetyl-1,3,6,8-tetrahydroxynaphthalene; 1,3,6,8-tetrahydroxynaphthalene",PKS / naphthalene polyketides,,,0,0,0,4,3
+M4-FUNG-0284,BGC0001907 v2,Daldinia eschscholzii IFB-TL01,chromane,PKS / chromane polyketides,,,0,0,0,4,3
+M4-FUNG-0285,BGC0001909 v3,Strobilurus tenacellus,strobilurin A,highly reducing PKS / beta-methoxyacrylate,,,0,0,0,4,3
+M4-FUNG-0286,BGC0001913 v3,fungal sp. ATCC 74256,phomoidride,HR-PKS / fungal dimeric anhydride,,,0,0,0,4,3
+M4-FUNG-0287,BGC0001915 v3,Phoma betae,betaestacin I; betaestacin II,sesterterpene,,,0,0,0,4,3
+M4-FUNG-0288,BGC0001923 v3,Acremonium egyptiacum,ascochlorin,PKS-terpene meroterpenoid,,,0,0,0,4,3
+M4-FUNG-0289,BGC0001924 v3,Acremonium egyptiacum,ascofuranone,terpene / multilocus meroterpenoid,,,0,0,0,4,3
+M4-FUNG-0290,BGC0001926 v3,Talaromyces verruculosus,chrodrimanin B,PKS-terpene meroterpenoid,,,0,0,0,4,3
+M4-FUNG-0291,BGC0001936 v3,Hypoxylon pulicicidum,nodulisporic acid F,indole diterpene / terpene,,,0,0,0,4,3
+M4-FUNG-0292,BGC0001954 v2,Talaromyces wortmannii,wortmanamide A; wortmanamide B,truncated PKS-NRPS (PKS-C) / long-chain N-acyl amide,,,0,0,0,4,3
+M4-FUNG-0293,BGC0001966 v3,Phoma sp. F3723,BII-rafflesfungin,iterative type-I PKS + type-I NRPS,,,0,0,0,4,4
+M4-FUNG-0294,BGC0001969 v3,Talaromyces wortmannii,asperterpenoid A,sesterterpenoid / terpene,,,0,0,0,4,4
+M4-FUNG-0295,BGC0001976 v3,Phoma sp. CGMCC 10481,eupenifeldin,bistropolone-humulene meroterpenoid,,,0,0,0,4,3
+M4-FUNG-0296,BGC0001977 v3,Phoma sp.,eupenifeldin,historical other/retired representation of eupenifeldin pathway,,,0,0,0,4,4
+M4-FUNG-0297,BGC0001978 v3,Aspergillus sp. CLMG-2019a / Aspergillus burnettii study provenance,burnettramic acid,PKS-NRPS-derived burnettramic pathway,,,0,0,0,4,4
+M4-FUNG-0298,BGC0001982 v3,Pyricularia grisea,pyrichalasin H,PKS-NRPS cytochalasan pathway,,,0,0,0,4,4
+M4-FUNG-0299,BGC0001988 v3,Aspergillus novofumigatus IBT 16806,neosartorin,polyketide / xanthone heterodimer,,,0,0,0,4,4
+M4-FUNG-0300,BGC0001989 v3,Kluyveromyces lactis,pulcherrimin via secreted pulcherriminic acid and iron complexation,cyclodipeptide-derived iron-chelating secondary metabolite,,,0,0,0,4,3
+M4-FUNG-0301,BGC0001995 v3,Aspergillus oryzae RIB40,heptelidic acid (koningic acid),sesquiterpene lactone,,,0,0,0,4,4
+M4-FUNG-0302,BGC0001996 v2,Aspergillus oryzae RIB40,oryzine A; oryzine B,maleidride candidate pathway using fungal FAS + citrate synthase chemistry,,,0,0,0,4,4
+M4-FUNG-0303,BGC0001998 v2,Aspergillus nidulans FGSC A4,aspernidgulene A1; aspernidgulene A2; aspernidgulene B1,PKS-associated cryptic polyene pathway,,,0,0,0,4,4
+M4-FUNG-0304,BGC0002030 v3,Byssochlamys spectabilis,viriditoxin,polyketide / xanthone-dimer pathway,,,0,0,0,4,4
+M4-FUNG-0305,BGC0002035 v3,Neonectria sp. DH2,ilicicolin H; ilicicolin J; 8-epi-ilicicolin H,PKS-NRPS 2-pyridone/decalin pathway,,,0,0,0,4,4
+M4-FUNG-0306,BGC0002062 v2,Paecilomyces divaricatus,agnestin A; agnestin B,nonreducing PKS anthraquinone/xanthone-related pathway,,,0,0,0,4,4
+M4-FUNG-0307,BGC0002063 v3,Cryptosporiopsis sp. 8999,cryptosporioptide A; cryptosporioptide B; cryptosporioptide C,iterative PKS / dimeric xanthone pathway,,,0,0,0,4,4
+M4-FUNG-0308,BGC0002065 v2,Strobilurus tenacellus,strobilurin A,PKS-associated strobilurin pathway,,,0,0,0,4,4
+M4-FUNG-0309,BGC0002066 v3,Trichoderma harzianum,harzianopyridone,iterative PKS-NRPS 2-pyridone pathway,,,0,0,0,4,4
+M4-FUNG-0310,BGC0002067 v3,Penicillium oxalicum 114-2,atpenin B,iterative PKS-NRPS 2-pyridone pathway,,,0,0,0,4,4
+M4-FUNG-0311,BGC0002093 v2,Talaromyces variabilis,ilicicolin H,PKS-NRPS 2-pyridone/decalin pathway,,,0,0,0,4,4
+M4-FUNG-0312,BGC0002113 v3,Fusarium sp. 190-020-2,beauvericin,cyclooligomer depsipeptide / NRPS-type beauvericin pathway context,,,0,0,0,4,4
+M4-FUNG-0313,BGC0002139 v3,Aspergillus burnettii FRR 5400,burnettiene A; preburnettiene A; preburnettiene B,iterative type I HR-PKS polyene-decalin pathway,,,0,0,0,3,3
+M4-FUNG-0314,BGC0002146 v2,Cladobotryum sp. No. 11231 / Cladobotryum sp.,(-)-FR901483,"NRPS-centered alkaloid pathway with oxidative, reductive and phosphorylation tailoring",,,0,0,0,3,3
+M4-FUNG-0315,BGC0002149 v2,Aspergillus alliaceus ATCC 20738,"14-hydroxypaspalinine; 14-(leucyloxy)paspalinine; 14-(N,N-dimethylleucyloxy)paspalinine",indole-diterpene pathway with monomodular NRPS-like aminoacyl tailoring,,,0,0,0,3,3
+M4-FUNG-0316,BGC0002154 v2,Pyricularia oryzae 70-15,"1,3,6,8-tetrahydroxynaphthalene and DHN-melanin pathway products",nonreducing PKS DHN-melanin pathway,,,0,0,0,3,3
+M4-FUNG-0317,BGC0002155 v3,Pyricularia oryzae 70-15,nectriapyrone; nectriapyrone C; nectriapyrone D and related analogs,iterative type I PKS plus O-methyltransferase alpha-pyrone pathway,,,0,0,0,3,3
+M4-FUNG-0318,BGC0002156 v2,Fulvia fulva CBS 131901 (syn. Cladosporium fulvum),"1,3,6,8-tetrahydroxynaphthalene; DHN melanin",nonreducing PKS DHN-melanin pathway,,,0,0,0,4,3
+M4-FUNG-0319,BGC0002157 v2,Aspergillus flavus,(-)-ditryptophenaline,NRPS diketopiperazine alkaloid pathway with P450 oxidative cyclization/dimerization,,,0,0,0,4,3
+M4-FUNG-0320,BGC0002158 v2,Pyricularia oryzae 70-15,tenuazonic acid,unusual NRPS-PKS hybrid tetramic-acid pathway,,,0,0,0,4,3
+M4-FUNG-0321,BGC0002159 v3,Coprinopsis cinerea okayama7#130,lagopodin B; lagopodin A and oxidized pathway products,cuparene-type sesquiterpene pathway with P450 oxidation network,,,0,0,0,4,3
+M4-FUNG-0322,BGC0002161 v2,Pestalotiopsis fici W106-1,"scytalone; 1,3,8-trihydroxynaphthalene (T3HN); DHN melanin",nonreducing PKS DHN-melanin pathway,,,0,0,0,4,3
+M4-FUNG-0323,BGC0002162,Aspergillus fischeri NRRL 181,"sesterfisherol; sesterfisheric acid; compounds 5, 6, 7a, 8",terpene (Unknown),,,2,3,3,3,2
+M4-FUNG-0324,BGC0002163,Fusarium pseudograminearum CS3096,fusatin; fusatinic acid; 8-oxo-fusatin; 8-oxo-isopentenyladenine,other (other),,,3,3,3,3,2
+M4-FUNG-0325,BGC0002164,Epichloë festucae,peramine,NRPS (Type I),,,2,2,3,3,2
+M4-FUNG-0326,BGC0002165,Parastagonospora nodorum SN15,betaenone C; probetaenone I; stemphyloxin II; dehydroprobetaenone I; additional recorded congeners,PKS (Unknown),,,2,2,3,3,2
+M4-FUNG-0327,BGC0002167,Aspergillus flavus NRRL 3357,"actinopolymorphol C; piperazine compounds 1/2; morpholine-containing hemiacetal; N,N-dioxide and sulfonated derivatives; 3-(p-hydroxyphenyl)-1,2-propanediol",NRPS (Type I),,,2,2,3,3,2
+M4-FUNG-0328,BGC0002168,Aspergillus stellatus,calbistrin A; calbistrin C; decumbenones A/B/C; dioic-acid moiety,PKS (Unknown),,,3,3,3,3,2
+M4-FUNG-0329,BGC0002169,Aspergillus aculeatus ATCC 16872,acurin A,NRPS (Type I); PKS (Unknown),,,3,1,3,3,2
+M4-FUNG-0330,BGC0002170,Aspergillus stellatus (current MIBiG mapping),4-methyl-5-dimethyltetradecahexaene-β-ketolactone; 4-methyl-5-methylheptatriene-β-ketolactone,PKS (Unknown),,,2,3,3,3,2
+M4-FUNG-0331,BGC0002171,Aspergillus niger ATCC 1015,pyrophen; campyrone B,NRPS (Type I); PKS (Unknown),,,2,3,3,3,2
+M4-FUNG-0332,BGC0002172,Fusarium graminearum PH-1,fusaoctaxin A; fusatrixin; fusapentaxin,NRPS (Type I),,,4,2,3,3,2
+M4-FUNG-0333,BGC0002173,Aspergillus fumigatus A1163,"fumihopaside A; compound 3; 21-β-H-hopane-3beta,22-diol",saccharide; terpene (Unknown),,,4,2,3,3,3
+M4-FUNG-0334,BGC0002174,Epichloe festucae,ε-Poly-L-lysine,NRPS (Type I); ε-poly-L-lysine synthetase system,,,0,0,0,1,0
+M4-FUNG-0335,BGC0002175,Aspergillus oryzae RIB40,YWA1,PKS (Unknown); spore-pigment polyketide precursor,,,0,0,0,1,0
+M4-FUNG-0336,BGC0002176,Fusarium graminearum PH-1,culmorin; associated record also lists (+)-juniperol/longiborneol and 15-acetyldeoxynivalenol,terpene (Unknown); longiborneol/culmorin sesquiterpene pathway,,,0,0,0,1,0
+M4-FUNG-0337,BGC0002177,Ustilaginoidea virens,"ustilaginoidins A, D, E, F, G, M, N and O",PKS (Unknown); bis-naphtho-γ-pyrone polyketides,,,0,0,0,1,0
+M4-FUNG-0338,BGC0002178,Fusarium graminearum PH-1,gramillin A; gramillin B,NRPS (Type I); bicyclic lipopeptides,,,0,0,0,1,0
+M4-FUNG-0339,BGC0002179,Alternaria alternata,tentoxin,NRPS (Type I); cyclic tetrapeptide,,,0,0,0,1,0
+M4-FUNG-0340,BGC0002180,Aspergillus nidulans FGSC A4,"(+)-asperlin; (2Z,4Z,6E)-octa-2,4,6-trienoic acid",PKS (Unknown); asperlin polyketide pathway,,,0,0,0,1,0
+M4-FUNG-0341,BGC0002181,Rhodocybe pseudopiperita,pleuromutilin,terpene (Unknown); diterpene antibiotic,,,0,0,0,1,0
+M4-FUNG-0342,BGC0002182,Trichoderma virens,viridin,other (other); steroidal/furanosteroid secondary-metabolite pathway,,,0,0,0,1,0
+M4-FUNG-0343,BGC0002183,Wickerhamiella pararugosa,enterobactin,MIBiG: NRPS (Type I); functionally a horizontally acquired bacterial-type enterobactin operon,,,0,0,0,1,0
+M4-FUNG-0344,BGC0002184,Aspergillus clavatus NRRL 1,ophiobolin C; zizanin-A (historical MIBiG labels); directly validated core product ophiobolin F,terpene (Unknown); sesterterpene pathway,,,0,0,0,1,0
+M4-FUNG-0345,BGC0002185,Penicillium sp. sh18; canonical source lists Penicillium sp.,gregatin A,PKS (Unknown); chain-fused fungal polyketide,,,0,0,0,1,0
+M4-FUNG-0346,BGC0002186,Fusarium graminearum PH-1,fusaristatin A,NRPS (Type I); PKS (Unknown); lipopeptide hybrid pathway,,,0,0,0,1,0
+M4-FUNG-0347,BGC0002187,Pochonia chlamydosporia 170,"monorden D; monocillin II, IV, V, VI, VII; pochonin M",PKS (Unknown); radicicol/resorcylic acid lactone family,,,0,0,0,1,0
+M4-FUNG-0348,BGC0002188,Fusarium pseudograminearum CS3096,W493 A; W493 B,NRPS (Type I); PKS (Unknown); hybrid lipopeptide pathway,,,0,0,0,1,0
+M4-FUNG-0349,BGC0002189,Fusarium pseudograminearum CS5834 in canonical source; defining paper refers to C5834,fusaristatin A,NRPS (Type I) in MIBiG; functionally homologous fusaristatin hybrid pathway context,,,0,0,0,1,0
+M4-FUNG-0350,BGC0002190,Acremonium chrysogenum ATCC 11550,"sorbicillin-family sorbicillinoids including sorbicillin, sorbicillinol, oxosorbicillinol and dimeric derivatives",PKS (Unknown); sorbicillinoid polyketide pathway,,,0,0,0,1,0
+M4-FUNG-0351,BGC0002191,Fusarium graminearum PH-1,"prolipyrone B; gibepyrone D in MIBiG; overexpression also yields gibepyrones A, B and G",PKS (Unknown); stand-alone α-pyrone PKS programme,,,0,0,0,1,0
+M4-FUNG-0352,BGC0002192,fungal sp. No.14919; species unresolved in canonical source,FR901512,PKS (Unknown); natural statin pathway,,,0,0,0,1,0
+M4-FUNG-0353,BGC0002193,Aspergillus terreus NIH2624,phenguignardic acid,MIBiG other (other); NRPS-like A-T-TE enzyme pathway,,,0,0,0,1,0
+M4-FUNG-0354,BGC0002194,Epicoccum nigrum,epipyrone A (orevactaene),PKS (Unknown); glycosylated 2-pyrone polyketide,,,0,0,0,1,0
+M4-FUNG-0355,BGC0002195,Aspergillus oryzae RIB40,kojic acid,other (other); kojic-acid pathway,,,0,0,0,1,0
+M4-FUNG-0356,BGC0002196,Penicillium crustosum,clavatol,PKS (Unknown); aromatic polyketide building-block pathway,,,0,0,0,1,0
+M4-FUNG-0357,BGC0002197,Penicillium crustosum,terrestric acid,NRPS (Type I); PKS (Unknown); PKS-NRPS hybrid γ-butyrolactone pathway,,,0,0,0,1,0
+M4-FUNG-0358,BGC0002198,Aspergillus terreus var. terreus,nanangelenin B; terreazepine,NRPS (Type I); kynurenine-incorporating benzazepine/benzodiazepine alkaloid pathway,,,0,0,0,1,0
+M4-FUNG-0359,BGC0002199,Aspergillus nanangensis,nanangelenin A,other (other) in MIBiG; NRPS-centered benzazepine alkaloid pathway,,,0,0,0,1,0
+M4-FUNG-0360,BGC0002200,Calcarisporium arbuscula,"aurovertin A, D, E, J and M in MIBiG; aurovertin E mechanistically reconstructed",PKS (Unknown); highly reduced polyketide α-pyrone pathway,,,0,0,0,1,0
+M4-FUNG-0361,BGC0002201,Bipolaris victoriae FI3; defining paper uses historical Cochliobolus victoriae nomenclature,victorin,ribosomal (RiPP); highly modified cyclic hexapeptide,,,0,0,0,1,0
+M4-FUNG-0362,BGC0002202,Bipolaris victoriae FI3; historical Cochliobolus victoriae in defining literature,victorin,ribosomal (RiPP); multicopy/dispersed victorin programme,,,0,0,0,1,0
+M4-FUNG-0363,BGC0002203,Beauveria bassiana ARSEF 2860,beauverolide Ba; beauverolide Ka; beauverolide Ca,NRPS (Type I); PKS (Unknown); other (other); cyclodepsipeptide pathway,,,0,0,0,1,0
+M4-FUNG-0364,BGC0002204,Aspergillus flavipes; defining study strain CNL-338,flavichalasine F; flavichalasine G; aspochalasin C; aspochalasin E; aspochalasin M; TMC-169; aspergillin PZ,PKS (Unknown); NRPS (Type I); leucine-containing cytochalasan pathway,,,0,0,0,1,0
+M4-FUNG-0365,BGC0002205,Parastagonospora nodorum SN15,phomacin D; phomacin E,PKS (Unknown); NRPS (Type I); PKS-NRPS cytochalasan pathway,,,0,0,0,1,0
+M4-FUNG-0366,BGC0002206,Trichoderma guizhouense,harziphilone; t22azaphilone; isoharziphilone-1; isoharziphilone-2; compound 4; compound 1 (trigazaphilone family),PKS (Unknown); azaphilone pathway with two cluster PKSs,,,0,0,0,1,0
+M4-FUNG-0367,BGC0002207,Psilocybe cyanescens,psilocybin,other (other); tryptophan-derived indole alkaloid pathway,,,0,0,0,1,0
+M4-FUNG-0368,BGC0002208,Aspergillus ustus,oxepinamide F,NRPS (Type I); anthranilate-containing oxepinamide pathway,,,0,0,0,1,0
+M4-FUNG-0369,BGC0002209,Aspergillus ustus,ustethylin A,PKS (Unknown); phenethyl polyketide pathway,,,0,0,0,1,0
+M4-FUNG-0370,BGC0002210,Aspergillus violaceofuscus CBS 115571,pyranoviolin A,PKS (Unknown); NRPS (Type I); PKS-NRPS pyranonigrin-related pathway,,,0,0,0,1,0
+M4-FUNG-0371,BGC0002211,Paraphaeosphaeria sporulosa,HEx-pks1 polyketide,PKS (Unknown),,,0,0,0,1,0
+M4-FUNG-0372,BGC0002212,Moniliophthora roreri MCA 2997,orsellinic acid,PKS (Unknown); orsellinic-acid polyketide pathway,,,0,0,0,1,0
+M4-FUNG-0373,BGC0002213,Punctularia strigosozonata HHB-11173 SS5,"HEx-pks16 polyketide; defining study compounds 7 and 8, novel N,S-bis-acylated amino acids",PKS (Unknown); basidiomycete polyketide pathway,,,0,0,0,1,0
+M4-FUNG-0374,BGC0002214,,,,,,0,0,0,1,0
+M4-FUNG-0375,BGC0002215,,,,,,0,0,0,1,0
+M4-FUNG-0376,BGC0002216,,,,,,0,0,0,1,0
+M4-FUNG-0377,BGC0002218,,,,,,0,0,0,1,0
+M4-FUNG-0378,BGC0002219,,,,,,0,0,0,1,0
+M4-FUNG-0379,BGC0002220,,,,,,0,0,0,1,0
+M4-FUNG-0380,BGC0002221,,,,,,0,0,0,1,0
+M4-FUNG-0381,BGC0002222,,,,,,0,0,0,1,0
+M4-FUNG-0382,BGC0002223,,,,,,0,0,0,1,0
+M4-FUNG-0383,BGC0002224,,,,,,0,0,0,1,0
+M4-FUNG-0384,BGC0002225,,,,,,0,0,0,1,0
+M4-FUNG-0385,BGC0002226,,,,,,0,0,0,1,0
+M4-FUNG-0386,BGC0002227,,,,,,0,0,0,1,0
+M4-FUNG-0387,BGC0002228,,,,,,0,0,0,1,0
+M4-FUNG-0388,BGC0002229,,,,,,0,0,0,1,0
+M4-FUNG-0389,BGC0002230,,,,,,0,0,0,1,0
+M4-FUNG-0390,BGC0002231,,,,,,0,0,0,1,0
+M4-FUNG-0391,BGC0002232,,,,,,0,0,0,1,0
+M4-FUNG-0392,BGC0002233,,,,,,0,0,0,1,0
+M4-FUNG-0393,BGC0002234,,,,,,0,0,0,1,0
+M4-FUNG-0394,BGC0002235,,,,,,0,0,0,1,0
+M4-FUNG-0395,BGC0002236,,,,,,0,0,0,1,0
+M4-FUNG-0396,BGC0002237,,,,,,0,0,0,1,0
+M4-FUNG-0397,BGC0002238,,,,,,0,0,0,1,0
+M4-FUNG-0398,BGC0002239,,,,,,0,0,0,1,0
+M4-FUNG-0399,BGC0002240,,,,,,0,0,0,1,0
+M4-FUNG-0400,BGC0002241,,,,,,0,0,0,1,0
+M4-FUNG-0401,BGC0002242,,,,,,0,0,0,1,0
+M4-FUNG-0402,BGC0002243,,,,,,0,0,0,1,0
+M4-FUNG-0403,BGC0002244,,,,,,0,0,0,1,0
+M4-FUNG-0404,BGC0002245,,,,,,0,0,0,1,0
+M4-FUNG-0405,BGC0002246,,,,,,0,0,0,1,0
+M4-FUNG-0406,BGC0002247,,,,,,0,0,0,1,0
+M4-FUNG-0407,BGC0002248,,,,,,0,0,0,1,0
+M4-FUNG-0408,BGC0002249,,,,,,0,0,0,1,0
+M4-FUNG-0409,BGC0002250,,,,,,0,0,0,1,0
+M4-FUNG-0410,BGC0002251,,,,,,0,0,0,1,0
+M4-FUNG-0411,BGC0002252,,,,,,0,0,0,1,0
+M4-FUNG-0412,BGC0002253,,,,,,0,0,0,1,0
+M4-FUNG-0413,BGC0002254,,,,,,0,0,0,1,0
+M4-FUNG-0414,BGC0002255,,,,,,0,0,0,1,0
+M4-FUNG-0415,BGC0002256,,,,,,0,0,0,1,0
+M4-FUNG-0416,BGC0002257,,,,,,0,0,0,1,0
+M4-FUNG-0417,BGC0002258,,,,,,0,0,0,1,0
+M4-FUNG-0418,BGC0002259,,,,,,0,0,0,1,0
+M4-FUNG-0419,BGC0002260,,,,,,0,0,0,1,0
+M4-FUNG-0420,BGC0002261,,,,,,0,0,0,1,0
+M4-FUNG-0421,BGC0002262,,,,,,0,0,0,1,0
+M4-FUNG-0422,BGC0002263,,,,,,0,0,0,1,0
+M4-FUNG-0423,BGC0002264,,,,,,0,0,0,1,0
+M4-FUNG-0424,BGC0002265,,,,,,0,0,0,1,0
+M4-FUNG-0425,BGC0002266,,,,,,0,0,0,1,0
+M4-FUNG-0426,BGC0002267,Aspergillus terreus NIH2624,azasperpyranone A,PKS (Unknown),2020.0,10.1002/anie.201915514,5,4,3,3,3
+M4-FUNG-0427,BGC0002268,Penicillium sp.,"CJ-16,173",NRPS (Type I); PKS (Unknown),2020.0,10.1002/anie.202008321,7,8,5,6,5
+M4-FUNG-0428,BGC0002269,Calcarisporium arbuscula,MCA17-1,NRPS (Type I); PKS (Unknown),2021.0,10.1021/acs.jafc.1c03639,2,1,2,2,2
+M4-FUNG-0429,BGC0002270,Metarhizium robertsii ARSEF 23,swainsonine,NRPS (Type I); PKS (Unknown),2020.0,10.1021/acschembio.0c00466,7,3,4,3,2
+M4-FUNG-0430,BGC0002271,Aspergillus terreus NIH2624,asterriquinone CT5,NRPS (Type I),2013.0,10.1021/ol401384v,4,1,1,1,2
+M4-FUNG-0431,BGC0002272,Aspergillus terreus NIH2624,asterrelenin,NRPS (Type I),2013.0,10.1021/ol401384v,6,2,1,2,2
+M4-FUNG-0432,BGC0002273,Aspergillus terreus NIH2624,butyrolactone III,NRPS (Type I),2013.0,10.1021/ol401384v,7,2,1,2,2
+M4-FUNG-0433,BGC0002274,Aspergillus terreus NIH2624,aspulvinone H,NRPS (Type I),2013.0,10.1021/ol401384v,1,2,1,2,2
+M4-FUNG-0434,BGC0002275,Aspergillus niger CBS 101883,pyrophen,NRPS (Type I); PKS (Unknown),2020.0,10.1021/acs.jnatprod.9b00989,2,3,3,3,2
+M4-FUNG-0435,BGC0002276,Aspergillus nidulans FGSC A4,choline,NRPS (Type I),2019.0,10.1073/pnas.1903282116,1,3,2,2,2
+M4-FUNG-0436,BGC0002277,Suillus grevillei,atromentin,NRPS (Type I),2012.0,10.1002/cbic.201200187,1,2,1,2,2
+M4-FUNG-0437,BGC0002278,Penicillium brasilianum,brasiliamide I,NRPS (Type I); other (other),2020.0,10.1007/s00253-020-10678-w,5,5,5,4,3
+M4-FUNG-0438,BGC0002279,Omphalotus olearius VT 653.13,δ-6 protoilludene,terpene (Unknown),2012.0,10.1016/j.chembiol.2012.05.012,2,2,3,3,2
+M4-FUNG-0439,BGC0002280,Omphalotus olearius VT 653.13,δ-6 protoilludene,terpene (Unknown),2012.0,10.1016/j.chembiol.2012.05.012,2,2,3,3,2
+M4-FUNG-0440,BGC0002281,Fusarium commune,(-)-sambutoxin,NRPS (Type I); PKS (Unknown),2021.0,10.1021/acs.orglett.1c02836,6,4,5,4,3
+M4-FUNG-0441,BGC0002290,Biscogniauxia sp.,biscognienyne B,other (other),2020.0,10.1002/anie.202004364,7,5,3,4,3
+M4-FUNG-0442,BGC0002301,Aschersonia paraphysata,(P)-ustilaginoidin A,PKS (Type I),2019.0,10.1002/anie.201903759,3,2,3,3,3
+M4-FUNG-0443,BGC0002304,Talaromyces variabilis,varicidin A,NRPS (Type I); PKS (Unknown),2019.0,10.1021/jacs.8b12010,7,5,4,4,3
+M4-FUNG-0444,BGC0002320,Penicillium rubens Wisconsin 54-1255,(-)-conidiogenone,terpene (Unknown),2019.0,10.1080/09168451.2018.1536518,2,2,3,3,3
+M4-FUNG-0445,BGC0002321,Metschnikowia aff. pulcherrima,pulcherriminic acid,other (other),2019.0,10.1111/mmi.14272,4,4,5,4,3
+M4-FUNG-0446,BGC0002348,Aspergillus terreus NIH2624,aspulvinone E,NRPS (Type I),2016.0,10.1016/j.chembiol.2016.03.014,6,3,5,5,4
+M4-FUNG-0447,BGC0002368,Penicillium citrinum,21R-citrinadin A,NRPS (Type I); other (other),2021.0,10.1038/s41467-021-24421-0,5,4,4,4,3
+M4-FUNG-0448,BGC0002375,Cladosporium sp. SW67,cladosporiumin I; cladosporiumin J,NRPS (Type I); PKS (Unknown); ribosomal (RiPP),2019.0,10.1039/C8QO01104D,5,3,2,3,2
+M4-FUNG-0449,BGC0002427,Metarhizium robertsii ARSEF 23,subglutinol A,PKS (Unknown); terpene (Unknown),2020.0,10.1038/s41467-020-15664-4,6,3,4,4,3
+M4-FUNG-0450,BGC0002428,Fusarium graminearum PH-1,FDDP-D,PKS (Type I); terpene (Diterpene),2020.0,10.1038/s41467-020-15664-4,7,5,4,4,4
+M4-FUNG-0451,BGC0002429,Colletotrichum higginsianum IMI 349063,higginsianin B,PKS (Type I); terpene (Diterpene),2020.0,10.1038/s41467-020-15664-4,7,5,4,4,4
+M4-FUNG-0452,BGC0002438,Pithomyces chartarum,sporidesmin A,other (other),2021.0,10.1101/2021.04.29.441555,7,2,2,4,3
+M4-FUNG-0453,BGC0002445,Armillaria gallica,armillyl orsellinate,terpene (Unknown),2020.0,10.1007/s00253-020-11006-y,6,3,4,4,4
+M4-FUNG-0454,BGC0002459,Bipolaris sorokiniana,preterpestacin I,terpene (Unknown),2021.0,10.1007/s00253-021-11192-3,6,5,4,4,4
+M4-FUNG-0455,BGC0002483,Cladonia uncialis subsp. uncialis,usnic acid,PKS (Unknown),2016.0,10.1016/j.funbio.2015.10.009,3,2,3,4,4
+M4-FUNG-0456,BGC0002501,Penicillium steckii,penigainamide A,other (other),2020.0,10.1002/cbic.202000403,6,5,4,4,4
+M4-FUNG-0457,BGC0002502,Fusarium fujikuroi,fumonisin B1,PKS (Unknown),2019.0,10.3390/toxins11040200,6,3,4,4,4
+M4-FUNG-0458,BGC0002505,Xenoacremonium sinensis,xenoacremone A,NRPS (Type I); PKS (Unknown),2021.0,10.1016/j.apsb.2021.03.034,7,4,4,5,3
+M4-FUNG-0459,BGC0002507,Chrysosporium merdarium,sporandol,PKS (Unknown),2020.0,10.1021/acschembio.0c00025,6,2,2,3,2
+M4-FUNG-0460,BGC0002511,Cladonia macilenta KoLRI003786,biruloquinone,PKS (Unknown),2021.0,10.3390/jof7050398,6,1,3,5,4
+M4-FUNG-0461,BGC0002513,Cladonia metacorallifera KoLRI002260,cristazarin,PKS (Unknown),2021.0,10.3390/jof7080601,1,2,2,2,1
+M4-FUNG-0462,BGC0002515,Ascochyta rabiei,solanapyrone A,PKS (Unknown),2015.0,10.1128/EC.00084-15,2,2,2,2,1
+M4-FUNG-0463,BGC0002516,Fusarium neocosmosporiellum,red perithecial pigment / prephenalenone assignment,PKS (Unknown),2019.0,10.3389/fmicb.2019.01247,1,0,2,2,1
+M4-FUNG-0464,BGC0002519,Aspergillus fumigatus MF071,"19S,20-epoxy-18-oxotryprostatin A; 20-hydroxy-18-oxotryprostatin A",other (other),2020.0,10.3390/md18070352,0,2,0,2,1
+M4-FUNG-0465,BGC0002525,Fusarium sp. RK97-94,1233A,PKS (Unknown),2020.0,10.1038/s41429-020-0295-4,7,0,2,2,1
+M4-FUNG-0466,BGC0002537,Aspergillus sp. TJ23,emeridone F,PKS (Unknown); terpene (Unknown),2020.0,10.1021/acs.orglett.0c01358,4,0,1,2,1
+M4-FUNG-0467,BGC0002538,Chaetomium olivaceum SD-80A,chaetolivacines A-C,PKS (Unknown),2020.0,10.3389/fmicb.2019.02958,3,0,1,2,1
+M4-FUNG-0468,BGC0002539,Discosia rubi,chaetoglobosin P,other (other),2020.0,10.3389/fmicb.2020.01766,4,0,2,3,1
+M4-FUNG-0469,BGC0002543,Phialomyces arenicola (studied as Penicillium arenicola NRRL 8095),acrophiarin,NRPS (Type I),2020.0,10.1111/1462-2920.15004,7,0,1,2,1
+M4-FUNG-0470,BGC0002546,Chaetomium globosum,cytoglobosin X,NRPS (Type I); PKS (Unknown),2020.0,10.1007/s00253-019-10308-0,5,0,1,3,1
+M4-FUNG-0471,BGC0002549,Parmelia sp. 050094,salazinic acid,PKS (Unknown),2021.0,10.1128/mBio.01111-21,0,0,1,2,1
+M4-FUNG-0472,BGC0002555,Acremonium sp.,emerimicins V-X,NRPS (Type I); PKS (Unknown),2021.0,10.1021/acs.jnatprod.0c01186,3,2,1,2,1
+M4-FUNG-0473,BGC0002557,Penicillium griseofulvum,penifulvin A,terpene (Unknown),2019.0,10.1002/anie.201813722,3,2,2,2,1
+M4-FUNG-0474,BGC0002592,Aspergillus terreus NIH2624,geodin,PKS (Unknown),2013.0,10.1371/journal.pone.0072871,3,2,1,2,1
+M4-FUNG-0475,BGC0002593,Pseudevernia furfuracea,lecanoric acid,PKS (Unknown),2021.0,10.1016/j.mec.2021.e00172,1,2,1,2,1
+M4-FUNG-0476,BGC0002594,Fusarium graminearum PH-1,orsellinic acid; orcinol,PKS (Unknown),2014.0,10.1016/j.fgb.2014.06.008,2,2,1,2,1
+M4-FUNG-0477,BGC0002595,Taiwanofungus camphoratus,orsellinic acid,PKS (Unknown),2017.0,10.1007/s00253-017-8196-6,1,2,1,2,1
+M4-FUNG-0478,BGC0002596,Claviceps purpurea 20.1,lecanoric acid,PKS (Unknown),2021.0,10.1016/j.fgb.2020.103481,1,3,1,2,1
+M4-FUNG-0479,BGC0002598,Aspergillus westerdijkiae,ochratoxin A,PKS (Unknown),2021.0,10.1016/j.ijfoodmicro.2021.109113,5,2,2,3,1
+M4-FUNG-0480,BGC0002599,Aspergillus fumigatus,fumigaclavine,other (other),2020.0,10.3390/md18070352,0,0,1,2,1
+M4-FUNG-0481,BGC0002600,Aspergillus fumigatus,helvolic acid,other (other),2020.0,10.3390/md18070352,0,1,1,2,1
+M4-FUNG-0482,BGC0002601,Aspergillus fumigatus,fumagillin,other (other),2020.0,10.3390/md18070352,0,1,1,2,1
+M4-FUNG-0483,BGC0002602,Aspergillus flavus,aspergillic acid,other (other),2018.0,10.1016/j.fgb.2018.04.009,3,3,1,3,1
+M4-FUNG-0484,BGC0002603,Aspergillus versicolor,chevalone E,PKS (Unknown),2019.0,10.1039/C8QO01124A,4,2,2,3,1
+M4-FUNG-0485,BGC0002604,Aspergillus felis,sartorypyrone A,PKS (Unknown),2019.0,10.1039/C8QO01124A,2,2,1,3,1
+M4-FUNG-0486,BGC0002605,Aspergillus carbonarius,ochratoxin A,NRPS (Type I); PKS (Unknown),2018.0,10.1016/j.ijfoodmicro.2017.12.028,5,1,1,3,1
+M4-FUNG-0487,BGC0002606,Aspergillus niger,ochratoxin A,NRPS (Type I); PKS (Unknown),2018.0,10.1016/j.ijfoodmicro.2017.12.028,5,1,1,3,1
+M4-FUNG-0488,BGC0002607,Aspergillus westerdijkiae,ochratoxin A,NRPS (Type I); PKS (Unknown),2018.0,10.1016/j.ijfoodmicro.2017.12.028,5,1,1,3,1
+M4-FUNG-0489,BGC0002608,Aspergillus steynii,ochratoxin A,NRPS (Type I); PKS (Unknown),2018.0,10.1016/j.ijfoodmicro.2017.12.028,5,1,1,3,1
+M4-FUNG-0490,BGC0002609,Aspergillus welwitschiae,ochratoxin A,NRPS (Type I); PKS (Unknown),2016.0,10.3389/fmicb.2016.01412,5,1,1,3,1
+M4-FUNG-0491,BGC0002610,Aspergillus stellatus,stellatic acid,terpene (Unknown),2015.0,10.1021/acs.orglett.5b02404,2,2,2,3,1
+M4-FUNG-0492,BGC0002611,Aspergillus mulundensis,mulundocandin,NRPS (Type I),2015.0,10.1128/EC.00076-15,6,1,2,5,3
+M4-FUNG-0493,BGC0002612,Aspergillus stellatus,anditomin,terpene (Unknown),2014.0,10.1021/ja508127q,8,4,3,5,2
+M4-FUNG-0494,BGC0002614,Penicillium shearii,subglutinol A; sesquicillin A; colletotrichin; metarhizin A (MIBiG engineered-product labels),NRPS (Type I); PKS (Unknown),2020.0,10.1038/s41467-020-15664-4,8,6,3,6,4
+M4-FUNG-0495,BGC0002615,Penicillium terrestre,4-oxomacrophorin A; macrophorin A; 5'-epimacrophorin B,terpene (Unknown),2017.0,10.1021/acs.orglett.7b02653,3,0,1,2,1
+M4-FUNG-0496,BGC0002616,Penicillium roqueforti,mycophenolic acid,PKS (Unknown),2017.0,10.1016/j.fm.2016.10.013,2,0,2,2,1
+M4-FUNG-0497,BGC0002617,Penicillium sp. YT-2016,psychrophilin B,NRPS (Type I),2016.0,10.1038/ja.2016.33,1,0,1,2,1
+M4-FUNG-0498,BGC0002618,Penicillium crustosum,penitrem A,terpene (Unknown),2015.0,10.3390/toxins7082701,3,0,2,2,1
+M4-FUNG-0499,BGC0002619,Penicillium brevicompactum,mycophenolic acid,PKS (Unknown),2015.0,10.1002/cbic.201402600,1,2,1,2,1
+M4-FUNG-0500,BGC0002646,Aspergillus hancockii,hancockinone A,PKS (Unknown),2021.0,10.1021/acs.orglett.1c03283,2,2,2,2,1
+M4-FUNG-0501,BGC0002651,Rosellinia necatrix,sordaricin B (MIBiG label; product nomenclature/provenance uncertain),terpene (Unknown),2022.0,10.26434/chemrxiv-2022-dst89,2,2,2,3,2
+M4-FUNG-0502,BGC0002655,Paramyrothecium roridum,halovir I; halovir J; halovir K,NRPS (Type I),2022.0,10.1038/s41429-022-00517-7,1,3,2,3,2
+M4-FUNG-0503,BGC0002658,Sarocladium oryzae,M-deoxyakanthomycin; P-deoxyakanthomycin,NRPS (Type I); PKS (Unknown),2022.0,10.1021/jacs.2c02288,6,4,3,4,3
+M4-FUNG-0504,BGC0002664,Xylaria sp. 218_066,xylaroamide A,NRPS (Type I),2022.0,10.1021/acs.jnatprod.1c01108,2,1,2,3,2
+M4-FUNG-0505,BGC0002670,Fusarium oxysporum f. sp. lycopersici 4287,fosfonochlorin,other (other),2022.0,10.1002/cbic.202100352,4,4,3,3,2
+M4-FUNG-0506,BGC0002707,Coniophora puteana RWD-64-598 SS2,(+)-δ-cadinol,terpene (Unknown),2022.0,10.1186/s12934-022-01791-8,2,2,2,3,2
+M4-FUNG-0507,BGC0002708,Coniophora puteana RWD-64-598 SS2,(+)-δ-cadinol,terpene (Unknown),2022.0,10.1186/s12934-022-01791-8,1,2,3,3,2
+M4-FUNG-0508,BGC0002709,Fusarium graminearum PH-1,aurofusarin,PKS (Unknown),2006.0,10.1111/j.1365-2958.2006.05295.x,6,3,3,3,2
+M4-FUNG-0509,BGC0002710,Metarhizium robertsii ARSEF 23,metachelin C; metachelin A; metachelin A-CE; metachelin B; dimerumic acid 11-mannoside; dimerumic acid,NRPS (Type I),2021.0,10.3389/fmicb.2021.783609,3,3,3,3,2
+M4-FUNG-0510,BGC0002726,Bipolaris sorokiniana,4-chloropinselin; pinselin; chloromonilinic acid B; chloromonilinic acid D; 4-hydroxyvertixanthone,PKS (Unknown),2019.0,10.1007/s00253-019-09821-z,2,2,2,3,2
+M4-FUNG-0511,BGC0002727,Neonectria sp. DH2,ilicicolin H,NRPS (Type I); PKS (Unknown),2019.0,10.3390/molecules24122267,5,2,2,2,1
+M4-FUNG-0512,BGC0002728,Aspergillus aculeatus ATCC 16872,aculene A,NRPS (Type I); terpene (Unknown),2019.0,10.1002/anie.201910200,7,4,4,4,2
+M4-FUNG-0513,BGC0002729,Neurospora crassa OR74A,sordarial,PKS (Unknown),2019.0,10.1021/acs.jnatprod.8b00983,7,3,3,4,2
+M4-FUNG-0514,BGC0002730,Penicillium brasilianum HBU-136,spirotryprostatin G,NRPS (Type I),2019.0,10.3390/md17090514,4,4,2,4,1
+M4-FUNG-0515,BGC0002731,Aspergillus nanangensis,nanangenine A,PKS (Unknown),2019.0,10.3762/bjoc.15.256,3,3,2,3,2
+M4-FUNG-0516,BGC0002734,Aspergillus terreus NIH2624,"2,4-dihydroxy-5,6-dimethylbenzaldehyde",PKS (Unknown),2014.0,10.1016/j.chembiol.2013.12.005,2,2,3,3,1
+M4-FUNG-0517,BGC0002736,Aspergillus terreus NIH2624,preaspterpenacid I,terpene (Unknown),2021.0,10.1021/acs.orglett.1c01361,2,2,2,3,2
+M4-FUNG-0518,BGC0002745,Penicillium polonicum,verrucosidin,PKS (Unknown),2021.0,10.3389/fmicb.2021.660871,6,2,4,5,3
+M4-FUNG-0519,BGC0002746,Dendrothele bispora CBS 962.96,dendrothelin A,RiPP,2021.0,10.1038/s41598-021-83106-2,3,2,4,5,3
+M4-FUNG-0520,BGC0002747,Lentinula edodes,lentinulin A,RiPP,2021.0,10.1038/s41598-021-83106-2,3,2,4,5,3
+M4-FUNG-0521,BGC0002749,Aspergillus candidus CBS 102.13,aspcandine,NRPS (Type VI); PKS (Type I),2022.0,10.1021/acs.orglett.2c01918,3,2,4,5,3
+M4-FUNG-0522,BGC0002758,Aspergillus nidulans FGSC A4,azanidulone; anhydrosepedonin; antibiotic C; tripyrnidone; DHMBA,PKS (Type I),2022.0,10.3389/ffunb.2021.777474,6,6,5,6,4
+M4-FUNG-0523,BGC0002759,Penicillium bialowiezense CBS 227.28,brevione E,terpene (sesquiterpene) + iterative type-I PKS,2022.0,10.1002/anie.202210938,8,4,3,5,3
+M4-FUNG-0524,BGC0002812,Colletotrichum higginsianum IMI 349063,colletochlorin A family; reconstructed products include colletochlorins B/D and colletorins,PKS (Type I); terpene (Monoterpene),2023.0,10.1016/j.ymben.2023.10.002,4,8,4,5,4
+M4-FUNG-0525,BGC0002845,Aspergillus fumigatus Af293,sartorypyrone A; sartorypyrone D; sartorypyrone F; sartorypyrone G,PKS (Type I); terpene (Diterpene),2023.0,10.1039/D3SC02226A,6,8,6,6,4
+M4-FUNG-0526,BGC0002847,Metarhizium robertsii ARSEF23,olivetolic acid,PKS (Type I),2021.0,10.1021/acssynbio.1c00309,3,4,2,4,2
+M4-FUNG-0527,BGC0002848,Aspergillus duricaulis CBS 481.65,"CJ-20,557; duricamidepside",PKS (Type I),2022.0,10.1021/jacs.2c08585,2,2,3,3,1
+M4-FUNG-0528,BGC0002849,Aspergillus luteorubrus MST-FP2246,luteodienoside A; luteodiene A,PKS (Type II highly reducing),2024.0,10.1039/d3sc05008d,5,3,4,5,2
+M4-FUNG-0529,BGC0002852,Pestalotiopsis sp. BRIP 39872,"new 3,6-dialkyl-α-pyrone",NRPS (Type I); PKS (Type I),2024.0,10.1016/j.tetlet.2023.154865,1,2,1,4,1
+M4-FUNG-0530,BGC0002855,Aspergillus striatus ATCC 64988,emindole SA,terpene (Diterpene),2023.0,10.1021/jacs.2c11170,4,1,1,3,1
+M4-FUNG-0531,BGC0002864,Ovatospora sp. SCSIO SY280D,mollicellin Z; mollicellin Z1,PKS (Type I),2023.0,10.1021/acs.jnatprod.3c00609,6,2,2,4,1
+M4-FUNG-0532,BGC0002867,Penicillium meliponae MMSRG-058,sclerotiorin; geumsanol B; chlorogeumsanol B; 7-deacetylisochromophilone VI; isochromophilone VI; ochrephilone; isorotiorin,PKS (Type I),2023.0,10.1007/s00203-023-03414-1,2,7,3,3,1
+M4-FUNG-0533,BGC0002872,Curvularia lunata ATCC 74067,zaragozic acid A; L-731.120,PKS (Type I),2017.0,10.1021/acs.orglett.7b01534,8,2,5,4,3
+M4-FUNG-0534,BGC0002874,Cladonia metacorallifera KoLRI002260,cristazarin,PKS (Type I),2023.0,10.1371/journal.pone.0287559,9,1,5,3,1
+M4-FUNG-0535,BGC0002876,Aspergillus desertorum CBS 653.73,emindole DA,terpene (Diterpene),2023.0,10.1021/jacs.2c11170,5,2,2,4,1
+M4-FUNG-0536,BGC0002877,Cordyceps militaris CM01,cordypyrone A,PKS (Type I),2021.0,10.1038/s41429-021-00478-3,3,2,2,4,3
+M4-FUNG-0537,BGC0002883,Cladonia macilenta KoLRI003786,biruloquinone,PKS (Type I),2021.0,10.3390/jof7050398,1,1,2,3,1
+M4-FUNG-0538,BGC0002884,Aspergillus nidulans FSGC A1145,ferricrocin,NRPS (Type I),2023.0,10.1038/s41467-023-38484-8,3,2,3,4,1
+M4-FUNG-0539,BGC0002887,Colletotrichum graminicola M1.001,radicicol (monorden),PKS (Type I),2016.0,10.1186/s12864-016-2546-0,5,4,2,3,1
+M4-FUNG-0540,BGC0002891,Arthrinium sp. NF2194,arthripenoid C,PKS (aromatic) + sesquiterpene,2018.0,10.1002/anie.201804317,8,3,4,5,2
+M4-FUNG-0541,BGC0002904,Aspergillus welwitschiae,fumonisin B2,PKS (Type I),2014.0,10.1016/j.fgb.2014.09.009,3,2,3,4,2
+M4-FUNG-0542,BGC0002905,Taiwanofungus camphoratus S27,(-)-antrocin,terpene (Sesquiterpene),2023.0,10.1002/anie.202215566,3,4,3,5,2
+M4-FUNG-0543,BGC0002911,Pestalotiopsis fici W106-1,naringenin,NRPS (Type I); PKS (Type I),2022.0,10.1038/s41467-022-34150-7,1,2,4,5,1
+M4-FUNG-0544,BGC0002930,Penicillium arizonense IBT 12289,austalide F / 6'-O-demethyl-dihydroaustalide K pathway series,PKS (aromatic); terpene (sesquiterpene),2023.0,10.1098/rstb.2022.0037,8,8,5,7,2
+M4-FUNG-0545,BGC0002933,Albophoma yamanashiensis (Tolypocladium album) FO-254,prelecanindole,terpene (Diterpene),2023.0,10.1021/acs.orglett.3c02412,5,6,4,6,3
+M4-FUNG-0546,BGC0002936,Umbilicaria deusta,gyrophoric acid,PKS (Type I),2022.0,10.1128/spectrum.00109-22,1,4,3,6,2
+M4-FUNG-0547,BGC0002938,Fusarium graminearum F15,3-acetyldeoxynivalenol (3-ADON),terpene (Sesquiterpene),2003.0,10.1016/S0014-5793(03)00208-4,0,0,0,0,0
+M4-FUNG-0548,BGC0002953,Annulohypoxylon moriforme CBS 123579,11'-O-desmethyl fendlerol,PKS (Type I); terpene (Sesquiterpene),2024.0,10.1039/D3SC06001B,0,0,0,0,0
+M4-FUNG-0549,BGC0002956,Colletotrichum orbiculare 104-T (MAFF 240422),betaestacin I,terpene (Sesterterpene),2018.0,10.1016/j.tetlet.2018.02.022,0,0,0,0,0
+M4-FUNG-0550,BGC0002966,Aspergillus luteorubrus MST-FP2246,luteodienoside A,PKS (Type I),2024.0,10.1039/d3sc05008d,0,0,0,0,0
+M4-FUNG-0551,BGC0002970,Penicillium crustosum PRB-2,xylariolide D,PKS (Type I),2022.0,10.3390/jof8050493,0,0,0,0,0
+M4-FUNG-0552,BGC0002971,Fusarium graminearum PH-1,Fugralin A,PKS (Type I),2023.0,10.3389/ffunb.2023.1264366,0,0,0,0,0
+M4-FUNG-0553,BGC0002980,Aspergillus fumigatus A1163,sphingofungin B,PKS (Type I),2022.0,10.1021/acschembio.1c00839,0,0,0,0,0
+M4-FUNG-0554,BGC0002984,Dactylonectria alcacerensis CT-6,Brefeldin A,PKS (Type I),2023.0,10.3390/microorganisms11040968,0,0,0,0,0
+M4-FUNG-0555,BGC0002985,Paramyrothecium sp. XJ0827,xylomyrocin A,NRPS (Type I),2022.0,10.1073/pnas.2123379119,0,0,0,0,0
+M4-FUNG-0556,BGC0002987,Fusarium scirpi CGMCC 3.3656,scirpilin A,PKS (Type I),2024.0,10.1016/j.cclet.2023.108968,0,0,0,0,0
+M4-FUNG-0557,BGC0002993,Penicillium oxalicum MEFC104,Oxopyrrolidine A,NRPS (Type I); PKS (Type I),2022.0,10.3390/md20080523,3,2,2,3,1
+M4-FUNG-0558,BGC0002995,Penicillium soppii CBS 869.70,cycloaspeptide A,NRPS (Type I),2018.0,10.1039/C8SC00717A,2,2,3,3,1
+M4-FUNG-0559,BGC0002996,Penicillium palitans NRRL 2033,viridicatol,NRPS (Type I),2022.0,10.1021/acs.orglett.1c03932,2,3,1,3,1
+M4-FUNG-0560,BGC0002998,Neonectria discophora SNB-CN63,ilicicolinal,PKS (Type I),2022.0,10.1038/s41598-022-22256-3,1,2,1,3,1
+M4-FUNG-0561,BGC0002999,Penicillium roqueforti FM164,"(2S,9S)-annullatin D",PKS (Type I),2022.0,10.1021/acs.orglett.2c02438,1,1,1,3,1
+M4-FUNG-0562,BGC0003006,Cephalotrichum gorgonifer NG_p51,Rasfonin,PKS (Type I),2023.0,10.1186/s40694-023-00158-x,1,1,1,3,1
+M4-FUNG-0563,BGC0003011,Phaeosphaeriaceae sp. CF-150626,Eupenifeldin,PKS (Type I); terpene (Sesquiterpene),2020.0,10.1002/anie.202009914,6,2,1,3,1
+M4-FUNG-0564,BGC0003013,Aspergillus sp. SCSIO SX7S7,nornidulin,PKS (Type I),2023.0,10.1016/j.apsb.2023.05.036,5,2,1,3,1
+M4-FUNG-0565,BGC0003017,Macrophomina phaseolina MS6,Macrollin A,NRPS (Type I); PKS (Type I),2021.0,10.1021/acs.jafc.1c05304,1,2,2,2,1
+M4-FUNG-0566,BGC0003018,Penicillium sclerotiorum SNB-CN111,sclerotiorin,PKS (Type I),2022.0,10.1038/s41598-022-22256-3,1,2,1,3,1
+M4-FUNG-0567,BGC0003024,Aspergillus fumigatus Af293,fumicicolin A,NRPS (other),2022.0,10.1038/s41467-022-32394-x,1,4,2,3,2
+M4-FUNG-0568,BGC0003028,Penicillium crustosum PRB-2,terrestric acid,NRPS (Type I); PKS (Type II highly reducing),2019.0,10.1021/acs.orglett.9b04002,2,4,2,3,1
+M4-FUNG-0569,BGC0003032,Penicillium soppii Okera-1 / IBT 18220,soppiline A,PKS (Type I),2019.0,10.1039/C9OB00807A,3,3,1,3,2
+M4-FUNG-0570,BGC0003034,Aspergillus ustus 3.3904,germacradienol,terpene (Sesquiterpene),2022.0,10.1039/D2RA05033A,1,2,3,4,2
+M4-FUNG-0571,BGC0003041,Bipolaris sorokiniana ND90Pr,prehelminthosporol,terpene (Sesquiterpene),2024.0,10.1021/acs.orglett.3c04005,3,3,2,4,1
+M4-FUNG-0572,BGC0003047,Fusarium fujikuroi isolate IMI58289,beauvericin,NRPS (Type I),2016.0,10.1111/1462-2920.13576,5,1,3,5,2
+M4-FUNG-0573,BGC0003053,Mortierella alpina ATCC 32222,malpibaldin A,NRPS (Type I),2021.0,10.1128/AEM.02051-20,1,3,3,4,2
+M4-FUNG-0574,BGC0003054,Aspergillus flavipes CNL-338,talaronoid C,terpene (Diterpene),2022.0,10.1021/acs.orglett.2c02904,1,2,3,4,2
+M4-FUNG-0575,BGC0003058,Mortierella alpina ATCC 32222,malpicyclin A,NRPS (Type I),2021.0,10.1128/AEM.02051-20,1,6,3,5,2
+M4-FUNG-0576,BGC0003072,Fusarium graminearum PH-1,fusahexin,NRPS (Type I),2021.0,10.1021/acs.jnatprod.0c00947,2,1,2,5,2
+M4-FUNG-0577,BGC0003076,Aspergillus ruber QEN-0407-G2 / genome reference CBS 135680,echinulin,NRPS (Type I),2021.0,10.1021/acschembio.0c00874,4,4,4,6,3
+M4-FUNG-0578,BGC0003077,Aspergillus ustus,uscandidusin A,NRPS (Type III),2023.0,10.1021/acs.orglett.3c02234,6,6,4,6,3
+M4-FUNG-0579,BGC0003085,Aspergillus ustus,(-)-protubonine B,NRPS (Type I),2023.0,10.1021/acs.jnatprod.3c00274,4,3,3,5,3
+M4-FUNG-0580,BGC0003088,Penicillium brocae,(±)-penindolenes A-D,Terpene (Hemiterpene),2024.0,10.1002/anie.202403963,8,4,4,6,3
+M4-FUNG-0581,BGC0003093,Diaporthe sp. SYSU-MS4722,phomoxanthone A,PKS (Type I),2022.0,10.1021/acs.orglett.2c01050,14,3,4,6,4
+M4-FUNG-0582,BGC0003094,Phaeosphaeria sp. TTI001159,roseopurpurin C,PKS (Type I),2023.0,10.1073/pnas.2310522120,10,3,4,6,3
+M4-FUNG-0583,BGC0003099,Fusarium mangiferae,fusamarin-related dihydroisocoumarins (compounds 1-9),PKS (Type I),2023.0,10.1002/cbic.202200342,8,4,4,6,3
+M4-FUNG-0584,BGC0003108,Leptobacillium sp. CF-236968,pycnidione,PKS (Type I); terpene (Sesquiterpene),2020.0,10.1002/anie.202009914,8,2,3,4,2
+M4-FUNG-0585,BGC0003109,Stachybotrys sp. g12,stachysalicyloid C,PKS (Type I),2023.0,10.1021/jacs.3c02011,2,1,3,3,2
+M4-FUNG-0586,BGC0003113,Jackrogersella multiformis,multiformin A,PKS (Type I),2021.0,10.1016/j.simyco.2021.100118,4,2,2,3,2
+M4-FUNG-0587,BGC0003115,Penicillium crustosum,3-orsellinoxypropanoic acid (orsellinoylpropanoic acid),PKS (Type I),2022.0,10.1021/acs.orglett.1c04189,1,2,3,4,2
+M4-FUNG-0588,BGC0003118,Hypomontagnella monticulosa,multiforisin H,PKS (Type I),2023.0,10.1039/d3cc04758j,8,1,3,4,2
+M4-FUNG-0589,BGC0003119,Aspergillus aculeatus,variecolin,terpene (Sesterterpene),2024.0,10.1016/j.apsb.2023.08.025,2,3,3,3,2
+M4-FUNG-0590,BGC0003120,Jackrogersella minutella,minutellin A,PKS (Type I),2017.0,10.1016/j.phytochem.2017.02.014,2,3,2,3,2
+M4-FUNG-0591,BGC0003126,Aspergillus niger,kotanin,PKS (Type II aromatic),2012.0,10.1002/anie.201203603,3,2,2,2,1
+M4-FUNG-0592,BGC0003130,Arthrobotrys oligospora,desferriferrichrome,NRPS (Type I),2024.0,10.1021/acs.jafc.3c08354,2,1,3,3,2
+M4-FUNG-0593,BGC0003140,Penicillium expansum,(+)-aristolochene,terpene (Sesquiterpene),2022.0,10.1021/acs.jafc.2c01885,1,1,2,3,2
+M4-FUNG-0594,BGC0003142,Fusarium graminearum,FDDP D; FDDP E,PKS (Type I); terpene (Diterpene),2020.0,10.1038/s41467-020-15664-4,10,3,4,7,5
+M4-FUNG-0595,BGC0003144,Pseudevernia furfuracea,physodic acid,polyketide / depsidone,2021.0,10.3390/biom11101445,10,3,4,7,5
+M4-FUNG-0596,BGC0003145,Macrophomina phaseolina,macrophasetin A; macrophasetin B; macrophasetin C,NRPS (Type I); PKS (Type II highly reducing),2022.0,10.3389/fmicb.2022.1056392,4,3,3,4,1
+M4-FUNG-0597,BGC0003147,Tolypocladium album,Taslactam C,NRPS (Type I); PKS (Type I),2023.0,10.1021/acschembio.2c00830,1,2,2,3,2
+M4-FUNG-0598,BGC0003148,Aspergillus brasiliensis,Malformin C; Malformin A2,NRPS (Type I),2018.0,10.1038/s41598-018-36561-3,1,2,2,2,2
+M4-FUNG-0599,BGC0003149,Fusarium oxysporum,Taslactam D,NRPS (Type I); PKS (Type I),2023.0,10.1021/acschembio.2c00830,1,2,2,3,2
+M4-FUNG-0600,BGC0003150,Ascochyta viciae-villosae,Ascochitine,PKS (Type I),2019.0,10.1128/msphere.00622-19,2,2,3,4,2
+M4-FUNG-0601,BGC0003151,Penicillium roqueforti,Annullatin D,PKS (Type I),2022.0,10.1021/acs.orglett.2c02438,4,2,3,2,1
+M4-FUNG-0602,BGC0003153,Fusarium proliferatum,Fusaproliferin; Terpestacin,terpene (Sesterterpene),2021.0,10.3390/toxins13070468,5,3,3,4,1
+M4-FUNG-0603,BGC0003154,Aspergillus flavus,cyclopiazonic acid (α-CPA),NRPS (Type I); PKS (Type I),2009.0,10.1016/j.fgb.2008.11.002,3,3,3,3,1
+M4-FUNG-0604,BGC0003157,Talaromyces verruculosus,Talaropentaene,terpene (Triterpene),2022.0,10.1038/s41586-022-04773-3,1,2,3,3,1
+M4-FUNG-0605,BGC0003158,Macrophomina phaseolina,Macrophomene,terpene (Triterpene),2022.0,10.1038/s41586-022-04773-3,1,2,3,3,2
+M4-FUNG-0606,BGC0003159,Colletotrichum gloeosporioides,colleterpenol,terpene (Triterpene),2022.0,10.1038/s41586-022-04773-3,1,2,1,4,2
+M4-FUNG-0607,BGC0003161,Periglandula ipomoeae,chanoclavine I; agroclavine; ergonovine; lysergic acid amide; lysergic acid alpha-hydroxyethylamide; ergobalansine,NRPS (Type III),2013.0,10.1371/journal.pgen.1003323,10,3,2,4,3
+M4-FUNG-0608,BGC0003162,Epichloë festucae,ergovaline,NRPS (other),2007.0,10.1128/AEM.00257-07,4,3,3,5,3
+M4-FUNG-0609,BGC0003163,Periglandula ipomoeae,paspaline; paspaline B; paxilline; terpendole E; terpendole I; terpendole J; terpendole C; terpendole K; terpendole M; terpendole N; terpendole A,terpene (Diterpene),2013.0,10.1371/journal.pgen.1003323,9,3,2,4,3

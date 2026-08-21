@@ -1,0 +1,808 @@
+metabolite_key,dossier_id,metabolite_id,name_raw,congener_or_variant_raw,formula,structure_id,chemical_role_raw,bioactivity_raw,recovery_location_raw,identification_level_raw,source_ids,note,source_row
+M4-FUNG-0001:M001,M4-FUNG-0001,M001,AF-toxin I,I,,PubChem/structure reported,pathway product,host-selective phytotoxin,extracellular,exact congener reported,S002; S004,,117
+M4-FUNG-0001:M002,M4-FUNG-0001,M002,AF-toxin II,II,,,pathway product,host-selective phytotoxin,extracellular,exact congener reported,S002; S004,,118
+M4-FUNG-0001:M003,M4-FUNG-0001,M003,AF-toxin III,III,,,pathway product,host-selective phytotoxin,extracellular,exact congener reported,S004,Detection varies by study/strain,119
+M4-FUNG-0002:M001,M4-FUNG-0002,M001,aflatoxin G1,G1,C17H12O7,,MIBiG-linked product / aflatoxin pathway product,potent mycotoxin,not recovered from RIB40,structure established independently by NMR,S001; S007,Do not interpret MIBiG compound annotation as evidence that RIB40 produces G1.,130
+M4-FUNG-0003:M001,M4-FUNG-0003,M001,aflatoxin B1,B1,C17H12O6,NR,native final pathway product,mycotoxin,culture extract / assay-dependent,exact compound,S003; S009,Produced by the sequenced strain background.,136
+M4-FUNG-0003:M002,M4-FUNG-0003,M002,aflatoxin B2,B2,C17H14O6,NR,native final pathway product,mycotoxin,culture extract / assay-dependent,exact compound,S003; S009,Produced by A. parasiticus; dihydro congener.,137
+M4-FUNG-0003:M003,M4-FUNG-0003,M003,aflatoxin G1,G1,C17H12O7,NR,native final pathway product,mycotoxin,culture extract / assay-dependent,exact compound,S003; S009,CypA disruption specifically abolishes G-aflatoxin formation while retaining B branch.,138
+M4-FUNG-0003:M004,M4-FUNG-0003,M004,aflatoxin G2,G2,C17H14O7,NR,native final pathway product,mycotoxin,culture extract / assay-dependent,exact compound,S003; S009,Produced by A. parasiticus; dihydro G congener.,139
+M4-FUNG-0004:M001,M4-FUNG-0004,M001,aflatoxin B1,B1,C17H12O6,NR,native final pathway product,mycotoxin,culture/host extract; partition often unresolved,authentic-standard-supported exact compound,S001; S003; S005; S006; S008,Dominant AF13 product in several culture experiments.,130
+M4-FUNG-0004:M002,M4-FUNG-0004,M002,aflatoxin B2,B2,C17H14O6,NR,native final pathway product,mycotoxin,culture/host extract,authentic-standard-supported exact compound,S001; S005,MIBiG cites experimental authentic-standard support from Fountain et al. 2020.,131
+M4-FUNG-0005:M001,M4-FUNG-0005,M001,aflatoxin B1,B1,C17H12O6,NR,native final pathway product,mycotoxin,culture filtrate,authentic-standard-supported exact compound,S001; S002; S003; S005,,132
+M4-FUNG-0005:M002,M4-FUNG-0005,M002,aflatoxin G1,G1,C17H12O7,NR,native final pathway product,mycotoxin,culture filtrate,authentic-standard-supported exact compound,S001; S002; S003; S005,G1 output is especially sensitive to nitrogen source and low pH.,133
+M4-FUNG-0006:M001,M4-FUNG-0006,M001,aflatoxin B1,B1,C17H12O6,NR,native final pathway product,mycotoxin,corn/PDB/agar extracts,authentic-standard-supported exact compound,S001; S003; S005; S006; S008; S010,Primary high-output AF70 metabolite.,130
+M4-FUNG-0006:M002,M4-FUNG-0006,M002,aflatoxin B2,B2,C17H14O6,NR,native final pathway product,mycotoxin,culture extracts,authentic-standard-supported exact compound,S001; S005; S008,Hbx1 deletion abolished both B1 and B2 in the reported assay.,131
+M4-FUNG-0007:M001,M4-FUNG-0007,M001,aflatoxin B1,B1,C17H12O6,NR,native final pathway product,mycotoxin,culture medium/filtrate,authentic-standard-supported exact compound,S001; S003; S004; S006; S007,MIBiG-linked product.,132
+M4-FUNG-0007:M002,M4-FUNG-0007,M002,aflatoxin B2,B2,C17H14O6,NR,native final pathway product,mycotoxin,culture medium/filtrate,exact congener established,S004; S005; S007,Known NRRL 13137 product though not exposed as a separate MIBiG compound.,133
+M4-FUNG-0007:M003,M4-FUNG-0007,M003,aflatoxin G1,G1,C17H12O7,NR,native final pathway product,mycotoxin,culture medium/filtrate,authentic-standard-supported exact compound,S001; S003; S004; S006; S007,MIBiG-linked product; intact cypA branch.,134
+M4-FUNG-0007:M004,M4-FUNG-0007,M004,aflatoxin G2,G2,C17H14O7,NR,native final pathway product,mycotoxin,culture medium/filtrate,exact congener established,S004; S005; S007,Known NRRL 13137 product though not separately exposed by MIBiG.,135
+M4-FUNG-0008:M001,M4-FUNG-0008,M001,aflatoxin,generic pathway-family annotation,C17H12O7,PubChem linked by MIBiG,ancestral pathway product class,mycotoxin,not recovered from AF36,database compound structure only,S001; S003,MIBiG compound annotation must not be interpreted as AF36 producing this molecule.,130
+M4-FUNG-0009:M001,M4-FUNG-0009,M001,sterigmatocystin,ST,C18H12O6,NPAtlas linked by MIBiG,native pathway intermediate and accumulated end product,mycotoxin,culture extract,authentic-standard + LC-MS supported,S001; S005,Simultaneously accumulates with aflatoxins.,134
+M4-FUNG-0009:M002,M4-FUNG-0009,M002,aflatoxin B1,B1,C17H12O6,PubChem linked by MIBiG,native final pathway product,mycotoxin,culture extract,authentic-standard + LC-MS supported,S001; S005,,135
+M4-FUNG-0009:M003,M4-FUNG-0009,M003,aflatoxin B2,B2,C17H14O6,PubChem/NPAtlas linked by MIBiG,native final pathway product,mycotoxin,culture extract,mass-spectrometry supported,S001; S005,,136
+M4-FUNG-0010:M001,M4-FUNG-0010,M001,alternapyrone,parent α-pyrone,C28H44O3,PubChem CID 57467994,direct Alt5/PKSN product; possible core intermediate/shunt relative to full cluster,reported cytotoxicity in later work; native A. solani ecological role unresolved,heterologous A. oryzae culture,exact structure + isotope-supported biosynthetic origin,S001; S003; S007,Decaketide with eight methyl branches.,115
+M4-FUNG-0010:M002,M4-FUNG-0010,M002,alternapyrone-family oxidized derivatives,comparative homolog-cluster congeners,various,NR,products of homologous alt′ tailoring systems,some later derivatives are phytotoxic/anti-inflammatory/neuroactive depending on structure,heterologous/comparator systems,exact structures in later studies,S007; S008,Do not attribute these congeners directly to A. solani BGC0000012 without native evidence.,116
+M4-FUNG-0011:M001,M4-FUNG-0011,M001,alternariol,AOH,C14H10O5,MIBiG NPAtlas/PubChem link,major engineered pathway product,mycotoxin; compound-level antifungal/phytotoxic/anticholinesterase activities reported,engineered A. nidulans culture extract,isolated + spectroscopic structural elucidation,S001; S003; S007,"A. nidulans attribution comes from Ahuja 2012, not the historical Alternaria structure paper.",115
+M4-FUNG-0011:M002,M4-FUNG-0011,M002,dehydrocitreoisocoumarin,compound 9,C14H12O6,PubChem CID 146672858,major co-product / precursor-like isocoumarin from PkgA/PkgB,NR,engineered A. nidulans culture extract,isolated + structurally elucidated,S003,Reported to convert to alternariol in vivo in the engineered system.,116
+M4-FUNG-0011:M003,M4-FUNG-0011,M003,heptaketide isocoumarins,compounds 10 and 11,NR,NR,minor PkgA/PkgB products,NR,engineered A. nidulans culture extract,structurally characterized in study/SI,S003,Names not normalized in this pass.,117
+M4-FUNG-0011:M004,M4-FUNG-0011,M004,hexaketide isocoumarins,compounds 12 and 13,NR,NR,minor chain-length-variant products,NR,engineered A. nidulans culture extract,structurally characterized in study/SI,S003,Demonstrate imperfect PkgA chain-length fidelity.,118
+M4-FUNG-0012:M001,M4-FUNG-0012,M001,asperfuranone,final product,C19H24O5,NPAtlas NPA010580; PubChem CID 56955920,engineered-access final pathway product,A549 antiproliferative activity; cell-cycle arrest and apoptosis in vitro,culture broth/supernatant and fungal extracts after activation,isolated + NMR/MS exact structure,S001; S003; S004; S005; S006,Not detectably produced by wild type under the defining standard lab conditions.,118
+M4-FUNG-0012:M002,M4-FUNG-0012,M002,preasperfuranone,biosynthetic intermediate,NR,NR,AfoD-upstream pathway intermediate,NR,afoD-deletion culture extract,intermediate isolated/identified in pathway dissection,S003,Accumulation localizes AfoD downstream of the dual-PKS scaffold.,119
+M4-FUNG-0013:M001,M4-FUNG-0013,M001,ankaflavin,yellow pigment,C23H30O5,MIBiG NPAtlas/PubChem,reduced yellow azaphilone branch product,compound-level bioactivities reported elsewhere; native role unresolved,Monascus pigment extract,exact structure,S001; S005,MppE promotes yellow branch in M. purpureus.,131
+M4-FUNG-0013:M002,M4-FUNG-0013,M002,monascin,yellow pigment,C21H26O5,MIBiG NPAtlas/PubChem,reduced yellow azaphilone branch product,compound-level bioactivities reported elsewhere; native role unresolved,Monascus pigment extract,exact structure,S001; S005,MppE promotes yellow branch in M. purpureus.,132
+M4-FUNG-0013:M003,M4-FUNG-0013,M003,rubropunctatin,orange pigment,C21H22O5,MIBiG NPAtlas,oxidized orange azaphilone branch product,pigment/colorant,Monascus pigment extract,exact structure,S001; S006,ΔmppG strongly impairs orange branch in M. purpureus.,133
+M4-FUNG-0013:M004,M4-FUNG-0013,M004,monascorubrin,orange pigment,C23H26O5,MIBiG PubChem/NPAtlas,oxidized orange azaphilone branch product,pigment/colorant,Monascus pigment extract,exact structure,S001; S006,ΔmppG strongly impairs orange branch in M. purpureus.,134
+M4-FUNG-0013:M005,M4-FUNG-0013,M005,monascusone A,FAS-defect intermediate/shunt,NR,NR,unacylated/hydrogenated azaphilone accumulated after dedicated-FAS disruption,NR,M. purpureus F9 mutant extract,isolated/identified in FAS study,S004,Not a listed BGC0000027 final product; useful intermediate evidence.,135
+M4-FUNG-0014:M001,M4-FUNG-0014,M001,bikaverin,final red pigment,C20H14O8,PubChem linked by MIBiG,native final pathway product,antibacterial/antioomycete and ecological defensive activity,"culture filtrate, mycelium, interaction-zone/chlamydospore-associated signal",exact structure + HPLC/HRMS/NMR,S001; S003; S005; S008,,115
+M4-FUNG-0014:M002,M4-FUNG-0014,M002,pre-bikaverin,PKS scaffold/intermediate,NR,NR,direct Bik1/PKS product before Bik2/Bik3 tailoring,NR,engineered/pathway-intermediate extracts,structurally resolved in pathway studies,S003; S005,,116
+M4-FUNG-0014:M003,M4-FUNG-0014,M003,norbikaverin,late intermediate/congener,NR,NR,partially methylated/oxidized pathway intermediate,NR,pathway-intermediate extracts,HRMS/NMR-supported,S005,,117
+M4-FUNG-0014:M004,M4-FUNG-0014,M004,oxo-pre-bikaverin and related intermediates,intermediate family,NR,NR,Bik2/Bik3 alternating-reaction intermediates,NR,engineered pathway extracts,HRMS/NMR-supported,S005,Used for reaction-order resolution.,118
+M4-FUNG-0015:M001,M4-FUNG-0015,M001,cichorine,parent isoindolinone,C10H11NO3,MIBiG PubChem link,native final product under YES conditions; also precursor building block for cross-cluster chemistry,phytotoxic,whole YES-agar extract / engineered fermentation,NMR + MS exact structure,S001; S003,,115
+M4-FUNG-0015:M002,M4-FUNG-0015,M002,3-methylorsellinic acid,early pathway intermediate,C9H10O4,NR,direct CicF/PKS product and cicBΔ intermediate,NR,acidified cicBΔ extract / CicF-overexpression culture,NMR + MS exact structure,S003; S004,Acidification was required to recover this ionizable intermediate efficiently.,116
+M4-FUNG-0015:M003,M4-FUNG-0015,M003,nidulol,later pathway intermediate,C10H10O4,NR,cicCΔ trapped intermediate,mild cytotoxicity reported historically,acidified cicCΔ extract,NMR + MS exact structure,S003,,117
+M4-FUNG-0015:M004,M4-FUNG-0015,M004,8-methoxycichorine,cichorine derivative,C11H13NO4,NR,later A. nidulans derivative dependent on cichorine-pathway chemistry,phytotoxic in leaf assay,LO8030 parental-pathway context,NMR/HRESIMS exact structure,S006,,118
+M4-FUNG-0015:M005,M4-FUNG-0015,M005,8-epi-methoxycichorine,cichorine derivative,NR,NR,later A. nidulans derivative,phytotoxic in leaf assay,LO8030 parental-pathway context,NMR/HRESIMS exact structure,S006,,119
+M4-FUNG-0015:M006,M4-FUNG-0015,M006,N-(4'-carboxybutyl)cichorine,amino-acid-derived cichorine adduct,NR,NR,later cichorine-derived product; nitrogen substituent likely sourced from amino-acid metabolism,phytotoxic in leaf assay,LO8030 parental-pathway context,NMR/HRESIMS exact structure,S006,"Possible connection to nearby amino-acid transport/metabolism, not fully resolved.",120
+M4-FUNG-0015:M007,M4-FUNG-0015,M007,isoleucylcichorine,isoindolone-amino-acid adduct,NR,NR,CicD-overexpression derivative,phytotoxic compound class; exact comparative potency from full paper not extracted here,A1145/cicD fermentation,NMR/HRESIMS/ECD exact structure,S007,New in 2025 study.,121
+M4-FUNG-0015:M008,M4-FUNG-0015,M008,leucylcichorine,isoindolone-amino-acid adduct,NR,NR,CicD-overexpression derivative,phytotoxic compound class,A1145/cicD fermentation,NMR/HRESIMS/ECD exact structure,S007,New in 2025 study.,122
+M4-FUNG-0016:M001,M4-FUNG-0016,M001,compactin,ML-236B / mevastatin,C23H36O6,MIBiG/PubChem,final statin,HMG-CoA-reductase inhibitor,fermentation broth,exact,S001; S003,,116
+M4-FUNG-0016:M002,M4-FUNG-0016,M002,ML-236A,late core before side-chain transfer,NR,NR,MlcH acceptor,pathway intermediate,fungal pathway,established pathway intermediate,S005,,117
+M4-FUNG-0017:M001,M4-FUNG-0017,M001,"10,11-dehydrocurvularin",DHC,C16H18O5,MIBiG NPAtlas/PubChem,native final pathway product,phytotoxic; antifungal; cytotoxic; heat-shock-response and immune-modulatory activity,native fungal extract and heterologous yeast extract,NMR-confirmed exact structure,S001; S003; S005,6 mg/L isolated in dual-PKS yeast experiment.,115
+M4-FUNG-0017:M002,M4-FUNG-0017,M002,11-hydroxycurvularin,11α/11β-hydroxycurvularin mixture,C16H20O6,NR,water-addition derivative of dehydrocurvularin formed in heterologous production,NR,heterologous yeast extract,1D/2D NMR exact structure,S003,2.5 mg/L isolated; ~3:1 11α:11β enantiomeric/isomeric mixture reported.,116
+M4-FUNG-0017:M003,M4-FUNG-0017,M003,YX-28-4-RF,engineered acyl-DAL ethyl ester,NR,NR,starter-unit-feeding product generated by CurS2 with reduced SNAC precursor,NR,heterologous yeast feeding experiment,HRMS/MS-supported engineered analogue,S003,Not a native BGC product; used to probe CurS2 programming.,117
+M4-FUNG-0018:M001,M4-FUNG-0018,M001,depudecin,parent product,C11H16O4,NPAtlas NPA01465,native final pathway product,HDAC inhibitor; minor virulence factor on cabbage; cell-morphology reversal activity in transformed NIH3T3 cells,fungal culture extract,exact structure,S001; S003; S008,,115
+M4-FUNG-0018:M002,M4-FUNG-0018,M002,DEP2-disruption epoxide metabolite(s),candidate pathway intermediate/shunt,NR,NR,oxidized intermediate/shunt exposed by loss of DEP2,NR,dep2 mutant culture extract,epoxide-containing chemical phenotype; exact structures not fully resolved in defining work,S003; S006,,116
+M4-FUNG-0018:M003,M4-FUNG-0018,M003,DEP4-disruption epoxide metabolite(s),candidate pathway intermediate/shunt,NR,NR,oxidized intermediate/shunt exposed by loss of DEP4,NR,dep4 mutant culture extract,epoxide-containing chemical phenotype; exact structures not fully resolved in defining work,S003; S006,,117
+M4-FUNG-0019:M001,M4-FUNG-0019,M001,dothistromin,final toxin,C18H12O9,MIBiG compound record,native final pathway product,broad-spectrum toxin; virulence factor in pine needle blight,culture extract and infected pine lesions,X-ray-supported exact structure + chromatographic assays,S001; S008,,142
+M4-FUNG-0019:M002,M4-FUNG-0019,M002,versicolorin A,mutant-accumulated intermediate,NR,NR,aflatoxin-like intermediate upstream of DotA/Ver1-dependent step,mycotoxin-pathway intermediate,dotA mutant extract,chemically identified in mutant,S003,Strong intermediate-localization evidence.,143
+M4-FUNG-0019:M003,M4-FUNG-0019,M003,norsolorinic acid and other supplied aflatoxin precursors,exogenous pathway probes,NR,NR,advanced precursor probes for downstream pathway competence,NA,pksA-mutant feeding assay,conversion to dothistromin,S002,Demonstrates downstream machinery remains competent after PksA loss.,144
+M4-FUNG-0020:M001,M4-FUNG-0020,M001,orsellinic acid,OA,C8H8O4,MIBiG PubChem,direct OrsA tetraketide product / pathway precursor,archetypal polyketide; native ecological role unresolved,culture-medium extract,HRESI-MS + NMR,S001; S003; S004,OrsA alone is sufficient under tested conditions.,122
+M4-FUNG-0020:M002,M4-FUNG-0020,M002,F9775A,cathepsin-K inhibitor,C21H16O8,MIBiG PubChem,oxidatively elaborated OrsA-derived product,cathepsin K inhibitor / anti-osteoporosis lead,culture-medium extract,LC-MS/NMR identity,S001; S003; S004,Requires OrsA/B/C locally.,123
+M4-FUNG-0020:M003,M4-FUNG-0020,M003,F9775B,cathepsin-K inhibitor,C21H16O8,MIBiG PubChem,oxidatively elaborated OrsA-derived product,cathepsin K inhibitor / anti-osteoporosis lead,culture-medium extract,LC-MS/NMR identity,S001; S003; S004,Requires OrsA/B/C locally.,124
+M4-FUNG-0020:M004,M4-FUNG-0020,M004,lecanoric acid,orsellinic-acid dimer,C16H14O7,NR,coculture-induced OA-derived product,ATP-synthesis/electron-transfer inhibitor reported in prior literature; lichen-associated metabolite,bacteria–fungus coculture extract,HRESI-MS + NMR,S004,Not included in MIBiG compound list despite direct primary observation.,125
+M4-FUNG-0020:M005,M4-FUNG-0020,M005,gerfelin,orsBΔ deletion product,NR,NR,candidate shunt/intermediate formed when OrsB is absent,geranylgeranyl diphosphate synthase inhibitor,orsBΔ culture extract,NMR characterized,S003,Direct pathway position uncertain.,126
+M4-FUNG-0020:M006,M4-FUNG-0020,M006,C10-deoxygerfelin,orsBΔ deletion product,NR,NR,candidate shunt/intermediate,NR,orsBΔ culture extract,NMR characterized,S003,,127
+M4-FUNG-0020:M007,M4-FUNG-0020,M007,diorcinol,orsCΔ deletion product,NR,NR,candidate shunt/intermediate formed when OrsC is absent,reported antibiotic activity,orsCΔ culture extract,NMR characterized,S003,Direct pathway position uncertain.,128
+M4-FUNG-0021:M001,M4-FUNG-0021,M001,fumonisin B1,FB1,C34H59NO15,NPAtlas,major final B-series product; ~80% of total FB in some M-3125 conditions,ceramide-synthase inhibitor; major food/feed mycotoxin,maize and cell-free culture extract,authentic standard + MS/HRMS,S001; S008,,123
+M4-FUNG-0021:M002,M4-FUNG-0021,M002,fumonisin B2,FB2,C34H59NO14,NPAtlas,B-series congener,ceramide-synthase inhibitor,maize/culture extract,authentic standard,S001,,124
+M4-FUNG-0021:M003,M4-FUNG-0021,M003,fumonisin B3,FB3,C34H59NO14,NPAtlas,direct precursor/congener lacking C5 hydroxyl relative to FB1,ceramide-synthase inhibitor,maize/culture extract,authentic standard,S001; S008,,125
+M4-FUNG-0021:M004,M4-FUNG-0021,M004,fumonisin B4,FB4,NR,NR,natural B-series congener,ceramide-synthase inhibitor,culture extract,MS/chemical identification,S018,Not listed by MIBiG.,126
+M4-FUNG-0021:M005,M4-FUNG-0021,M005,hydrolyzed fumonisins HFB3/HFB4,tricarballylic-ester-deficient precursors,NR,NR,FUM14 deletion products/esterification substrates,reduced toxicity relative to intact esterified forms,fum14 mutant extract,MS/NMR + enzyme assay,S021,,127
+M4-FUNG-0021:M006,M4-FUNG-0021,M006,C3-keto FB3/FB4-like analogues,FUM13 mutant products,NR,NR,substrates before Fum13 C3 reduction,NR,fum13 mutant extract,MS + NMR,S018,,128
+M4-FUNG-0021:M007,M4-FUNG-0021,M007,early hydroxylated aminopolyol intermediates,FUM6 mutant intermediates,NR,NR,early post-Fum8 pathway intermediates,NR,fum6 mutant/coculture extracts,LC-MS + spectroscopy,S006; S017,,129
+M4-FUNG-0022:M001,M4-FUNG-0022,M001,fumonisin C1,FC1,C33H57NO15,NPAtlas,major C-series product,sphinganine-analog mycotoxin,kernel/culture extract,MS + prior structural characterization,S001; S003; S008,Predominant historical O-1890 product.,124
+M4-FUNG-0022:M002,M4-FUNG-0022,M002,fumonisin C2,FC2,NR,ChEBI link in MIBiG,C-series congener,sphinganine-analog mycotoxin,kernel/culture extract,MS,S001; S003,,125
+M4-FUNG-0022:M003,M4-FUNG-0022,M003,fumonisin C3,FC3,C33H57NO14,NPAtlas,C-series congener,sphinganine-analog mycotoxin,kernel/culture extract,MS,S001; S003,,126
+M4-FUNG-0022:M004,M4-FUNG-0022,M004,hydroxy-fumonisin C1,hydroxy-FC1,NR,PubChem link in MIBiG,additional hydroxylated O-1890 congener,NR,kernel/culture extract,MS,S001; S004,Hydroxylase remains unresolved; FUM15 excluded.,127
+M4-FUNG-0022:M005,M4-FUNG-0022,M005,fumonisin B1,FB1,C34H59NO15,NPAtlas,minor B-series product in O-1890; predominant when FoFUM8 V580A is tested in F. verticillioides background,ceramide-synthase inhibitor,culture extract,MS,S001; S004,,128
+M4-FUNG-0023:M001,M4-FUNG-0023,M001,fusarin C,canonical final product,C23H29NO7,PubChem CID 6435894,final methylated fusarin,mutagenic; estrogenic agonist in MCF-7 cells,culture supernatant / corn,NMR + MS exact structure,S002; S009; S012,Authoritative formula conflicts with current MIBiG display.,118
+M4-FUNG-0023:M002,M4-FUNG-0023,M002,dihydrofusarin C,natural/cluster-associated congener,C23H31NO7,MIBiG compound,fusarin congener,NR,culture supernatant,authentic-standard match,S001; S003,,119
+M4-FUNG-0023:M003,M4-FUNG-0023,M003,fusarin D,natural/cluster-associated congener,C23H29NO7,MIBiG compound,fusarin congener,NR,culture supernatant,authentic-standard match,S001; S003,,120
+M4-FUNG-0023:M004,M4-FUNG-0023,M004,epi-fusarin C,rearrangement/natural-associated product,C23H29NO7,MIBiG compound,fusarin C rearrangement product under chromatographic/chemical conditions,NR,culture/extract,NMR/HRMS,S001; S010,Analytical chemistry can alter apparent product identity.,121
+M4-FUNG-0023:M005,M4-FUNG-0023,M005,prefusarin,early Fus1 product,NR,NR,open-chain PKS–NRPS release product,NR,Δfus2-9 mutant supernatant,LC-MS/MS-supported intermediate,S003,,122
+M4-FUNG-0023:M006,M4-FUNG-0023,M006,20-hydroxy-prefusarin,Fus2-deletion intermediate,NR,NR,post-Fus8/pre-Fus2 intermediate,NR,Δfus2 supernatant,NMR/MS,S003,,123
+M4-FUNG-0023:M007,M4-FUNG-0023,M007,decarboxy-fusarin C,Fus8-deletion intermediate,NR,NR,late intermediate lacking final C20 oxidation,NR,Δfus8 supernatant,NMR/MS,S003,,124
+M4-FUNG-0023:M008,M4-FUNG-0023,M008,carboxy-fusarin C,Fus9-deletion intermediate,C22H26NO7-,PubChem CID 91819749,direct precursor before terminal methylation,NR,Δfus9 supernatant,LC-MS/NMR-supported,S003; S009,,125
+M4-FUNG-0024:M001,M4-FUNG-0024,M001,griseofulvin,chlorinated final product,C17H17ClO6,PubChem/NPAtlas,native final product,antifungal; microtubule-dynamics inhibitor,stationary-culture extract; in-vitro total synthesis,exact structure; authentic standard/NMR/MS,S001; S003; S004,,128
+M4-FUNG-0024:M002,M4-FUNG-0024,M002,dechlorogriseofulvin / epidechlorogriseofulvin,dechlorinated final analogue,C17H18O6,NPAtlas,native/deletion-associated dechlorinated product,antifungal analogue,WT and ΔgsfI culture extract,NMR/MS,S001; S003,Naming varies across sources.,129
+M4-FUNG-0024:M003,M4-FUNG-0024,M003,griseophenone C,pre-halogenation benzophenone,NR,NR,substrate for GsfI,NR,in-vitro assay / pathway intermediate,NMR/MS / biochemical conversion,S004,,130
+M4-FUNG-0024:M004,M4-FUNG-0024,M004,griseophenone B,chlorinated benzophenone,NR,NR,substrate for GsfF spirocyclization,NR,in-vitro assay,biochemical conversion,S004,,131
+M4-FUNG-0024:M005,M4-FUNG-0024,M005,griseoxanthone C,off-pathway shunt,NR,NR,xanthone formed when methylation fails,NR,ΔgsfC extract,NMR/MS,S004,Demonstrates methylation can prevent shunt chemistry.,132
+M4-FUNG-0024:M006,M4-FUNG-0024,M006,desmethyl-dehydrogriseofulvin A,late intermediate,NR,NR,substrate before GsfD/GsfE completion,NR,ΔgsfD/GsfF pathway experiments,NMR/MS,S004,,133
+M4-FUNG-0024:M007,M4-FUNG-0024,M007,dehydrogriseofulvin / dechloro-dehydrogriseofulvin,late reduction substrates,NR,NR,substrates for GsfE terminal reduction,NR,ΔgsfE extracts / enzyme assay,NMR/MS,S004,,134
+M4-FUNG-0025:M001,M4-FUNG-0025,M001,hypothemycin,final major product,C19H22O8,MIBiG PubChem,native final RAL,covalent kinase inhibitor; cytotoxic/anticancer-tool activity,culture broth,exact structure,S001; S003; S006,,116
+M4-FUNG-0025:M002,M4-FUNG-0025,M002,4-O-desmethylhypothemycin,Hpm5-deficient product / natural congener,NR,NR,unmethylated pathway product,selective cytotoxicity reported against BRAF-mutant cell lines,native DSM11932 mutant and WT/congener isolates,spectroscopic/X-ray-supported structure,S003; S004,,117
+M4-FUNG-0025:M003,M4-FUNG-0025,M003,"7′,8′-dihydrohypothemycin",saturated congener,NR,NR,"native congener with reduced 7′,8′ bond",NR,culture broth,spectroscopic identification,S003; S004,Likely arises through native activity not reproduced by Hpm3+Hpm8 yeast reconstruction.,118
+M4-FUNG-0025:M004,M4-FUNG-0025,M004,"trans-7′,8′-dehydrozearalenol",DHZ,C18H22O5,NR,direct two-PKS scaffold product,NR,heterologous yeast broth,HRMS + NMR exact assignment,S003,~20 mg/L in seven of eight dual-PKS yeast clones.,119
+M4-FUNG-0025:M005,M4-FUNG-0025,M005,aigialomycin C,post-PKS intermediate/congener,NR,NR,DHZ-derived intermediate after methylation/epoxidation/hydroxylation combinations,NR,native/heterologous pathway context,known RAL structure,S003,2008 pathway considered chemistry secure mainly up to this stage.,120
+M4-FUNG-0025:M006,M4-FUNG-0025,M006,aigialomycin A,trans-enone congener,NR,NR,"trans 7′,8′ isomer related to hypothemycin",NR,native culture / enzyme assay,known structure,S003; S005,Relevant to Hpm2 equilibrium.,121
+M4-FUNG-0026:M001,M4-FUNG-0026,M001,hypothemycin,final major product,C19H22O8,MIBiG PubChem,native final RAL,covalent kinase inhibitor; cytotoxic/anticancer-tool activity,culture broth,exact structure,S001; S003; S006,,116
+M4-FUNG-0026:M002,M4-FUNG-0026,M002,4-O-desmethylhypothemycin,Hpm5-deficient product / natural congener,NR,NR,unmethylated pathway product,selective cytotoxicity reported against BRAF-mutant cell lines,native DSM11932 mutant and WT/congener isolates,spectroscopic/X-ray-supported structure,S003; S004,,117
+M4-FUNG-0026:M003,M4-FUNG-0026,M003,"7′,8′-dihydrohypothemycin",saturated congener,NR,NR,"native congener with reduced 7′,8′ bond",NR,culture broth,spectroscopic identification,S003; S004,Likely arises through native activity not reproduced by Hpm3+Hpm8 yeast reconstruction.,118
+M4-FUNG-0026:M004,M4-FUNG-0026,M004,"trans-7′,8′-dehydrozearalenol",DHZ,C18H22O5,NR,direct two-PKS scaffold product,NR,heterologous yeast broth,HRMS + NMR exact assignment,S003,~20 mg/L in seven of eight dual-PKS yeast clones.,119
+M4-FUNG-0026:M005,M4-FUNG-0026,M005,aigialomycin C,post-PKS intermediate/congener,NR,NR,DHZ-derived intermediate after methylation/epoxidation/hydroxylation combinations,NR,native/heterologous pathway context,known RAL structure,S003,2008 pathway considered chemistry secure mainly up to this stage.,120
+M4-FUNG-0026:M006,M4-FUNG-0026,M006,aigialomycin A,trans-enone congener,NR,NR,"trans 7′,8′ isomer related to hypothemycin",NR,native culture / enzyme assay,known structure,S003,Relevant to Hpm2 equilibrium.,121
+M4-FUNG-0027:M001,M4-FUNG-0027,M001,lovastatin,final lactone product,C24H36O5,PubChem/NPAtlas,final esterified statin,HMG-CoA reductase inhibitor after hydrolysis to active acid,fermentation extract,exact structure/authentic standard,S001; S009; S010,,126
+M4-FUNG-0027:M002,M4-FUNG-0027,M002,lovastatin hydroxy-acid,ring-open active form,C24H38O6,NR,pharmacologically active hydroxy-acid state,direct HMG-CoA-reductase inhibitor,culture/analytical conversion context,well-established chemical form,S009,Analytical protocols can interconvert lactone/acid forms.,127
+M4-FUNG-0027:M003,M4-FUNG-0027,M003,dihydromonacolin L,DML / nonaketide scaffold,NR,NR,LovB/LovC/LovG product before LovA oxidation,pathway intermediate,heterologous/cell-free system,LC-MS/NMR,S005; S007,,128
+M4-FUNG-0027:M004,M4-FUNG-0027,M004,monacolin L,oxidation intermediate,NR,NR,first LovA oxidation product,pathway intermediate,LovA assay,LC-MS/NMR,S006,,129
+M4-FUNG-0027:M005,M4-FUNG-0027,M005,monacolin J,deacylated core,NR,NR,second LovA oxidation product and LovD acyl acceptor,statin intermediate,blocked mutant/biochemical assay,LC-MS/standard,S006; S008,,130
+M4-FUNG-0027:M006,M4-FUNG-0027,M006,2-methylbutyryl-LovF ACP thioester,carrier-bound side-chain intermediate,NR,protein-bound,LovF-derived acyl donor for LovD,NA,LovF ACP,biochemical carrier-bound intermediate,S008,Not a freely accumulating metabolite; encoded to preserve spatial/substrate-channeling logic.,131
+M4-FUNG-0027:M007,M4-FUNG-0027,M007,LovB shunt pyrones,misprogrammed intermediates,various,NR,products of incomplete methylation/enoyl reduction or improper LovC gating,NA,cell-free LovB assay,LC-MS,S005,Negative execution evidence revealing iterative-PKS gatekeeping.,132
+M4-FUNG-0028:M001,M4-FUNG-0028,M001,lovastatin,shared product with active BGC0000088,C24H36O5,MIBiG/PubChem,final statin,HMG-CoA-reductase inhibitor,see BGC0000088,exact,S001; S003,No independent product entity.,113
+M4-FUNG-0029:M001,M4-FUNG-0029,M001,monacolin K,lovastatin-identical final product,C24H36O5,NPAtlas/PubChem,final statin lactone,HMG-CoA-reductase inhibitor,fermentation broth/substrate,authentic standard + HPLC/structure identity,S001; S006; S011,,116
+M4-FUNG-0029:M002,M4-FUNG-0029,M002,monacolin J,mokB-blocked intermediate,NR,NR,deacylated statin core / acyl acceptor,pathway intermediate,mokB-deficient M. pilosus extract,structural confirmation in defining mokB study,S004,Directly localizes MokB to side-chain formation.,117
+M4-FUNG-0029:M003,M4-FUNG-0029,M003,monacolin K hydroxy-acid,open-ring active form,C24H38O6,NR,pharmacologically active chemical state,HMG-CoA-reductase inhibitor,analytical/physiological chemical form,well-established compound chemistry,S011,Keep separate from lactone in quantitative assays when reported.,118
+M4-FUNG-0030:M001,M4-FUNG-0030,M001,monascorubrin,major red/orange azaphilone scaffold,C23H26O5,MIBiG compound,main red-pigment precursor/scaffold,colorant/pigment,culture filtrate,standard-matched UHPLC-MS/MS,S001; S003,,113
+M4-FUNG-0030:M002,M4-FUNG-0030,M002,rubropunctatin,shorter-chain azaphilone pigment,monascorubrin minus C2H4,NR,red-pigment scaffold/congener,colorant/pigment,culture filtrate,MS/MS + conjugate profiling,S003,Detected chiefly through amino-acid conjugates in this study.,114
+M4-FUNG-0030:M003,M4-FUNG-0030,M003,ankaflavin,reduced yellow-pigment branch product,C23H30O5,NR,reduced end product of same five-gene pathway,yellow pigment,culture filtrate,UHPLC-MS/MS,S003,Absent in pks3 and rp1–rp4 knockdowns.,115
+M4-FUNG-0030:M004,M4-FUNG-0030,M004,citrinin,early branch/side product,C13H14O5,NR,toxic early branch product from PKS3/RP1-dependent part of pathway,nephrotoxic mycotoxin,culture filtrate,standard-matched UHPLC-MS/MS,S003,"Retained in rp2/rp3/rp4 knockdowns, placing branch upstream of fatty-acid module.",116
+M4-FUNG-0030:M005,M4-FUNG-0030,M005,compound 1,yellow/orange polyketide intermediate,C13H12O4,NR,PKS3-derived intermediate/chromophore branch,NR,culture filtrate,UHPLC-MS/MS,S003,Accumulates 2.8–6.4× in rp2/rp3/rp4 knockdowns.,117
+M4-FUNG-0030:M006,M4-FUNG-0030,M006,3-oxo-decanoic acid,fatty-acid branch intermediate,C10H18O3,NR,fatty-acid-derived partner proposed to combine with PKS3-derived chromophore,NR,pks3/rp1 knockdown culture,UHPLC-MS/MS,S003,Absent from WT and rp2/rp3/rp4 knockdowns; accumulates when chromophore branch is unavailable.,118
+M4-FUNG-0030:M007,M4-FUNG-0030,M007,monascorubrin amino-acid conjugates,≥14 amino-acid Schiff-base products,various,NR,post-biosynthetic pigment diversification,color variants,culture filtrate / amino-acid-supplemented medium,UHPLC-MS/MS + color matching,S003,"Arg, Lys, Asn, Ser, Glu, Tyr, Gly, Asp, Trp, Val, Met, Leu, Ile, Phe conjugates detected.",119
+M4-FUNG-0030:M008,M4-FUNG-0030,M008,rubropunctatin amino-acid conjugates,Arg/Phe conjugates,various,NR,post-biosynthetic pigment diversification,color variants,culture filtrate,UHPLC-MS/MS,S003,Arginine and phenylalanine conjugates detected.,120
+M4-FUNG-0031:M001,M4-FUNG-0031,M001,emodin,anthraquinone pathway intermediate/product,C15H10O5,PubChem,central anthraquinone intermediate,broad compound-level bioactivity; not used here as ecological-role proof,extracts / developmental tissues,LC-MS/NMR/authentic assignment,S001; S003,,123
+M4-FUNG-0031:M002,M4-FUNG-0031,M002,monodictyphenone,benzophenone pathway product/intermediate,C15H12O6,NPAtlas/PubChem,branch point toward prenylated xanthones,NR,culture extract,isolation + LC-MS/NMR,S001; S003,,124
+M4-FUNG-0031:M003,M4-FUNG-0031,M003,shamixanthone,prenylated xanthone final product,C25H26O5,NPAtlas/PubChem,mature prenyl-xanthone,antifeedant/defensive ensemble in sexual structures,culture/developmental tissue,LC-MS/NMR,S001; S004; S009,Requires distal xpt genes.,125
+M4-FUNG-0031:M004,M4-FUNG-0031,M004,epishamixanthone,stereoisomeric prenylated xanthone,C25H26O5,NR,mature prenyl-xanthone,developmental defense-associated ensemble,culture/developmental tissue,LC-MS/NMR,S004; S009,,126
+M4-FUNG-0031:M005,M4-FUNG-0031,M005,emericellin,prenylated xanthone intermediate/product,NR,NR,late xanthone-pathway metabolite,NR,culture extract,LC-MS/NMR,S004,,127
+M4-FUNG-0031:M006,M4-FUNG-0031,M006,endocrocin,anthraquinone shunt/intermediate,NR,NR,product favored when MdpH decarboxylation route is disrupted/incomplete,NR,mdpH mutant extract,isolation/LC-MS,S003; S006,Strong pathway-localization intermediate.,128
+M4-FUNG-0031:M007,M4-FUNG-0031,M007,arugosin H/A/F and related benzophenones,branch intermediates,various,NR,prenylated/reduced benzophenone intermediates connecting mdp and xpt chemistry,NR,culture extract,LC-MS/NMR,S004,,129
+M4-FUNG-0031:M008,M4-FUNG-0031,M008,variecoxanthone A,xanthone-pathway intermediate/product,NR,NR,prenyl-xanthone pathway member,NR,culture extract,LC-MS/NMR,S004,,130
+M4-FUNG-0032:M001,M4-FUNG-0032,M001,mycophenolic acid,final product,C17H20O6,PubChem CID 446541,final immunosuppressive meroterpenoid,IMPDH inhibitor / immunosuppressant,YES/culture extract,authentic standard + LC-MS / extensive structural literature,S001; S003; S010,,116
+M4-FUNG-0032:M002,M4-FUNG-0032,M002,5-methylorsellinic acid,5-MOA,C9H10O4,NR,MpaC polyketide product,pathway intermediate,heterologous A. nidulans / pathway assays,NMR + HRMS,S003; S004,,117
+M4-FUNG-0032:M003,M4-FUNG-0032,M003,DHMB,"4,6-dihydroxy-2-(hydroxymethyl)-3-methylbenzoic acid",NR,NR,MpaD hydroxylation product,pathway intermediate,MpaD-only heterologous strain,HRMS / pathway localization,S004,,118
+M4-FUNG-0032:M004,M4-FUNG-0032,M004,DHMP,"5,7-dihydroxy-4-methylphthalide",NR,NR,phthalide intermediate after MpaDE,pathway intermediate,mpaC+mpaDE heterologous strain,NMR + HRMS,S004,,119
+M4-FUNG-0032:M005,M4-FUNG-0032,M005,FDHMP,farnesyl-DHMP,NR,NR,MpaA prenylation product,pathway intermediate,heterologous/full-pathway system,LC-MS / biochemical assignment,S006,,120
+M4-FUNG-0032:M006,M4-FUNG-0032,M006,FDHMP-3C,oxidatively shortened prenyl intermediate,NR,NR,MpaB oxidative-cleavage product,pathway intermediate,heterologous/full-pathway system,LC-MS / biochemical assignment,S006,,121
+M4-FUNG-0032:M007,M4-FUNG-0032,M007,demethylmycophenolic acid,DMMPA,NR,NR,late unmethylated substrate for MpaG,pathway intermediate,enzyme assays,LC-MS/structural biochemistry,S008; S009,,122
+M4-FUNG-0032:M008,M4-FUNG-0032,M008,MPA-CoA,peroxisomal terminal thioester,NR,CoA thioester,substrate for MpaH,NA,peroxisome / biochemical assays,structural/enzymatic assignment,S006; S007,,123
+M4-FUNG-0032:M009,M4-FUNG-0032,M009,MPA diol lactone / 4-O-mycophenolate / deacetylpebrolide,source-strain pathway-related congeners,various,NR,related metabolites requiring MpaC,NR,IBT23078 extract,LC-MS,S003,All absent in clean mpaC deletion.,124
+M4-FUNG-0033:M001,M4-FUNG-0033,M001,YWA1,yellow naphthopyrone,C14H12O6,NPA033448,WA PKS product and conidial-pigment backbone precursor,native pigment intermediate,heterologous culture / conidial pathway,exact structure by isolation/synthesis,S004; S012,True full-length WA product; earlier truncated-WA products were misassigned.,113
+M4-FUNG-0033:M002,M4-FUNG-0033,M002,YWA2,dehydration product of YWA1,NR,NR,nonenzymatic derivative,NR,chemical/experimental systems,structurally characterized,S011,Can form by nonenzymatic dehydration; not encoded as a separate enzymatic step.,114
+M4-FUNG-0033:M003,M4-FUNG-0033,M003,yellow yA-mutant pigment state,downstream YWA1-derived material,NR,NR,precursor state accumulated without YA laccase,spore-wall pigment,conidial wall,phenotypic/biochemical state; exact molecule unresolved,S005; S008,Do not equate automatically with pure YWA1.,115
+M4-FUNG-0033:M004,M4-FUNG-0033,M004,mature green conidial pigment,polymeric/modified YWA1-derived pigment,NR,NR,final biological pigment state,UV photoprotection/stress resistance,conidial wall,chemical structure incompletely resolved,S007; S008,Final pigment is a phenotype/ensemble rather than a fully assigned small molecule.,116
+M4-FUNG-0034:M001,M4-FUNG-0034,M001,patulin,final mycotoxin,C7H6O4,MIBiG/PubChem,final product,food mycotoxin; cultivar-dependent aggressiveness factor,culture medium/fruit,exact structure,S001; S004,,122
+M4-FUNG-0034:M002,M4-FUNG-0034,M002,6-methylsalicylic acid,6-MSA,C8H8O3,NR,PatK product,pathway intermediate,intracellular/culture,established intermediate,S005; S006,,123
+M4-FUNG-0034:M003,M4-FUNG-0034,M003,m-cresol,PatG product,C7H8O,NR,PatH substrate,pathway intermediate,heterologous/native,established,S005,,124
+M4-FUNG-0034:M004,M4-FUNG-0034,M004,m-hydroxybenzyl alcohol,P450 intermediate,C7H8O2,NR,PatI substrate,pathway intermediate,heterologous/native,established,S005,,125
+M4-FUNG-0034:M005,M4-FUNG-0034,M005,gentisyl alcohol,early-middle intermediate,C7H8O3,NR,PatO/PatJ-stage substrate,pathway intermediate,native/feeding context,established,S006; S008,Exact conversion to isoepoxydon remains incompletely partitioned.,126
+M4-FUNG-0034:M006,M4-FUNG-0034,M006,isoepoxydon,middle intermediate,C7H8O4,NR,PatN substrate,pathway intermediate,mutant/feeding,established,S006,,127
+M4-FUNG-0034:M007,M4-FUNG-0034,M007,phyllostine,middle-late intermediate,C7H6O4,NR,PatF substrate,pathway intermediate,mutant/feeding,established,S006,,128
+M4-FUNG-0034:M008,M4-FUNG-0034,M008,neopatulin,late intermediate,C7H8O4,NR,PatD substrate,pathway intermediate,mutant/feeding,established,S006; S008,,129
+M4-FUNG-0034:M009,M4-FUNG-0034,M009,E-ascladiol,immediate precursor,C7H8O4,NR,PatE substrate,late pathway intermediate,ΔpatE culture,direct accumulation,S006; S009,,130
+M4-FUNG-0034:M010,M4-FUNG-0034,M010,Z-ascladiol,late transformation product/isomer,C7H8O4,NR,patulin-related transformation product,lower toxicity in tested human cells,culture/chemical transformation,identified,S009,Not a required canonical step.,131
+M4-FUNG-0035:M001,M4-FUNG-0035,M001,pestheic acid,RES-1214-2 / dihydromaldoxin,C17H15ClO8,PubChem CID 9842980,final chlorinated diphenyl ether,ETA-receptor antagonist; reported plant-growth regulator,fermentation extract,authentic-standard match / established structure,S003; S007; S009,Normalize RES-1214-2 and pestheic acid as synonyms.,123
+M4-FUNG-0035:M002,M4-FUNG-0035,M002,RES-1214-1,nonchlorinated diphenyl ether,NR,NR,nonchlorinated product/intermediate that can be halogenated by PtaM,ETA-receptor antagonist,ptaE/PtaM pathway contexts,chemical identification,S003; S006; S009,Distinct from RES-1214-2/pestheic acid.,124
+M4-FUNG-0035:M003,M4-FUNG-0035,M003,isosulochrin,nonchlorinated benzophenone,NR,NR,PtaM/PtaE substrate state,NR,ptaM mutant / pathway extracts,LC-MS/structural assignment,S003; S006,Accumulates when halogenation is blocked.,125
+M4-FUNG-0035:M004,M4-FUNG-0035,M004,chloroisosulochrin,chlorinated benzophenone,NR,NR,chlorinated precursor to oxidative diphenyl-ether formation,plant-growth-regulator activity reported in P. theae,pathway extract,chemical identification,S003; S006; S010,,126
+M4-FUNG-0035:M005,M4-FUNG-0035,M005,physcion-like methylated anthraquinone state,methylated emodin-family intermediate,NR,NR,proposed PtaJ substrate region,NR,pathway model,homology/intermediate-supported,S005,Exact in-vivo methylation order remains unresolved.,127
+M4-FUNG-0035:M006,M4-FUNG-0035,M006,emodin-family anthraquinone intermediates,early aromatic branch,various,NR,upstream scaffold before methylation/ring cleavage,NR,mutant/pathway model,comparative pathway assignment,S005,,128
+M4-FUNG-0035:M007,M4-FUNG-0035,M007,chloropupukeananin precursor relationship,pestheic-acid participation in higher-order natural-product chemistry,NA,NR,pestheic acid can serve as one proposed biosynthetic precursor in chloropupukeanane formation,"antitumor/antiviral activities belong to downstream molecules, not pestheic acid itself",P. fici natural-product context,biosynthetic proposal + co-isolation,S010,Do not conflate downstream product activity with pestheic acid.,129
+M4-FUNG-0036:M001,M4-FUNG-0036,M001,pyripyropene A,final product,C31H37NO10,MIBiG,final meroterpenoid,ACAT inhibitor; native mixed-biofilm/host role,culture/supernatant,exact,S001; S008,,116
+M4-FUNG-0036:M002,M4-FUNG-0036,M002,HPPO,early polyketide,NR,NR,Pyr6 substrate,NR,heterologous system,direct,S003,,117
+M4-FUNG-0036:M003,M4-FUNG-0036,M003,deacetyl-pyripyropene E,cyclized intermediate,NR,NR,Pyr7 substrate,NR,heterologous system,direct,S003; S005,,118
+M4-FUNG-0036:M004,M4-FUNG-0036,M004,pyripyropene E,late intermediate,NR,NR,Pyr3 substrate,NR,homolog bioconversion,assigned,S004; S005,,119
+M4-FUNG-0036:M005,M4-FUNG-0036,M005,pyripyropene O / deacetyl-pyripyropene A,late states,NR,NR,Pyr9/Pyr8 intermediates,NR,homolog bioconversion,assigned,S004; S005,,120
+M4-FUNG-0037:M001,M4-FUNG-0037,M001,radicicol,final product,C18H17ClO6,MIBiG/PubChem,chlorinated epoxide RAL,potent Hsp90 inhibitor,fungal culture,exact structure,S001; S003,,112
+M4-FUNG-0037:M002,M4-FUNG-0037,M002,(R)-monocillin II,earliest reconstructed RAL scaffold,NR,NR,Rdc1/Rdc5 product and Rdc2 substrate,pathway intermediate,in-vitro/yeast,direct reconstitution,S004,,113
+M4-FUNG-0037:M003,M4-FUNG-0037,M003,pochonin D,chlorinated deepoxy RAL,NR,NR,Rdc2 chlorination product / late intermediate,pathway intermediate/congener,in-vitro/in-vivo Rdc2 assay,directly generated,S004; S005,,114
+M4-FUNG-0037:M004,M4-FUNG-0037,M004,monocillins III–V,chlorine-free congeners,NR,NR,diagnostic products during Rdc2 suppression,pathway shunt/intermediate family,NaBr-treated producer,culture metabolite identification,S006,,115
+M4-FUNG-0037:M005,M4-FUNG-0037,M005,"6-chloro-7',8'-dehydrozearalenol",engineered halogenated analog,NR,NR,Rdc2 promiscuity product,biocatalytic analog,heterologous/in-vitro,direct product,S004,Not native radicicol endpoint.,116
+M4-FUNG-0038:M001,M4-FUNG-0038,M001,solanapyrone D,MIBiG primary compound,C18H22O4,NPAtlas,cyclized aldehyde congener,phytotoxicity family member,culture extract,exact structure,S001; S008,,113
+M4-FUNG-0038:M002,M4-FUNG-0038,M002,solanapyrone A,major cyclized aldehyde congener,NR,NR,Sol5 cyclization product,strong phytotoxin; DNA-polymerase β/λ inhibitor reported,culture extract / purified enzyme assay,exact structure + purified-enzyme formation,S003; S004; S009,Major direct Sol5 product in biochemical studies.,114
+M4-FUNG-0038:M003,M4-FUNG-0038,M003,solanapyrone B,reduced alcohol congener,NR,NR,Sol3-reduced derivative of solanapyrone A,less phytotoxic than A in pathway literature,culture extract,structurally established,S007; S009,Often not detected consistently in later A. solani LC-MS cultures.,115
+M4-FUNG-0038:M004,M4-FUNG-0038,M004,solanapyrone E,reduced alcohol congener,NR,NR,Sol3-reduced derivative of solanapyrone D,NR,culture extract,structurally established,S007; S009,,116
+M4-FUNG-0038:M005,M4-FUNG-0038,M005,solanapyrone C,ethanolamine adduct of solanapyrone A,C19H25NO4,NR,host-/chemistry-derived product in A. oryzae reconstitution,NR,heterologous culture extract,NMR; matches known solanapyrone C,S006,Produced at high titer in A. oryzae because ethanolamine reacts nonenzymatically with solanapyrone A.,117
+M4-FUNG-0038:M006,M4-FUNG-0038,M006,desmethylprosolanapyrone I,Sol1 product,NR,NR,octaketide precursor,pathway intermediate,A. oryzae AO-sol1 extract,isolated + structural confirmation,S003; S006,,118
+M4-FUNG-0038:M007,M4-FUNG-0038,M007,prosolanapyrone I,Sol2 product,NR,NR,O-methylated precursor,pathway intermediate,A. oryzae AO-sol1/2 extract,authentic comparison,S006; S007,,119
+M4-FUNG-0038:M008,M4-FUNG-0038,M008,prosolanapyrone II,Sol6 product,NR,NR,hydroxylated direct Sol5 substrate,pathway intermediate,heterologous reconstruction,authentic comparison,S006; S007,,120
+M4-FUNG-0038:M009,M4-FUNG-0038,M009,prosolanapyrone III,oxidized reactive diene/dienophile state,NR,NR,Sol5-generated immediate cyclization substrate,pathway intermediate,enzyme-mechanism context,mechanistically established,S003; S007; S009,Highly reactive; not normally accumulated as stable native metabolite.,121
+M4-FUNG-0038:M010,M4-FUNG-0038,M010,prosolanapyrone II-diol,Δsol5 shunt/accumulation product,NR,NR,nonproductive shunt state when Sol5 is absent,not phytotoxic to plants in the 2015 assay,Δsol5 culture extract,LC-MS + NMR,S004,Important negative-execution marker.,122
+M4-FUNG-0039:M001,M4-FUNG-0039,M001,sterigmatocystin,final A. nidulans product,C18H12O6,MIBiG/PubChem,final mycotoxin,mutagenic/carcinogenic; aflatoxin precursor in other Aspergillus spp.,fungal culture extract,exact structure,S001; S003,,132
+M4-FUNG-0039:M002,M4-FUNG-0039,M002,norsolorinic acid,first stable colored intermediate,NR,NR,early-pathway diagnostic,pathway intermediate,NOR-accumulating mutants,authentic standard / visible orange pigment,S006,Used for large mutant screen.,133
+M4-FUNG-0039:M003,M4-FUNG-0039,M003,averantin,early intermediate,NR,NR,oxidative pathway intermediate,pathway intermediate,stcF/comparative mutant studies,chromatographic standard,S010,,134
+M4-FUNG-0039:M004,M4-FUNG-0039,M004,averufin,middle intermediate,NR,NR,substrate for later monooxygenase sequence,pathway intermediate,stcB/stcW mutants,authentic-standard HPLC/TLC,S010,,135
+M4-FUNG-0039:M005,M4-FUNG-0039,M005,versicolorin A,late-middle intermediate,NR,NR,substrate for StcS/StcU late conversion,pathway intermediate,stcS/stcU mutants,direct accumulation/feeding,S004,,136
+M4-FUNG-0039:M006,M4-FUNG-0039,M006,demethylsterigmatocystin,immediate methylation precursor,NR,NR,StcP substrate,late intermediate,ΔstcP mutant,direct accumulation,S008,,137
+M4-FUNG-0040:M001,M4-FUNG-0040,M001,stipitatic acid,final tropolone product,C8H6O5,PubChem CID 20501,final tropolone carboxylic acid,native ecological role unresolved,fungal culture extract,exact structure,S001; S003; S009,,120
+M4-FUNG-0040:M002,M4-FUNG-0040,M002,3-methylorcinaldehyde,TropA product,NR,NR,PKS-derived aromatic aldehyde / TropB substrate,pathway intermediate,ΔtropB and heterologous TropA extracts,isolated/structurally assigned,S003,,121
+M4-FUNG-0040:M003,M4-FUNG-0040,M003,"3,5-dimethyl pyrone",TropA heterologous shunt,NR,NR,heterologous PKS shunt product,NA,A. oryzae TropA culture,chemical identification,S003,Not a required native intermediate.,122
+M4-FUNG-0040:M004,M4-FUNG-0040,M004,5-hydroxy-3-methylorcinaldehyde,minor ΔtropB shunt,NR,NR,alternative hydroxylated aromatic state,pathway shunt,ΔtropB extract,chemical identification,S003,,123
+M4-FUNG-0040:M005,M4-FUNG-0040,M005,TropB dearomatized dienone,hydroxycyclohexadienone,NR,NR,direct TropB product / TropC substrate,pathway intermediate,purified enzyme assay,direct enzymatic product,S003; S005,,124
+M4-FUNG-0040:M006,M4-FUNG-0040,M006,stipitaldehyde,first tropolone-nucleus state,NR,NR,TropC ring-expansion product / TropD substrate,pathway intermediate,purified-enzyme and mutant context,direct pathway assignment,S003,,125
+M4-FUNG-0040:M007,M4-FUNG-0040,M007,TropC-knockout dione / talaroenamine,ring-expansion-block shunts,C9H10O4 / NR,NR,diagnostic products when TropC is absent,shunt metabolites,ΔtropC culture,chemical characterization,S003,,126
+M4-FUNG-0040:M008,M4-FUNG-0040,M008,stipitacetal,TropD-derived hemiacetal state,NR,NR,late oxidative intermediate,pathway intermediate,late-pathway studies,chemical characterization,S004,,127
+M4-FUNG-0040:M009,M4-FUNG-0040,M009,stipitafuran,TropD-context shunt,NR,NR,cyclized/dehydrated shunt,pathway shunt,mutant/pathway context,chemical characterization,S004,,128
+M4-FUNG-0040:M010,M4-FUNG-0040,M010,stipitalide,lactone intermediate,NR,NR,TropE-derived late intermediate / TropF substrate,pathway intermediate,late-pathway studies,chemical characterization,S004,,129
+M4-FUNG-0040:M011,M4-FUNG-0040,M011,stipitatonic acid,maleic-anhydride pathway state,NR,NR,late precursor in stipitatic-acid formation,pathway intermediate,knockout/in-vitro studies,chemical characterization,S004,,130
+M4-FUNG-0040:M012,M4-FUNG-0040,M012,"late 1,2-dicarboxylate",open-chain dicarboxylic-acid state,NR,NR,TropH/TropI/TropJ substrate network,pathway intermediate,in-vitro multi-enzyme assay,pathway-localized,S004,Interconverts with corresponding anhydride state.,131
+M4-FUNG-0041:M001,M4-FUNG-0041,M001,T-toxin family,host-selective toxin mixture,C35/C37–C45 homologues,NR,final linear polyketide/polyol toxin family,T-cms-selective mitochondrial toxin,culture filtrate/plugs/host,family-level structures,S003; S009; S012,,117
+M4-FUNG-0041:M002,M4-FUNG-0041,M002,C41 T-toxin,major component,C41 chain-length member,NR,major toxin homologue,host-selective activity,culture/host context,historical structural assignment,S009; S012,,118
+M4-FUNG-0042:M001,M4-FUNG-0042,M001,TAN-1612,final methylated naphthacenedione,C21H18O9,MIBiG/PubChem,final pathway product,potential neuropeptide-Y receptor antagonist; nonantibiotic anhydrotetracycline scaffold,A. niger/heterologous yeast extracts and supernatants,exact structure,S001; S003; S008,,113
+M4-FUNG-0042:M002,M4-FUNG-0042,M002,desmethyl TAN-1612,C9-desmethyl congener,C20H16O9,MIBiG,AdaD substrate/product of methylation block,pathway intermediate/congener,heterologous/native-engineering extracts,exact mass/structure class,S001; S003,,114
+M4-FUNG-0042:M003,M4-FUNG-0042,M003,"1-(2,3,5,10-tetrahydroxy-7-methoxy-4-oxo-1,2,3,4-tetrahydroanthracen-2-yl)pentane-2,4-dione",MIBiG-listed intermediate/congener,C20H20O8,MIBiG,naphthacenedione-related pathway product,NR,heterologous pathway context,exact MIBiG structure,S001,,115
+M4-FUNG-0042:M004,M4-FUNG-0042,M004,BMS-192548,tautomer/isomeric purification form related to TAN-1612,NR,NR,related tetracyclic product state,neurokinin-1 receptor antagonist,A. niger WB2346 fermentation extract,exact isolated structure,S004; S005; S009,Later reviews treat BMS-192548 as likely tautomerized from TAN-1612 during purification.,116
+M4-FUNG-0042:M005,M4-FUNG-0042,M005,unhydroxylated tricyclic decaketide product ('compound 10'),AdaA+AdaB product without AdaC,C20-derived tricyclic state,NR,diagnostic hydrolysis product when α-hydroxylation is absent,pathway shunt/diagnostic,S. cerevisiae heterologous extract,NMR-characterized in 2011 study,S003,Demonstrates AdaC-dependent off-loading switch.,117
+M4-FUNG-0043:M001,M4-FUNG-0043,M001,terreic acid,final product,C7H6O4,CAS 121-40-4,final quinone epoxide,MurA/BTK inhibitor,native/heterologous broth,exact,S001; S003; S004; S006; S007,,116
+M4-FUNG-0043:M002,M4-FUNG-0043,M002,6-methylsalicylic acid,6-MSA,C8H8O3,NR,AtX product,NR,native/heterologous,standard/NMR,S003; S004; S005,,117
+M4-FUNG-0043:M003,M4-FUNG-0043,M003,3-methylcatechol,AtA product,C7H8O2,NR,AtE substrate,NR,heterologous culture,NMR/LC-MS,S004,,118
+M4-FUNG-0043:M004,M4-FUNG-0043,M004,"3-methyl-1,2,4-benzenetriol",AtE product,C7H8O3,NR,AtD substrate,NR,heterologous culture,NMR/LC-MS,S004,,119
+M4-FUNG-0043:M005,M4-FUNG-0043,M005,terremutin,late intermediate,C7H8O4,NR,AtD product / AtC substrate,NR,atC mutant/heterologous,NMR/LC-MS,S003; S004,,120
+M4-FUNG-0043:M006,M4-FUNG-0043,M006,ring-opened dicarboxylic-acid shunt,extra-cluster shunt,C7H8O4,NR,3-methylcatechol diversion,NR,native mutant culture,structural identification,S003; S011,Extra-cluster catechol cleavage.,121
+M4-FUNG-0044:M001,M4-FUNG-0044,M001,terrein,experimentally established pathway product,C8H10O3,PubChem CID 6436830,final ecological/secondary-metabolic product,phytotoxic; moderate antifungal; ferric-reducing; multiple pharmacological activities,culture broth + fruit extracts,exact structure,S003; S004; S012,Conflicts with MIBiG current isoterrein label.,118
+M4-FUNG-0044:M002,M4-FUNG-0044,M002,isoterrein,MIBiG current product label,C8H10O3,MIBiG/NPAtlas,stereoisomeric natural product,compound-level activities not used here to infer pathway function,MIBiG database annotation,database structure,S001; S013,Distinct from terrein; no direct evidence found that BGC0000161 specifically produces isoterrein instead of terrein.,119
+M4-FUNG-0044:M003,M4-FUNG-0044,M003,4-hydroxy-6-methylpyrone,short-chain TerA product,NR,NR,alternative TerA extension-cycle product,pathway shunt/side product,heterologous TerA system,structurally characterized,S003; S006,Reflects low TerA extension-cycle specificity.,120
+M4-FUNG-0044:M004,M4-FUNG-0044,M004,orsellinic acid,alternative TerA product,C8H8O4,NR,alternative TerA extension-cycle product,pathway shunt/side product,heterologous TerA system,structurally characterized,S003; S006,,121
+M4-FUNG-0044:M005,M4-FUNG-0044,M005,"2,3-dehydro-6-hydroxymellein",TerA product before TerB reduction,NR,NR,direct TerB substrate,pathway intermediate,heterologous/in-vitro system,direct biochemical assignment,S006,,122
+M4-FUNG-0044:M006,M4-FUNG-0044,M006,6-hydroxymellein,TerA/TerB collaborative product,NR,NR,key C10 precursor to terrein,pathway intermediate / branch point for related fungal metabolites,heterologous/in-vitro system,direct biochemical assignment,S006,,123
+M4-FUNG-0044:M007,M4-FUNG-0044,M007,TerC oxidative-decarboxylation product,early ring-contraction intermediate,NR,NR,TerD substrate,pathway intermediate,in-vitro/heterologous system,mechanistically assigned,S007,Highly reactive/early oxidative state.,124
+M4-FUNG-0044:M008,M4-FUNG-0044,M008,2-((E)-prop-1-en-1-yl)maleic acid,propylene maleic acid (PMA),C7H8O4,NR,oxidation product of terrein during Fe3+ reduction,extracellular redox product,iron-reduction reaction mixture,NMR + HRMS,S004,Not a canonical biosynthetic product; forms during ecological redox chemistry.,125
+M4-FUNG-0045:M001,M4-FUNG-0045,M001,viridicatumtoxin,final product,C30H31NO10,MIBiG,final meroterpenoid,antibacterial,culture extract,exact,S001; S003,,121
+M4-FUNG-0045:M002,M4-FUNG-0045,M002,previridicatumtoxin,acyclic geranyl precursor,NR,NR,VrtK substrate,pathway intermediate,yeast feeding system,direct,S005,,122
+M4-FUNG-0045:M003,M4-FUNG-0045,M003,geranylated naphthacenedione,VrtC product,NR,NR,prenylated intermediate,pathway intermediate,in vitro,direct enzymatic product,S004,,123
+M4-FUNG-0046:M001,M4-FUNG-0046,M001,yanuthone D,final product,C28H38O8,MIBiG,canonical final product,antimicrobial,culture extract,exact,S001; S003,,117
+M4-FUNG-0046:M002,M4-FUNG-0046,M002,6-methylsalicylic acid,YanA product,C8H8O3,NR,pathway starter,intermediate,feeding/rescue,direct,S003,,118
+M4-FUNG-0046:M003,M4-FUNG-0046,M003,m-cresol,YanB product,C7H8O,NR,YanC substrate,intermediate,feeding/rescue,direct,S003,,119
+M4-FUNG-0046:M004,M4-FUNG-0046,M004,yanuthone E,late precursor,NR,NR,YanF substrate,intermediate,mutant extract,assigned,S003,,120
+M4-FUNG-0046:M005,M4-FUNG-0046,M005,yanuthone X1,alternate scaffold class,NR,NR,cluster-enzyme-dependent but non-6-MSA-derived product,branch product,culture extract,exact/assigned,S003,,121
+M4-FUNG-0047:M001,M4-FUNG-0047,M001,acetylaranotin,final major product,C22H20N2O8S2,MIBiG,ETP final product,bioactive ETP,culture extract,exact,S001; S003,,117
+M4-FUNG-0047:M002,M4-FUNG-0047,M002,methylated acetylaranotin-related product,branch congener,NR,NR,branch endpoint,NR,mutant extracts,identified in pathway study,S003,,118
+M4-FUNG-0047:M003,M4-FUNG-0047,M003,ETP sulfur intermediates,multiple shunt/intermediate compounds,NR,NR,diagnostic pathway intermediates,NR,deletion strains,17 natural products collectively characterized,S003,9 novel in study,119
+M4-FUNG-0048:M001,M4-FUNG-0048,M001,acetylaszonalenin,final product,C25H25N3O3,MIBiG,final alkaloid,NR,culture extract,exact,S001; S003,,113
+M4-FUNG-0048:M002,M4-FUNG-0048,M002,aszonalenin,prenylated intermediate,NR,NR,AnaAT substrate,intermediate,enzyme assay,direct,S003,,114
+M4-FUNG-0048:M003,M4-FUNG-0048,M003,(R)-benzodiazepinedione,AnaPS product,NR,NR,AnaPT substrate,intermediate,enzyme assay,direct,S003; S004,,115
+M4-FUNG-0049:M001,M4-FUNG-0049,M001,apicidin,final product,C34H49N5O6,MIBiG,cyclic tetrapeptide,HDAC inhibitor/antiprotozoal,culture extract,exact,S001; S003,,118
+M4-FUNG-0049:M002,M4-FUNG-0049,M002,apicidin B,Δaps3 analog,NR,NR,Pro-for-Pip substitution product,diagnostic congener,Δaps3 extract,exact,S003,,119
+M4-FUNG-0049:M003,M4-FUNG-0049,M003,apicidin D2,Δaps9 analog,NR,NR,underoxidized Aoda congener,diagnostic congener,Δaps9 extract,exact,S003,,120
+M4-FUNG-0049:M004,M4-FUNG-0049,M004,apicidin E,Δaps7-related congener,NR,NR,Aoda oxidation-state congener,diagnostic congener,mutant extract,exact,S003,,121
+M4-FUNG-0050:M001,M4-FUNG-0050,M001,aureobasidin A / AbT1,final product,C60H92N8O11,MIBiG,cyclic depsipeptide,potent antifungal,fermentation broth,exact structure,S001; S004,,113
+M4-FUNG-0050:M002,M4-FUNG-0050,M002,aureobasidin congeners A–R/S-series,natural analog family,various,NR,module/precursor variants,antifungal spectrum varies,fermentation broth,structures established,S005,,114
+M4-FUNG-0051:M001,M4-FUNG-0051,M001,bassianolide,final product,C48H84N4O12,MIBiG,cyclic octadepsipeptide,insecticidal; virulence factor,culture extract/infection context,exact,S001; S003,,113
+M4-FUNG-0052:M001,M4-FUNG-0052,M001,beauvericin,final product,C45H57N3O9,PubChem,cyclic ionophore depsipeptide,insect virulence factor; antibiotic/antifungal/insecticidal,culture extract,exact,S003; S005,,113
+M4-FUNG-0052:M002,M4-FUNG-0052,M002,D-2-hydroxyisovalerate,D-Hiv,C5H10O3,NR,BbBEAS hydroxy-acid substrate,pathway precursor,intracellular,biochemical precursor,S003; S004,,114
+M4-FUNG-0053:M001,M4-FUNG-0053,M001,ACV,delta-(L-alpha-aminoadipyl)-L-cysteinyl-D-valine,NR,NR,PcbAB product,pathway intermediate,intracellular,canonical,S003,,115
+M4-FUNG-0053:M002,M4-FUNG-0053,M002,isopenicillin N,IPN,NR,NR,PcbC product / CefP substrate,pathway intermediate,cytosol/peroxisome transport,canonical,S003; S004,,116
+M4-FUNG-0053:M003,M4-FUNG-0053,M003,penicillin N,PenN,NR,NR,CefD1/D2 product / CefM substrate,pathway intermediate,peroxisome→cytosol,canonical,S005,,117
+M4-FUNG-0053:M004,M4-FUNG-0053,M004,cephalosporin C,whole-programme product,C16H21N3O8S,NR,final beta-lactam,antibacterial/industrial precursor,fermentation broth,exact,S007,Requires late cluster M4-FUNG-0054.,118
+M4-FUNG-0054:M001,M4-FUNG-0054,M001,penicillin N,input from early locus,NR,NR,CefEF substrate,pathway intermediate,cytosol,canonical,S006,Produced by M4-FUNG-0053.,113
+M4-FUNG-0054:M002,M4-FUNG-0054,M002,deacetoxycephalosporin C,DAOC,NR,NR,first CefEF product,pathway intermediate,culture/cell extract,canonical,S006,,114
+M4-FUNG-0054:M003,M4-FUNG-0054,M003,deacetylcephalosporin C,DAC,NR,NR,second CefEF product / CefG substrate,pathway intermediate,ΔcefG broth accumulation,direct,S003,,115
+M4-FUNG-0054:M004,M4-FUNG-0054,M004,cephalosporin C,final product,C16H21N3O8S,NR,final beta-lactam,antibacterial/industrial precursor,fermentation broth,exact,S003; S005,,116
+M4-FUNG-0055:M001,M4-FUNG-0055,M001,chaetocin,,C30H28N6O6S4,,final ETP product,broad thiol/redox/chromatin-associated mammalian pharmacology; ecological role unresolved,fungal natural-product extract,structure-confirmed,S001; S004; S005,,122
+M4-FUNG-0056:M001,M4-FUNG-0056,M001,cyclosporin A,,C62H111N11O12,,major final product,immunosuppressive drug; producer-context antifungal ecological activity,culture extract/supernatant,structure-confirmed,S001; S005,,127
+M4-FUNG-0056:M002,M4-FUNG-0056,M002,cyclosporin B,,,,congener,,culture extract,LC-MS/reference-supported,S005,,128
+M4-FUNG-0056:M003,M4-FUNG-0056,M003,cyclosporin C,,,,congener,,culture extract,LC-MS/reference-supported,S005,,129
+M4-FUNG-0057:M001,M4-FUNG-0057,M001,destruxin A,,C29H47N5O7,,major final congener,insect immune suppression/insecticidal activity,culture extract,structure-confirmed,S001; S004,,128
+M4-FUNG-0057:M002,M4-FUNG-0057,M002,destruxin B,,,,DtxS2 substrate/upstream congener,,culture extract,LC-MS,S004,,129
+M4-FUNG-0057:M003,M4-FUNG-0057,M003,destruxin B2,,,,alternative substrate-selection congener,,culture extract,LC-MS,S004,,130
+M4-FUNG-0058:M001,M4-FUNG-0058,M001,echinocandin B,,C52H81N7O16,,final lipohexapeptide,"antifungal beta-1,3-glucan synthesis inhibitor",fungal extract,structure-confirmed,S004,,119
+M4-FUNG-0058:M002,M4-FUNG-0058,M002,L-homotyrosine,,,,required nonproteinogenic precursor from separate hty locus,,intracellular precursor,biochemical/genetic,S004,,120
+M4-FUNG-0058:M003,M4-FUNG-0058,M003,linoleate,,,,lipid starter loaded by EcdI onto EcdA,,precursor,biochemical,S004,,121
+M4-FUNG-0059:M001,M4-FUNG-0059,M001,enniatin,representative MIBiG product,C35H61N3O9,,final cyclic depsipeptide,ionophoric/mycotoxic family,fungal extract,structure-confirmed,S001; S004,,108
+M4-FUNG-0059:M002,M4-FUNG-0059,M002,2R-hydroxyisovaleric acid,,,,Esyn1 substrate/precursor,,,substrate assignment,S001; S004,,109
+M4-FUNG-0059:M003,M4-FUNG-0059,M003,valine,,,,Esyn1 substrate/precursor,,,substrate assignment,S001; S004,,110
+M4-FUNG-0060:M001,M4-FUNG-0060,M001,ergovaline,,C29H35N5O5,,final ergopeptine,grass bioprotection / livestock toxicosis,infected plant tissue,structure-confirmed,S001; S004,,113
+M4-FUNG-0060:M002,M4-FUNG-0060,M002,ergovalinine,,,,ergovaline epimer/congener,,infected plant tissue,LC-MS/MS,S004,,114
+M4-FUNG-0060:M003,M4-FUNG-0060,M003,lysergic acid,,,,upstream precursor accumulating in ΔlpsB,,infected plant tissue,LC-MS/MS,S004,,115
+M4-FUNG-0060:M004,M4-FUNG-0060,M004,lysergyl-alanine,,,,upstream intermediate accumulating in ΔlpsB,,infected plant tissue,LC-MS/MS,S004,,116
+M4-FUNG-0061:M001,M4-FUNG-0061,M001,fumiquinazoline F,,,,FmqA product / FmqB-FmqC substrate,,fungal tissue/extract,enzyme-supported,S005,,112
+M4-FUNG-0061:M002,M4-FUNG-0061,M002,fumiquinazoline A,,C24H23N5O4,,FmqB/FmqC product / FmqD substrate,,multiple fungal tissues,structure-confirmed,S001; S005; S006,,113
+M4-FUNG-0061:M003,M4-FUNG-0061,M003,fumiquinazoline C,,C24H21N5O4,,enzymatic final product enriched in conidia,conidial phagocytosis protection,conidial/spore tissue,structure-confirmed,S001; S006; S007,,114
+M4-FUNG-0061:M004,M4-FUNG-0061,M004,fumiquinazoline D,,C24H21N5O4,,nonenzymatic rearrangement/isomerization product from FQC,,fungal extract,structure-confirmed,S001; S005,,115
+M4-FUNG-0062:M001,M4-FUNG-0062,M001,cyclo-(D-Phe-L-Phe-D-Val-L-Val),,,,HcpA-dependent cyclic tetrapeptide,,culture broth,HPLC-MS/structure-supported,S001; S004,,108
+M4-FUNG-0062:M002,M4-FUNG-0062,M002,cyclo-(D-Tyr-L-Phe-D-Val-L-Val),,,,HcpA-dependent cyclic tetrapeptide,,culture broth,HPLC-MS/structure-supported,S001; S004,,109
+M4-FUNG-0062:M003,M4-FUNG-0062,M003,cyclo-(D-Tyr-L-Trp-D-Val-L-Val),,,,HcpA-dependent cyclic tetrapeptide,,culture broth,HPLC-MS/structure-supported,S001; S004,,110
+M4-FUNG-0062:M004,M4-FUNG-0062,M004,cyclo-(D-Phe-L-Trp-D-Val-L-Val),,,,HcpA-dependent cyclic tetrapeptide,,culture broth,HPLC-MS/structure-supported,S001; S004,,111
+M4-FUNG-0062:M005,M4-FUNG-0062,M005,cyclo-(D-Phe-L-Phe-D-Val-L-Ile),,,,HcpA-dependent cyclic tetrapeptide,,culture broth,HPLC-MS/structure-supported,S001; S004,,112
+M4-FUNG-0062:M006,M4-FUNG-0062,M006,cyclo-(D-Phe-L-Phe-D-Ile-L-Val),,,,HcpA-dependent cyclic tetrapeptide,,culture broth,HPLC-MS/structure-supported,S001; S004,,113
+M4-FUNG-0062:M007,M4-FUNG-0062,M007,cyclo-(D-Tyr-L-Trp-D-Val-L-Ile),,,,HcpA-dependent cyclic tetrapeptide,,culture broth,HPLC-MS/structure-supported,S001; S004,,114
+M4-FUNG-0062:M008,M4-FUNG-0062,M008,cyclo-(D-Tyr-L-Trp-D-Ile-L-Val),,,,HcpA-dependent cyclic tetrapeptide,,culture broth,HPLC-MS/structure-supported,S001; S004,,115
+M4-FUNG-0062:M009,M4-FUNG-0062,M009,cyclo-(D-Tyr-L-Phe-D-Val-L-Ile),,,,HcpA-dependent cyclic tetrapeptide,,culture broth,HPLC-MS/structure-supported,S001; S004,,116
+M4-FUNG-0062:M010,M4-FUNG-0062,M010,cyclo-(D-Tyr-L-Phe-D-Ile-L-Val),,,,HcpA-dependent cyclic tetrapeptide,,culture broth,HPLC-MS/structure-supported,S001; S004,,117
+M4-FUNG-0063:M001,M4-FUNG-0063,M001,gliotoxin,,,,final ETP toxin,cytotoxic/immunosuppressive; context-dependent virulence contribution,culture supernatant and infected lung in some models,structure-confirmed,S001; S005,,119
+M4-FUNG-0063:M002,M4-FUNG-0063,M002,bisdethiobis(methylthio)gliotoxin,BmGT,,,thiomethylated detoxification/related product,,culture medium,LC-MS,S001; S008,,120
+M4-FUNG-0063:M003,M4-FUNG-0063,M003,dithiol gliotoxin,,,,intracellular reduced precursor/substrate for GliT and methylation,,intracellular,biochemical,S007; S008,,121
+M4-FUNG-0064:M001,M4-FUNG-0064,M001,HC-toxin,,,,host-selective final toxin,histone deacetylase inhibitor; critical virulence determinant on susceptible maize,fungal culture/host tissue,structure-confirmed,S005; S010,,114
+M4-FUNG-0064:M002,M4-FUNG-0064,M002,Aeo,"2-amino-9,10-epoxi-8-oxodecanoic acid",,,unusual HC-toxin residue/precursor branch,,intracellular precursor,pathway-defined,S006; S008,,115
+M4-FUNG-0065:M001,M4-FUNG-0065,M001,hexadehydroastechrome,,C60H60FeN9O9,,major Fe(III)-complexed final product,iron-homeostasis perturbation; virulence increase when overproduced,fungal extract,structure-confirmed,S001; S003; S004,,115
+M4-FUNG-0065:M002,M4-FUNG-0065,M002,terezine-D,,C19H23N3O2,,related pathway/congener metabolite,,fungal extract,structure-confirmed,S001; S003,,116
+M4-FUNG-0065:M003,M4-FUNG-0065,M003,astechrome,,C60H66FeN9O9,,related iron-complexed congener,,fungal extract,structure-confirmed,S001,,117
+M4-FUNG-0066:M001,M4-FUNG-0066,M001,penicillin,family-level product,,,beta-lactam final product family,antibacterial,fermentation broth,established chemistry,S001; S003,,113
+M4-FUNG-0066:M002,M4-FUNG-0066,M002,isopenicillin N,,,,core intermediate,,intracellular/peroxisome-linked pathway,established intermediate,S006,,114
+M4-FUNG-0067:M001,M4-FUNG-0067,M001,δ-(L-α-aminoadipyl)-L-cysteine-D-valine,ACV,,,PcbAB product / PcbC substrate,,intracellular,enzyme-supported,S001; S003,,110
+M4-FUNG-0067:M002,M4-FUNG-0067,M002,isopenicillin N,,,,PcbC product / PenDE substrate,,intracellular/peroxisome-linked pathway,enzyme-supported,S001; S003,,111
+M4-FUNG-0067:M003,M4-FUNG-0067,M003,benzylpenicillin,penicillin G,C16H18N2O4S,,final product with phenylacetate side chain,antibacterial,fermentation broth,structure-confirmed,S001; S003,,112
+M4-FUNG-0067:M004,M4-FUNG-0067,M004,phenoxymethylpenicillin,penicillin V,,,final product with phenoxyacetate side chain,antibacterial,fermentation broth,structure-confirmed,S001; S003,,113
+M4-FUNG-0068:M001,M4-FUNG-0068,M001,histidyltryptophanyldiketopiperazine,HTD,C17H17N5O2,,RoqA product / branch substrate,,culture extract,structure-confirmed,S001; S003,,114
+M4-FUNG-0068:M002,M4-FUNG-0068,M002,dehydro-HTD,DHTD,C17H15N5O2,,RoqR product / RoqD substrate,,culture extract,structure-confirmed,S001; S003,,115
+M4-FUNG-0068:M003,M4-FUNG-0068,M003,roquefortine D,,C22H25N5O2,,prenylated branch intermediate,,culture extract,structure-confirmed,S001; S003,,116
+M4-FUNG-0068:M004,M4-FUNG-0068,M004,roquefortine C,,C22H23N5O2,,branch convergence intermediate,,culture extract,structure-confirmed,S001; S003,,117
+M4-FUNG-0068:M005,M4-FUNG-0068,M005,glandicoline A,,C22H21N5O3,,RoqM product,,culture extract,structure-confirmed,S001; S003,,118
+M4-FUNG-0068:M006,M4-FUNG-0068,M006,glandicoline B,,C22H21N5O4,,RoqO product / RoqN substrate,,culture extract,structure-confirmed,S001; S003,,119
+M4-FUNG-0068:M007,M4-FUNG-0068,M007,meleagrine,,C23H23N5O4,,late methylated product,,culture extract,structure-confirmed,S001; S003,,120
+M4-FUNG-0069:M001,M4-FUNG-0069,M001,terrequinone A,,C32H30N2O3,,final diprenylated bis-indole quinone,,E. coli/fungal extract,structure-confirmed,S001; S003,,112
+M4-FUNG-0069:M002,M4-FUNG-0069,M002,indolepyruvate,,,,TdiD product / TdiA starter,,intracellular intermediate,biochemical,S003,,113
+M4-FUNG-0069:M003,M4-FUNG-0069,M003,didemethylasterriquinone D,,,,TdiA scaffold product,,heterologous pathway extract,NMR/MS,S003,,114
+M4-FUNG-0069:M004,M4-FUNG-0069,M004,off-pathway monoprenylated intermediate,,,,diversion product enhanced without TdiE,,heterologous extract,MS/structural,S003,,115
+M4-FUNG-0070:M001,M4-FUNG-0070,M001,verlamelin A,cyclo(5S-hydroxytetradecanoate-D-alloThr-D-Ala-L-Pro-L-Gln-D-Tyr-L-Val),,,major cyclic lipopeptide,antifungal,culture extract,structure-confirmed,S003,,111
+M4-FUNG-0070:M002,M4-FUNG-0070,M002,verlamelin B,Ser-containing congener,,,cyclic lipopeptide congener,antifungal,culture extract,structure-confirmed,S003,,112
+M4-FUNG-0070:M003,M4-FUNG-0070,M003,5-hydroxytetradecanoic acid,,,,lipid precursor supplied from primary metabolism,,cellular precursor,feeding-rescue supported,S003,,113
+M4-FUNG-0071:M001,M4-FUNG-0071,M001,ustiloxin B,,C26H39N5O12S,,mature cyclic RiPP,microtubule assembly inhibitor / mycotoxin,fungal culture extract,structure-confirmed,S001; S004; S006,,126
+M4-FUNG-0071:M002,M4-FUNG-0071,M002,UstA YAIG-repeat precursor,,,,ribosomal precursor polypeptide,,intracellular precursor,sequence/genetic,S004,,127
+M4-FUNG-0072:M001,M4-FUNG-0072,M001,aflatrem,,,,final tremorgenic indole-diterpene,tremorgenic neurotoxin,fungal extract,structure-confirmed,S001; S003; S004,,115
+M4-FUNG-0072:M002,M4-FUNG-0072,M002,paspaline,,,,early indole-diterpene core,,pathway intermediate,comparative/structural,S004,,116
+M4-FUNG-0072:M003,M4-FUNG-0072,M003,13-desoxypaxilline,,,,AtmP/AtmQ pathway intermediate,,heterologous complementation system,LC-MS/structural,S004,,117
+M4-FUNG-0072:M004,M4-FUNG-0072,M004,paspalicine/paspalinine,,,,AtmQ products / late intermediates,,heterologous system,LC-MS,S004,,118
+M4-FUNG-0073:M001,M4-FUNG-0073,M001,botrydial,,C17H26O5,,final/major botryane product,phytotoxin,fungal culture extract,,,,114
+M4-FUNG-0073:M002,M4-FUNG-0073,M002,presilphiperfolan-8β-ol,,C15H26O,,BcBOT2 cyclization product / pathway precursor,,recombinant enzyme and fungal pathway studies,,,,115
+M4-FUNG-0073:M003,M4-FUNG-0073,M003,dihydrobotrydial,,C17H28O5,,botrydial congener,phytotoxic botryane,fungal culture extract,,,,116
+M4-FUNG-0073:M004,M4-FUNG-0073,M004,"8,9-epibotrydial",,C17H26O5,,botrydial epimer/congener,phytotoxicity reported in botryane studies,fungal culture extract,,,,117
+M4-FUNG-0073:M005,M4-FUNG-0073,M005,botryendial,,C17H24O4,,oxidized botryane congener,,fungal culture extract,,,,118
+M4-FUNG-0074:M001,M4-FUNG-0074,M001,PR-toxin,,,,final eremophilane mycotoxin,potent mycotoxin,fungal culture extract,,,,118
+M4-FUNG-0074:M002,M4-FUNG-0074,M002,aristolochene,,C15H24,,first committed sesquiterpene scaffold,,biosynthetic intermediate,,,,119
+M4-FUNG-0074:M003,M4-FUNG-0074,M003,7-epineopetasone,,,,early oxidized intermediate,,biosynthetic studies,,,,120
+M4-FUNG-0074:M004,M4-FUNG-0074,M004,eremofortin B,,,,central pathway intermediate,,fungal culture extract,,,,121
+M4-FUNG-0074:M005,M4-FUNG-0074,M005,DAC-eremofortin A,,,,proposed acetylation precursor,,biosynthetic studies,,,,122
+M4-FUNG-0074:M006,M4-FUNG-0074,M006,eremofortin A,,,,intermediate or shunt product depending model,,fungal culture extract,,,,123
+M4-FUNG-0074:M007,M4-FUNG-0074,M007,eremofortin C,,,,late precursor to PR-toxin,,biosynthetic studies,,,,124
+M4-FUNG-0075:M001,M4-FUNG-0075,M001,"pimara-8(14),15-diene",legacy database/2012 assignment,C20H32,,historically assigned hydrocarbon product,,cell extract/headspace; little detected in spent medium,"GC-MS plus later isolated-product NMR, but stereochemical assignment is superseded/questioned",S001; S003; S004; S005; S006,"Retain for provenance, not as the final current pathway identity.",115
+M4-FUNG-0075:M002,M4-FUNG-0075,M002,dipleosmarane,new dimeric isopimarane derivative,,,modern cluster product,,fungal extract,LC-MS + NMR,S006,,116
+M4-FUNG-0075:M003,M4-FUNG-0075,M003,six known isopimarane diterpenoids,2026 congener set,,,cluster-derived monomeric/oxidized diterpenoids,,fungal extract,LC-MS + NMR,S006,Individual names should be imported from full compound table if the Atlas later expands structure-level identifiers.,117
+M4-FUNG-0076:M001,M4-FUNG-0076,M001,aphidicolin,final product,C20H34O4,NR,mature aphidicolane diterpenoid,DNA polymerase α inhibitor,fungal culture/extract,structure-established,S001; S004; S008,,112
+M4-FUNG-0076:M002,M4-FUNG-0076,M002,aphidicolan-16β-ol,core scaffold intermediate,C20H34O,NR,PbGGS/PbACS product,NR,heterologous culture extract,structure/biochemical,S001; S004,,113
+M4-FUNG-0076:M003,M4-FUNG-0076,M003,3-deoxyaphidicolin,oxidized intermediate,C20H34O3,NR,triple-transformant intermediate,NR,heterologous culture extract,structure/biochemical,S001; S004,,114
+M4-FUNG-0076:M004,M4-FUNG-0076,M004,17-deoxyaphidicolin,pathway intermediate,C20H34O3,NR,late aphidicolane intermediate,NR,native culture under pathway-perturbation conditions,structure/feeding,S001; S008,,115
+M4-FUNG-0077:M001,M4-FUNG-0077,M001,austinol,,,,mature meroterpenoid,,fungal extract,structure-confirmed,S003,,59
+M4-FUNG-0077:M002,M4-FUNG-0077,M002,dehydroaustinol,,,,mature meroterpenoid,,fungal extract,structure-confirmed,S003,,60
+M4-FUNG-0077:M003,M4-FUNG-0077,M003,"3,5-dimethylorsellinic acid",,,,polyketide precursor,,mutant extract,isolated intermediate,S003,,61
+M4-FUNG-0323:M001,M4-FUNG-0323,M001,sesterfisherol,,,,cyclase product,,,,,,79
+M4-FUNG-0323:M002,M4-FUNG-0323,M002,sesterfisheric acid,,,,P450 oxidation product,,,,,,80
+M4-FUNG-0323:M003,M4-FUNG-0323,M003,compounds 5/6/7a/8,,,,recorded congeners,,,,,,81
+M4-FUNG-0324:M001,M4-FUNG-0324,M001,fusatin,,,,Fusarium cytokinin,,,,,,79
+M4-FUNG-0324:M002,M4-FUNG-0324,M002,fusatinic acid,,,,bioactive cytokinin mimic,,,,,,80
+M4-FUNG-0324:M003,M4-FUNG-0324,M003,8-oxo-fusatin; 8-oxo-isopentenyladenine,,,,oxidized congeners,,,,,,81
+M4-FUNG-0325:M001,M4-FUNG-0325,M001,peramine,,,,insect feeding deterrent,,,,,,78
+M4-FUNG-0325:M002,M4-FUNG-0325,M002,1-pyrroline-5-carboxylic acid + arginine,,,,predicted PerA building blocks,,,,,,79
+M4-FUNG-0326:M001,M4-FUNG-0326,M001,stemphyloxin II,,,,phytotoxic bridged-tricyclic pathway product,,,,,,78
+M4-FUNG-0326:M002,M4-FUNG-0326,M002,probetaenone I / dehydroprobetaenone I / betaenone C,,,,pathway intermediates/congeners,,,,,,79
+M4-FUNG-0327:M001,M4-FUNG-0327,M001,piperazine compounds 1/2,,,,major lnaA-dependent products,,,,,,78
+M4-FUNG-0327:M002,M4-FUNG-0327,M002,morpholine-containing hemiacetal / actinopolymorphol C / oxidized-sulfated congeners,,,,pathway diversification products,,,,,,79
+M4-FUNG-0328:M001,M4-FUNG-0328,M001,decalin portion / decumbenone-like products,,,,CalA + CalK branch,,,,,,79
+M4-FUNG-0328:M002,M4-FUNG-0328,M002,polyene dioic-acid portion,,,,CalA + CalH branch,,,,,,80
+M4-FUNG-0328:M003,M4-FUNG-0328,M003,calbistrin A/C,,,,coupled mature products,,,,,,81
+M4-FUNG-0329:M001,M4-FUNG-0329,M001,acurin A,,,,final mixed PK-NRP product,,,,,,79
+M4-FUNG-0330:M001,M4-FUNG-0330,M001,long-chain polyenoic β-ketolactone,,,,Ev460pks product,,,,,,79
+M4-FUNG-0330:M002,M4-FUNG-0330,M002,shorter polyenoic β-ketolactone,,,,Ev460pks product with opposite C4 relative configuration,,,,,,80
+M4-FUNG-0330:M003,M4-FUNG-0330,M003,asteltoxin,,,,explicitly not dependent on Ev460pks,,,,,,81
+M4-FUNG-0331:M001,M4-FUNG-0331,M001,pyrophen,,,,methylated amino-acid-derived α-pyrone,,,,,,78
+M4-FUNG-0331:M002,M4-FUNG-0331,M002,campyrone B,,,,related α-pyrone product,,,,,,79
+M4-FUNG-0331:M003,M4-FUNG-0331,M003,substituted pyrophen analogues,,,,precursor-feeding products,,,,,,80
+M4-FUNG-0332:M001,M4-FUNG-0332,M001,fusaoctaxin A,,,,linear octapeptide virulence factor,,,,,,81
+M4-FUNG-0332:M002,M4-FUNG-0332,M002,fusatrixin; fusapentaxin,,,,cluster-associated congeners,,,,,,82
+M4-FUNG-0333:M001,M4-FUNG-0333,M001,fumihopaside A,,,,final hopane-type triterpenoid glycoside; stress-protective product,,,,,,81
+M4-FUNG-0333:M002,M4-FUNG-0333,M002,"21-β-H-hopane-3beta,22-diol / compound 3",,,,cluster-associated hopane products/intermediates,,,,,,82
+M4-FUNG-0426:M001,M4-FUNG-0426,M001,azasperpyranone A,A,NR,NR,major pathway product,potential anticancer activity reported in defining study,isolated from A. terreus culture,structure-characterized natural product,S001; S002,Native ecological function remains unresolved.,113
+M4-FUNG-0426:M002,M4-FUNG-0426,M002,azasperpyranone B,B,NR,NR,pathway congener,family-level potential anticancer activity; congener-specific potency NR,isolated from A. terreus culture,structure-characterized natural product,S001; S002,Included in current MIBiG compound set.,114
+M4-FUNG-0426:M003,M4-FUNG-0426,M003,azasperpyranone C,C,NR,NR,pathway congener,family-level potential anticancer activity; congener-specific potency NR,isolated from A. terreus culture,structure-characterized natural product,S001; S002,Included in current MIBiG compound set.,115
+M4-FUNG-0426:M004,M4-FUNG-0426,M004,azasperpyranones D-H,D; E; F; G; H,NR,NR,additional pathway congeners,family-level bioactivity context; individual activities NR,isolated/assigned in defining pathway study,reported congeners,S001; S002,Grouped to preserve all canonical congeners without inventing unsupported per-congener measurements.,116
+M4-FUNG-0427:M001,M4-FUNG-0427,M001,"CJ-16,173",canonical product,NR,NPAtlas-linked; identifier NR,,,,,,,113
+M4-FUNG-0427:M002,M4-FUNG-0427,M002,"CJ-15,696",canonical product,NR,NPAtlas-linked; identifier NR,,,,,,,114
+M4-FUNG-0427:M003,M4-FUNG-0427,M003,citridone B,canonical product,NR,NPAtlas-linked; identifier NR,,,,,,,115
+M4-FUNG-0427:M004,M4-FUNG-0427,M004,citridone A,canonical product / nonenzymatic o-QM branch product,NR,NPAtlas-linked; identifier NR,,,,,,,116
+M4-FUNG-0427:M005,M4-FUNG-0427,M005,citridone B',canonical product,NR,NPAtlas-linked; identifier NR,,,,,,,117
+M4-FUNG-0427:M006,M4-FUNG-0427,M006,citridone E,heterologous branch product,NR,NR,,,,,,,118
+M4-FUNG-0427:M007,M4-FUNG-0427,M007,tersone D,heterologous branch product,NR,NR,,,,,,,119
+M4-FUNG-0427:M008,M4-FUNG-0427,M008,ortho-quinone-methide intermediate,reactive pathway intermediate,NR,NA,,,,,,,120
+M4-FUNG-0428:M001,M4-FUNG-0428,M001,MCA17-1,tetramic-acid product,NR,NR,final isolated product,suppresses TGF-β-induced LX-2 activation,fungal culture extract / purified isolate,NMR/HRMS-supported structural characterization,S003,Pharmacological assay does not establish native ecological function.,113
+M4-FUNG-0429:M001,M4-FUNG-0429,M001,pipecolic acid,precursor,NR,NR,SwnK starter substrate,pathway intermediate,cell/culture extracts,LC-MS/pathway-supported,S003,Can arise from clustered or unclustered routes.,113
+M4-FUNG-0429:M002,M4-FUNG-0429,M002,hydroxylated/dihydroxylated indolizidines,pathway intermediates,NR,NR,late intermediates,NR,mutant/culture extracts,MS + isolation/structure analysis,S003,Some undergo nonenzymatic epimerization.,114
+M4-FUNG-0429:M003,M4-FUNG-0429,M003,swainsonine,final product,NR,NR,final indolizidine alkaloid,livestock mycotoxin,culture extracts,LC-MS/standard-supported,S003; S005,Host-interaction assays did not show requirement for tested plant/insect phenotypes.,115
+M4-FUNG-0430:M001,M4-FUNG-0430,M001,asterriquinone CT5,canonical product,NR,NR,final detected product,NR,ethyl-acetate fungal extract,HPLC-DAD-MS / isolated natural-product assignment,S003,Native ecological role unresolved.,113
+M4-FUNG-0431:M001,M4-FUNG-0431,M001,asterrelenin,canonical product,NR,NR,final detected product,NR,fungal extract,HPLC-DAD-MS / isolated assignment,S003,Core-gene attribution direct.,113
+M4-FUNG-0431:M002,M4-FUNG-0431,M002,epi-aszonalenin A,canonical product,NR,NR,associated indole-alkaloid product,NR,fungal extract,HPLC-DAD-MS / isolated assignment,S003,Linked to anaPS family-level phenotype.,114
+M4-FUNG-0432:M001,M4-FUNG-0432,M001,butyrolactone III,canonical product,NR,NR,final/associated butyrolactone,NR,fungal extract,HPLC-DAD-MS / isolated assignment,S003,Product-family attribution anchored by btyA deletion.,113
+M4-FUNG-0432:M002,M4-FUNG-0432,M002,butyrolactone I,canonical product,NR,NR,final/associated butyrolactone,historically reported bioactive butenolide,fungal extract,HPLC-DAD-MS / isolated assignment,S003; S006,Bioactivity does not establish native ecological role.,114
+M4-FUNG-0433:M001,M4-FUNG-0433,M001,aspulvinone H,canonical product,NR,NR,final/associated product,NR,fungal extract,HPLC-DAD-MS / isolated assignment,S003,Core-gene attribution direct.,113
+M4-FUNG-0433:M002,M4-FUNG-0433,M002,aspulvinone B1,canonical congener,NR,NR,associated product,NR,fungal extract,metabolite-profile assignment,S001; S003,MIBiG lists the congener; direct structural detail is less extensive than for aspulvinone H.,114
+M4-FUNG-0434:M001,M4-FUNG-0434,M001,pyrophen,canonical product,NR,NR,methylated α-pyrone product,NR,heterologous culture extract,HPLC/isolated structure,S003,Direct reconstructed product.,113
+M4-FUNG-0434:M002,M4-FUNG-0434,M002,campyrone B,canonical congener,NR,NR,amino-acid-derived α-pyrone,NR,heterologous/native context,HPLC/structure-supported,S001; S003,Canonical product listed by MIBiG.,114
+M4-FUNG-0434:M003,M4-FUNG-0434,M003,substituted pyrophen analogues,precursor-fed analogues,various,NR,engineered analogues,NR,heterologous culture,isolated/structurally characterized subset,S003,Generated by phenylalanine-analogue feeding.,115
+M4-FUNG-0435:M001,M4-FUNG-0435,M001,glycine betaine,substrate,C5H11NO2,NR,ATRR substrate,osmolyte/metabolic substrate,intracellular,biochemical standard,S003,Direct substrate.,113
+M4-FUNG-0435:M002,M4-FUNG-0435,M002,glycine betaine aldehyde,reaction intermediate,NR,NR,first reduction product,pathway intermediate,enzyme reaction,mechanistically resolved,S003,Intermediate in consecutive reductions.,114
+M4-FUNG-0435:M003,M4-FUNG-0435,M003,choline,final product,C5H14NO+,NR,ATRR product / cellular metabolite,membrane/metabolic precursor,intracellular,biochemical/genetic,S003,Canonical MIBiG product.,115
+M4-FUNG-0436:M001,M4-FUNG-0436,M001,4-hydroxyphenylpyruvic acid,preferred atromentin substrate,NR,NR,GreA substrate,precursor,in-vitro reaction,biochemical standard,S002; S003,Direct ATP-PPi/substrate evidence.,113
+M4-FUNG-0436:M002,M4-FUNG-0436,M002,atromentin,canonical product,NR,NR,GreA dimerization/cyclization product,precursor for downstream pigment/metabolite families,in-vitro enzyme reaction,direct product identification,S003,Canonical MIBiG product.,114
+M4-FUNG-0437:M001,M4-FUNG-0437,M001,brasiliamide I,canonical / newly exposed congener,NR,NR,brasiliamide pathway product,NR for WZXY-M122-9-specific biological role,fungal culture extract,isolated compound / structural characterization,S001; S003,Production revealed after histone-deacetylase deletion.,113
+M4-FUNG-0437:M002,M4-FUNG-0437,M002,brasiliamide A,canonical congener,NR,NR,late tailored product,family bioactivity reported historically in another strain,fungal culture extract / enzyme-pathway context,isolated / pathway-supported,S001; S003; S005,BrsJ ring cleavage is linked to its biosynthesis.,114
+M4-FUNG-0437:M003,M4-FUNG-0437,M003,brasiliamide B,canonical congener,NR,NR,brasiliamide pathway product,family bioactivity reported historically in another strain,fungal culture extract,isolated / HPLC-supported,S001; S003; S005,Do not transfer historical strain-specific potency to WZXY-M122-9.,115
+M4-FUNG-0437:M004,M4-FUNG-0437,M004,"2,2-dibenzylpiperazine",canonical pathway intermediate/product,NR,NR,piperazine scaffold intermediate,NR,fungal/enzyme pathway context,pathway-supported,S001; S003,Supports piperazine-skeleton pathway model.,116
+M4-FUNG-0437:M005,M4-FUNG-0437,M005,brasiliamide D,canonical congener,NR,NR,brasiliamide pathway product,historical family convulsive activity from another strain,fungal culture extract,isolated / HPLC-supported,S001; S003; S005,Native ecological role unresolved.,117
+M4-FUNG-0438:M001,M4-FUNG-0438,M001,δ-6 protoilludene,canonical product,NR,NR,sesquiterpene cyclization product,NR for direct bioactivity,recombinant enzyme reaction,GC-MS/product analysis,S001; S003,Both Omp6 and Omp7 make this as major product.,113
+M4-FUNG-0438:M002,M4-FUNG-0438,M002,pentalenene,minor Omp7 product,NR,NR,minor side product,NR,recombinant Omp7 reaction,GC-MS/product analysis,S003,Omp7 produced ~0.7%; accession-specific relevance unresolved.,114
+M4-FUNG-0439:M001,M4-FUNG-0439,M001,δ-6 protoilludene,canonical product,NR,NR,sesquiterpene cyclization product,NR for direct bioactivity,recombinant enzyme reaction,GC-MS/product analysis,S001; S003,Both Omp6 and Omp7 make this as major product.,113
+M4-FUNG-0439:M002,M4-FUNG-0439,M002,pentalenene,minor Omp7 product,NR,NR,minor side product,NR,recombinant Omp7 reaction,GC-MS/product analysis,S003,Omp7 produced ~0.7%; accession-specific relevance unresolved.,114
+M4-FUNG-0440:M001,M4-FUNG-0440,M001,compound 6,early reconstructed tetramic-acid intermediate,NR,NR,SmbA/SmbB product,NR,A. nidulans heterologous culture,isolated/NMR-supported,S003,Produced at ~2 mg/L.,113
+M4-FUNG-0440:M002,M4-FUNG-0440,M002,intermediate 13,tetrahydropyran-bearing intermediate,NR,CCDC 2097629,SmbE-dependent intermediate,NR,A. nidulans heterologous culture,NMR/HRMS/MicroED-supported,S003,~3.7 mg/L; structure supports spontaneous ring closure after hydroxylation.,114
+M4-FUNG-0440:M003,M4-FUNG-0440,M003,N-demethylsambutoxin,late intermediate,NR,NR,SmbF product / SmbG substrate,NR,heterologous culture,isolated/structure-supported,S003,~2 mg/L reported.,115
+M4-FUNG-0440:M004,M4-FUNG-0440,M004,(-)-sambutoxin,canonical final product,NR,NR,final N-methylated 4-hydroxy-2-pyridone,mycotoxin,heterologous culture,structure-supported,S001; S003,Reconstructed from F. commune smb genes.,116
+M4-FUNG-0441:M001,M4-FUNG-0441,M001,biscognienyne B,canonical principal product,NR,NR,alkyne-containing meroterpenoid,NR,heterologous culture,isolated/structure-supported,S001; S003,Primary pathway target.,113
+M4-FUNG-0441:M002,M4-FUNG-0441,M002,eutypinic acid,canonical pathway product,NR,NR,prenyl-aromatic pathway product/intermediate,NR,heterologous culture,structure-supported,S001; S003,Included in broad pathway-output set.,114
+M4-FUNG-0441:M003,M4-FUNG-0441,M003,4-hydroxy-3-prenylbenzoic acid,canonical intermediate,NR,NR,prenylated aromatic intermediate,NR,heterologous/feeding context,structure-supported,S001; S003,Pathway intermediate rather than equivalent endpoint.,115
+M4-FUNG-0441:M004,M4-FUNG-0441,M004,prenylhydroquinone,canonical intermediate,NR,NR,prenylated hydroquinone intermediate,NR,heterologous/feeding context,structure-supported,S001; S003,Pathway intermediate.,116
+M4-FUNG-0441:M005,M4-FUNG-0441,M005,other canonical bis products,"compounds 3, 6, 7, 8, 11, 12, 15; pestalodiol E",various/NR,NR,branch products and intermediates,NR,heterologous/feeding contexts,structure-supported set,S001; S002; S003,Grouped to avoid treating all canonical products as equivalent final metabolites.,117
+M4-FUNG-0442:M001,M4-FUNG-0442,M001,γ-naphthopyrone monomer,AshP-derived coupling substrate,NR,NR,phenolic monomer substrate,NR,enzyme reaction,structure-supported,S003,Used in laccase coupling assays.,113
+M4-FUNG-0442:M002,M4-FUNG-0442,M002,(P)-ustilaginoidin A,canonical dimer,NR,NR,axially chiral oxidative-coupling product,NR,in-vitro enzyme reaction,stereochemically resolved product,S001; S003,Canonical MIBiG product.,114
+M4-FUNG-0443:M001,M4-FUNG-0443,M001,varicidin A,canonical final product,NR,NR,N-methylated cis-decalin product,antifungal; MIC 8 µg/mL vs Candida albicans,heterologous culture,isolated/structure-supported,S001; S003,Final PvhD/PvhB route.,113
+M4-FUNG-0443:M002,M4-FUNG-0443,M002,varicidin B,demethylated congener,C20H27NO5,NR,cis-decalin branch product,antifungal; MIC 16 µg/mL vs Candida albicans,heterologous culture,isolated/X-ray-supported,S003,Produced when pvhD is omitted.,114
+M4-FUNG-0443:M003,M4-FUNG-0443,M003,compound 3,reactive acyclic intermediate,NR,NR,PvhA/PvhC product,NR,heterologous culture,structure-supported,S003,Spontaneously forms trans-decalins without deactivation.,115
+M4-FUNG-0443:M004,M4-FUNG-0443,M004,compounds 4 and 5,nonenzymatic trans-decalin products,NR,NR,off-pathway/spontaneous cyclization products,NR,heterologous culture,structure-supported,S003,Illustrate competing uncatalyzed IMDA.,116
+M4-FUNG-0443:M005,M4-FUNG-0443,M005,compounds 6 and 7,carboxylated / methylated PvhB substrates,NR,NR,late controlled-cyclization intermediates,NR,heterologous/purified assay,structure-supported,S003,PvhB substrate specificity measured for both.,117
+M4-FUNG-0444:M001,M4-FUNG-0444,M001,deoxyconidiogenol,cyclase product / pathway intermediate,NR,NR,P450 substrate,NR,heterologous/in-vitro context,13C-NMR/structure-supported,S003,Direct Pc20g10860 product.,113
+M4-FUNG-0444:M002,M4-FUNG-0444,M002,(-)-conidiogenone,canonical final product,NR,NR,oxidized diterpene product,conidiation inducer historically in P. cyclopium,heterologous culture,isolated/structure-supported,S001; S003,Native signaling role in P. rubens not directly tested.,114
+M4-FUNG-0445:M001,M4-FUNG-0445,M001,cyclodileucine,cyclo(L-Leu-L-Leu),NR,NR,pulcherriminic-acid precursor,NR as isolated metabolite,cell/culture extract,UPLC-HR-HESI-MS with labeling/feeding support,S001; S003,"Detected in wild type and SNF2-complemented strain, undetectable in snf2 mutant.",113
+M4-FUNG-0445:M002,M4-FUNG-0445,M002,pulcherriminic acid,canonical pathway product / pulcherrimin precursor,NR,NR,iron-chelating precursor that forms pulcherrimin with Fe(III),associated with antifungal phenotype; exclusive causal contribution unresolved,culture extract / extracellular iron-chelation context,UPLC-HR-HESI-MS,S001; S003,Detected in wild type/complemented strain and absent from snf2 mutant.,114
+M4-FUNG-0445:M003,M4-FUNG-0445,M003,pulcherrimin,Fe(III)-pulcherriminic-acid pigment,NR,NR,red iron-chelate pigment,associated with antagonistic phenotype; direct pathway-specific causality unresolved,pigmented colony/extracellular context,pigment phenotype + pathway metabolite evidence,S001; S003,Pigmentation lost in snf2 mutant and restored by SNF2 complementation.,115
+M4-FUNG-0445:M004,M4-FUNG-0445,M004,compound 3 / additional precursor-degradation products,canonical/additional pulcherrimin-associated metabolites,NR,NR,precursor or degradation-product set,biological contribution unresolved,culture extract,UPLC-HR-HESI-MS; exact molecular formula assignments in defining study,S001; S003,New intermediates/degradation products were found in wild type/complemented strain but undetectable in snf2 mutant.,116
+M4-FUNG-0446:M001,M4-FUNG-0446,M001,4-hydroxyphenylpyruvic acid,MelA substrate,NR,NR,precursor,NA,cell/biochemical reaction,substrate assignment,S002; S003,Structure-based and biochemical pathway evidence.,113
+M4-FUNG-0446:M002,M4-FUNG-0446,M002,aspulvinone E,canonical precursor product,NR,NR,MelA product / TyrP substrate,precursor role in protective pigment programme,heterologous/in-vitro reaction and native pathway context,chemically identified,S001; S003,Canonical MIBiG compound.,114
+M4-FUNG-0446:M003,M4-FUNG-0446,M003,Asp-melanin,polymeric pigment,NA,NA,spontaneous polymerization product after TyrP oxidation,UV resistance; reduced amoebal phagocytosis,conidia/cell-associated pigment,genetic + biochemical pigment assignment,S003,"Polymer, not the canonical small-molecule product.",115
+M4-FUNG-0447:M001,M4-FUNG-0447,M001,21R-citrinadin A,canonical final product,NR,NR,prenylated indole alkaloid endpoint,NR,native P. citrinum fermentation,NMR/ECD-confirmed,S003,Sole supported canonical fungal product.,113
+M4-FUNG-0447:M002,M4-FUNG-0447,M002,intermediate 2,bicyclo[2.2.2]diazaoctane intermediate,NR,CCDC 2057621,CtdE substrate / ΔctdU and ΔctdE-associated intermediate,NR,mutant extract / in-vitro assay,X-ray/NMR-supported,S003,m/z 364.2 [M+H]+.,114
+M4-FUNG-0447:M003,M4-FUNG-0447,M003,intermediate 3,C7-prenylated derivative of 2,NR,NR,preferred CtdE substrate candidate,NR,ΔctdE extract / in-vitro assay,NMR/ECD-supported,S003,m/z 432.3 [M+H]+.,115
+M4-FUNG-0447:M004,M4-FUNG-0447,M004,products 4 and 5,CtdE 3S-spirooxindole products,NR,NR,direct enzymatic spirocyclization products,NR,in-vitro CtdE reactions,product 4 X-ray-supported; 5 analytical support,S003,Mechanistic products.,116
+M4-FUNG-0448:M001,M4-FUNG-0448,M001,cladosporiumin I,canonical stereoisomer,NR,NR,tetramic-acid hybrid polyketide,weak cytotoxicity in breast-cancer cell lines,native SW67 culture extract,NMR/Mosher/ECD-supported,S003,Metabolite identity direct; cls attribution putative.,113
+M4-FUNG-0448:M002,M4-FUNG-0448,M002,cladosporiumin J,canonical stereoisomer,NR,NR,tetramic-acid hybrid polyketide,weak cytotoxicity in breast-cancer cell lines,native SW67 culture extract,NMR/Mosher/ECD-supported,S003,Metabolite identity direct; cls attribution putative.,114
+M4-FUNG-0448:M003,M4-FUNG-0448,M003,cladosporicin A,related SW67 metabolite,NR,NR,spirocyclic tetramic-acid natural product,weak cytotoxicity in tested panel,native SW67 culture extract,structure-resolved,S003,Related product supporting family context.,115
+M4-FUNG-0449:M001,M4-FUNG-0449,M001,subglutinol A,canonical major product,NR,NR,DDP pathway end product,DL-1 cell IC50 12 nM; adult Drosophila paralysis at 3.5 ng/injection; anti-HIV activity in DDP panel,A. oryzae heterologous culture,purified/spectrally matched,S001; S003,"Historical immunosuppressive discovery was from Fusarium subglutinans, not this strain.",113
+M4-FUNG-0449:M002,M4-FUNG-0449,M002,subglutinol B,canonical minor congener,NR,NR,DDP pathway end product,bioactive subglutinol congener; strain-specific ecological role NR,A. oryzae heterologous culture,purified/spectrally matched,S001; S003,,114
+M4-FUNG-0449:M003,M4-FUNG-0449,M003,common DDP intermediate 4,shared conserved-core intermediate,NR,NR,SubA–E core product / SubF substrate precursor,NR,heterologous culture,purified/structure-supported,S003,Produced at 87 mg/L in the reference common-core reconstruction.,115
+M4-FUNG-0450:M001,M4-FUNG-0450,M001,FDDP-D,major native endpoint / compound 13 in 2020 reconstruction,NR,NR,C16 cluster end product,ecological/virulence function unresolved,native culture and infected wheat heads; heterologous culture,NMR/spectral plus UHPLC-HRMS/MS2 confirmation,S001; S003; S004,,113
+M4-FUNG-0450:M002,M4-FUNG-0450,M002,FDDP-E,minor native endpoint / compound 14 in 2020 reconstruction,NR,NR,C16 cluster end product,ecological/virulence function unresolved,native culture and infected wheat heads; heterologous culture,NMR/spectral plus UHPLC-HRMS/MS2 confirmation,S001; S003; S004,,114
+M4-FUNG-0450:M003,M4-FUNG-0450,M003,FDDP-B,late intermediate / compound 11,NR,NR,methylated Fusarium-branch intermediate,NR,heterologous culture,isolated/structure-supported,S001; S003,,115
+M4-FUNG-0450:M004,M4-FUNG-0450,M004,higginsianin B,shared upstream/common-branch intermediate,NR,NR,DDP pathway intermediate/related product,NR,heterologous reconstruction context,structure-supported,S001; S003,,116
+M4-FUNG-0450:M005,M4-FUNG-0450,M005,BR-051,canonical-listed related compound,NR,NR,related DDP product/provenance item,NR,NR,canonical listing only in this dossier,S001,Not treated as an equivalent native PH-1 endpoint without stronger experimental mapping.,117
+M4-FUNG-0451:M001,M4-FUNG-0451,M001,higginsianin B,canonical congener / shared DDP intermediate-like branch product,C27H40O4,NR,higginsianin family product and signalling-active metabolite,suppresses JA-Ile/JAZ signalling and proteasome activities in Arabidopsis; cytostatic activity reported in cancer-cell studies,native fungal culture,NMR-defined,S001; S005; S006,,113
+M4-FUNG-0451:M002,M4-FUNG-0451,M002,higginsianin A,methylated/oxidatively tailored congener,C28H40O4,NR,DpchF-dependent reconstructed product,cytotoxic/cytostatic activity reported,native and heterologous contexts,NMR-defined / reconstructed,S001; S003; S005,,114
+M4-FUNG-0451:M003,M4-FUNG-0451,M003,higginsianin C / 13-epi-higginsianin C,ΔcclA-exposed congeners,C27H40O5,NR,chromatin-derepressed higginsianin congeners,bioactivity not promoted beyond defining isolation study,ΔcclA liquid culture,NMR-defined,S001; S004,,115
+M4-FUNG-0451:M004,M4-FUNG-0451,M004,higginsianin D,later native congener,C28H42O5,NR,3-oxodihydrofuran-containing diterpenoid,"cytotoxic, weaker than higginsianin E in reported A431 assay",native mycelial culture,NMR/HRESIMS/ECD,S001; S005,,116
+M4-FUNG-0451:M005,M4-FUNG-0451,M005,higginsianin E,21-epimer of higginsianin D,C28H42O5,NR,3-oxodihydrofuran-containing diterpenoid,A431 antiproliferative IC50 1.0 µM; nearly ineffective against immortalized keratinocytes under reported conditions,native mycelial culture,NMR/HRESIMS/ECD,S001; S005,,117
+M4-FUNG-0452:M001,M4-FUNG-0452,M001,sporidesmin A,major/toxic sporidesmin congener,C18H20ClN3O6S2,PubChem CID 99596,spore-associated ETP mycotoxin,hepatotoxic; causes facial eczema/pithomycotoxicosis in ruminants,fungal spores,chemically established natural product,S003; S005,Product existence and toxicity are certain; Spd-locus attribution is not equivalently validated.,113
+M4-FUNG-0452:M002,M4-FUNG-0452,M002,sporidesmins B-H and J,related sporidesmin family,various,NR,related spore mycotoxin congeners,variable; sporidesmin A is described as most toxic,fungal spores,historical natural-product family,S003,,114
+M4-FUNG-0453:M001,M4-FUNG-0453,M001,6-protoilludene,Pro1 product / early precursor,NR,NR,sesquiterpene cyclization product,NR for direct compound-specific bioactivity,native/recombinant enzyme products,GC-based product identification,S003; S005,Exclusive Pro1 product in the defining enzyme study.,113
+M4-FUNG-0453:M002,M4-FUNG-0453,M002,8α-hydroxy-6-protoilludene,CYP-Arm3 product,NR,NR,branch-defining hydroxylated sesquiterpene,NR for direct compound-specific bioactivity,clarified engineered-yeast culture supernatant,GC/MS + 1H/13C NMR + HMBC + NOESY,S003,Directly establishes CYP-Arm3 regio/stereochemical branch step.,114
+M4-FUNG-0453:M003,M4-FUNG-0453,M003,armillyl orsellinate,canonical database endpoint / family product,NR,NR,protoilludene aryl ester,family has antimicrobial/cytotoxic context,native Armillaria product family,literature/database identity,S001; S003; S005,Do not treat the submitted early module as a complete reconstruction of final ester assembly.,115
+M4-FUNG-0454:M001,M4-FUNG-0454,M001,preterpestacin I,canonical scaffold,NR,NR,BsPS/Ssk6 cyclization product,no direct anti-inflammatory activity assigned in defining study,native/heterologous/in-vitro contexts,NMR/enzymatic product-supported,S001; S003,Canonical MIBiG product.,113
+M4-FUNG-0454:M002,M4-FUNG-0454,M002,terpestacin,oxidized downstream congener,NR,NR,central downstream pathway product,bioactive family member; not equivalent to preterpestacin-I activity,native pathway context,isolated/structure-supported,S003; S005,Used for proposed branch mapping.,114
+M4-FUNG-0454:M003,M4-FUNG-0454,M003,fusaproliferin,acylated terpestacin derivative,NR,NR,downstream sesterterpenoid,NR here for strain-specific ecological role,native pathway context,isolated/structure-supported,S003,Pathway assignment downstream of scaffold.,115
+M4-FUNG-0454:M004,M4-FUNG-0454,M004,sestersorokinicin A,new downstream congener,NR,NR,acylated sesterterpenoid,24.9 ± 2.1% inhibition of LPS-induced NO at 10 µM in RAW264.7 cells,native BS11134 culture extract,isolated/NMR-supported,S003,"Bioactivity belongs to this congener, not to preterpestacin I.",116
+M4-FUNG-0454:M005,M4-FUNG-0454,M005,sestersorokiniside A,glycosylated downstream congener,NR,NR,glycosylated sesterterpenoid,NR,native BS11134 culture extract,isolated/NMR-supported,S003,Supports unique glycosyltransferase-bearing pathway branch.,117
+M4-FUNG-0455:M001,M4-FUNG-0455,M001,methylphloracetophenone,proposed monomeric precursor,NR,NR,proposed MPAS product / MPAO substrate,NR,biosynthetic model,inferred from pathway/domain chemistry,S003,Not directly isolated as the CuPKS1 product in the defining study.,113
+M4-FUNG-0455:M002,M4-FUNG-0455,M002,usnic acid,canonical product,NR,NR,lichen dibenzofuran polyketide endpoint,broad biological activity known; locus-specific ecological phenotype NR,intact lichen thallus,HPLC-detected native product,S001; S003,Native product detection is direct; assignment to this exact locus remains candidate-level.,114
+M4-FUNG-0456:M001,M4-FUNG-0456,M001,adametizine A,major/stable congener,C21H23ClN2O8S2,NR,native ETP product and interconversion hub,PC-3 IC50 6.3±1.4 µM; LNCaP IC50 0.5±0.03 µM; mild antiaging activity,native fermentation extract; also detected in black-band samples,HRMS/NMR/X-ray supported,S003,Most stable/abundant congener in defining study.,113
+M4-FUNG-0456:M002,M4-FUNG-0456,M002,penigainamide A,trisulfide congener,NR,NR,"native α,β-polysulfide ETP",NR,native fermentation extract,HRMS + NMR,S001; S003,Chemically unstable and interconverts in solution.,114
+M4-FUNG-0456:M003,M4-FUNG-0456,M003,penigainamide B,epoxide-containing congener,NR,NR,native ETP / chemical-interconversion participant,NR,native fermentation extract,HRMS + NMR,S001; S003,Unstable even at low-temperature NMR conditions.,115
+M4-FUNG-0456:M004,M4-FUNG-0456,M004,penigainamide C,new congener,NR,NR,native ETP family member,NR,14-day fermentation extract,HRMS/tandem MS-supported,S001; S003,Detected with known ETP congeners.,116
+M4-FUNG-0456:M005,M4-FUNG-0456,M005,FA2097 / outovirins / pretrichodermamide C,known related congeners,various,NR,native products and chemical-interconversion network,congener-specific,native fermentation extract,HRMS/NMR/MS comparison,S001; S003,Grouped to emphasize shared family chemistry and post-isolation transformations.,117
+M4-FUNG-0457:M001,M4-FUNG-0457,M001,fumonisin B1,canonical B-series congener,NR,NR,FUM-cluster product,carcinogenic mycotoxin / food-feed hazard,fungal production assay,LC-MS/MS quantified,S001; S003,G9 donor >50 ppm in reported transformant-comparison table.,113
+M4-FUNG-0457:M002,M4-FUNG-0457,M002,fumonisin B2,canonical B-series congener,NR,NR,FUM-cluster product,mycotoxin,fungal production assay,LC-MS/MS quantified,S001; S003,G9 donor >50 ppm in reported table.,114
+M4-FUNG-0457:M003,M4-FUNG-0457,M003,fumonisin B3,canonical B-series congener / current MIBiG short-description endpoint,NR,NR,FUM-cluster product,mycotoxin,fungal production assay,LC-MS/MS quantified,S001; S002; S003,G9 donor 3.70 ppm in reported table.,115
+M4-FUNG-0458:M001,M4-FUNG-0458,M001,xenoacremone A,canonical product,C29H35NO5,NR,tyrosine-decahydrofluorene endpoint,bioactivity not central in defining biosynthesis study,native rice culture / heterologous system,NMR/LC-MS structure-supported,S001; S003,Primary endpoint.,114
+M4-FUNG-0458:M002,M4-FUNG-0458,M002,xenoacremone B,oxidized congener,NR,NR,native pathway congener,NR,native culture,structure-supported,S003,A-C discovered in defining study.,115
+M4-FUNG-0458:M003,M4-FUNG-0458,M003,xenoacremone C,methyl ether of xenoacremone A,NR,NR,methanol-derived/spontaneous derivative,NR,isolation context,NMR/X-ray supported,S003,May form spontaneously from A in methanol; not equivalent biosynthetic endpoint.,116
+M4-FUNG-0458:M005,M4-FUNG-0458,M005,"compounds 4, 6-11",pathway intermediates/isomers,various/NR,NR,"intermediates, spontaneous isomers and late branch products",NR,native mutants/heterologous cultures,UPLC/LC-MS/NMR set,S003,Grouped to avoid false equivalence with final xenoacremones.,117
+M4-FUNG-0459:M001,M4-FUNG-0459,M001,torachrysone / related naphthalene precursor,coupling precursor,NR,NR,monomeric phenol-coupling substrate,NR,heterologous reaction context,structure-supported,S003,Precursor-level pathway intermediate.,113
+M4-FUNG-0459:M002,M4-FUNG-0459,M002,sporandol,canonical product,NR,NR,selectively coupled binaphthalene product,antiparasitic activity reported,heterologous culture/reaction,chemically characterized,S001; S003,Canonical endpoint.,114
+M4-FUNG-0460:M001,M4-FUNG-0460,M001,biruloquinone,canonical product,NR,NR,phenanthraquinone pigment / specialized metabolite,AChE inhibition IC50 27.1 µg/mL; mixed-II kinetics; PC12 protection reported at 1–25 µg/mL,axenic C. macilenta culture,MS/NMR-supported compound identification,S003; S005,Compound identity is direct; linkage to brq1–brq6 is transcript/metabolite correlation rather than causal genetics.,113
+M4-FUNG-0461:M001,M4-FUNG-0461,M001,cristazarin,canonical product,NR,NR,red pigment / pathway endpoint,activity evaluated in source,culture extract,NMR-supported,S003,,114
+M4-FUNG-0461:M002,M4-FUNG-0461,M002,6-methylcristazarin,congener,NR,NR,related pigment,NR,culture extract,literature/database,S001; S002,,115
+M4-FUNG-0462:M001,M4-FUNG-0462,M001,solanapyrone A,canonical product,NR,NR,pathway endpoint,toxic secondary metabolite,culture extract,LC-MS/direct,S003,,114
+M4-FUNG-0462:M002,M4-FUNG-0462,M002,solanapyrone C,congener,NR,NR,pathway product,NR,culture extract,LC-MS/direct,S003,,115
+M4-FUNG-0464:M001,M4-FUNG-0464,M001,"19S,20-epoxy-18-oxotryprostatin A",new analogue,NR,NR,isolated metabolite,compound-specific activity NR,culture extract,NMR/HRESIMS,S003,,114
+M4-FUNG-0464:M002,M4-FUNG-0464,M002,20-hydroxy-18-oxotryprostatin A,new analogue,NR,NR,isolated metabolite,compound-specific activity NR,culture extract,NMR/HRESIMS,S003,,115
+M4-FUNG-0472:M001,M4-FUNG-0472,M001,emerimicin V,new peptaibol,NR,NR,pathway product,compound-level activity in source,culture extract,NMR/LC-MS/MS/Marfey,S003,,113
+M4-FUNG-0472:M002,M4-FUNG-0472,M002,emerimicins VI-X,five related new peptaibols,NR,NR,pathway products,compound-level activity in source,culture extract,NMR/LC-MS/MS/Marfey,S003,,114
+M4-FUNG-0473:M001,M4-FUNG-0473,M001,silphinene,early scaffold,NR,NR,PeniA product,NR,heterologous/reaction product,direct,S003,,113
+M4-FUNG-0473:M002,M4-FUNG-0473,M002,penifulvin A,canonical product,NR,NR,pathway endpoint,insecticidal,native culture extract,NMR/X-ray and pathway analysis,S003; S004,,114
+M4-FUNG-0474:M001,M4-FUNG-0474,M001,geodin,canonical product,NR,NR,pathway endpoint,NR,heterologous culture extract,direct chemical identification,S003,,113
+M4-FUNG-0474:M002,M4-FUNG-0474,M002,sulochrin,pathway intermediate,NR,NR,GedL substrate/intermediate,NR,heterologous culture,direct,S003,,114
+M4-FUNG-0475:M001,M4-FUNG-0475,M001,lecanoric acid,heterologous product,NR,NR,depside endpoint in yeast,NR,engineered yeast culture,direct chemical identification,S003,Do not automatically equate with native lichen endpoint.,113
+M4-FUNG-0475:M002,M4-FUNG-0475,M002,orsellinic acid,MIBiG co-listed precursor/product,NR,NR,monomeric polyketide context,NR,NR,database/literature,S001; S004,,114
+M4-FUNG-0476:M001,M4-FUNG-0476,M001,orsellinic acid,PKS14-associated product,NR,NR,probable PKS release product,NR,culture extract,MS/chromatographic standard,S003,,113
+M4-FUNG-0476:M002,M4-FUNG-0476,M002,orcinol,decarboxylated product,NR,NR,downstream aromatic product,NR,culture extract,MS/standards with NMR support,S003,,114
+M4-FUNG-0477:M001,M4-FUNG-0477,M001,orsellinic acid,rescue precursor,NR,NR,essential aromatic precursor,NR,feeding experiment,functional precursor identification,S003,,113
+M4-FUNG-0477:M002,M4-FUNG-0477,M002,antroquinonols/pigment products,downstream rescued outputs,NR,NR,downstream metabolites,NR,culture extract,metabolite profiling,S003,,114
+M4-FUNG-0478:M001,M4-FUNG-0478,M001,lecanoric acid,major PKS7-associated product,NR,NR,depside endpoint,NR,culture extract,direct metabolite identification,S003,,113
+M4-FUNG-0478:M002,M4-FUNG-0478,M002,ethyl lecanorate,major congener,NR,NR,depside ester product,NR,culture extract,direct metabolite identification,S003,,114
+M4-FUNG-0478:M003,M4-FUNG-0478,M003,gerfelin / C10-deoxygerfelin,related branch products,NR,NR,PKS7-associated branch metabolites,NR,culture extract,direct,S003,,115
+M4-FUNG-0479:M001,M4-FUNG-0479,M001,ochratoxin A,canonical product,NR,NR,pathway endpoint,mycotoxin,food/culture extracts,direct OTA detection,S003,,113
+M4-FUNG-0479:M002,M4-FUNG-0479,M002,ochratoxin B / OTβ / 7-methylmellein,homologous pathway intermediates,NR,NR,mechanistic context,NR,cross-species pathway studies,genetic/chemical,S005,Not promoted as A. westerdijkiae-specific direct intermediates here.,114
+M4-FUNG-0481:M001,M4-FUNG-0481,M001,helvolic acid,canonical MIBiG product,NR,NR,candidate pathway endpoint,known antibacterial natural product; not BGC-specifically assayed here,NR,database/literature,S001; S002; S003,Paper uses helvolinic-acid cluster terminology.,114
+M4-FUNG-0482:M001,M4-FUNG-0482,M001,fumagillin,canonical product,NR,NR,candidate endpoint,known bioactive natural product,NR,database,S001; S002; S003,Do not promote canonical label to causal evidence.,114
+M4-FUNG-0483:M001,M4-FUNG-0483,M001,aspergillic acid,canonical endpoint,NR,NR,pathway product,NR,native culture,direct metabolite identification,S003,,114
+M4-FUNG-0483:M002,M4-FUNG-0483,M002,deoxyaspergillic acid,pathway intermediate,NR,NR,P450-linked intermediate,NR,knockout culture,direct,S003,,115
+M4-FUNG-0483:M003,M4-FUNG-0483,M003,hydroxyaspergillic acid,tailored congener,NR,NR,hydroxylated pathway product,NR,native culture,direct,S003,,116
+M4-FUNG-0484:M001,M4-FUNG-0484,M001,chevalone E,canonical endpoint,NR,NR,reconstructed pathway product,NR,heterologous culture,direct chemical identification,S003,,114
+M4-FUNG-0484:M002,M4-FUNG-0484,M002,sartorypyrone D,cyclase-swap product,NR,NR,modular pathway product,NR,heterologous culture,direct,S003,,115
+M4-FUNG-0485:M001,M4-FUNG-0485,M001,sartorypyrone A,canonical product,NR,NR,native/canonical endpoint,NR,natural-product provenance,literature/database,S001; S002; S004,,114
+M4-FUNG-0485:M002,M4-FUNG-0485,M002,sartorypyrone D,heterologous cyclase-swap product,NR,NR,direct module-level product,NR,heterologous culture,direct,S003,,115
+M4-FUNG-0486:M001,M4-FUNG-0486,M001,ochratoxin A,canonical product,NR,NR,pathway endpoint,mycotoxin,culture extracts,direct OTA detection,S003,,114
+M4-FUNG-0487:M001,M4-FUNG-0487,M001,ochratoxin A,canonical product,NR,NR,pathway endpoint,mycotoxin,culture extracts,direct OTA detection,S003,,114
+M4-FUNG-0488:M001,M4-FUNG-0488,M001,ochratoxin A,canonical product,NR,NR,pathway endpoint,mycotoxin,culture extracts,direct OTA detection,S003,,114
+M4-FUNG-0489:M001,M4-FUNG-0489,M001,ochratoxin A,canonical product,NR,NR,pathway endpoint,mycotoxin,culture extracts,direct OTA detection,S003,,114
+M4-FUNG-0490:M001,M4-FUNG-0490,M001,ochratoxin A,canonical product,NR,NR,pathway endpoint,mycotoxin,culture extracts,direct OTA detection,S003,,114
+M4-FUNG-0491:M001,M4-FUNG-0491,M001,"stellata-2,6,19-triene",Stl-TS product,NR,NR,sesterterpene hydrocarbon intermediate,NR,heterologous/enzymatic system,analytically identified,S003,,114
+M4-FUNG-0491:M002,M4-FUNG-0491,M002,stellatic acid,canonical final product,NR,NR,oxidized sesterterpene endpoint,NR,heterologous/enzymatic system,structure-supported,S001; S003,,115
+M4-FUNG-0492:M001,M4-FUNG-0492,M001,mulundocandin,canonical product,C48H77N7O16,NR,echinocandin cyclic lipohexapeptide,antifungal against yeasts and filamentous fungi,culture broth,isolated and chemically characterized,S002; S004,Compound production is direct; locus causality is comparative.,114
+M4-FUNG-0493:M001,M4-FUNG-0493,M001,"3,5-dimethylorsellinic acid",early polyketide precursor,NR,NR,polyketide precursor,NR,engineered/enzymatic system,analytically identified,S003,AndM product.,114
+M4-FUNG-0493:M002,M4-FUNG-0493,M002,preandiloid A,pathway intermediate,NR,NR,cyclized meroterpenoid intermediate,NR,engineered/enzymatic system,structure-supported,S003,AndB-stage intermediate.,115
+M4-FUNG-0493:M003,M4-FUNG-0493,M003,andiconin,AndA rearrangement product,NR,NR,bridged-ring intermediate,NR,engineered/enzymatic system,structure-supported,S003,Demonstrates non-Diels-Alder core construction.,116
+M4-FUNG-0493:M004,M4-FUNG-0493,M004,anditomin,canonical final product,NR,NR,highly oxygenated meroterpenoid endpoint,NR,engineered/enzymatic pathway reconstruction,structure-supported,S002; S003,AndF-dependent endpoint.,117
+M4-FUNG-0494:M001,M4-FUNG-0494,M001,subglutinol A,MIBiG-listed engineered DDP,NR,NPAtlas/MIBiG,decalin-containing diterpenoid pyrone,reported immunosuppressive/antitumor-related activity in source-product literature,heterologous/combinatorial production system,structure-characterized,S002; S003,Database product label does not equal native P. shearii production proof.,114
+M4-FUNG-0494:M002,M4-FUNG-0494,M002,sesquicillin A,MIBiG-listed engineered DDP,NR,NPAtlas/MIBiG,decalin-containing diterpenoid pyrone,bioactivity evaluated in DDP library context,heterologous/combinatorial production system,structure-characterized,S002; S003,Engineered pathway product.,115
+M4-FUNG-0494:M003,M4-FUNG-0494,M003,colletotrichin,MIBiG-listed engineered DDP,NR,NPAtlas/MIBiG,decalin-containing diterpenoid pyrone,NR in curated defining source for native P. shearii,heterologous/combinatorial production system,structure-characterized,S002; S003,Engineered pathway product.,116
+M4-FUNG-0494:M004,M4-FUNG-0494,M004,metarhizin A,MIBiG-listed engineered DDP,NR,NPAtlas/MIBiG,decalin-containing diterpenoid pyrone,cell-proliferation activity known from original product literature,heterologous/combinatorial production system,structure-characterized,S002; S003,Engineered pathway product.,117
+M4-FUNG-0494:M005,M4-FUNG-0494,M005,shearones A-I,native-source esdp reconstruction products,multiple,NR,diterpenoid pyrones,some showed moderate Aβ42 antiaggregation in vitro,Aspergillus oryzae heterologous expression,isolated and structure-characterized,S005,Nine new products from esdp cluster reconstruction.,118
+M4-FUNG-0494:M006,M4-FUNG-0494,M006,common DDP scaffold intermediate,core-module product,NR,NR,epoxidized/cyclized diterpenoid-pyrone intermediate,NR,heterologous system,analytical pathway intermediate,S003; S005,Core five-enzyme module establishes scaffold logic.,119
+M4-FUNG-0499:M001,M4-FUNG-0499,M001,demethylmycophenolic acid,MpaG′ substrate,NR,NR,late MPA precursor,NR,in-vitro assay,defined substrate,S003,,114
+M4-FUNG-0499:M002,M4-FUNG-0499,M002,mycophenolic acid,MpaG′ product / final natural product,NR,NR,pathway endpoint,immunosuppressive,native producer and enzyme assay,structure-known,S003,,115
+M4-FUNG-0500:M001,M4-FUNG-0500,M001,hancockinone A,final product,NR,NR,prenylated 6/6/6/5 tetracarbocyclic metabolite,moderate antibacterial activity,HknR-overexpression culture,isolated/structure-characterized,S003,,114
+M4-FUNG-0500:M002,M4-FUNG-0500,M002,neosartoricin B,HknE precursor,NR,NR,upstream polyketide precursor,NR,feeding/enzyme assay,defined substrate,S003,,115
+M4-FUNG-0501:M001,M4-FUNG-0501,M001,sordaricin,experimentally reconstructed core,NR,NR,norbornene-containing terpene core,precursor to antifungal sordarins,A. nidulans / S. cerevisiae reconstruction,NMR/HRMS confirmed,S004,Not direct R. necatrix native-product proof.,114
+M4-FUNG-0501:M002,M4-FUNG-0501,M002,sordaricin B,MIBiG-listed product,NR,NR,database-labelled sordarin-family product,NR,NR,database label,S001,Defining paper instead predicts sordarin B for compact R. necatrix cluster.,115
+M4-FUNG-0502:M001,M4-FUNG-0502,M001,halovir I,new lipopeptaibol 1,NR,NR,hexapeptide lipopeptaibol,potent antibacterial against Gram-positive pathogens; cytotoxic,native solid-culture extract,NMR/MS/MS + advanced Marfey's,S003,,114
+M4-FUNG-0502:M002,M4-FUNG-0502,M002,halovir J,new lipopeptaibol 2,NR,NR,hexapeptide lipopeptaibol,potent antibacterial against Gram-positive pathogens; cytotoxic,native solid-culture extract,NMR/MS/MS + advanced Marfey's,S003,,115
+M4-FUNG-0502:M003,M4-FUNG-0502,M003,halovir K,new lipopeptaibol 3,NR,NR,hexapeptide lipopeptaibol,cytotoxic; antibacterial potency not highlighted for compound 3 in abstract,native solid-culture extract,NMR/MS/MS + advanced Marfey's,S003,,116
+M4-FUNG-0503:M001,M4-FUNG-0503,M001,ketone 12,dephenylated 2-pyridone ketone precursor,NR,NR,heterologous precursor to deoxyakanthomycin,NR,A. nidulans culture,structure confirmed,S003,,114
+M4-FUNG-0503:M002,M4-FUNG-0503,M002,alcohol 13,SDR reduction intermediate,NR,NR,precursor that dehydrates to E/Z o-quinone methide,NR,in-vitro reaction,MS-observed intermediate,S003,,115
+M4-FUNG-0503:M003,M4-FUNG-0503,M003,M-deoxyakanthomycin,M atropisomer,NR,NR,seven-membered-ring 4-hydroxy-2-pyridone product,NR in defining Sdx study,in-vitro/chemical reactions,standard/MS-supported,S001; S003,,116
+M4-FUNG-0503:M004,M4-FUNG-0503,M004,P-deoxyakanthomycin,P atropisomer,NR,NR,seven-membered-ring 4-hydroxy-2-pyridone product,NR in defining Sdx study,in-vitro/chemical reactions,standard/MS-supported,S001; S003,,117
+M4-FUNG-0504:M001,M4-FUNG-0504,M001,xylaroamide A,main cyclic heptadepsipeptide,NR,NR,native NRPS-type secondary metabolite,BT-549 IC50 2.5 μM; RKO IC50 9.5 μM,native fungal culture/mycelium,full planar and stereochemical structure assignment,S003,,114
+M4-FUNG-0505:M001,M4-FUNG-0505,M001,fosfonochlorin,final database-listed product,NR,NR,halogenated organophosphonate,NR in defining biosynthetic study,historical fungal natural product; native 4287 recovery NR in defining study,structure-known natural product,S001; S003,,114
+M4-FUNG-0505:M002,M4-FUNG-0505,M002,2-hydroxyethylphosphonic acid,FfnC product / FfnD substrate,NR,NR,early phosphonate intermediate,NA,in-vitro reaction,synthetic-standard/assay supported,S003,,115
+M4-FUNG-0505:M003,M4-FUNG-0505,M003,(S)-epoxyethylphosphonic acid,FfnD oxacyclization product,NR,NR,epoxide intermediate,NA,in-vitro reaction,stereochemically/isotope-supported,S003,,116
+M4-FUNG-0505:M004,M4-FUNG-0505,M004,(S)-1-hydroxyethylphosphonic acid,FfnD alternate-substrate product,NR,NR,mechanistic comparator,NA,in-vitro reaction,assay-supported,S003,,117
+M4-FUNG-0506:M001,M4-FUNG-0506,M001,(+)-δ-cadinol,major Copu5 product,NR,NR,oxygenated sesquiterpene product,prior literature bioactivity cited; not directly assayed in defining Copu5 study,heterologous E. coli fermentation,GC-MS plus NMR-confirmed after isolation,S003,,114
+M4-FUNG-0506:M002,M4-FUNG-0506,M002,minor Copu5 sesquiterpene coproducts,τ-muurolene; δ-cadinene; cubebol; α-cadinol,NR,NR,promiscuous cyclization coproducts,NR,heterologous E. coli,GC-MS profile,S003,,115
+M4-FUNG-0507:M001,M4-FUNG-0507,M001,(+)-δ-cadinol,major Copu9 product,NR,NR,oxygenated sesquiterpene product,prior literature bioactivity cited; not directly assayed in defining Copu9 study,heterologous E. coli fermentation,GC-MS plus NMR-confirmed after isolation,S003,,114
+M4-FUNG-0507:M002,M4-FUNG-0507,M002,minor Copu9 sesquiterpene coproducts,τ-muurolene; δ-cadinene; cubebol; α-cadinol,NR,NR,promiscuous cyclization coproducts,NR,heterologous E. coli,GC-MS profile,S003,,115
+M4-FUNG-0508:M001,M4-FUNG-0508,M001,aurofusarin,final pigment,NR,NR,dimeric red/carmine polyketide pigment,feed/toxicity context reported historically,native fungal culture,chromatographic/spectroscopic identification,S001; S003,,114
+M4-FUNG-0508:M002,M4-FUNG-0508,M002,YWA1,PKS12 primary product,NR,NR,early γ-pyrone polyketide intermediate,NA,ΔaurZ mutant extract,chemically identified mutant intermediate,S005,,115
+M4-FUNG-0508:M003,M4-FUNG-0508,M003,rubrofusarin,late monomeric intermediate,NR,NR,exported naphthopyrone precursor to aurofusarin,historical bioactivity context,native mutant/wild-type extracts,chromatographic identification,S003; S005,,116
+M4-FUNG-0509:M001,M4-FUNG-0509,M001,metachelin C,new coprogen-type siderophore,C41H68N6O18,NR,iron-chelating hydroxamate siderophore,siderophore physiology,iron-deficient native culture,1D/2D NMR + HR-ESI-MS,S003,,114
+M4-FUNG-0509:M002,M4-FUNG-0509,M002,metachelin A / A-CE / B,coprogen congeners,NR,NR,iron-chelating siderophores,siderophore physiology,iron-deficient native culture,spectroscopic comparison / LC-MS,S003,,115
+M4-FUNG-0509:M003,M4-FUNG-0509,M003,dimerumic acid; dimerumic acid 11-mannoside,dimerumic-acid siderophores,NR,NR,iron-chelating siderophores,ferric-ion chelation; antioxidant context reported historically,iron-deficient native culture,spectroscopic comparison / LC-MS,S003,,116
+M4-FUNG-0510:M001,M4-FUNG-0510,M001,4-chloropinselin; pinselin,xanthone congeners,NR,NR,native chlorinated/nonchlorinated polyketides,antibacterial activity within isolated series,native strain-11134 culture extract,NMR + HRESIMS,S001; S003,,114
+M4-FUNG-0510:M002,M4-FUNG-0510,M002,chloromonilinic acid B; chloromonilinic acid D; 4-hydroxyvertixanthone,chromone/xanthone-related products,NR,NR,native pathway-associated metabolites,series-level antibacterial testing,native strain-11134 culture extract,NMR + HRESIMS,S001; S003,,115
+M4-FUNG-0511:M001,M4-FUNG-0511,M001,ilicicolin H,primary product,NR,NR,PKS-NRPS 2-pyridone/decalin antifungal,potent cytochrome bc1 inhibitor,native DH2 and heterologous extracts,LC-MS/NMR,S003,,115
+M4-FUNG-0511:M002,M4-FUNG-0511,M002,ilicicolin J,shunt/congener product,NR,NR,ilicicolin congener,antifungal activity reported,heterologous A. nidulans extract,LC-MS/NMR,S003,,116
+M4-FUNG-0512:M001,M4-FUNG-0512,M001,aculene A,proline-bearing final congener,NR,NR,final pathway product,NR,native culture extract,structure-characterized,S001; S003,,114
+M4-FUNG-0512:M002,M4-FUNG-0512,M002,aculene B,proline-bearing congener,NR,NR,downstream pathway product,NR,native culture extract,structure-characterized,S001; S003,,115
+M4-FUNG-0512:M003,M4-FUNG-0512,M003,aculene C,non-prolylated/unsaturated congener,NR,NR,downstream intermediate/product,NR,native culture extract,structure-characterized,S001; S003,,116
+M4-FUNG-0512:M004,M4-FUNG-0512,M004,aculene D,nordaucane core product,NR,NR,AneG product and precursor to downstream tailoring,NR,native/heterologous pathway extracts,structure-characterized,S001; S003,,117
+M4-FUNG-0513:M001,M4-FUNG-0513,M001,sordarial,final product,NR,NR,salicylaldehyde polyketide,historical immunosuppressant; phytotoxicity in N. crassa not directly shown,A. nidulans heterologous culture,NMR + optical rotation,S003,,114
+M4-FUNG-0513:M002,M4-FUNG-0513,M002,salicylic alcohol intermediate 2,heterologous intermediate/shunt-prone product,NR,NR,first isolable minimal-construct product,NR,A. nidulans culture,NMR,S003,,115
+M4-FUNG-0513:M003,M4-FUNG-0513,M003,salicylic aldehyde intermediate 3,productive late intermediate,NR,NR,SrdI-dependent aldehyde precursor to epoxide/diol,NR,A. nidulans culture,HRSIMS + IR + 2D NMR,S003,,116
+M4-FUNG-0514:M001,M4-FUNG-0514,M001,spirotryprostatin G,new spirocyclic IDKP,NR,NR,native isolated metabolite,HL-60 IC50 6.0 μM,HBU-136 rice culture extract,NMR + ECD,S003,,114
+M4-FUNG-0514:M002,M4-FUNG-0514,M002,cyclotryprostatin F,new IDKP,NR,NR,native isolated metabolite,MCF-7 IC50 7.6 μM,HBU-136 rice culture extract,NMR + ECD,S003,,115
+M4-FUNG-0514:M003,M4-FUNG-0514,M003,cyclotryprostatin G,new IDKP,NR,NR,native isolated metabolite,MCF-7 IC50 10.8 μM,HBU-136 rice culture extract,NMR + ECD,S003,,116
+M4-FUNG-0514:M004,M4-FUNG-0514,M004,cyclotryprostatin B,known IDKP congener,NR,NR,native isolated metabolite,cytotoxicity tested in defining series,HBU-136 rice culture extract,structure matched characterized compound,S001; S003,,117
+M4-FUNG-0515:M001,M4-FUNG-0515,M001,nanangenine A,drimane congener,NR,NR,native metabolite,screened across microbial/cell/plant assays,A. nanangensis culture extract,spectroscopy/XRD-supported series,S001; S003,,114
+M4-FUNG-0515:M002,M4-FUNG-0515,M002,nanangenine B,drimane congener,NR,NR,native metabolite,screened,A. nanangensis culture extract,spectroscopic structure,S001; S003,,115
+M4-FUNG-0515:M003,M4-FUNG-0515,M003,nanangenine C,drimane congener,NR,NR,native metabolite,screened,A. nanangensis culture extract,spectroscopic structure,S001; S003,,116
+M4-FUNG-0516:M001,M4-FUNG-0516,M001,"2,4-dihydroxy-5,6-dimethylbenzaldehyde",final product of two-enzyme module,NR,NR,aryl aldehyde,NR,heterologous yeast extract,LC-MS/NMR-supported,S001; S003,,114
+M4-FUNG-0516:M002,M4-FUNG-0516,M002,5-methylorsellinic acid,PKS precursor,NR,NR,aryl acid substrate for ATEG_03630,NR,heterologous yeast,analytically identified,S003,,115
+M4-FUNG-0517:M001,M4-FUNG-0517,M001,preaspterpenacid I,AtAS product,NR,NR,pentacyclic sesterterpene scaffold,NR,heterologous culture,NMR/HRMS/ECD,S001; S003,,114
+M4-FUNG-0517:M002,M4-FUNG-0517,M002,C22-oxidized preaspterpenacid product,AtP450 product,NR,NR,oxidative pathway intermediate,NR,heterologous culture,analytically characterized,S003,,115
+M4-FUNG-0518:M001,M4-FUNG-0518,M001,verrucosidin,native mycotoxin product,NR,NR,methylated α-pyrone polyketide,neurotoxic; mitochondrial oxidative-phosphorylation inhibitor,X6 cultures and apple assays,HPLC/LC-MS target analyte,S001; S003; S004,,114
+M4-FUNG-0518:M002,M4-FUNG-0518,M002,deoxyverrucosidin,homologous NRRL995 pathway product,NR,NR,related α-pyrone,NR,P. polonicum NRRL995,isolated/characterized,S005,Do not treat as X6 product evidence.,115
+M4-FUNG-0519:M001,M4-FUNG-0519,M001,dendrothelin A,cyclic dodecapeptide,NR,NR,ninefold backbone-N-methylated borosin,M. incognita nematotoxicity; delayed relative to lentinulin A,native mycelium/supernatant and recombinant Pichia,native HR-MS/MS + purified recombinant peptide,S001; S003,,114
+M4-FUNG-0519:M002,M4-FUNG-0519,M002,oxidized dendrothelin species,native modified congeners,NR,NR,oxidized macrocyclic/peptide species,NR,native supernatant/mycelium,HR-MS/MS-level detection,S003,,115
+M4-FUNG-0520:M001,M4-FUNG-0520,M001,lentinulin A,cyclic dodecapeptide,NR,NR,ninefold backbone-N-methylated borosin,M. incognita LC50 0.341 μM at day 1,native mycelium and recombinant Pichia,native HR-MS/MS + purified recombinant peptide,S001; S003,,114
+M4-FUNG-0520:M002,M4-FUNG-0520,M002,oxidized lentinulin-related species,native modified peptides,NR,NR,oxidized cyclic/linear peptide congeners,NR,native mycelium,HR-MS/MS,S003,,115
+M4-FUNG-0521:M001,M4-FUNG-0521,M001,aspcandine,final product,C12H10N2O3,NR,pyrrolobenzazepine alkaloid,antibiotic context; defining study focused on biosynthesis,heterologous A. oryzae extract/purified product,NMR + MS,S001; S003,,114
+M4-FUNG-0521:M002,M4-FUNG-0521,M002,3-hydroxy-L-kynurenine,unusual amino-acid building block,NR,NR,AcdB NRPS substrate,NA,precursor supply / heterologous pathway,substrate-incorporation evidence,S003,,115
+M4-FUNG-0522:M001,M4-FUNG-0522,M001,DHMBA,pathway precursor,C11H12O4,NR,DbaI-derived aromatic polyketide precursor,NA,induced culture extract,LC-MS/MS; pathway assignment,S001; S004,Directly linked to DbaI; starting point for azaphilone/tropolone branches.,114
+M4-FUNG-0522:M002,M4-FUNG-0522,M002,azanidulone,final branch product,C11H10O4,NR,azaphilone-type product,NR for ecological activity as isolated compound,induced culture extract / purified compound,NMR + HRESIMS,S001; S004,Requires DbaI and DbaH but not TroA.,115
+M4-FUNG-0522:M003,M4-FUNG-0522,M003,anhydrosepedonin,tropolone branch product,C11H10O4,NR,tropolone,antibacterial; iron-chelation context,induced culture extract / purified compound,NMR + HRESIMS,S001; S004,TroA- and DbaH-dependent; dehydration from sepedonin is treated as spontaneous/proposed.,116
+M4-FUNG-0522:M004,M4-FUNG-0522,M004,antibiotic C,oxidized tropolone product,C11H10O5,NR,oxygenated tropolone,antibacterial; iron-chelation context,induced culture extract / purified compound,NMR + HRESIMS,S001; S004,DbaB-dependent downstream product of the anhydrosepedonin branch.,117
+M4-FUNG-0522:M005,M4-FUNG-0522,M005,tripyrnidone,tricyclic pathway product,C17H16O7,NR,novel tricyclic polyketide,"no antibacterial, antifungal or cytotoxic activity detected in tested assays",induced culture extract / purified compound,NMR + HRESIMS,S001; S004,"Requires DbaI, DbaH and DbaB; detailed formation mechanism remains incompletely resolved.",118
+M4-FUNG-0522:M006,M4-FUNG-0522,M006,sepedonin,proposed transient intermediate,NR,NR,tropolone-ring intermediate,NR,induced culture extract,LC-MS/UV-supported putative intermediate,S004,Detected/enriched in ΔdbaB context; exact stereochemistry and conversion sequence are pathway-model evidence.,119
+M4-FUNG-0523:M001,M4-FUNG-0523,M001,brevione E,final product,NR,NR,hexacyclic meroditerpenoid,NR,heterologous reconstruction / purified compound,NMR + MS structural revision,S001; S003,Revised structure contains substituted tetrahydrofuran rather than historical oxepane.,114
+M4-FUNG-0523:M002,M4-FUNG-0523,M002,isobrevione E,pathway congener,NR,NR,brevione meroditerpenoid congener,NR,reconstructed pathway context,MS/NMR-supported product,S001; S003,MIBiG-listed product; mechanistic dissection is centered more strongly on brevione E.,115
+M4-FUNG-0523:M003,M4-FUNG-0523,M003,brevione B,BrvJ substrate / branch precursor,NR,NR,meroditerpenoid intermediate,NA,heterologous/in-vitro pathway,LC-MS/NMR pathway assignment,S003,Key substrate for BrvJ branch chemistry.,116
+M4-FUNG-0523:M004,M4-FUNG-0523,M004,brevione A / brevione C,BrvJ-derived rearrangement/desaturation intermediates,NR,NR,cycloheptenone-branch intermediates,NA,in-vitro / reconstructed pathway,enzyme-product analysis,S003,Directly tied to BrvJ reaction sequence.,117
+M4-FUNG-0524:M001,M4-FUNG-0524,M001,colletochlorin A,native family member,C18H25ClO5,NR,chlorinated prenylated polyketide,NR in causal reconstruction study,native extract,NMR,S001; S004,,114
+M4-FUNG-0524:M002,M4-FUNG-0524,M002,colletorin A,nonchlorinated family member,C18H26O5,NR,prenylated polyketide,NR,native extract,NMR,S001; S004,,115
+M4-FUNG-0524:M003,M4-FUNG-0524,M003,colletochlorin B,heterologously reconstructed chlorinated product,C18H23ClO3,NR,chlorinated prenylated polyketide,NR,yeast culture supernatant/cell extract,LC-MS/MS + standard comparison; native NMR,S001; S003; S004,,116
+M4-FUNG-0524:M004,M4-FUNG-0524,M004,colletochlorin D,heterologously reconstructed chlorinated product,C13H15ClO3,NR,chlorinated prenylated polyketide,NR,yeast/native extracts,LC-MS/MS; native NMR,S001; S003; S004,,117
+M4-FUNG-0524:M005,M4-FUNG-0524,M005,colletorin D,nonchlorinated product,C13H16O3,NR,prenylated polyketide,NR,yeast/native extracts,LC-MS/MS; native NMR,S001; S003; S004,,118
+M4-FUNG-0524:M006,M4-FUNG-0524,M006,colletorin D acid,pathway intermediate,C13H16O4,NR,prenylated polyketide intermediate,NA,yeast/native mutant context,LC-MS/MS; NMR in native study,S001; S003; S004,,119
+M4-FUNG-0524:M007,M4-FUNG-0524,M007,orsellinic acid,CTC1 product / first intermediate,C8H8O4,NR,aromatic polyketide precursor,NA,yeast culture,HPLC/standard + MS,S001; S003,,120
+M4-FUNG-0524:M008,M4-FUNG-0524,M008,colletorin B,nonchlorinated reconstructed product,C18H24O3,NR,prenylated polyketide,NR,yeast culture,LC-MS/MS fragmentation comparison,S001; S003,,121
+M4-FUNG-0525:M001,M4-FUNG-0525,M001,sartorypyrone F,bicyclic endpoint / compound 1,NR,MicroED-supported structure,SpyD cyclization product; SpyB acetylation substrate,NR in Af293 defining study,heterologous culture medium/mycelium,HRESIMS + NMR + MicroED,S003,New bicyclic meroditerpenoid in the 2023 study.,114
+M4-FUNG-0525:M002,M4-FUNG-0525,M002,sartorypyrone D,monocyclic endpoint / compound 2,NR,literature-matched structure,SpyD cyclization product; SpyB acetylation substrate,cross-taxon bioactivity exists; not transferred to Af293,heterologous culture,HRESIMS + NMR,S003; S004,Previously known from Aspergillus/Neosartorya; first biosynthetic assignment from an A. fumigatus BGC in this study.,115
+M4-FUNG-0525:M003,M4-FUNG-0525,M003,sartorypyrone A,acetylated endpoint / compound 3,NR,literature-matched structure,SpyB-acetylated derivative of sartorypyrone D,NR in Af293 defining study,heterologous culture,HRESIMS + NMR,S003,Production depends on the functional SpyB downstream start site.,116
+M4-FUNG-0525:M004,M4-FUNG-0525,M004,sartorypyrone G,acetylated bicyclic endpoint / compound 4,NR,NMR-resolved structure,SpyB-acetylated derivative of sartorypyrone F,NR,heterologous culture,HRESIMS + NMR,S003,New compound reported in 2023.,117
+M4-FUNG-0525:M005,M4-FUNG-0525,M005,triacetic acid lactone (TAL),PKS product / compound 12,NR,directly identified PKS product,SpyA-derived polyketide precursor,platform chemical; no native Af293 role established,individual SpyA heterologous expression,direct,S003,SpyA lacks a TE domain; self-release by spontaneous lactonization is proposed rather than directly assayed.,118
+M4-FUNG-0525:M006,M4-FUNG-0525,M006,geranylgeranyl-triacetate lactone,prenylated intermediate / compound 6,NR,NMR-confirmed,SpyF prenylation product upstream of SpyC,NR,spyC-deletion culture,1H/13C/2D NMR,S003,Accumulation in spyC deletant supports upstream placement.,119
+M4-FUNG-0525:M007,M4-FUNG-0525,M007,epoxygeranylgeranyl-triacetate lactone,epoxidized intermediate / compound 8,NR,NMR-confirmed,SpyC product and SpyD substrate,NR,spyD-deletion culture,1H/13C/2D NMR,S003,First direct observation of this previously proposed biosynthetic intermediate reported in the study.,120
+M4-FUNG-0525:M008,M4-FUNG-0525,M008,sartorypyrone E,hydroxylated shunt product / compound 7,NR,NMR-confirmed,stable shunt derived from the epoxide precursor when SpyD is absent,NR,spyD-deletion culture,1H/13C/2D NMR,S003,Epoxide instability favors formation of this hydroxylated shunt.,121
+M4-FUNG-0526:M001,M4-FUNG-0526,M001,olivetolic acid,principal product,NR,NMR-characterized,resorcylic-acid endpoint,,,,,,115
+M4-FUNG-0526:M002,M4-FUNG-0526,M002,sphaerophorolcarboxylic acid,octanoyl-primed analog,NR,NMR-characterized,alkyl-chain analog,,,,,,116
+M4-FUNG-0526:M003,M4-FUNG-0526,M003,"2,4-dihydroxy-6-(1E)-1-penten-1-ylbenzoic acid",unsaturated short-chain analog,NR,NMR-characterized,starter-unit promiscuity product,,,,,,117
+M4-FUNG-0526:M004,M4-FUNG-0526,M004,"2-(1E)-1-hepten-1-yl-4,6-dihydroxybenzoic acid",unsaturated long-chain analog,NR,NMR-characterized,starter-unit promiscuity product,,,,,,118
+M4-FUNG-0527:M001,M4-FUNG-0527,M001,"CJ-20,557",heterodimeric depside,NR,NMR/X-ray supported,DrcA product,,,,,,115
+M4-FUNG-0527:M002,M4-FUNG-0527,M002,duricamidepside,depside-amino-acid conjugate,NR,NMR characterized,DrcB product,,,,,,116
+M4-FUNG-0528:M001,M4-FUNG-0528,M001,luteodienoside A,native principal product,C23H38O13,X-ray/NMR resolved,LtbA/LtbB pathway endpoint,,,,,,115
+M4-FUNG-0528:M002,M4-FUNG-0528,M002,luteodiene A,aglycone / heterologous hydrolysis product,NR,NMR resolved,LtbA product / host-derived hydrolysis product,,,,,,116
+M4-FUNG-0528:M003,M4-FUNG-0528,M003,luteodienoside B,regioisomer of luteodienoside A,NR,NMR resolved,A. nidulans host-mediated isomerization product,,,,,,117
+M4-FUNG-0529:M001,M4-FUNG-0529,M001,"3,6-dialkyl-α-pyrone",new heterologous product,NR,NMR characterized,PbpsA-derived product,,,,,,115
+M4-FUNG-0529:M002,M4-FUNG-0529,M002,4-hydroxy-6-(1E)-1-propen-1-yl-2H-pyran-2-one,canonical related pyrone,NR,canonical name,related product,,,,,,116
+M4-FUNG-0530:M001,M4-FUNG-0530,M001,emindole SA,EST1 endpoint,NR,NMR/MS identified,EstB1 cyclization product,,,,,,115
+M4-FUNG-0531:M001,M4-FUNG-0531,M001,mollicellin Z,prenylated depsidone endpoint,NR,NMR identified,pathway endpoint,,,,,,115
+M4-FUNG-0531:M002,M4-FUNG-0531,M002,mollicellin Z1,hydroxylated congener,NR,NMR identified,pathway congener,,,,,,116
+M4-FUNG-0532:M001,M4-FUNG-0532,M001,sclerotiorin,azaphilone congener,NR,NMR identified,native scl-dependent metabolite,,,,,,115
+M4-FUNG-0532:M002,M4-FUNG-0532,M002,geumsanol B,azaphilone congener,NR,NMR identified,native scl-dependent metabolite,,,,,,116
+M4-FUNG-0532:M003,M4-FUNG-0532,M003,chlorogeumsanol B,chlorinated congener,NR,NMR identified,native scl-dependent metabolite,,,,,,117
+M4-FUNG-0532:M004,M4-FUNG-0532,M004,7-deacetylisochromophilone VI,azaphilone congener,NR,NMR identified,native scl-dependent metabolite,,,,,,118
+M4-FUNG-0532:M005,M4-FUNG-0532,M005,isochromophilone VI,azaphilone congener,NR,NMR identified,native scl-dependent metabolite,,,,,,119
+M4-FUNG-0532:M006,M4-FUNG-0532,M006,ochrephilone,azaphilone congener,NR,NMR identified,native scl-dependent metabolite,,,,,,120
+M4-FUNG-0532:M007,M4-FUNG-0532,M007,isorotiorin,azaphilone congener,NR,NMR identified,native scl-dependent metabolite,,,,,,121
+M4-FUNG-0533:M001,M4-FUNG-0533,M001,zaragozic acid A,native endpoint,NR,NMR identified,terminal native product,,,,,,115
+M4-FUNG-0533:M002,M4-FUNG-0533,M002,L-731.120,tricarboxylic early intermediate,NR,NMR identified,reconstructed early-core product,,,,,,116
+M4-FUNG-0534:M001,M4-FUNG-0534,M001,cristazarin,native naphthazarin pigment,NR,NMR/chemical identification,candidate crz-cluster product,,,,,,116
+M4-FUNG-0535:M001,M4-FUNG-0535,M001,emindole DA,DES-core product,NR,NMR/MS identified,DesB-dependent endpoint,,,,,,115
+M4-FUNG-0535:M002,M4-FUNG-0535,M002,emindole DB,DES-core congener,NR,NMR/MS identified,DesB-dependent congener,,,,,,116
+M4-FUNG-0536:M001,M4-FUNG-0536,M001,cordypyrone A,principal product,C22H28O3,1D/2D NMR,heterologous pathway product,,,,,,114
+M4-FUNG-0536:M002,M4-FUNG-0536,M002,cordypyrone B,oxidized congener,C22H28O4,1D/2D NMR,heterologous pathway product,,,,,,115
+M4-FUNG-0537:M001,M4-FUNG-0537,M001,biruloquinone,native principal product,NR,NMR-characterized,candidate cluster product,,,,,,114
+M4-FUNG-0538:M001,M4-FUNG-0538,M001,ferricrocin,native principal product,NR,purified/standard-confirmed,SidC product,,,,,,114
+M4-FUNG-0538:M002,M4-FUNG-0538,M002,ferrichrome,substrate-dependent SidC variant product,NR,chemical-standard confirmed,in-vitro/heterologous variant,,,,,,115
+M4-FUNG-0539:M001,M4-FUNG-0539,M001,radicicol,native principal product,NR,known/NMR-characterized,candidate cluster endpoint,,,,,,114
+M4-FUNG-0539:M002,M4-FUNG-0539,M002,monocillin I,native intermediate/congener,NR,known metabolite,RADS-family congener,,,,,,115
+M4-FUNG-0539:M003,M4-FUNG-0539,M003,monocillin II,native congener,NR,known metabolite,RADS-family congener,,,,,,116
+M4-FUNG-0539:M004,M4-FUNG-0539,M004,monocillin III,native congener,NR,known metabolite,RADS-family congener,,,,,,117
+M4-FUNG-0540:M001,M4-FUNG-0540,M001,arthripenoid C,major bioactive congener,C30H44O9,NMR/X-ray/HRMS,atn-pathway congener,,,,,,114
+M4-FUNG-0540:M002,M4-FUNG-0540,M002,arthripenoid B,enzymatic late-pathway product,C30H46O9,NMR/X-ray/HRMS,precursor to diversified congeners,,,,,,115
+M4-FUNG-0540:M003,M4-FUNG-0540,M003,arthripenoids A/D/E/F,diversified congeners,various,spectroscopically characterized,late/spontaneous diversification products,,,,,,116
+M4-FUNG-0541:M001,M4-FUNG-0541,M001,fumonisin B2,native product,NR,analytically identified,fum-cluster-associated mycotoxin,,,,,,114
+M4-FUNG-0541:M002,M4-FUNG-0541,M002,fumonisin B4,native congener,NR,analytically identified,fum-cluster-associated mycotoxin,,,,,,115
+M4-FUNG-0542:M001,M4-FUNG-0542,M001,(-)-antrocin,native endpoint,NR,NMR/structural support,anc pathway endpoint,,,,,,114
+M4-FUNG-0542:M002,M4-FUNG-0542,M002,(+)-isoantrocin,congener,NR,NMR/structural support,anc-associated congener,,,,,,115
+M4-FUNG-0542:M003,M4-FUNG-0542,M003,(R)-trans-gamma-monocyclofarnesol,AncA product,NR,enzyme-product characterized,cyclofarnesoid product,,,,,,116
+M4-FUNG-0542:M004,M4-FUNG-0542,M004,(+)-albicanol,AncC product/intermediate,NR,enzyme-product characterized,drimane precursor,,,,,,117
+M4-FUNG-0543:M001,M4-FUNG-0543,M001,naringenin,principal product from p-coumaric acid,C15H12O5,NMR/MS characterized,FnsA product,,,,,,114
+M4-FUNG-0543:M002,M4-FUNG-0543,M002,naringenin chalcone,p-hydroxybenzoic-acid-derived route product,C15H12O5,NMR/MS characterized,FnsA product,,,,,,115
+M4-FUNG-0544:M001,M4-FUNG-0544,M001,6'-O-demethyl-dihydroaustalide K,early cyclized intermediate,NR,NMR characterized,ast pathway intermediate,,,,,,114
+M4-FUNG-0544:M002,M4-FUNG-0544,M002,austalide V,intermediate/congener,NR,NMR characterized,ast pathway congener,,,,,,115
+M4-FUNG-0544:M003,M4-FUNG-0544,M003,austalide K,intermediate/congener,NR,NMR characterized,ast pathway congener,,,,,,116
+M4-FUNG-0544:M004,M4-FUNG-0544,M004,13-deacetoxyaustalide I,late-pathway intermediate,NR,chemical/in-vitro substrate,AstI substrate,,,,,,117
+M4-FUNG-0544:M005,M4-FUNG-0544,M005,13-O-deacetylaustalide I,AstI product,NR,NMR characterized,late intermediate,,,,,,118
+M4-FUNG-0544:M006,M4-FUNG-0544,M006,austalide U (paper austalide T nomenclature context),AstB product,NR,NMR characterized,hemiacetal/orthoester precursor,,,,,,119
+M4-FUNG-0544:M007,M4-FUNG-0544,M007,austalide B,AstL product,NR,NMR characterized,orthoester product,,,,,,120
+M4-FUNG-0544:M008,M4-FUNG-0544,M008,austalide F,AstK endpoint,NR,NMR/standard-confirmed,late endpoint,,,,,,121
+M4-FUNG-0545:M001,M4-FUNG-0545,M001,prelecanindole,SES core product,NR,LC-MS/NMR support,sesE/M/B product,,,,,,114
+M4-FUNG-0545:M002,M4-FUNG-0545,M002,lecanindole B,IST congener,NR,NMR/LC-MS,SES pathway product,,,,,,115
+M4-FUNG-0545:M003,M4-FUNG-0545,M003,sespendole,indole-terpenoid congener,NR,NMR/LC-MS,cross-cluster/tailored product,,,,,,116
+M4-FUNG-0545:M004,M4-FUNG-0545,M004,trans-cyclosespendole,indole-terpenoid congener,NR,NMR/LC-MS,cross-cluster/tailored product,,,,,,117
+M4-FUNG-0545:M005,M4-FUNG-0545,M005,16-prenyllecanindole B,prenylated congener,NR,LC-MS/NMR,cross-cluster/tailored product,,,,,,118
+M4-FUNG-0545:M006,M4-FUNG-0545,M006,"16,17-diprenyllecanindole B",diprenylated congener,NR,LC-MS/NMR,cross-cluster/tailored product,,,,,,119
+M4-FUNG-0546:M001,M4-FUNG-0546,M001,gyrophoric acid,principal native metabolite,C24H20O10,chemical identification,candidate PKS16-cluster product,,,,,,114
+M4-FUNG-0546:M002,M4-FUNG-0546,M002,umbilicaric acid,related species/congener context,NR,native chemistry,comparative cluster-associated metabolite,,,,,,115
+M4-FUNG-0546:M003,M4-FUNG-0546,M003,hiascic acid,related species/congener context,NR,native chemistry,comparative cluster-associated metabolite,,,,,,116
+M4-FUNG-0546:M004,M4-FUNG-0546,M004,lecanoric compounds,comparative congener context,NR,native chemistry,comparative context,,,,,,117
+M4-FUNG-0557:M001,M4-FUNG-0557,M001,Oxopyrrolidine A,principal product,NR,NMR/ECD-characterized,opd-cluster product,,,,,,114
+M4-FUNG-0557:M002,M4-FUNG-0557,M002,Oxopyrrolidine B,congener,NR,NMR/ECD-characterized,opd-cluster product,,,,,,115
+M4-FUNG-0558:M001,M4-FUNG-0558,M001,cycloaspeptide A,major native product,NR,NMR-confirmed,PscyA/PscyB product,,,,,,114
+M4-FUNG-0558:M002,M4-FUNG-0558,M002,cycloaspeptide E,minor product,NR,NMR-confirmed after heterologous yield increase,PscyA/PscyB product,,,,,,115
+M4-FUNG-0559:M001,M4-FUNG-0559,M001,cyclopenol,VdoD product,NR,isolated/characterized,viridicatol precursor,,,,,,114
+M4-FUNG-0559:M002,M4-FUNG-0559,M002,viridicatol,principal endpoint,NR,isolated/characterized,vdo-cluster product,,,,,,115
+M4-FUNG-0559:M003,M4-FUNG-0559,M003,viridicatin,related quinolinone,NR,known compound,tested alternate precursor,,,,,,116
+M4-FUNG-0560:M001,M4-FUNG-0560,M001,ilicicolinal,native product,NR,MS/MS-supported,candidate locus product,,,,,,114
+M4-FUNG-0560:M002,M4-FUNG-0560,M002,ilicicolinic acid A,native congener,NR,MS/MS-supported,candidate locus product,,,,,,115
+M4-FUNG-0561:M001,M4-FUNG-0561,M001,"(2S,9S)-annullatin D",BBE-like enzyme product,NR,NMR-characterized,pathway endpoint,,,,,,114
+M4-FUNG-0562:M001,M4-FUNG-0562,M001,Rasfonin,principal product,NR,NMR-verified standard / LC-HRMS,Rsf1-cluster product,,,,,,114
+M4-FUNG-0563:M001,M4-FUNG-0563,M001,Eupenifeldin,principal native product,NR,NMR-characterized,eup2-associated product,,,,,,114
+M4-FUNG-0563:M002,M4-FUNG-0563,M002,Noreupenifeldin B,congener,NR,NMR/LC-MS,eup2-associated congener,,,,,,115
+M4-FUNG-0564:M001,M4-FUNG-0564,M001,unguidepside A,dual-PKS precursor,NR,heterologous/NMR-supported precursor,dual-PKS depside precursor,,,,,,114
+M4-FUNG-0564:M002,M4-FUNG-0564,M002,nornidulin,terminal triple-halogenated product,NR,NMR-characterized,terminal multiply halogenated depsidone,,,,,,115
+M4-FUNG-0565:M001,M4-FUNG-0565,M001,Macrollin A,new natural product,NR,NMR-characterized,mac-cluster product,,,,,,114
+M4-FUNG-0565:M002,M4-FUNG-0565,M002,Macrollins B-D,congener family,NR,NMR-characterized,mac-cluster products,,,,,,115
+M4-FUNG-0566:M001,M4-FUNG-0566,M001,sclerotiorin,native azaphilone,NR,MS/MS/annotation,candidate-locus product,,,,,,114
+M4-FUNG-0566:M002,M4-FUNG-0566,M002,isochromophilone I,native congener,NR,MS/MS/annotation,candidate-locus product,,,,,,115
+M4-FUNG-0567:M001,M4-FUNG-0567,M001,fumicicolin A,primary database product,NR,NMR/synthetic-standard supported,CrmA-dependent mannitol ester,,,,,,114
+M4-FUNG-0567:M002,M4-FUNG-0567,M002,fumicicolin B,congener,NR,MS/MS-supported,CrmA-dependent congener,,,,,,115
+M4-FUNG-0567:M003,M4-FUNG-0567,M003,(S)-2-isocyanoisovaleric acid,valine isocyanide precursor,NR,synthetic-standard confirmed,CrmA-derived reactive building block,,,,,,116
+M4-FUNG-0567:M004,M4-FUNG-0567,M004,N-formylvaline,hydration/formyl derivative,NR,NMR/MS-supported,CrmA-derived pathway intermediate/product,,,,,,117
+M4-FUNG-0568:M001,M4-FUNG-0568,M001,terrestric acid,terminal product,NR,NMR-supported,acyltetronate product,,,,,,114
+M4-FUNG-0568:M002,M4-FUNG-0568,M002,crustosic acid,immediate precursor,NR,NMR/MS-supported,TraH/TraD substrate precursor,,,,,,115
+M4-FUNG-0568:M003,M4-FUNG-0568,M003,carboxylcrustic acid,pathway intermediate,NR,MS/NMR-supported,biosynthetic intermediate,,,,,,116
+M4-FUNG-0568:M004,M4-FUNG-0568,M004,viridicatic acid,pathway intermediate,NR,MS/NMR-supported,biosynthetic intermediate,,,,,,117
+M4-FUNG-0569:M001,M4-FUNG-0569,M001,soppiline A,alkylresorcinol congener A,NR,NMR-supported,heterologous pathway product,,,,,,114
+M4-FUNG-0569:M002,M4-FUNG-0569,M002,soppiline B,alkylresorcinol congener B,NR,NMR-supported,heterologous pathway product,,,,,,115
+M4-FUNG-0569:M003,M4-FUNG-0569,M003,soppiline C,alkylresorcinol congener C,NR,NMR-supported,heterologous pathway product,,,,,,116
+M4-FUNG-0570:M001,M4-FUNG-0570,M001,germacradienol,sole GdlS product,NR,GC-MS/NMR-supported,sesquiterpene alcohol,,,,,,114
+M4-FUNG-0570:M002,M4-FUNG-0570,M002,geosmin,proposed downstream odorant,NR,NF in tested native cultures,unconfirmed downstream product,,,,,,115
+M4-FUNG-0571:M001,M4-FUNG-0571,M001,prehelminthosporol,terminal demonstrated product,NR,NMR-supported,oxidized sativene product,,,,,,114
+M4-FUNG-0571:M002,M4-FUNG-0571,M002,sativene,SatA product,NR,analytically supported,sesquiterpene precursor,,,,,,115
+M4-FUNG-0571:M003,M4-FUNG-0571,M003,seco-sativene intermediates,SatB oxidation/cleavage products,NR,analytical pathway evidence,biosynthetic intermediates,,,,,,116
+M4-FUNG-0572:M001,M4-FUNG-0572,M001,beauvericin,canonical product,NR,LC-MS/NMR literature-supported,NRPS cyclodepsipeptide,,,,,,114
+M4-FUNG-0573:M001,M4-FUNG-0573,M001,malpibaldin A,congener A,NR,NMR/Marfey-supported,cyclic pentapeptide,,,,,,114
+M4-FUNG-0573:M002,M4-FUNG-0573,M002,malpibaldin B,Trp-containing congener,NR,NMR/Marfey-supported,cyclic pentapeptide,,,,,,115
+M4-FUNG-0573:M003,M4-FUNG-0573,M003,malpibaldin C,Trp-containing congener,NR,NMR/MS-supported; one Trp stereochemical detail unresolved,cyclic pentapeptide,,,,,,116
+M4-FUNG-0574:M001,M4-FUNG-0574,M001,talaronoid C,canonical terminal product,NR,NMR/MS-supported,oxidized diterpenoid,,,,,,114
+M4-FUNG-0574:M002,M4-FUNG-0574,M002,talarodiene,TndC product / pathway precursor,NR,heterologous/NMR-supported,5-8-6 tricyclic diterpene hydrocarbon,,,,,,115
+M4-FUNG-0575:M001,M4-FUNG-0575,M001,malpicyclin A,congener A,NR,NMR/Marfey-supported,cyclic pentapeptide,,,,,,114
+M4-FUNG-0575:M002,M4-FUNG-0575,M002,malpicyclin B,congener B,NR,NMR/Marfey-supported,cyclic pentapeptide,,,,,,115
+M4-FUNG-0575:M003,M4-FUNG-0575,M003,malpicyclin C,congener C,NR,NMR/Marfey-supported,cyclic pentapeptide,,,,,,116
+M4-FUNG-0575:M004,M4-FUNG-0575,M004,malpicyclin D,congener D,NR,NMR/Marfey-supported,cyclic pentapeptide,,,,,,117
+M4-FUNG-0575:M005,M4-FUNG-0575,M005,malpicyclin E,congener E,NR,HRMS/MS-supported,lower-confidence congener structure,,,,,,118
+M4-FUNG-0575:M006,M4-FUNG-0575,M006,malpicyclin F,congener F,NR,HRMS/MS-supported,lower-confidence congener structure,,,,,,119
+M4-FUNG-0576:M001,M4-FUNG-0576,M001,fusahexin,cyclic hexapeptide,NR,NMR-supported,"cyclo-(D-Ala-L-Leu-D-allo-Thr-L-Pro-D-Leu-L-Leu), oxazine-bridged",,,,,,114
+M4-FUNG-0577:M001,M4-FUNG-0577,M001,echinulin,fully saturated DKP branch major product,NR,NMR/LC-MS supported,canonical product,,,,,,114
+M4-FUNG-0577:M002,M4-FUNG-0577,M002,preechinulin,C2-reversely prenylated cyclo-L-Trp-L-Ala,NR,NMR/MS supported,branching precursor,,,,,,115
+M4-FUNG-0577:M003,M4-FUNG-0577,M003,neoechinulin A,one exocyclic double bond (C10-C11),NR,LC-MS/NMR supported,P450 branch product,,,,,,116
+M4-FUNG-0577:M004,M4-FUNG-0577,M004,neoechinulin B,two exocyclic double bonds,NR,native congener context,not reproduced by four-gene reconstruction,,,,,,117
+M4-FUNG-0578:M001,M4-FUNG-0578,M001,uscandidusin A,dibenzofuran final product,NR,NMR-supported,canonical product,,,,,,114
+M4-FUNG-0578:M002,M4-FUNG-0578,M002,uscandidusin B,dibenzofuran congener,NR,NMR/MS-supported,congener,,,,,,115
+M4-FUNG-0578:M003,M4-FUNG-0578,M003,usterphenyllin A,diprenylated p-terphenyl,NR,authentic-standard supported,precursor to spontaneous dibenzofuran formation,,,,,,116
+M4-FUNG-0578:M004,M4-FUNG-0578,M004,usterphenyllin B,monoprenylated p-terphenyl,NR,authentic-standard supported,pathway intermediate,,,,,,117
+M4-FUNG-0578:M005,M4-FUNG-0578,M005,atromentin,terphenylquinone precursor,NR,chemical intermediate,early pathway precursor,,,,,,118
+M4-FUNG-0578:M006,M4-FUNG-0578,M006,dihydroxyterphenyllin,UcdE natural substrate,NR,authentic/substrate assay,prenylation substrate,,,,,,119
+M4-FUNG-0579:M001,M4-FUNG-0579,M001,(-)-protubonine B,hydroxylated diacetylated final product,C21H25N3O5,NMR/ECD-supported,canonical product,,,,,,114
+M4-FUNG-0579:M002,M4-FUNG-0579,M002,protubonine C,pathway intermediate/congener,C19H23N3O4,NMR/ECD-supported,biosynthetic intermediate,,,,,,115
+M4-FUNG-0579:M003,M4-FUNG-0579,M003,protubonine D,pathway intermediate/congener,C17H21N3O3,NMR/ECD-supported,biosynthetic intermediate,,,,,,116
+M4-FUNG-0580:M001,M4-FUNG-0580,M001,penindolene A,(+)-(S) and (-)-(R) enantiomers,NR,NMR/ECD/chiral separation,natural product,,,,,,114
+M4-FUNG-0580:M002,M4-FUNG-0580,M002,penindolene B,(+)-(S) and (-)-(R) enantiomers,NR,NMR/ECD/chiral separation,natural product,,,,,,115
+M4-FUNG-0580:M003,M4-FUNG-0580,M003,penindolene C,(+)-(S) and (-)-(R) enantiomers,NR,NMR/ECD/chiral separation,natural product,,,,,,116
+M4-FUNG-0580:M004,M4-FUNG-0580,M004,penindolene D,(+)-(S) and (-)-(R) enantiomers,NR,NMR/ECD/chiral separation,natural product,,,,,,117
+M4-FUNG-0581:M001,M4-FUNG-0581,M001,phomoxanthone A,dimeric tetrahydroxanthone,NR,NMR-supported,canonical product,,,,,,120
+M4-FUNG-0581:M002,M4-FUNG-0581,M002,chrysophanol,early anthraquinone intermediate,NR,LC-MS/standard-supported,pathway intermediate,,,,,,121
+M4-FUNG-0581:M003,M4-FUNG-0581,M003,penexanthone B,monomeric tetrahydroxanthone precursor,NR,NMR/feeding-supported,PhoO coupling substrate,,,,,,122
+M4-FUNG-0582:M001,M4-FUNG-0582,M001,roseopurpurin C,major bioactive product,C18H20O7,NMR; PDB 8OY2 complex,CDK2 inhibitor,,,,,,116
+M4-FUNG-0582:M002,M4-FUNG-0582,M002,roseopurpurin D,epimer/congener,C18H20O7,NMR,congener,,,,,,117
+M4-FUNG-0582:M003,M4-FUNG-0582,M003,roseopurpurin G,congener/shunt branch,NR,NMR,congener,,,,,,118
+M4-FUNG-0583:M001,M4-FUNG-0583,M001,"7-But-15-enyl-6,8-dihydroxy-3(R)-pent-11-enylisochroman-1-one",fusamarin congener,C18H22O4,NMR/X-ray,cluster product,,,,,,114
+M4-FUNG-0583:M002,M4-FUNG-0583,M002,"7-Butyl-6,8-dihydroxy-3(R)-pent-11-enylisochroman-1-one",fusamarin congener,C18H24O4,NMR,cluster product,,,,,,115
+M4-FUNG-0583:M003,M4-FUNG-0583,M003,"7-Butyl-6,8-dihydroxy-3(R)-pentylisochroman-1-one",fusamarin congener,NR,NMR,cluster product,,,,,,116
+M4-FUNG-0583:M004,M4-FUNG-0583,M004,"7-Butyl-6,8-dihydroxy-3(R)-pent-9,11-dienylisochroman-1-one",fusamarin congener,NR,NMR,cluster product,,,,,,117
+M4-FUNG-0584:M001,M4-FUNG-0584,M001,pycnidione,native bistropolone-humulene product,C33H40O7,HRMS/NMR,canonical product,,,,,,114
+M4-FUNG-0584:M002,M4-FUNG-0584,M002,synthetic pycnidione/xenovulene-pathway analogues,engineered combinatorial products,various,HRMS/NMR,engineered congeners; not native set,,,,,,115
+M4-FUNG-0585:M001,M4-FUNG-0585,M001,stachysalicyloid C,alkyl salicylaldehyde derivative,NR,NMR-supported,canonical product,,,,,,114
+M4-FUNG-0586:M001,M4-FUNG-0586,M001,multiformin A,azaphilone congener,NR,NMR/HRMS,canonical family product,,,,,,114
+M4-FUNG-0586:M002,M4-FUNG-0586,M002,multiformins B-J,azaphilone congeners,various,NMR/HRMS/ECD,congener family,,,,,,115
+M4-FUNG-0587:M001,M4-FUNG-0587,M001,3-orsellinoxypropanoic acid,OesA product,NR,NMR/LC-MS,canonical product,,,,,,114
+M4-FUNG-0587:M002,M4-FUNG-0587,M002,orsellinic acid,PKS-derived aromatic unit,NR,feeding/domain evidence,biosynthetic precursor/unit,,,,,,115
+M4-FUNG-0588:M001,M4-FUNG-0588,M001,multiforisin H,tetraketide pyrone final product,NR,NMR/HRMS,canonical product,,,,,,114
+M4-FUNG-0589:M001,M4-FUNG-0589,M001,variecolin,oxidized sesterterpenoid,NR,NMR/MS,canonical product,,,,,,114
+M4-FUNG-0589:M002,M4-FUNG-0589,M002,variecoladiene,VrcA hydrocarbon product,NR,NMR/MS,biosynthetic precursor,,,,,,115
+M4-FUNG-0589:M003,M4-FUNG-0589,M003,variecolactone,VrcB oxidation product,NR,NMR/MS,congener,,,,,,116
+M4-FUNG-0590:M001,M4-FUNG-0590,M001,minutellin A,azaphilone congener,NR,NMR/HRESIMS/CD,canonical product,,,,,,114
+M4-FUNG-0590:M002,M4-FUNG-0590,M002,minutellins B-D,azaphilone congeners,various,NMR/HRESIMS/CD,congeners,,,,,,115
+M4-FUNG-0590:M003,M4-FUNG-0590,M003,hinnulin A,related azaphilone,NR,NMR/HRESIMS,associated product,,,,,,116
+M4-FUNG-0591:M001,M4-FUNG-0591,M001,kotanin,dimeric bis-coumarin,NR,MS/MS-supported,canonical product,,,,,,114
+M4-FUNG-0591:M002,M4-FUNG-0591,M002,7-demethylsiderin-derived coumarin,monomeric precursor,NR,pathway-supported,biosynthetic precursor,,,,,,115
+M4-FUNG-0592:M001,M4-FUNG-0592,M001,desferriferrichrome,iron-free ferrichrome-type siderophore,NR,LC-MS/MS-supported,canonical product,,,,,,114
+M4-FUNG-0593:M001,M4-FUNG-0593,M001,(+)-aristolochene,PeTS1 sesquiterpene product,C15H24,NMR/syn-BNP-supported,canonical product,,,,,,114
+M4-FUNG-0594:M001,M4-FUNG-0594,M001,FDDP-D,decalin-containing diterpenoid pyrone,NR,[M+H]+ m/z 503.3003; authentic-standard matched,canonical product,,,,,,117
+M4-FUNG-0594:M002,M4-FUNG-0594,M002,FDDP-E,decalin-containing diterpenoid pyrone,NR,[M+H]+ m/z 487.3054; authentic-standard matched,canonical product,,,,,,118
+M4-FUNG-0594:M003,M4-FUNG-0594,M003,additional FDDP-like isomers/intermediates,native/engineered pathway-associated features,various/NR,HRMS/MS-supported subset,intermediates or isomers; structures partly unresolved,,,,,,119
+M4-FUNG-0595:M001,M4-FUNG-0595,M001,physodic acid,depsidone; physodic-acid chemotype marker,NR,HPLC-confirmed,,,,,,,117
+M4-FUNG-0595:M002,M4-FUNG-0595,M002,olivetoric acid,depside; alternative chemotype marker / likely precursor relationship,NR,HPLC-confirmed,,,,,,,118
+M4-FUNG-0595:M003,M4-FUNG-0595,M003,related lichen depside/depsidone products,NR,NR,NR,,,,,,,119
+M4-FUNG-0596:M001,M4-FUNG-0596,M001,macrophasetin A,trans-decalin DTA,NR,CCDC 2210452,,,,,,,117
+M4-FUNG-0596:M002,M4-FUNG-0596,M002,macrophasetin B,decalin stereoisomer,NR,NMR,,,,,,,118
+M4-FUNG-0596:M003,M4-FUNG-0596,M003,macrophasetin C,hydroxylated product,NR,NMR,,,,,,,119
+M4-FUNG-0597:M001,M4-FUNG-0597,M001,Taslactam C,fungal γ-lactam,NR,NMR/MS,,,,,,,117
+M4-FUNG-0597:M002,M4-FUNG-0597,M002,Taslactams A/B/D,same study family,NR,family context,,,,,,,118
+M4-FUNG-0598:M001,M4-FUNG-0598,M001,Malformin C,cyclic pentapeptide,NR,MS-detected,,,,,,,117
+M4-FUNG-0598:M002,M4-FUNG-0598,M002,Malformin A2,cyclic pentapeptide,NR,MS-detected,,,,,,,118
+M4-FUNG-0599:M001,M4-FUNG-0599,M001,Taslactam D,fungal γ-lactam,NR,NMR/MS,,,,,,,117
+M4-FUNG-0599:M002,M4-FUNG-0599,M002,Taslactams A-C,same study family,NR,family context,,,,,,,118
+M4-FUNG-0600:M001,M4-FUNG-0600,M001,Ascochitine,primary polyketide,NR,chemically characterized,,,,,,,117
+M4-FUNG-0600:M002,M4-FUNG-0600,M002,Ascochital,pathway-associated metabolite,NR,chemical profiling,,,,,,,118
+M4-FUNG-0601:M001,M4-FUNG-0601,M001,Annullatin D,terminal product,NR,"(2S,9S)",,,,,,,117
+M4-FUNG-0601:M002,M4-FUNG-0601,M002,Annullatin E/J/F,intermediates/branch products,NR,pathway context,,,,,,,118
+M4-FUNG-0602:M001,M4-FUNG-0602,M001,Fusaproliferin,acetylated end product,NR,authentic-standard LC-MS/MS,,,,,,,117
+M4-FUNG-0602:M002,M4-FUNG-0602,M002,Terpestacin,deacetylated precursor/product,NR,authentic-standard LC-MS/MS,,,,,,,118
+M4-FUNG-0602:M003,M4-FUNG-0602,M003,preterpestacin-derived intermediates,mutant-associated,NR,LC-MS/MS,,,,,,,119
+M4-FUNG-0603:M001,M4-FUNG-0603,M001,α-cyclopiazonic acid,final product,NR,authentic compound,,,,,,,117
+M4-FUNG-0603:M002,M4-FUNG-0603,M002,β-cyclopiazonic acid,prenylated intermediate,NR,pathway intermediate,,,,,,,118
+M4-FUNG-0603:M003,M4-FUNG-0603,M003,cAATrp,PKS-NRPS intermediate,NR,pathway intermediate,,,,,,,119
+M4-FUNG-0604:M001,M4-FUNG-0604,M001,Talaropentaene,non-squalene triterpene,NR,NMR/GC-MS,,,,,,,117
+M4-FUNG-0604:M002,M4-FUNG-0604,M002,HexPP,C30 diphosphate precursor,NR,LC-MS,,,,,,,118
+M4-FUNG-0605:M001,M4-FUNG-0605,M001,Macrophomene,non-squalene triterpene,NR,"(1R,22R); NMR/isotope",,,,,,,117
+M4-FUNG-0605:M002,M4-FUNG-0605,M002,HexPP,C30 diphosphate precursor,NR,enzyme-generated,,,,,,,118
+M4-FUNG-0606:M001,M4-FUNG-0606,M001,colleterpenol,non-squalene triterpene,NR,GC-MS/NMR characterized,,,,,,,117
+M4-FUNG-0606:M002,M4-FUNG-0606,M002,HexPP,C30 diphosphate precursor,NR,mechanistic precursor,,,,,,,118
+M4-FUNG-0607:M001,M4-FUNG-0607,M001,chanoclavine I; agroclavine,early clavines,NR,metabolomics-supported,,,,,,,117
+M4-FUNG-0607:M002,M4-FUNG-0607,M002,ergonovine; lysergic acid amide; lysergic acid alpha-hydroxyethylamide,lysergyl amides,NR,metabolomics-supported,,,,,,,118
+M4-FUNG-0607:M003,M4-FUNG-0607,M003,ergobalansine,ergopeptine,NR,metabolomics-supported,,,,,,,119
+M4-FUNG-0608:M001,M4-FUNG-0608,M001,ergovaline,ergopeptine end product,NR,native genotype-linked profiling,,,,,,,117
+M4-FUNG-0608:M002,M4-FUNG-0608,M002,lysergic acid,upstream intermediate accumulating in lpsB mutant,NR,native mutant profiling,,,,,,,118
+M4-FUNG-0608:M003,M4-FUNG-0608,M003,lysergyl alanine,downstream intermediate absent from lpsB mutant,NR,pathway-position marker,,,,,,,119
+M4-FUNG-0609:M001,M4-FUNG-0609,M001,paspaline; paspaline B,core/early indole diterpenes,NR,metabolomics-supported,,,,,,,117
+M4-FUNG-0609:M002,M4-FUNG-0609,M002,paxilline,indole-diterpene intermediate/congener,NR,metabolomics-supported,,,,,,,118
+M4-FUNG-0609:M003,M4-FUNG-0609,M003,terpendole E; I; J; C; K; M; N; A,late terpendole congener family,NR,metabolomics-supported,,,,,,,119

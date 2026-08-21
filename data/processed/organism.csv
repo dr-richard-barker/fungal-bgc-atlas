@@ -1,0 +1,372 @@
+organism_key,organism_name,ncbi_taxon_id,phylum,class,order,family,genus,ecological_lifestyle_raw,first_dossier_id
+NCBITAXON:5599,Alternaria alternata,5599,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,Plant-pathogenic fungus,M4-FUNG-0001
+NCBITAXON:5062,Aspergillus oryzae,5062,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,domesticated saprotrophic food-fermentation fungus,M4-FUNG-0002
+NCBITAXON:5067,Aspergillus parasiticus,5067,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,saprotrophic filamentous fungus; food/feed-associated mycotoxin producer,M4-FUNG-0003
+NCBITAXON:5059,Aspergillus flavus,5059,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,soil saprotroph and opportunistic crop-associated plant pathogen / seed colonizer,M4-FUNG-0004
+NCBITAXON:2059437,Aspergillus aflatoxiformans,2059437,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,soil-associated saprotrophic crop-colonizing aflatoxigenic fungus,M4-FUNG-0005
+NCBITAXON:41061,Aspergillus nomiae (MIBiG historical label: Aspergillus nomius),41061,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,"saprotrophic, agricultural-commodity-associated and environmentally widespread fungus; also opportunistic pathogen",M4-FUNG-0007
+NCBITAXON:138278,Aspergillus ochraceoroseus,138278,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,soil saprotroph; rare aflatoxin/sterigmatocystin-producing Aspergillus outside section Flavi,M4-FUNG-0009
+NCBITAXON:48100,Alternaria solani,48100,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,plant-pathogenic necrotroph,M4-FUNG-0010
+NCBITAXON:227321,Aspergillus nidulans,227321,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,saprotrophic filamentous fungus; major genetic/model-organism background,M4-FUNG-0011
+NCBITAXON:89488,Monascus pilosus,89488,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Monascus,saprotrophic filamentous fungus; commonly exploited for fermented-food pigment production,M4-FUNG-0013
+NCBITAXON:1279085,Fusarium fujikuroi,1279085,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,plant-pathogenic and saprotrophic filamentous fungus,M4-FUNG-0014
+NCBITAXON:5077,Penicillium citrinum,5077,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,saprotrophic filamentous fungus,M4-FUNG-0016
+NCBITAXON:33178,Aspergillus terreus,33178,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,saprotrophic/rhizosphere-associated filamentous fungus,M4-FUNG-0017
+NCBITAXON:622360,Alternaria brassicicola,622360,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,necrotrophic plant pathogen and saprotroph,M4-FUNG-0018
+NCBITAXON:675120,Dothistroma septosporum,675120,Ascomycota,Dothideomycetes,Capnodiales,Mycosphaerellaceae,Dothistroma,hemibiotrophic foliar pathogen with epiphytic/biotrophic-to-necrotrophic disease progression,M4-FUNG-0019
+NCBITAXON:334819,Fusarium verticillioides,334819,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,maize-associated plant pathogen/endophyte and saprotroph,M4-FUNG-0021
+NCBITAXON:5507,Fusarium oxysporum,5507,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,plant-associated/soil-associated Fusarium oxysporum species-complex fungus,M4-FUNG-0022
+NCBITAXON:117187,Fusarium verticillioides,117187,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,maize-associated plant pathogen/endophyte and saprotroph,M4-FUNG-0023
+NCBITAXON:36650,Penicillium aethiopicum,36650,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,saprotrophic filamentous fungus,M4-FUNG-0024
+NCBITAXON:193393,Hypomyces subiculosus,193393,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Hypomyces,fungicolous/parasitic ascomycete at genus/species level,M4-FUNG-0025
+NCBITAXON:285217,Aspergillus terreus,285217,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,soil-associated saprotrophic filamentous fungus; A. terreus can also be opportunistic,M4-FUNG-0027
+NCBITAXON:1077442,Talaromyces marneffei,1077442,Ascomycota,Eurotiomycetes,Eurotiales,Trichocomaceae,Talaromyces,environmental saprotroph/pathogen with temperature-dependent mold–yeast dimorphism,M4-FUNG-0030
+NCBITAXON:5074,Penicillium brevicompactum,5074,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,saprotrophic filamentous fungus commonly associated with stored foods and indoor substrates,M4-FUNG-0032
+NCBITAXON:27334,Penicillium expansum,27334,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,necrotrophic/saprotrophic fruit-associated fungus,M4-FUNG-0034
+NCBITAXON:1229662,Pestalotiopsis fici,1229662,Ascomycota,Sordariomycetes,Amphisphaeriales,Sporocadaceae,Pestalotiopsis,endophytic/fungicolous-saprotrophic capacity; W106-1 is a tea endophyte,M4-FUNG-0035
+NCBITAXON:330879,Aspergillus fumigatus,330879,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,saprotrophic filamentous fungus with polymicrobial-biofilm and host-interaction contexts,M4-FUNG-0036
+NCBITAXON:280754,Pochonia chlamydosporia,280754,Ascomycota,Sordariomycetes,Hypocreales,Clavicipitaceae,Pochonia,soil/root-associated nematophagous fungus and biological-control agent,M4-FUNG-0037
+NCBITAXON:162425,Aspergillus nidulans,162425,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,saprotrophic filamentous fungus,M4-FUNG-0039
+NCBITAXON:441959,Talaromyces stipitatus,441959,Ascomycota,Eurotiomycetes,Eurotiales,Trichocomaceae,Talaromyces,saprotrophic filamentous fungus,M4-FUNG-0040
+NCBITAXON:665024,Bipolaris maydis,665024,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Bipolaris,necrotrophic maize pathogen; Race T carries host-genotype-specific supervirulence,M4-FUNG-0041
+NCBITAXON:380704,Aspergillus niger,380704,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,saprotrophic filamentous fungus with broad environmental and industrial occurrence,M4-FUNG-0042
+NCBITAXON:341663,Aspergillus terreus,341663,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,saprotrophic filamentous fungus with opportunistic pathogenic potential,M4-FUNG-0043
+NCBITAXON:331117,Aspergillus fischeri NRRL 181,331117,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,saprotrophic filamentous fungus,M4-FUNG-0048
+NCBITAXON:298378,Fusarium incarnatum,298378,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,plant-associated/saprotrophic-pathogenic Fusarium complex,M4-FUNG-0049
+NCBITAXON:5580,Aureobasidium pullulans,5580,Ascomycota,Dothideomycetes,Dothideales,Saccotheciaceae,Aureobasidium,ubiquitous epiphytic/saprotrophic yeast-like fungus,M4-FUNG-0050
+NCBITAXON:176275,Beauveria bassiana,176275,Ascomycota,Sordariomycetes,Hypocreales,Cordycipitaceae,Beauveria,facultative entomopathogen,M4-FUNG-0051
+NCBITAXON:857340,Hapsidospora chrysogena ATCC 11550,857340,Ascomycota,Sordariomycetes,Hypocreales,Bionectriaceae,Hapsidospora,saprotrophic filamentous fungus; industrial fermentation organism,M4-FUNG-0053
+NCBITAXON:1934374,Achaetomiella virescens,1934374,Ascomycota,Sordariomycetes,Sordariales,Chaetomiaceae,Achaetomiella,saprotrophic filamentous ascomycete,M4-FUNG-0055
+NCBITAXON:29910,Tolypocladium inflatum NRRL 8044,29910,Ascomycota,Sordariomycetes,Hypocreales,Ophiocordycipitaceae,Tolypocladium,saprotrophic and entomopathogen-associated ecology,M4-FUNG-0056
+NCBITAXON:655844,Metarhizium robertsii ARSEF 23,655844,Ascomycota,Sordariomycetes,Hypocreales,Clavicipitaceae,Metarhizium,insect pathogen / soil-associated fungus,M4-FUNG-0057
+ORG_d1a8dbb0ed6b,Aspergillus pachycristatus NRRL 11440,UNCERTAIN,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,saprotrophic filamentous fungus,M4-FUNG-0058
+NCBITAXON:61235,Fusarium equiseti,61235,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,plant-associated Fusarium complex; record-specific ecological role NR,M4-FUNG-0059
+NCBITAXON:73839,Epichloe festucae var. lolii,73839,Ascomycota,Sordariomycetes,Hypocreales,Clavicipitaceae,Epichloe,mutualistic/endophytic grass symbiont,M4-FUNG-0060
+NCBITAXON:500485,Penicillium rubens Wisconsin 54-1255,500485,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,saprotrophic filamentous fungus,M4-FUNG-0062
+NCBITAXON:5017,Bipolaris zeicola,5017,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Bipolaris,necrotrophic plant pathogen,M4-FUNG-0064
+NCBITAXON:5076,Penicillium chrysogenum,5076,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,saprotrophic filamentous fungus / industrial production organism,M4-FUNG-0066
+NCBITAXON:1756136,Lecanicillium sp. HF627,1756136,Ascomycota,Sordariomycetes,Hypocreales,Cordycipitaceae,Lecanicillium,NR,M4-FUNG-0070
+NCBITAXON:332952,Aspergillus flavus NRRL3357,332952,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,saprotrophic/plant-associated fungus,M4-FUNG-0071
+NCBITAXON:332648,Botrytis cinerea B05.10,332648,Ascomycota,Leotiomycetes,Helotiales,Sclerotiniaceae,Botrytis,necrotrophic phytopathogen,M4-FUNG-0073
+NCBITAXON:1365484,Penicillium roqueforti FM164,1365484,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,saprotrophic food/feed-associated fungus,M4-FUNG-0074
+NCBITAXON:1979465,Neocamarosporium betae (historically Phoma betae),1979465,Ascomycota,Dothideomycetes,Dothideomycetes incertae sedis / Pleosporineae placement in modern literature,Neocamarosporiaceae,Neocamarosporium,plant pathogen / saprotrophic-capable filamentous fungus,M4-FUNG-0076
+NCBITAXON:1214568,Diaporthe amygdali (historical paper: Phomopsis amygdali),1214568,,,,,,,M4-FUNG-0082
+NCBITAXON:665115,Shiraia sp. Slf14,665115,,,,,,,M4-FUNG-0085
+NCBITAXON:5050,Epichloë uncinata (historical literature: Neotyphodium uncinatum),5050,,,,,,,M4-FUNG-0086
+NCBITAXON:78605,Malbranchea aurantiaca,78605,,,,,,,M4-FUNG-0087
+NCBITAXON:46472,Aspergillus versicolor,46472,,,,,,,M4-FUNG-0088
+NCBITAXON:70095,Penicillium fellutanum,70095,,,,,,,M4-FUNG-0089
+NCBITAXON:225353,Monascus aurantiacus,225353,,,,,,,M4-FUNG-0090
+NCBITAXON:5061,Aspergillus niger,5061,,,,,,,M4-FUNG-0092
+NCBITAXON:5518,Fusarium graminearum (historical literature: Gibberella zeae),5518,,,,,,,M4-FUNG-0093
+ORG_b0ca58a6a560,Aspergillus clavatus NRRL 1,,,,,,,,M4-FUNG-0098
+ORG_0dc23fd5d2f9,Fusarium heterosporum,,,,,,,,M4-FUNG-0099
+ORG_dda3b060c9c2,Metarhizium robertsii; source atlas historical label M. anisopliae,,,,,,,,M4-FUNG-0100
+ORG_00aa7bf8b645,Penicillium nordicum,,,,,,,,M4-FUNG-0101
+ORG_bac04d6f1e95,Glarea lozoyensis ATCC 20868,,,,,,,,M4-FUNG-0102
+ORG_1829b4449fb3,Aspergillus fumigatus Af293,,,,,,,,M4-FUNG-0103
+ORG_19dc5e54cc78,Leptosphaeria maculans,,,,,,,,M4-FUNG-0104
+ORG_b74eecf1d3db,Beauveria bassiana,,,,,,,,M4-FUNG-0105
+ORG_cbed182a893e,Fusarium graminearum (teleomorph historical literature: Gibberella zeae),,,,,,,,M4-FUNG-0106
+ORG_54ffdc0bbd51,Epichloë festucae var. lolii; historical literature uses Neotyphodium lolii,,,,,,,,M4-FUNG-0108
+ORG_b13e7c50ad4e,Penicillium paxilli,,,,,,,,M4-FUNG-0109
+NCBITAXON:877550,Aspergillus sp. MF297-2,877550,,,,,,,M4-FUNG-0110
+ORG_af691354f998,Aspergillus nidulans FGSC A4,,,,,,,,M4-FUNG-0112
+ORG_540eb7bbdd06,Aspergillus terreus NIH2624,,,,,,,,M4-FUNG-0113
+NCBITAXON:510516,Aspergillus oryzae RIB40,510516,,,,,,,M4-FUNG-0114
+ORG_3f738c0c4e78,Aspergillus niger ATCC 1015,,,,,,,,M4-FUNG-0115
+ORG_c510f7151b08,Penicillium brefeldianum,,,,,,,,M4-FUNG-0117
+ORG_d81376d1d2ed,Penicillium aethiopicum,,,,,,,,M4-FUNG-0118
+ORG_9206fec171a6,Trichophyton tonsurans CBS 112818,,,,,,,,M4-FUNG-0120
+ORG_8c064f106766,Botrytis cinerea,,,,,,,,M4-FUNG-0121
+ORG_83e25adeea8c,Alternaria jesenskae,,,,,,,,M4-FUNG-0122
+ORG_c7d41b0e71b2,Glarea lozoyensis,,,,,,,,M4-FUNG-0123
+ORG_db9930cab997,Fusarium verticillioides 7600,,,,,,,,M4-FUNG-0124
+ORG_7f561733f323,Penicillium expansum,,,,,,,,M4-FUNG-0125
+ORG_7b25a803f331,Cordyceps fumosorosea,,,,,,,,M4-FUNG-0126
+NCBITAXON:306901,Chaetomium globosum CBS 148.51,306901,,,,,,,M4-FUNG-0127
+NCBITAXON:34381,Aspergillus japonicus,34381,,,,,,,M4-FUNG-0128
+NCBITAXON:568076,Metarhizium robertsii,568076,,,,,,,M4-FUNG-0132
+NCBITAXON:40602,Claviceps fusiformis,40602,,,,,,,M4-FUNG-0133
+NCBITAXON:5127,Fusarium fujikuroi,5127,,,,,,,M4-FUNG-0134
+NCBITAXON:40559,Botrytis cinerea,40559,,,,,,,M4-FUNG-0135
+NCBITAXON:13684,Parastagonospora nodorum,13684,,,,,,,M4-FUNG-0136
+NCBITAXON:45133,Lasiodiplodia theobromae,45133,,,,,,,M4-FUNG-0137
+NCBITAXON:1036732,Sarocladium zeae (historical primary paper: Acremonium zeae),1036732,,,,,,,M4-FUNG-0138
+NCBITAXON:29003,Cercospora nicotianae,29003,,,,,,,M4-FUNG-0139
+NCBITAXON:71945,Hypholoma sublateritium,71945,,,,,,,M4-FUNG-0140
+NCBITAXON:35717,Epichloë festucae,35717,,,,,,,M4-FUNG-0142
+ORG_245994777974,Alternaria alternata tangerine pathotype,,,,,,,,M4-FUNG-0145
+NCBITAXON:42747,Fusarium heterosporum,42747,,,,,,,M4-FUNG-0147
+NCBITAXON:80604,Tapinella panuoides,80604,,,,,,,M4-FUNG-0148
+NCBITAXON:96454,Nodulisporium sp. ATCC 74245,96454,,,,,,,M4-FUNG-0149
+NCBITAXON:101852,Glarea lozoyensis,101852,,,,,,,M4-FUNG-0150
+NCBITAXON:40997,Elsinoë fawcettii,40997,,,,,,,M4-FUNG-0151
+NCBITAXON:124418,Tolypocladium album; historical paper name Chaunopycnis alba,124418,,,,,,,M4-FUNG-0152
+NCBITAXON:5111,Claviceps purpurea,5111,,,,,,,M4-FUNG-0155
+NCBITAXON:101162,Bipolaris oryzae,101162,,,,,,,M4-FUNG-0157
+NCBITAXON:27339,Cladonia grayi,27339,,,,,,,M4-FUNG-0158
+NCBITAXON:49223,Sphaceloma manihoticola,49223,,,,,,,M4-FUNG-0161
+NCBITAXON:40380 in canonical source row,Aspergillus ochraceus in MIBiG; defining paper reports Aspergillus westerdijkiae,40380 in canonical source row,,,,,,,M4-FUNG-0165
+NCBITAXON:75736,Starmerella bombicola (historical literature: Candida bombicola),75736,,,,,,,M4-FUNG-0166
+NCBITAXON:5514,Fusarium sporotrichioides,5514,,,,,,,M4-FUNG-0170
+NCBITAXON:1859971,Paramyrothecium roridum (historical Myrothecium roridum),1859971,,,,,,,M4-FUNG-0171
+NCBITAXON:237631,Ustilago maydis 521,237631,,,,,,,M4-FUNG-0173
+NCBITAXON:5047,Epichloë coenophiala,5047,,,,,,,M4-FUNG-0174
+NCBITAXON:321614,Parastagonospora nodorum SN15,321614,,,,,,,M4-FUNG-0175
+NCBITAXON:5270,Ustilago maydis,5270,,,,,,,M4-FUNG-0176
+NCBITAXON:174080,Cladonia uncialis mycobiont,174080,Ascomycota,,,,,,M4-FUNG-0181
+NCBITAXON:89489,Monascus ruber,89489,Ascomycota,,,,,,M4-FUNG-0182
+NCBITAXON:1828523,Phoma sp. MF5453,1828523,Ascomycota,,,,,,M4-FUNG-0183
+NCBITAXON:89137,"Byssochlamys fulva, historical producer strain IMI 40021",89137,,,,,,,M4-FUNG-0184
+NCBITAXON:33203,Purpureocillium lilacinum,33203,Ascomycota,,,,,,M4-FUNG-0185
+NCBITAXON:1111077,Claviceps purpurea 20.1,1111077,Ascomycota,,,,,,M4-FUNG-0187
+NCBITAXON:1160106,Aspergillus nidulans NRRL 8112,1160106,Ascomycota,,,,,,M4-FUNG-0188
+NCBITAXON:293382,Penicillium thymicola,293382,Ascomycota,,,,,,M4-FUNG-0189
+NCBITAXON:573841,Sordaria araneosa,573841,Ascomycota,,,,,,M4-FUNG-0190
+NCBITAXON:69488,Penicillium simplicissimum,69488,Ascomycota,,,,,,M4-FUNG-0191
+NCBITAXON:80385,Stachybotrys bisbyi,80385,Ascomycota,,,,,,M4-FUNG-0193
+NCBITAXON:291059,Phomopsis leptostromiformis,291059,Ascomycota,,,,,,M4-FUNG-0194
+NCBITAXON:47429,Armillaria mellea,47429,Basidiomycota,,,,,,M4-FUNG-0197
+NCBITAXON:78579,Thermothelomyces thermophilus,78579,,,,,,,M4-FUNG-0203
+NCBITAXON:374132,Penicillium terrestre,374132,,,,,,,M4-FUNG-0204
+NCBITAXON:28567,Talaromyces wortmannii,28567,Ascomycota,,,,,,M4-FUNG-0205
+NCBITAXON:180999,Cladonia uncialis subsp. uncialis,180999,Ascomycota,,,,,,M4-FUNG-0208
+NCBITAXON:5082,Penicillium roqueforti,5082,Ascomycota,,,,,,M4-FUNG-0209
+NCBITAXON:42742,Gelatoporia subvermispora,42742,Basidiomycota,,,,,,M4-FUNG-0214
+NCBITAXON:122368,Cercospora beticola,122368,Ascomycota,,,,,,M4-FUNG-0216
+NCBITAXON:348901,Cercospora zeina,348901,Ascomycota,,,,,,M4-FUNG-0217
+NCBITAXON:1392248,Aspergillus campestris IBT 28561,1392248,Ascomycota,,,,,,M4-FUNG-0218
+NCBITAXON:229533,Fusarium graminearum PH-1,229533,Ascomycota,,,,,,M4-FUNG-0219
+NCBITAXON:1549217,Aspergillus stellatus,1549217,,,,,,,M4-FUNG-0220
+NCBITAXON:644132,"Canonical source: Paecilomyces divaricatus, TaxID 644132",644132,,,,,,,M4-FUNG-0221
+NCBITAXON:318706,"Canonical source: Cochliobolus pallescens, TaxID 318706",318706,,,,,,,M4-FUNG-0222
+NCBITAXON:37994,"Canonical source/MIBiG: Beauveria felina, TaxID 37994",37994,,,,,,,M4-FUNG-0223
+NCBITAXON:1897413,Nodulisporium sp.,1897413,Ascomycota,,,,,,M4-FUNG-0224
+NCBITAXON:83212,Claviceps africana,83212,Ascomycota,,,,,,M4-FUNG-0225
+NCBITAXON:150374,Escovopsis weberi,150374,Ascomycota,,,,,,M4-FUNG-0227
+NCBITAXON:413071,Trichoderma virens Gv29-8,413071,Ascomycota,,,,,,M4-FUNG-0231
+NCBITAXON:1888172,Trichoderma hypoxylon,1888172,Ascomycota,,,,,,M4-FUNG-0232
+NCBITAXON:721885,Stereum hirsutum FP-91666 SS1,721885,Basidiomycota,,,,,,M4-FUNG-0234
+NCBITAXON:393283,Pestalotiopsis fici,393283,Ascomycota,,,,,,M4-FUNG-0236
+NCBITAXON:1283841,Stachybotrys chlorohalonata IBT 40285,1283841,Ascomycota,,,,,,M4-FUNG-0237
+NCBITAXON:95742,Curvularia clavata,95742,,,,,,,M4-FUNG-0238
+ORG_17bac3b9f14e,Fusarium fujikuroi IMI 58289,,,,,,,,M4-FUNG-0239
+ORG_31f88d0ac475,Fusarium equiseti,,,,,,,,M4-FUNG-0240
+NCBITAXON:1053259,Thelonectria discophora,1053259,,,,,,,M4-FUNG-0244
+NCBITAXON:367110,Neurospora crassa OR74A,367110,,,,,,,M4-FUNG-0245
+NCBITAXON:1243767,Hypoxylon pulicicidum,1243767,,,,,,,M4-FUNG-0247
+NCBITAXON:1392255,Aspergillus novofumigatus IBT 16806,1392255,,,,,,,M4-FUNG-0248
+NCBITAXON:1392250,Aspergillus steynii IBT 23096,1392250,,,,,,,M4-FUNG-0249
+NCBITAXON:690307,Aspergillus aculeatus ATCC 16872,690307,,,,,,,M4-FUNG-0251
+NCBITAXON:655819,Beauveria bassiana ARSEF 2860,655819,,,,,,,M4-FUNG-0252
+NCBITAXON:933388,Penicillium oxalicum 114-2,933388,,,,,,,M4-FUNG-0254
+NCBITAXON:104259,Penicillium brasilianum,104259,,,,,,,M4-FUNG-0255
+ORG_a08e3831fd82,historical record: Aspergillus sp.; original isolation: Penicillium sp. CNL-338; later pathway study: Aspergillus flavipes CNL-338,UNCERTAIN,,,,,,,M4-FUNG-0256
+NCBITAXON:1756125,Pyrenochaetopsis sp.,1756125,,,,,,,M4-FUNG-0257
+NCBITAXON:1986016,Phyllosticta cirsii,1986016,,,,,,,M4-FUNG-0258
+NCBITAXON:242507,Pyricularia oryzae 70-15 (pathway paper uses Magnaporthe oryzae),242507,,,,,,,M4-FUNG-0259
+NCBITAXON:660122,current taxonomy: Fusarium vanettenii 77-13-4; historical/MIBiG: [Nectria] haematococca mpVI 77-13-4 / Fusarium solani,660122,,,,,,,M4-FUNG-0260
+NCBITAXON:1293529,Cordana terrestris,1293529,,,,,,,M4-FUNG-0261
+NCBITAXON:5079,Penicillium janthinellum,5079,,,,,,,M4-FUNG-0262
+NCBITAXON:1963369,Chaetothyriaceae sp.,1963369,,,,,,,M4-FUNG-0263
+NCBITAXON:570715,Alternaria oxytropis,570715,,,,,,,M4-FUNG-0264
+NCBITAXON:282267,Fusarium asiaticum,282267,,,,,,,M4-FUNG-0265
+NCBITAXON:1955101,historical MIBiG: Gliocladium sp.; defining study: Clonostachys rogersoniana (formerly Gliocladium sp. 6.102),1955101,,,,,,,M4-FUNG-0266
+NCBITAXON:2203296,Sarocladium sp. 'schorii'; defining study proposes Sarocladium schorii for former Acremonium strictum IMI 501407,2203296,,,,,,,M4-FUNG-0268
+NCBITAXON:1662659,Aspergillus sp. Z5,1662659,,,,,,,M4-FUNG-0269
+NCBITAXON:5544,Trichoderma harzianum t-22,5544,,,,,,,M4-FUNG-0270
+NCBITAXON:209559,MIBiG: Aspergillus sp. CLMG-2019a; defining paper: Aspergillus burnettii,209559,,,,,,,M4-FUNG-0271
+NCBITAXON:264951,Byssochlamys spectabilis,264951,,,,,,,M4-FUNG-0274
+NCBITAXON:148305,Pyricularia grisea,148305,,,,,,,M4-FUNG-0276
+NCBITAXON:985895,Leptosphaeria maculans JN3; current MIBiG display uses Plenodomus lingam JN3,985895,,,,,,,M4-FUNG-0281
+NCBITAXON:1169046,Daldinia eschscholzii IFB-TL01,1169046,,,,,,,M4-FUNG-0283
+NCBITAXON:41251,Strobilurus tenacellus,41251,,,,,,,M4-FUNG-0285
+NCBITAXON:1729595,fungal sp. ATCC 74256,1729595,,,,,,,M4-FUNG-0286
+NCBITAXON:749675,Acremonium egyptiacum,749675,,,,,,,M4-FUNG-0288
+NCBITAXON:198730,Talaromyces verruculosus,198730,,,,,,,M4-FUNG-0290
+NCBITAXON:1707701,Phoma sp. F3723,1707701,,,,,,,M4-FUNG-0293
+NCBITAXON:28985,Kluyveromyces lactis,28985,,,,,,,M4-FUNG-0300
+NCBITAXON:1735992,Neonectria sp. DH2,1735992,,,,,,,M4-FUNG-0305
+NCBITAXON:2572248,Cryptosporiopsis sp. 8999,2572248,,,,,,,M4-FUNG-0307
+NCBITAXON:28576,Talaromyces variabilis,28576,,,,,,,M4-FUNG-0311
+NCBITAXON:2765005,Fusarium sp. 190-020-2,2765005,,,,,,,M4-FUNG-0312
+NCBITAXON:2040732,Cladobotryum sp. No. 11231 / Cladobotryum sp.,2040732,,,,,,,M4-FUNG-0314
+NCBITAXON:1156157,Fulvia fulva CBS 131901 (syn. Cladosporium fulvum),1156157,,,,,,,M4-FUNG-0318
+NCBITAXON:240176,Coprinopsis cinerea okayama7#130,240176,,,,,,,M4-FUNG-0321
+NCBITAXON:1028729,Fusarium pseudograminearum CS3096,1028729,,,,,,cereal pathogen causing Fusarium crown rot,M4-FUNG-0324
+NCBITAXON:451804,Aspergillus fumigatus A1163,451804,,,,,,opportunistic fungal pathogen and environmental saprotroph,M4-FUNG-0333
+NCBITAXON:1159556,Ustilaginoidea virens,1159556,,,,,,,M4-FUNG-0337
+NCBITAXON:693819,Rhodocybe pseudopiperita,693819,,,,,,,M4-FUNG-0341
+NCBITAXON:29875,Trichoderma virens,29875,,,,,,,M4-FUNG-0342
+NCBITAXON:49331,Wickerhamiella pararugosa,49331,,,,,,,M4-FUNG-0343
+NCBITAXON:344612,Aspergillus clavatus NRRL 1,344612,,,,,,,M4-FUNG-0344
+NCBITAXON:5081 (canonical source genus-level taxon),Penicillium sp. sh18; canonical source lists Penicillium sp.,5081 (canonical source genus-level taxon),,,,,,,M4-FUNG-0345
+NCBITAXON:1380566,Pochonia chlamydosporia 170,1380566,,,,,,,M4-FUNG-0347
+NCBITAXON:1318459,Fusarium pseudograminearum CS5834 in canonical source; defining paper refers to C5834,1318459,,,,,,,M4-FUNG-0349
+NCBITAXON:1813822,fungal sp. No.14919; species unresolved in canonical source,1813822,,,,,,,M4-FUNG-0352
+NCBITAXON:105696,Epicoccum nigrum,105696,,,,,,,M4-FUNG-0354
+NCBITAXON:36656,Penicillium crustosum,36656,,,,,,,M4-FUNG-0356
+NCBITAXON:2081996,Aspergillus terreus var. terreus,2081996,,,,,,,M4-FUNG-0358
+NCBITAXON:2582783,Aspergillus nanangensis,2582783,,,,,,,M4-FUNG-0359
+NCBITAXON:240499,Calcarisporium arbuscula,240499,,,,,,,M4-FUNG-0360
+NCBITAXON:930091,Bipolaris victoriae FI3; defining paper uses historical Cochliobolus victoriae nomenclature,930091,,,,,,,M4-FUNG-0361
+NCBITAXON:41900,Aspergillus flavipes; defining study strain CNL-338,41900,,,,,,,M4-FUNG-0364
+NCBITAXON:1491466,Trichoderma guizhouense,1491466,,,,,,,M4-FUNG-0366
+NCBITAXON:93625,Psilocybe cyanescens,93625,,,,,,,M4-FUNG-0367
+NCBITAXON:40382,Aspergillus ustus,40382,,,,,,,M4-FUNG-0368
+NCBITAXON:657443,Aspergillus violaceofuscus CBS 115571,657443,,,,,,,M4-FUNG-0370
+NCBITAXON:1460663,Paraphaeosphaeria sporulosa,1460663,,,,,,,M4-FUNG-0371
+NCBITAXON:1381753,Moniliophthora roreri MCA 2997,1381753,,,,,,,M4-FUNG-0372
+NCBITAXON:741275,Punctularia strigosozonata HHB-11173 SS5,741275,,,,,,,M4-FUNG-0373
+ORG_6e8172f57e08,,,,,,,,,M4-FUNG-0374
+ORG_21b49e6f1695,,,,,,,,,M4-FUNG-0375
+ORG_c6017f90d7b0,,,,,,,,,M4-FUNG-0376
+ORG_b22b5ba9a6f7,,,,,,,,,M4-FUNG-0377
+ORG_d85b59831717,,,,,,,,,M4-FUNG-0378
+ORG_72fc323b1874,,,,,,,,,M4-FUNG-0379
+ORG_70768ab916c8,,,,,,,,,M4-FUNG-0380
+ORG_6e29ff2602e5,,,,,,,,,M4-FUNG-0381
+ORG_dccbef159ffa,,,,,,,,,M4-FUNG-0382
+ORG_a825e454814d,,,,,,,,,M4-FUNG-0383
+ORG_43dffc297132,,,,,,,,,M4-FUNG-0384
+ORG_ddcf71f2b181,,,,,,,,,M4-FUNG-0385
+ORG_30de335eae3e,,,,,,,,,M4-FUNG-0386
+ORG_1be47c6350ca,,,,,,,,,M4-FUNG-0387
+ORG_d40377b519a7,,,,,,,,,M4-FUNG-0388
+ORG_2c597a5aa564,,,,,,,,,M4-FUNG-0389
+ORG_e3cadbe52f24,,,,,,,,,M4-FUNG-0390
+ORG_f21506a2afad,,,,,,,,,M4-FUNG-0391
+ORG_28b63b531c3c,,,,,,,,,M4-FUNG-0392
+ORG_50355c5f1f0c,,,,,,,,,M4-FUNG-0393
+ORG_d8b3d7b631f6,,,,,,,,,M4-FUNG-0394
+ORG_9d5b02b4c361,,,,,,,,,M4-FUNG-0395
+ORG_836c3c42925e,,,,,,,,,M4-FUNG-0396
+ORG_51f4218c8370,,,,,,,,,M4-FUNG-0397
+ORG_e5fd63b2dfb1,,,,,,,,,M4-FUNG-0398
+ORG_7f935d6e0b45,,,,,,,,,M4-FUNG-0399
+ORG_7474a8f36194,,,,,,,,,M4-FUNG-0400
+ORG_315919354be6,,,,,,,,,M4-FUNG-0401
+ORG_199abb487d3b,,,,,,,,,M4-FUNG-0402
+ORG_e3ac70135604,,,,,,,,,M4-FUNG-0403
+ORG_3706cb65d3b9,,,,,,,,,M4-FUNG-0404
+ORG_115646fd0871,,,,,,,,,M4-FUNG-0405
+ORG_429e87f09b9e,,,,,,,,,M4-FUNG-0406
+ORG_4e7245e7ef13,,,,,,,,,M4-FUNG-0407
+ORG_1c29ddcb9192,,,,,,,,,M4-FUNG-0408
+ORG_00ee2506caa4,,,,,,,,,M4-FUNG-0409
+ORG_c5eab1482fc6,,,,,,,,,M4-FUNG-0410
+ORG_f0bc222d852a,,,,,,,,,M4-FUNG-0411
+ORG_d53649ce9a79,,,,,,,,,M4-FUNG-0412
+ORG_c21198e70053,,,,,,,,,M4-FUNG-0413
+ORG_6de0d6495f06,,,,,,,,,M4-FUNG-0414
+ORG_164062b0f129,,,,,,,,,M4-FUNG-0415
+ORG_f9cee5d2a5fe,,,,,,,,,M4-FUNG-0416
+ORG_7148c415351b,,,,,,,,,M4-FUNG-0417
+ORG_ab3afe59d4ea,,,,,,,,,M4-FUNG-0418
+ORG_627acd308a22,,,,,,,,,M4-FUNG-0419
+ORG_5aa9dcb6a288,,,,,,,,,M4-FUNG-0420
+ORG_a6532b04f97b,,,,,,,,,M4-FUNG-0421
+ORG_891f81deae16,,,,,,,,,M4-FUNG-0422
+ORG_b56560321bbc,,,,,,,,,M4-FUNG-0423
+ORG_3d7bdd9a2bf8,,,,,,,,,M4-FUNG-0424
+ORG_a863520cab69,,,,,,,,,M4-FUNG-0425
+NCBITAXON:5081,Penicillium sp.,5081,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,UNCERTAIN,M4-FUNG-0427
+NCBITAXON:1450533,Aspergillus niger CBS 101883,1450533,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,NR,M4-FUNG-0434
+NCBITAXON:5382,Suillus grevillei,5382,Basidiomycota,Agaricomycetes,Boletales,Suillaceae,Suillus,ectomycorrhizal basidiomycete,M4-FUNG-0436
+NCBITAXON:1128401,Omphalotus olearius VT 653.13,1128401,Basidiomycota,Agaricomycetes,Agaricales,Omphalotaceae,Omphalotus,saprotrophic wood-decaying fungus,M4-FUNG-0438
+NCBITAXON:249398,Fusarium commune,249398,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,saprotrophic/opportunistic plant-associated filamentous fungus,M4-FUNG-0440
+NCBITAXON:1896107,Biscogniauxia sp.,1896107,Ascomycota,Sordariomycetes,Xylariales,Graphostromataceae,Biscogniauxia,wood-associated/endophytic-pathogenic genus context; isolate-specific lifestyle NR,M4-FUNG-0441
+NCBITAXON:370937,Aschersonia paraphysata,370937,Ascomycota,Sordariomycetes,Hypocreales,Clavicipitaceae,Aschersonia,entomopathogenic ascomycete,M4-FUNG-0442
+NCBITAXON:2163413,Metschnikowia aff. pulcherrima,2163413,Ascomycota,Saccharomycetes,Saccharomycetales,Metschnikowiaceae,Metschnikowia,phyllosphere-associated yeast; frequently isolated from flowers and fruits,M4-FUNG-0445
+NCBITAXON:2259629,Cladosporium sp. SW67,2259629,Ascomycota,Dothideomycetes,Capnodiales,Cladosporiaceae,Cladosporium,fungal symbiont/associate of marine invertebrate surface,M4-FUNG-0448
+NCBITAXON:759273,Colletotrichum higginsianum IMI 349063,759273,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum,hemibiotrophic plant pathogen with biotrophic then necrotrophic infection phases,M4-FUNG-0451
+NCBITAXON:1892770,Pithomyces chartarum,1892770,Ascomycota,Dothideomycetes,Pleosporales,Didymosphaeriaceae,Pithomyces / Pseudopithomyces,leaf-litter/pasture saprophyte,M4-FUNG-0452
+NCBITAXON:47427,Armillaria gallica,47427,Basidiomycota,Agaricomycetes,Agaricales,Physalacriaceae,Armillaria,parasitic and saprotrophic wood/root-associated fungus,M4-FUNG-0453
+NCBITAXON:45130,Bipolaris sorokiniana,45130,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Bipolaris,phytopathogenic fungus associated with cereal/turf-grass disease,M4-FUNG-0454
+NCBITAXON:303698,Penicillium steckii,303698,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,environmental/marine-associated filamentous fungus in sampled disease microbiome,M4-FUNG-0456
+NCBITAXON:2480843,Xenoacremonium sinensis,2480843,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Xenoacremonium,plant-associated endophyte,M4-FUNG-0458
+NCBITAXON:108922,Chrysosporium merdarium,108922,Ascomycota,Eurotiomycetes,Onygenales,Onygenaceae,Chrysosporium,saprotrophic/environmental onygenalean fungus; isolate-specific ecology NR,M4-FUNG-0459
+NCBITAXON:1353983,Cladonia macilenta KoLRI003786,1353983,Ascomycota,Lecanoromycetes,Lecanorales,Cladoniaceae,Cladonia,lichenized/symbiotic ascomycete; axenic mycobiont cultures used for transcript/metabolite contrast,M4-FUNG-0460
+NCBITAXON:1400770,Cladonia metacorallifera KoLRI002260,1400770,Ascomycota,NR,NR,NR,Cladonia,lichen-forming fungal mycobiont,M4-FUNG-0461
+NCBITAXON:5454,Ascochyta rabiei,5454,Ascomycota,Dothideomycetes,Pleosporales,Didymellaceae,Ascochyta,plant-associated/pathogenic fungus,M4-FUNG-0462
+NCBITAXON:1325723,Fusarium neocosmosporiellum,1325723,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,soil/dung-associated and opportunistic plant-associated fungus,M4-FUNG-0463
+NCBITAXON:746128,Aspergillus fumigatus MF071,746128,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,marine-derived fungal isolate,M4-FUNG-0464
+NCBITAXON:29916,Fusarium sp. RK97-94,29916,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,filamentous fungal isolate,M4-FUNG-0465
+NCBITAXON:5065,Aspergillus sp. TJ23,5065,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,filamentous fungal isolate,M4-FUNG-0466
+NCBITAXON:1087732,Chaetomium olivaceum SD-80A,1087732,Ascomycota,Sordariomycetes,Sordariales,Chaetomiaceae,Chaetomium,filamentous fungal isolate,M4-FUNG-0467
+NCBITAXON:2502037,Discosia rubi,2502037,Ascomycota,Sordariomycetes,NR,NR,Discosia,environmental fungal isolate,M4-FUNG-0468
+NCBITAXON:168477,Phialomyces arenicola (studied as Penicillium arenicola NRRL 8095),168477,Ascomycota,NR,NR,NR,Phialomyces,NR,M4-FUNG-0469
+NCBITAXON:38033,Chaetomium globosum,38033,Ascomycota,Sordariomycetes,Sordariales,Chaetomiaceae,Chaetomium,fungus associated with marine invertebrate,M4-FUNG-0470
+NCBITAXON:2828659,Parmelia sp. 050094,2828659,Ascomycota,Lecanoromycetes,Lecanorales,Parmeliaceae,Parmelia,lichen-forming ascomycete,M4-FUNG-0471
+NCBITAXON:2046025,Acremonium sp.,2046025,Ascomycota,Sordariomycetes,Hypocreales,NR,Acremonium,soil-associated filamentous ascomycete,M4-FUNG-0472
+NCBITAXON:5078,Penicillium griseofulvum,5078,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,saprotrophic filamentous fungus,M4-FUNG-0473
+NCBITAXON:136282,Pseudevernia furfuracea,136282,Ascomycota,Lecanoromycetes,Lecanorales,Parmeliaceae,Pseudevernia,lichen-forming ascomycete,M4-FUNG-0475
+NCBITAXON:2696576,Taiwanofungus camphoratus,2696576,Basidiomycota,Agaricomycetes,Polyporales,Fomitopsidaceae,Taiwanofungus,wood-decay basidiomycete,M4-FUNG-0477
+NCBITAXON:357447,Aspergillus westerdijkiae,357447,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,food-associated saprotroph,M4-FUNG-0479
+NCBITAXON:1287682,Aspergillus felis,1287682,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,filamentous fungus,M4-FUNG-0485
+NCBITAXON:40993,Aspergillus carbonarius,40993,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,food-associated filamentous fungus,M4-FUNG-0486
+NCBITAXON:306088,Aspergillus steynii,306088,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,food-associated filamentous fungus,M4-FUNG-0489
+NCBITAXON:1341132,Aspergillus welwitschiae,1341132,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,food-associated filamentous fungus,M4-FUNG-0490
+NCBITAXON:1810919,Aspergillus mulundensis,1810919,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,saprotrophic/environmental Aspergillus; isolate-specific ecological role of mulundocandin NR,M4-FUNG-0492
+NCBITAXON:904690,Penicillium shearii,904690,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,soil-associated saprotroph; P. shearii has tropical/subtropical soil associations,M4-FUNG-0494
+NCBITAXON:1813945,Penicillium sp. YT-2016,1813945,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,,M4-FUNG-0497
+NCBITAXON:1873369,Aspergillus hancockii,1873369,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,,M4-FUNG-0500
+NCBITAXON:77044,Rosellinia necatrix,77044,Ascomycota,Sordariomycetes,Xylariales,Xylariaceae,Rosellinia,,M4-FUNG-0501
+NCBITAXON:284135,Sarocladium oryzae,284135,Ascomycota,Sordariomycetes,Hypocreales,Sarocladiaceae,Sarocladium,plant-associated pathogenic fungus,M4-FUNG-0503
+NCBITAXON:2784450,Xylaria sp. 218_066,2784450,Ascomycota,Sordariomycetes,Xylariales,Xylariaceae,Xylaria,lichen-associated endophytic fungus,M4-FUNG-0504
+NCBITAXON:426428,Fusarium oxysporum f. sp. lycopersici 4287,426428,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,plant-pathogenic soilborne fungus,M4-FUNG-0505
+NCBITAXON:741705,Coniophora puteana RWD-64-598 SS2,741705,Basidiomycota,Agaricomycetes,Boletales,Coniophoraceae,Coniophora,saprotrophic wood-decay fungus,M4-FUNG-0506
+NCBITAXON:60169,Penicillium polonicum,60169,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,food-spoilage/mycotoxigenic fungus,M4-FUNG-0518
+NCBITAXON:1314807,Dendrothele bispora CBS 962.96,1314807,Basidiomycota,Agaricomycetes,Agaricales,Agaricales incertae sedis,Dendrothele,wood-associated/saprotrophic basidiomycete context; native ecological role of dendrothelin A not directly demonstrated,M4-FUNG-0519
+NCBITAXON:5353,Lentinula edodes,5353,Basidiomycota,Agaricomycetes,Agaricales,Omphalotaceae,Lentinula,wood-decaying saprotrophic basidiomycete,M4-FUNG-0520
+NCBITAXON:41067,Aspergillus candidus CBS 102.13,41067,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,saprotrophic filamentous fungus; native ecological role of aspcandine NR,M4-FUNG-0521
+NCBITAXON:293381,Penicillium bialowiezense CBS 227.28,293381,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,saprotrophic Penicillium; native ecological function of breviones NR,M4-FUNG-0523
+NCBITAXON:75552,Aspergillus duricaulis CBS 481.65,75552,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,filamentous saprotrophic fungus,M4-FUNG-0527
+NCBITAXON:2715282,Aspergillus luteorubrus MST-FP2246,2715282,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,soil-associated saprotrophic fungus,M4-FUNG-0528
+NCBITAXON:3077947,Pestalotiopsis sp. BRIP 39872,3077947,Ascomycota,Sordariomycetes,Xylariales,Sporocadaceae,Pestalotiopsis,plant-associated endophyte,M4-FUNG-0529
+NCBITAXON:469280,Aspergillus striatus ATCC 64988,469280,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,filamentous saprotroph,M4-FUNG-0530
+NCBITAXON:2911399,Ovatospora sp. SCSIO SY280D,2911399,Ascomycota,Sordariomycetes,Sordariales,Chaetomiaceae,Ovatospora,saprotrophic/marine-derived ascomycete,M4-FUNG-0531
+NCBITAXON:2003561,Penicillium meliponae MMSRG-058,2003561,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,endophytic fungus,M4-FUNG-0532
+NCBITAXON:5503,Curvularia lunata ATCC 74067,5503,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Curvularia,filamentous saprotrophic/pathogenic ascomycete,M4-FUNG-0533
+NCBITAXON:1810909,Aspergillus desertorum CBS 653.73,1810909,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,filamentous saprotrophic fungus,M4-FUNG-0535
+NCBITAXON:983644,Cordyceps militaris CM01,983644,Ascomycota,Sordariomycetes,Hypocreales,Cordycipitaceae,Cordyceps,entomopathogenic filamentous fungus,M4-FUNG-0536
+NCBITAXON:645133,Colletotrichum graminicola M1.001,645133,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum,hemibiotrophic plant pathogen,M4-FUNG-0539
+NCBITAXON:1756131,Arthrinium sp. NF2194,1756131,Ascomycota,Sordariomycetes,Amphisphaeriales,Apiosporaceae,Arthrinium,filamentous fungus,M4-FUNG-0540
+NCBITAXON:1835702,Penicillium arizonense IBT 12289,1835702,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,soil-borne filamentous fungus,M4-FUNG-0544
+NCBITAXON:1635095,Albophoma yamanashiensis (Tolypocladium album) FO-254,1635095,Ascomycota,Sordariomycetes,Hypocreales,Ophiocordycipitaceae,Albophoma,filamentous fungus,M4-FUNG-0545
+NCBITAXON:87276,Umbilicaria deusta,87276,Ascomycota,Lecanoromycetes,Umbilicariales,Umbilicariaceae,Umbilicaria,lichenized fungus,M4-FUNG-0546
+NCBITAXON:326622,Annulohypoxylon moriforme CBS 123579,326622,Ascomycota,Sordariomycetes,Xylariales,Hypoxylaceae,Annulohypoxylon,wood-associated fungus,M4-FUNG-0548
+NCBITAXON:1213857,Colletotrichum orbiculare 104-T (MAFF 240422),1213857,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum,phytopathogenic fungus,M4-FUNG-0549
+NCBITAXON:1079268,Dactylonectria alcacerensis CT-6,1079268,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Dactylonectria,endophytic fungus,M4-FUNG-0554
+NCBITAXON:2884823,Paramyrothecium sp. XJ0827,2884823,Ascomycota,Sordariomycetes,Hypocreales,Stachybotryaceae,Paramyrothecium,filamentous fungus,M4-FUNG-0555
+NCBITAXON:2211609,Fusarium scirpi CGMCC 3.3656,2211609,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,filamentous fungus,M4-FUNG-0556
+NCBITAXON:69781,Penicillium oxalicum MEFC104,69781,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,filamentous fungus,M4-FUNG-0557
+NCBITAXON:69789,Penicillium soppii CBS 869.70,69789,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,filamentous fungus,M4-FUNG-0558
+NCBITAXON:293374,Penicillium palitans NRRL 2033,293374,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,filamentous fungus,M4-FUNG-0559
+NCBITAXON:2041049,Cephalotrichum gorgonifer NG_p51,2041049,Ascomycota,Sordariomycetes,Microascales,Microascaceae,Cephalotrichum,filamentous fungus,M4-FUNG-0562
+NCBITAXON:3047880,Phaeosphaeriaceae sp. CF-150626,3047880,Ascomycota,Dothideomycetes,Pleosporales,Phaeosphaeriaceae,Phaeosphaeriaceae sp.,filamentous fungus,M4-FUNG-0563
+NCBITAXON:1126212,Macrophomina phaseolina MS6,1126212,Ascomycota,Dothideomycetes,Botryosphaeriales,Botryosphaeriaceae,Macrophomina,plant pathogen,M4-FUNG-0565
+NCBITAXON:69788,Penicillium sclerotiorum SNB-CN111,69788,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,symbiotic/associated fungus,M4-FUNG-0566
+NCBITAXON:36652,Penicillium crustosum PRB-2,36652,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,saprotrophic filamentous fungus,M4-FUNG-0568
+NCBITAXON:665912,Bipolaris sorokiniana ND90Pr,665912,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Bipolaris,phytopathogenic filamentous fungus,M4-FUNG-0571
+NCBITAXON:685557,Mortierella alpina ATCC 32222,685557,Mortierellomycota,Mortierellomycetes,Mortierellales,Mortierellaceae,Mortierella,saprotrophic soil fungus,M4-FUNG-0573
+NCBITAXON:1388766,Aspergillus ruber QEN-0407-G2 / genome reference CBS 135680,1388766,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,xerophilic/halotolerant Aspergillus species; QEN isolate studied as marine/endophytic fungus,M4-FUNG-0577
+NCBITAXON:201291,Penicillium brocae,201291,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,mangrove-derived endophytic fungus,M4-FUNG-0580
+NCBITAXON:2604179,Diaporthe sp. SYSU-MS4722,2604179,Ascomycota,Sordariomycetes,Diaporthales,Diaporthaceae,Diaporthe,marine-associated endophytic/ascidian-derived fungus,M4-FUNG-0581
+NCBITAXON:2633043,Phaeosphaeria sp. TTI001159,2633043,Ascomycota,Dothideomycetes,Pleosporales,Phaeosphaeriaceae,Phaeosphaeria,filamentous ascomycete; native ecological role of roseopurpurins unresolved,M4-FUNG-0582
+NCBITAXON:192010,Fusarium mangiferae,192010,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,plant-pathogenic Fusarium associated with mango malformation disease,M4-FUNG-0583
+NCBITAXON:2011797,Leptobacillium sp. CF-236968,2011797,Ascomycota,Sordariomycetes,Hypocreales,Cordycipitaceae,Leptobacillium,filamentous ascomycete; native ecological role of pycnidione unresolved,M4-FUNG-0584
+NCBITAXON:1718872,Stachybotrys sp. g12,1718872,Ascomycota,Sordariomycetes,Hypocreales,Stachybotryaceae,Stachybotrys,filamentous ascomycete; ecological role of stachysalicyloids unresolved,M4-FUNG-0585
+NCBITAXON:1955268,Jackrogersella multiformis,1955268,Ascomycota,Sordariomycetes,Xylariales,Hypoxylaceae,Jackrogersella,saprotrophic wood-associated xylariaceous fungus,M4-FUNG-0586
+NCBITAXON:2487000,Hypomontagnella monticulosa,2487000,Ascomycota,Sordariomycetes,Xylariales,Hypoxylaceae,Hypomontagnella,saprotrophic wood-associated fungus,M4-FUNG-0588
+NCBITAXON:1955266,Jackrogersella minutella,1955266,Ascomycota,Sordariomycetes,Xylariales,Hypoxylaceae,Jackrogersella,saprotrophic wood-associated xylariaceous fungus,M4-FUNG-0590
+NCBITAXON:425011,Aspergillus niger,425011,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,filamentous saprotrophic Aspergillus,M4-FUNG-0591
+NCBITAXON:756982,Arthrobotrys oligospora,756982,Ascomycota,Orbiliomycetes,Orbiliales,Orbiliaceae,Arthrobotrys,saprotrophic-to-predatory lifestyle transition with nematode-trap formation,M4-FUNG-0592
+ORG_3705c8ce96de,Pseudevernia furfuracea,NR,Ascomycota,Lecanoromycetes,Lecanorales,Parmeliaceae,Pseudevernia,lichen-forming symbiotic fungus,M4-FUNG-0595
+NCBITAXON:319629,Aspergillus brasiliensis,319629,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,saprotrophic filamentous fungus,M4-FUNG-0598
+NCBITAXON:660028,Fusarium oxysporum,660028,Ascomycota,Sordariomycetes,Hypocreales,Ophiocordycipitaceae,Tolypocladium,filamentous fungus,M4-FUNG-0599
+NCBITAXON:487627,Ascochyta viciae-villosae,487627,Ascomycota,Dothideomycetes,Pleosporales,Didymellaceae,Ascochyta,plant-associated/pathogenic Ascochyta fungus,M4-FUNG-0600
+NCBITAXON:948311,Fusarium proliferatum,948311,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,plant-associated/pathogenic Fusarium,M4-FUNG-0602
+NCBITAXON:474922,Colletotrichum gloeosporioides,474922,Ascomycota,NR,NR,NR,Colletotrichum,plant-associated fungal species,M4-FUNG-0606
+NCBITAXON:1037530,Periglandula ipomoeae,1037530,Ascomycota,NR,NR,NR,Periglandula,"obligate plant-symbiotic, nonculturable fungal symbiont",M4-FUNG-0607

@@ -1,0 +1,16 @@
+Normalization status category,TERM rows
+unreviewed,1142
+unresolved_type_mismatch,635
+unresolved_composite,511
+normalized,440
+normalized_partial,169
+unresolved_underspecified,37
+partial,28
+partial_normalization,27
+unresolved_outcome_defined,19
+unresolved,18
+unresolved_composite_type_mismatch,6
+unresolved_alternative,5
+unresolved_ambiguous,2
+partial_context_omitted,2
+unresolved_type_mismatch_composite,1

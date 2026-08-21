@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+title: "Fungal BGC Atlas: a curated, evidence-linked knowledge base of 609 literature- and MIBiG-derived fungal biosynthetic gene cluster dossiers"
+abstract: >-
+  A curated, evidence-linked knowledge base of 609 fungal biosynthetic gene
+  cluster (BGC) dossiers, each anchored to a MIBiG accession. Every dossier
+  resolves into genes, metabolites, experiments, measurements, claims and
+  curated subject-predicate-object relationships, all traceable to source
+  records through explicit evidence links, with disagreements and unresolved
+  normalization preserved as first-class records. Packaged as a relational
+  SQLite database, a knowledge graph, and a self-contained interactive web
+  dashboard.
+type: software
+version: 0.1.0
+license: CC-BY-4.0
+date-released: "2026-08-21"
+repository-code: "https://github.com/dr-richard-barker/fungal-bgc-atlas"
+url: "https://dr-richard-barker.github.io/fungal-bgc-atlas/"
+keywords:
+  - biosynthetic gene clusters
+  - fungal natural products
+  - MIBiG
+  - knowledge graph
+  - FAIR data
+  - curated database
+  - secondary metabolism
+  - evidence provenance
+  - mycology
+authors:
+  - family-names: Barker
+    given-names: Richard
+    orcid: "https://orcid.org/0000-0002-0002-0002"
+    affiliation: "University of Wisconsin-Madison"
+references:
+  - type: database
+    title: "MIBiG 3.0: a community-driven effort to annotate experimentally validated biosynthetic gene clusters"
+    authors:
+      - name: "Terlouw, Barbara R. et al."
+    doi: "10.1093/nar/gkac1049"
+    url: "https://academic.oup.com/nar/article/51/D1/D603/6833236"

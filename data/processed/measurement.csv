@@ -1,0 +1,937 @@
+measurement_key,dossier_id,measurement_id,subject_type,subject_id,analyte_raw,value_raw,value_numeric,unit_raw,denominator_raw,timepoint_raw,statistic_raw,n_raw,detection_limit_raw,direction_vs_control_raw,source_ids,note,source_row
+M4-FUNG-0001:Q001,M4-FUNG-0001,Q001,EXPERIMENT,M4-FUNG-0001:E002,AF-toxin I,0.08,0.08,pg,spore,6 h,reported approximate value,,~10 ng method detection limit,,S004,Do not convert pg/spore into volumetric titer without denominator data,141
+M4-FUNG-0002:Q001,M4-FUNG-0002,Q001,EXPERIMENT,M4-FUNG-0002:E001,aflR transcript abundance,11.6,11.6,%,A. parasiticus NFRI-95 control set to 100,2 days,relative qPCR value,3,NR,lower,S002,"RIB40; YES liquid culture, 30°C, 2 days with shaking. qPCR was run in triplicate per prepared cDNA.",154
+M4-FUNG-0002:Q002,M4-FUNG-0002,Q002,EXPERIMENT,M4-FUNG-0002:E002,RIB group-1 frequency,122,122.0,strains,210 strains,survey,0.581,,,,S002,All seven tested AF-cluster loci amplified.,155
+M4-FUNG-0002:Q003,M4-FUNG-0002,Q003,EXPERIMENT,M4-FUNG-0002:E002,RIB group-2 frequency,77,77.0,strains,210 strains,survey,0.367,,,,S002,Only a subset of tested cluster loci retained; large deletion class.,156
+M4-FUNG-0002:Q004,M4-FUNG-0002,Q004,EXPERIMENT,M4-FUNG-0002:E002,RIB group-3 frequency,9,9.0,strains,210 strains,survey,0.043,,,,S002,Distinct deletion pattern.,157
+M4-FUNG-0002:Q005,M4-FUNG-0002,Q005,EXPERIMENT,M4-FUNG-0002:E002,other genotype frequency,2,2.0,strains,210 strains,survey,0.009,,,,S002,Outside major groups.,158
+M4-FUNG-0003:Q001,M4-FUNG-0003,Q001,EXPERIMENT,M4-FUNG-0003:E001,sequenced genomic region length,82081,82081.0,bp,AY371490.1,sequence,exact,1,,,S002; S003,Includes core AF cluster plus adjacent sugar-utilization genes.,160
+M4-FUNG-0003:Q002,M4-FUNG-0003,Q002,EXPERIMENT,M4-FUNG-0003:E001,core aflatoxin pathway gene count,25,25.0,genes/ORFs,core ~70-kb AF cluster,sequence,reported,1,,,S003; S004,"Historical 2004 core count; later nadA evidence crosses that annotation boundary, so 25 genes should be read as a sequence-era core count rather than the final modern functional programme.",161
+M4-FUNG-0003:Q003,M4-FUNG-0003,Q003,EXPERIMENT,M4-FUNG-0003:E001,adjacent sugar-utilization gene count,4,4.0,genes,adjacent region,sequence,reported,1,,,S003,"Historical 2004 sequence annotation counted nadA, hxtA, glcA and sugR as the adjacent four-gene sugar-utilization block; later nadA disruption/enzymology demonstrates a G-aflatoxin role, so only the historical annotation—not a strict modern functional boundary—is being counted here.",162
+M4-FUNG-0003:Q004,M4-FUNG-0003,Q004,EXPERIMENT,M4-FUNG-0003:E005,nor-1 transcript,not detected,,qualitative,native-locus reporter/native gene,24 h,reported,,,,S008,No detectable aflatoxin at this time point in the reported time course.,163
+M4-FUNG-0003:Q005,M4-FUNG-0003,Q005,EXPERIMENT,M4-FUNG-0003:E005,nor-1 transcript / aflatoxin output,high,,qualitative,relative to 24 h,48–72 h,reported,,,increase,S008,Coincides with transition toward stationary phase.,164
+M4-FUNG-0003:Q006,M4-FUNG-0003,Q006,EXPERIMENT,M4-FUNG-0003:E006,cypA-disruption transformants lacking G1,6,6.0,transformants,tested disruption transformants described,3 days,count,,,,S009,B-aflatoxin production retained.,165
+M4-FUNG-0003:Q007,M4-FUNG-0003,Q007,EXPERIMENT,M4-FUNG-0003:E006,transformant retaining B1 + G1 phenotype,1,1.0,transformant,comparison transformant described,3 days,count,,,,S009,Used as contrast in disruption analysis.,166
+M4-FUNG-0004:Q001,M4-FUNG-0004,Q001,EXPERIMENT,M4-FUNG-0004:E001,AF13 sequence length,88318,88318.0,bp,AY510451.1,sequence,exact,1,,,S001; S002,,150
+M4-FUNG-0004:Q002,M4-FUNG-0004,Q002,EXPERIMENT,M4-FUNG-0004:E001,large proximal norB–cypA deletion,854,854.0,bp,relative to A. parasiticus reference,sequence,reported,1,,,S004,AF13 and NRRL3357 also carry a separate 32-bp norB coding-region deletion.,151
+M4-FUNG-0004:Q003,M4-FUNG-0004,Q003,EXPERIMENT,M4-FUNG-0004:E001,norB coding-region deletion,32,32.0,bp,AF13/NRRL3357,sequence,reported,1,,,S004,Located upstream of the larger deletion.,152
+M4-FUNG-0004:Q004,M4-FUNG-0004,Q004,EXPERIMENT,M4-FUNG-0004:E002,norB/cypA transcript,not detected,,qualitative,AF13,3 days,Northern result,,,absent,S004,No expression in AF13 under tested glucose or peptone minimal-salts conditions.,153
+M4-FUNG-0004:Q005,M4-FUNG-0004,Q005,EXPERIMENT,M4-FUNG-0004:E003,AFB1 in ground whole cottonseed,11.6,11.6,µg/culture,3.5 g ground seed in 70 mL culture,5 days,mean,4,,higher,S006,Reported ±7.8 µg/culture.,154
+M4-FUNG-0004:Q006,M4-FUNG-0004,Q006,EXPERIMENT,M4-FUNG-0004:E003,AFB1 in lipid-extracted ground cottonseed,0.014,0.014,µg/culture,3.5 g extracted seed in 70 mL culture,5 days,mean,4,,lower,S006,Reported ±0.008 µg/culture; >800-fold below whole-seed treatment.,155
+M4-FUNG-0004:Q007,M4-FUNG-0004,Q007,EXPERIMENT,M4-FUNG-0004:E003,AFB1 after crude-lipid reconstitution,13,13.0,µg/culture,lipid-extracted seed + restored crude lipid in 70 mL,5 days,mean,4,,restored,S006,Reported ±9.5 µg/culture.,156
+M4-FUNG-0004:Q008,M4-FUNG-0004,Q008,EXPERIMENT,M4-FUNG-0004:E003,AFB1 in raffinose reference medium,107,107.0,µg/culture,70 mL culture,5 days,mean,4,,,S006,Reported ±32.2 µg/culture.,157
+M4-FUNG-0004:Q009,M4-FUNG-0004,Q009,EXPERIMENT,M4-FUNG-0004:E003,AFB1 with crude cottonseed lipids as sole carbon source,534,534.0,ng/mL,defined medium,5 days,reported,,,,S006,,158
+M4-FUNG-0004:Q010,M4-FUNG-0004,Q010,EXPERIMENT,M4-FUNG-0004:E003,AFB1 with refined cottonseed oil as sole carbon source,704,704.0,ng/mL,defined medium,5 days,reported,,,,S006,,159
+M4-FUNG-0004:Q011,M4-FUNG-0004,Q011,EXPERIMENT,M4-FUNG-0004:E003,AFB1 in raffinose carbon-source reference,7490,7490.0,ng/mL,defined medium,5 days,reported,,,,S006,,160
+M4-FUNG-0004:Q012,M4-FUNG-0004,Q012,EXPERIMENT,M4-FUNG-0004:E003,AFB1 time-course peak,day 5,,day,7-day reserve-component fermentation,day 5,reported,,,increase then decline,S006,AFB1 increased from day 1 and declined after the day-5 peak.,161
+M4-FUNG-0004:Q013,M4-FUNG-0004,Q013,EXPERIMENT,M4-FUNG-0004:E004,AF13 vs NRRL3357 aflatoxin contamination,0.0447,0.0447,P value,Tifrunner kernel assay,endpoint,between-isolate comparison,,,AF13 higher,S005,Absolute aflatoxin amount not extracted in this pass.,162
+M4-FUNG-0004:Q014,M4-FUNG-0004,Q014,EXPERIMENT,M4-FUNG-0004:E007,aflatoxin B in AF13-only cotton bolls,>50,,µg/g,cotton locule/seed tissue,maturity,reported threshold,,,high,S008,Reported in all experiments for AF13-alone inoculations.,163
+M4-FUNG-0004:Q015,M4-FUNG-0004,Q015,EXPERIMENT,M4-FUNG-0004:E008,cypA disruption transformants lacking G1,6,6.0,transformants,selected A. parasiticus disruption transformants,3 days,count,,,,S004,B1 and minor B2 retained.,164
+M4-FUNG-0005:Q001,M4-FUNG-0005,Q001,EXPERIMENT,M4-FUNG-0005:E001,AFB1,6,6.0,µg,70-mL fermentation,5 d,mean,3,,urea higher,S002,"45 mM N, ammonium.",152
+M4-FUNG-0005:Q002,M4-FUNG-0005,Q002,EXPERIMENT,M4-FUNG-0005:E001,AFB1,940,940.0,µg,70-mL fermentation,5 d,mean,3,,urea higher,S002,"45 mM N, urea.",153
+M4-FUNG-0005:Q003,M4-FUNG-0005,Q003,EXPERIMENT,M4-FUNG-0005:E001,AFG1,0,0.0,µg,70-mL fermentation,5 d,mean,3,,urea higher,S002,"45 mM N, ammonium.",154
+M4-FUNG-0005:Q004,M4-FUNG-0005,Q004,EXPERIMENT,M4-FUNG-0005:E001,AFG1,270,270.0,µg,70-mL fermentation,5 d,mean,3,,urea higher,S002,"45 mM N, urea.",155
+M4-FUNG-0005:Q005,M4-FUNG-0005,Q005,EXPERIMENT,M4-FUNG-0005:E001,AFB1,16,16.0,µg,70-mL fermentation,5 d,mean,3,,urea higher,S002,"100 mM N, ammonium.",156
+M4-FUNG-0005:Q006,M4-FUNG-0005,Q006,EXPERIMENT,M4-FUNG-0005:E001,AFB1,1400,1400.0,µg,70-mL fermentation,5 d,mean,3,,urea higher,S002,"100 mM N, urea.",157
+M4-FUNG-0005:Q007,M4-FUNG-0005,Q007,EXPERIMENT,M4-FUNG-0005:E001,AFG1,0.04,0.04,µg,70-mL fermentation,5 d,mean,3,,urea higher,S002,"100 mM N, ammonium.",158
+M4-FUNG-0005:Q008,M4-FUNG-0005,Q008,EXPERIMENT,M4-FUNG-0005:E001,AFG1,1900,1900.0,µg,70-mL fermentation,5 d,mean,3,,urea higher,S002,"100 mM N, urea.",159
+M4-FUNG-0005:Q009,M4-FUNG-0005,Q009,EXPERIMENT,M4-FUNG-0005:E004,AFB1,15,15.0,µg/g dry mycelium,BN008R,4 d,reported,,,lower,S005,Initial pH 2.5; final pH 2.7.,160
+M4-FUNG-0005:Q010,M4-FUNG-0005,Q010,EXPERIMENT,M4-FUNG-0005:E004,AFG1,1,1.0,µg/g dry mycelium,BN008R,4 d,reported,,,lower,S005,Initial pH 2.5; final pH 2.7.,161
+M4-FUNG-0005:Q011,M4-FUNG-0005,Q011,EXPERIMENT,M4-FUNG-0005:E004,AFB1,793,793.0,µg/g dry mycelium,BN008R,4 d,reported,,,higher,S005,Initial pH 5.5; final pH 5.4.,162
+M4-FUNG-0005:Q012,M4-FUNG-0005,Q012,EXPERIMENT,M4-FUNG-0005:E004,AFG1,1820,1820.0,µg/g dry mycelium,BN008R,4 d,reported,,,higher,S005,Initial pH 5.5; final pH 5.4.,163
+M4-FUNG-0005:Q013,M4-FUNG-0005,Q013,EXPERIMENT,M4-FUNG-0005:E004,relative aflR expression,3,3.0,fold,pH2.5 baseline = 1,3 d,relative qRT-PCR,,,,S005,Initial pH 5.5.,164
+M4-FUNG-0005:Q014,M4-FUNG-0005,Q014,EXPERIMENT,M4-FUNG-0005:E004,relative pksA expression,5.5,5.5,fold,pH2.5 baseline = 1,3 d,relative qRT-PCR,,,,S005,Initial pH 5.5.,165
+M4-FUNG-0005:Q015,M4-FUNG-0005,Q015,EXPERIMENT,M4-FUNG-0005:E004,relative ordA expression,10.2,10.2,fold,pH2.5 baseline = 1,3 d,relative qRT-PCR,,,,S005,Initial pH 5.5.,166
+M4-FUNG-0005:Q016,M4-FUNG-0005,Q016,EXPERIMENT,M4-FUNG-0005:E004,aflR–aflatoxin correlation,0.25,0.25,r²,BN008R pH series,pH series,reported,,,weak,S005,P=0.5; product response not tightly correlated with aflR mRNA.,167
+M4-FUNG-0006:Q001,M4-FUNG-0006,Q001,EXPERIMENT,M4-FUNG-0006:E001,AFB1 relative production,4,4.0,fold,AF70 vs NRRL3357,endpoint,reported relative value,,,AF70 higher,S005,,150
+M4-FUNG-0006:Q002,M4-FUNG-0006,Q002,EXPERIMENT,M4-FUNG-0006:E001,AFB2 relative production,3.5,3.5,fold,AF70 vs NRRL3357,endpoint,reported relative value,,,AF70 higher,S005,,151
+M4-FUNG-0006:Q003,M4-FUNG-0006,Q003,EXPERIMENT,M4-FUNG-0006:E002,AFB1,455.79,455.79,ppm,AF70 on ground corn,10 d,ELISA,,13.05 ppb matrix LOD,higher,S006,,152
+M4-FUNG-0006:Q004,M4-FUNG-0006,Q004,EXPERIMENT,M4-FUNG-0006:E002,AFB1,43.67,43.67,ppm,AF70 in PDB,10 d,ELISA,,1.72 ppb matrix LOD,lower,S006,,153
+M4-FUNG-0006:Q005,M4-FUNG-0006,Q005,EXPERIMENT,M4-FUNG-0006:E002,aflatoxin-cluster genes among corn-upregulated sequences,17,17.0,genes/sequences,44 AF70-upregulated sequences,10 d,count,,,,S006,Upregulated relative to comparison used in the study.,154
+M4-FUNG-0006:Q006,M4-FUNG-0006,Q006,EXPERIMENT,M4-FUNG-0006:E002,AF70-specific EDNA e-probes,231,231.0,e-probes,upregulated AF70 targets,10 d,count,,,,S006,,155
+M4-FUNG-0006:Q007,M4-FUNG-0006,Q007,EXPERIMENT,M4-FUNG-0006:E002,AF70-corn e-probe HQMs,231,231.0,HQMs,AF70 corn transcriptome,10 d,count,,,,S006,AF70-PDB had 39 HQMs.,156
+M4-FUNG-0006:Q008,M4-FUNG-0006,Q008,EXPERIMENT,M4-FUNG-0006:E002,AF70-PDB e-probe HQMs,39,39.0,HQMs,AF70 PDB transcriptome,10 d,count,,,,S006,,157
+M4-FUNG-0006:Q009,M4-FUNG-0006,Q009,EXPERIMENT,M4-FUNG-0006:E003,AFB1,380,380.0,µg/g dry mycelium,AF70,4 d,reported,,,baseline-ish,S007,Initial pH 2.5; final pH ~2.7.,158
+M4-FUNG-0006:Q010,M4-FUNG-0006,Q010,EXPERIMENT,M4-FUNG-0006:E003,AFB1,370,370.0,µg/g dry mycelium,AF70,4 d,reported,,,,S007,Initial pH 3.5; final pH ~3.4.,159
+M4-FUNG-0006:Q011,M4-FUNG-0006,Q011,EXPERIMENT,M4-FUNG-0006:E003,AFB1,300,300.0,µg/g dry mycelium,AF70,4 d,reported,,,,S007,Initial pH 4.5; final pH ~4.3.,160
+M4-FUNG-0006:Q012,M4-FUNG-0006,Q012,EXPERIMENT,M4-FUNG-0006:E003,AFB1,1050,1050.0,µg/g dry mycelium,AF70,4 d,reported,,,higher,S007,Initial pH 5.5; final pH ~5.2.,161
+M4-FUNG-0006:Q013,M4-FUNG-0006,Q013,EXPERIMENT,M4-FUNG-0006:E003,AFG1,0,0.0,µg/g dry mycelium,AF70,all tested pH,reported,,,absent,S007,Consistent with B-only cluster architecture.,162
+M4-FUNG-0006:Q014,M4-FUNG-0006,Q014,EXPERIMENT,M4-FUNG-0006:E007,cluster transition/transversion differences,1192,1192.0,variants,AF70 vs NRRL3357 cluster alignment,sequence,count,,,,S005,1.78% of aligned cluster sequence.,163
+M4-FUNG-0006:Q015,M4-FUNG-0006,Q015,EXPERIMENT,M4-FUNG-0006:E007,AF70 deleted bases in cluster alignment,742,742.0,bp,AF70 vs NRRL3357,sequence,count,,,,S005,1.11% of alignment.,164
+M4-FUNG-0007:Q001,M4-FUNG-0007,Q001,EXPERIMENT,M4-FUNG-0007:E002,MIBiG flanked region length,75352,75352.0,bp,AY510454.1,sequence,exact,1,,,S001,,152
+M4-FUNG-0007:Q002,M4-FUNG-0007,Q002,EXPERIMENT,M4-FUNG-0007:E002,core first-to-last CDS span,68362,68362.0,bp,norB start to hypA end,sequence,derived from coordinates,1,,,S001; S012,"6,862–75,223 inclusive; equals FunBGCs reported length.",153
+M4-FUNG-0007:Q003,M4-FUNG-0007,Q003,EXPERIMENT,M4-FUNG-0007:E005,draft genome size,36,36.0,Mb,NRRL 13137 genome,genome,approximate,1,,,S005,,154
+M4-FUNG-0007:Q004,M4-FUNG-0007,Q004,EXPERIMENT,M4-FUNG-0007:E005,predicted protein-coding genes,11918,11918.0,genes,NRRL 13137 genome,genome,reported,1,,,S005,,155
+M4-FUNG-0007:Q005,M4-FUNG-0007,Q005,EXPERIMENT,M4-FUNG-0007:E005,genome sequencing coverage,42,42.0,×,NRRL 13137,genome,reported,1,,,S005,,156
+M4-FUNG-0007:Q006,M4-FUNG-0007,Q006,EXPERIMENT,M4-FUNG-0007:E005,MAT idiomorphs detected,1,1.0,idiomorph,NRRL 13137,genome,reported,1,,,S005,MAT1-1 only.,157
+M4-FUNG-0007:Q007,M4-FUNG-0007,Q007,EXPERIMENT,M4-FUNG-0007:E003,spore-density range tested,100,100.0,to 1e6 spores/mL,NRRL 13137,3 d,range,,,,S006,,158
+M4-FUNG-0007:Q008,M4-FUNG-0007,Q008,EXPERIMENT,M4-FUNG-0007:E003,PMS density threshold for strong inhibition,≥1e5,,spores/mL,NRRL 13137 in 5% peptone PMS,3 d,qualitative threshold,,,lower toxin,S006,,159
+M4-FUNG-0007:Q009,M4-FUNG-0007,Q009,EXPERIMENT,M4-FUNG-0007:E004,stilbenoid treatment concentration,0.3,0.3,mM,arachidin-1 or arachidin-3,24–120 h,reported,,,,S007,Arachidin-3 = 88.8 µg/mL at this concentration in the study.,160
+M4-FUNG-0007:Q010,M4-FUNG-0007,Q010,EXPERIMENT,M4-FUNG-0007:E006,temperature of maximum growth / aflR-aflD-aflQ expression,30,30.0,°C,seven A. nomiae Brazil-nut isolates,study endpoint,group result,,,,S009,Comparative species-level evidence.,161
+M4-FUNG-0007:Q011,M4-FUNG-0007,Q011,EXPERIMENT,M4-FUNG-0007:E006,temperature of maximum B/G aflatoxin production,25,25.0,°C,seven A. nomiae Brazil-nut isolates,study endpoint,group result,,,,S009,Shows expression optimum ≠ product optimum.,162
+M4-FUNG-0007:Q012,M4-FUNG-0007,Q012,EXPERIMENT,M4-FUNG-0007:E007,first detectable cluster expression,day 2,,day,two Brazil-nut A. nomiae isolates,time course,reported,,,,S010,,163
+M4-FUNG-0007:Q013,M4-FUNG-0007,Q013,EXPERIMENT,M4-FUNG-0007:E007,first detectable AFB1 + AFG1,day 3,,day,two Brazil-nut A. nomiae isolates,time course,reported,,,,S010,,164
+M4-FUNG-0007:Q014,M4-FUNG-0007,Q014,EXPERIMENT,M4-FUNG-0007:E007,first detection of all four B1/B2/G1/G2,day 4,,day,two Brazil-nut A. nomiae isolates,time course,reported,,,,S010,Approximate production ordering G1>B1>G2>B2 thereafter.,165
+M4-FUNG-0008:Q001,M4-FUNG-0008,Q001,EXPERIMENT,M4-FUNG-0008:E001,aflC/pksA causal SNP position,591,591.0,nt,coding sequence from translational start,sequence,exact,1,,,S003,G→A substitution.,150
+M4-FUNG-0008:Q002,M4-FUNG-0008,Q002,EXPERIMENT,M4-FUNG-0008:E001,aflC/pksA nucleotide change,G→A,,substitution,AF13→AF36 comparison,sequence,reported,1,,,S003,Creates premature stop codon.,151
+M4-FUNG-0008:Q003,M4-FUNG-0008,Q003,EXPERIMENT,M4-FUNG-0008:E001,predicted truncated PksA stop position,176,176.0,amino acid,PksA coding sequence,sequence,derived from reported W→STOP at aa176,1,,,S003,Very early truncation relative to the full multidomain PKS.,152
+M4-FUNG-0008:Q004,M4-FUNG-0008,Q004,EXPERIMENT,M4-FUNG-0008:E002,Group A complete-gene-set genotypes,17,17.0,genotypes,35 non-aflatoxigenic A. flavus genotypes,comparative sequencing,0.49,,,,S005,AF36 belongs to this group.,153
+M4-FUNG-0008:Q005,M4-FUNG-0008,Q005,EXPERIMENT,M4-FUNG-0008:E003,YV36 isolates in Mexican survey,59,59.0,isolates,">3,500 A. flavus isolates screened",2005–2008,0.016,,,,S007,All carried MAT1-2 and aflC atoxigenicity SNP.,154
+M4-FUNG-0008:Q006,M4-FUNG-0008,Q006,EXPERIMENT,M4-FUNG-0008:E003,YV36 isolates with additional cluster degeneration,3,3.0,isolates,59 YV36 isolates,survey,count,,,,S007,Additional lesions beyond the defining aflC SNP.,155
+M4-FUNG-0008:Q007,M4-FUNG-0008,Q007,EXPERIMENT,M4-FUNG-0008:E004,maximum YV36 proportion in treated soil,93,93.0,% of A. flavus isolates,treated commercial pistachio orchards,multi-year,reported maximum,,,increase,S009,After repeated AF36 applications.,156
+M4-FUNG-0008:Q008,M4-FUNG-0008,Q008,EXPERIMENT,M4-FUNG-0008:E004,aflatoxin-positive sample reduction,20,20.0,to 45 %,treated vs untreated commercial pistachio orchards,year-dependent,reported range,,,reduction,S009,Range depended on year.,157
+M4-FUNG-0008:Q009,M4-FUNG-0008,Q009,EXPERIMENT,M4-FUNG-0008:E001,RNA loaded per Northern lane,10,10.0,µg,total RNA,3-day culture,reported,,,,S003,From figure/method description.,158
+M4-FUNG-0009:Q001,M4-FUNG-0009,Q001,EXPERIMENT,M4-FUNG-0009:E003,MIBiG/GenBank region length,59535,59535.0,bp,AY092402.3,sequence,exact,1,,,S001; S002,,154
+M4-FUNG-0009:Q002,M4-FUNG-0009,Q002,EXPERIMENT,M4-FUNG-0009:E003,MIBiG CDS count,26,26.0,CDSs,BGC0000011,sequence,count,1,,,S001,Excludes extra-cluster aflQ.,155
+M4-FUNG-0009:Q003,M4-FUNG-0009,Q003,EXPERIMENT,M4-FUNG-0009:E003,nucleotide identity to A. nidulans ST-cluster homologs,62,62.0,to 76 %,cluster genes,sequence comparison,reported range,,,,S004,,156
+M4-FUNG-0009:Q004,M4-FUNG-0009,Q004,EXPERIMENT,M4-FUNG-0009:E005,Ao AflQ amino-acid identity to A. flavus AflQ,57,57.0,%,protein sequence,sequence comparison,reported,,,,S006,,157
+M4-FUNG-0009:Q005,M4-FUNG-0009,Q005,EXPERIMENT,M4-FUNG-0009:E002,production-assay duration,7,7.0,days,YES/PDA cultures,endpoint,reported,,,,S005,,158
+M4-FUNG-0009:Q006,M4-FUNG-0009,Q006,EXPERIMENT,M4-FUNG-0009:E002,growth at 37°C,not detected,,qualitative,A. ochraceoroseus among tested non-Flavi AF producers,37°C,reported,,,absent,S005,,159
+M4-FUNG-0010:Q001,M4-FUNG-0010,Q001,EXPERIMENT,M4-FUNG-0010:E001,MIBiG region length,21971,21971.0,bp,AB120221.1,sequence,exact,1,,,S001,,135
+M4-FUNG-0010:Q002,M4-FUNG-0010,Q002,EXPERIMENT,M4-FUNG-0010:E001,cluster CDS count,5,5.0,genes,alt1–alt5,sequence,count,1,,,S001; S003,,136
+M4-FUNG-0010:Q003,M4-FUNG-0010,Q003,EXPERIMENT,M4-FUNG-0010:E002,Alt5 CDS span,7832,7832.0,bp,11261–19092 inclusive,sequence,derived,1,,,S001,,137
+M4-FUNG-0010:Q004,M4-FUNG-0010,Q004,EXPERIMENT,M4-FUNG-0010:E003,polyketide chain length,10,10.0,acetate-derived units,alternapyrone backbone,biosynthetic labeling,decaketide,,,,S003,,138
+M4-FUNG-0010:Q005,M4-FUNG-0010,Q005,EXPERIMENT,M4-FUNG-0010:E003,methyl substituents,8,8.0,methyl groups,alternapyrone,biosynthetic labeling,methionine-derived,,,,S003,,139
+M4-FUNG-0010:Q006,M4-FUNG-0010,Q006,EXPERIMENT,M4-FUNG-0010:E003,C-methyltransferase programming events,8,8.0,iterations,PKSN synthesis,biosynthetic interpretation,reported,,,,S003,,140
+M4-FUNG-0010:Q007,M4-FUNG-0010,Q007,EXPERIMENT,M4-FUNG-0010:E003,ketoreduction events,7,7.0,iterations,PKSN synthesis,biosynthetic interpretation,reported,,,,S003,,141
+M4-FUNG-0010:Q008,M4-FUNG-0010,Q008,EXPERIMENT,M4-FUNG-0010:E003,dehydration events,7,7.0,iterations,PKSN synthesis,biosynthetic interpretation,reported,,,,S003,,142
+M4-FUNG-0010:Q009,M4-FUNG-0010,Q009,EXPERIMENT,M4-FUNG-0010:E003,enoyl-reduction events,4,4.0,iterations,PKSN synthesis,biosynthetic interpretation,reported,,,,S003,,143
+M4-FUNG-0010:Q010,M4-FUNG-0010,Q010,UNRESOLVED_REFERENCE,M001,alternapyrone molecular formula,C28H44O3,,formula,compound,structure,exact,,,,S001; S007,,144
+M4-FUNG-0010:Q011,M4-FUNG-0010,Q011,UNRESOLVED_REFERENCE,M001,reported murine-myeloma MIC,3.1,3.1,µg/mL,later alternapyrone bioactivity assay,endpoint,MIC,,,,S007,Compound-level activity; not A. solani ecological function.,145
+M4-FUNG-0010:Q012,M4-FUNG-0010,Q012,UNRESOLVED_REFERENCE,M001,reported neonatal-foreskin-fibroblast MIC,25,25.0,µg/mL,later alternapyrone bioactivity assay,endpoint,MIC,,,,S007,Approximately eightfold less active than against murine myeloma in that assay.,146
+M4-FUNG-0011:Q001,M4-FUNG-0011,Q001,EXPERIMENT,M4-FUNG-0011:E003,MIBiG displayed-region length,45963,45963.0,bp,"chromosome IV 1,099,810–1,145,772",sequence,derived inclusive,1,,,S001,,135
+M4-FUNG-0011:Q002,M4-FUNG-0011,Q002,EXPERIMENT,M4-FUNG-0011:E003,compact pkgA/pkgB locus span,7849,7849.0,bp,"1,119,810–1,127,658",sequence,derived inclusive,1,,,S001,,136
+M4-FUNG-0011:Q003,M4-FUNG-0011,Q003,EXPERIMENT,M4-FUNG-0011:E003,functional CDS count,2,2.0,genes,pkgA + pkgB,sequence/function,count,1,,,S001; S003,,137
+M4-FUNG-0011:Q004,M4-FUNG-0011,Q004,EXPERIMENT,M4-FUNG-0011:E001,TF promoter-replacement configurations yielding detectable new product,0,0.0,configurations,"ANID_07061.1, AN7073.3, and combined induction",screen,count,,,negative,S003,,138
+M4-FUNG-0011:Q005,M4-FUNG-0011,Q005,EXPERIMENT,M4-FUNG-0011:E002,PkgA-only product abundance,low,,qualitative,induced culture,screen,reported,,,increase from control,S003,Several compounds detected but insufficient yield for straightforward isolation.,139
+M4-FUNG-0011:Q006,M4-FUNG-0011,Q006,EXPERIMENT,M4-FUNG-0011:E003,PkgA+PkgB product yield change,dramatic increase,,qualitative,relative to pkgA-only induction,screen,reported,,,higher,S003,Authors explicitly report dramatically increased yield.,140
+M4-FUNG-0011:Q007,M4-FUNG-0011,Q007,EXPERIMENT,M4-FUNG-0011:E003,major isolated products,2,2.0,major compounds,alternariol + dehydrocitreoisocoumarin,scale-up,count,,,,S003,Four additional minor isocoumarins also isolated.,141
+M4-FUNG-0011:Q008,M4-FUNG-0011,Q008,EXPERIMENT,M4-FUNG-0011:E003,minor isolated products,4,4.0,compounds,compounds 10–13,scale-up,count,,,,S003,Two heptaketide and two hexaketide isocoumarins.,142
+M4-FUNG-0011:Q009,M4-FUNG-0011,Q009,EXPERIMENT,M4-FUNG-0011:E005,heterologous comparator culture time,72,72.0,h,SnPKS19-expressing A. nidulans,culture,reported,,,,S005,,143
+M4-FUNG-0011:Q010,M4-FUNG-0011,Q010,EXPERIMENT,M4-FUNG-0011:E005,heterologous comparator temperature,28,28.0,°C,SnPKS19-expressing A. nidulans,culture,reported,,,,S005,,144
+M4-FUNG-0012:Q001,M4-FUNG-0012,Q001,EXPERIMENT,M4-FUNG-0012:E001,MIBiG displayed-region length,60868,60868.0,bp,"AACD01000015.1:109,597–170,464",sequence,derived inclusive,1,,,S001,,138
+M4-FUNG-0012:Q002,M4-FUNG-0012,Q002,EXPERIMENT,M4-FUNG-0012:E001,MIBiG locus-feature length,41240,41240.0,bp,"111,993–153,232",sequence,derived inclusive,1,,,S001,,139
+M4-FUNG-0012:Q003,M4-FUNG-0012,Q003,EXPERIMENT,M4-FUNG-0012:E002,functional seven-gene interval span,32618,32618.0,bp,"afoA start 117,847 to afoG end 150,464",sequence,derived inclusive,1,,,S001; S003,Includes interposed but dispensable AN1030.,140
+M4-FUNG-0012:Q004,M4-FUNG-0012,Q004,EXPERIMENT,M4-FUNG-0012:E002,MIBiG CDS count,11,11.0,CDSs,displayed/locus annotation,sequence,count,1,,,S001,,141
+M4-FUNG-0012:Q005,M4-FUNG-0012,Q005,EXPERIMENT,M4-FUNG-0012:E002,genes whose deletion abolished asperfuranone,4,4.0,genes,"afoD, afoE, afoF, afoG",deletion panel,count,,,,S003,,142
+M4-FUNG-0012:Q006,M4-FUNG-0012,Q006,EXPERIMENT,M4-FUNG-0012:E002,genes whose deletion strongly reduced asperfuranone,2,2.0,genes,"afoB, afoC",deletion panel,count,,,,S003,,143
+M4-FUNG-0012:Q007,M4-FUNG-0012,Q007,EXPERIMENT,M4-FUNG-0012:E002,functional genes identified as required/supportive,7,7.0,genes,afoA + afoB–afoG,pathway assignment,count,,,,S003; S004,afoA is regulatory; biochemical deletion series covers B–G.,144
+M4-FUNG-0012:Q008,M4-FUNG-0012,Q008,UNRESOLVED_REFERENCE,G010,AfoG malonyl-CoA additions,3,3.0,malonyl-CoA,starter-unit synthesis,biosynthetic model,reported,,,,S003; S007,Plus acetyl-CoA starter.,145
+M4-FUNG-0012:Q009,M4-FUNG-0012,Q009,UNRESOLVED_REFERENCE,G010,AfoG SAM methylations,2,2.0,SAM-derived methylations,starter-unit synthesis,biosynthetic model,reported,,,,S003; S007,,146
+M4-FUNG-0012:Q010,M4-FUNG-0012,Q010,UNRESOLVED_REFERENCE,G008,AfoE malonyl-CoA extensions,4,4.0,malonyl-CoA,AfoG starter extension,biosynthetic model,reported,,,,S003,,147
+M4-FUNG-0012:Q011,M4-FUNG-0012,Q011,UNRESOLVED_REFERENCE,G008,AfoE SAM methylations,1,1.0,SAM-derived methylation,AfoG starter extension,biosynthetic model,reported,,,,S003,,148
+M4-FUNG-0012:Q012,M4-FUNG-0012,Q012,EXPERIMENT,M4-FUNG-0012:E007,asperfuranone A549 IC50,15.3,15.3,µM,cell-proliferation assay,dose response,IC50,3 independent experiments,NR,inhibition,S005,,149
+M4-FUNG-0012:Q013,M4-FUNG-0012,Q013,EXPERIMENT,M4-FUNG-0012:E007,A549 proliferation inhibition at 20 µM,64.5,64.5,%,A549 cells,reported dose point,mean,,,inhibition,S005,,150
+M4-FUNG-0012:Q014,M4-FUNG-0012,Q014,EXPERIMENT,M4-FUNG-0012:E007,cell-cycle/apoptosis assay doses,15 and 20,,µM,A549 cells,24–48 h,reported,,,,S005,,151
+M4-FUNG-0013:Q001,M4-FUNG-0013,Q001,EXPERIMENT,M4-FUNG-0013:E006,M. pilosus deposited region length,80000,80000.0,bp,KC148521.1,sequence,exact,1,,,S001; S002,,151
+M4-FUNG-0013:Q002,M4-FUNG-0013,Q002,EXPERIMENT,M4-FUNG-0013:E006,MIBiG CDS count,24,24.0,CDSs,BGC0000027,sequence,count,1,,,S001,,152
+M4-FUNG-0013:Q003,M4-FUNG-0013,Q003,EXPERIMENT,M4-FUNG-0013:E001,mppR1 transcription in W13,strongly repressed,,qualitative,W13 vs WT,endpoint,reported,,,lower,S003,,153
+M4-FUNG-0013:Q004,M4-FUNG-0013,Q004,EXPERIMENT,M4-FUNG-0013:E001,MpPKS5 transcription in W13,strongly repressed,,qualitative,W13 vs WT,endpoint,reported,,,lower,S003,,154
+M4-FUNG-0013:Q005,M4-FUNG-0013,Q005,EXPERIMENT,M4-FUNG-0013:E002,MpPKS5 knockout pigmentation,albino,,qualitative,BIJ-4 vs WT,endpoint,reported,,,loss,S003,,155
+M4-FUNG-0013:Q006,M4-FUNG-0013,Q006,EXPERIMENT,M4-FUNG-0013:E003,cellular C16/C18 fatty-acyl pool after fasB2 deletion,no significant difference,,qualitative,F9 vs WT,endpoint,GC analysis,,,unchanged,S004,Supports dedicated secondary-metabolic FAS role.,156
+M4-FUNG-0013:Q007,M4-FUNG-0013,Q007,EXPERIMENT,M4-FUNG-0013:E004,mppE deletion effect on orange/red pigment,enhanced,,qualitative,ΔmppE vs WT,endpoint,reported,,,higher,S005,,157
+M4-FUNG-0013:Q008,M4-FUNG-0013,Q008,EXPERIMENT,M4-FUNG-0013:E004,mppE overexpression effect on yellow pigment,enhanced,,qualitative,OV-mppE vs WT,endpoint,reported,,,higher,S005,Culture-method dependent.,158
+M4-FUNG-0013:Q009,M4-FUNG-0013,Q009,EXPERIMENT,M4-FUNG-0013:E005,orange pigment production after mppG deletion,severely impaired,,qualitative,ΔmppG vs WT,endpoint,reported,,,lower,S006,Yellow pigment level not significantly altered.,159
+M4-FUNG-0013:Q010,M4-FUNG-0013,Q010,EXPERIMENT,M4-FUNG-0013:E005,monascin→rubropunctatin conversion in ΔMpPKS5 feeding assay,not observed,,qualitative,Y-1 feeding,endpoint,reported,,,absent,S006,Argues against a simple yellow-to-orange conversion route mediated by MppG.,160
+M4-FUNG-0014:Q001,M4-FUNG-0014,Q001,EXPERIMENT,M4-FUNG-0014:E001,MIBiG displayed-region length,46271,46271.0,bp,"HF679027.1:82,202–128,472",sequence,derived inclusive,1,,,S001,,136
+M4-FUNG-0014:Q002,M4-FUNG-0014,Q002,EXPERIMENT,M4-FUNG-0014:E001,MIBiG locus-feature length,18435,18435.0,bp,"100,853–119,287",sequence,derived inclusive,1,,,S001,,137
+M4-FUNG-0014:Q003,M4-FUNG-0014,Q003,EXPERIMENT,M4-FUNG-0014:E001,bik1–bik6 core span,17086,17086.0,bp,"102,202–119,287",sequence,derived inclusive,1,,,S001; S003,,138
+M4-FUNG-0014:Q004,M4-FUNG-0014,Q004,EXPERIMENT,M4-FUNG-0014:E003,characterized bik genes,6,6.0,genes,bik1–bik6,cluster,count,1,,,S003,,139
+M4-FUNG-0014:Q005,M4-FUNG-0014,Q005,EXPERIMENT,M4-FUNG-0014:E005,acidic low-nitrogen glutamine condition,6,6.0,mM glutamine,IMI58289,condition,reported,,,,S006,Bikaverin-favoring condition.,140
+M4-FUNG-0014:Q006,M4-FUNG-0014,Q006,EXPERIMENT,M4-FUNG-0014:E007,bikaverin protonated ion,383,383.0,m/z,MALDI-TOF IMS,72 h,reported,,,,S008,Na/K adducts at m/z 405/421 also mapped to pigment zone.,141
+M4-FUNG-0014:Q007,M4-FUNG-0014,Q007,EXPERIMENT,M4-FUNG-0014:E007,coculture imaging time,72,72.0,h,F. fujikuroi–Ralstonia interaction,interaction,reported,,,,S008,Pigmentation visible by this point.,142
+M4-FUNG-0014:Q008,M4-FUNG-0014,Q008,EXPERIMENT,M4-FUNG-0014:E009,WT chlamydospores colonized by Ralstonia,1.95,1.95,%,observed WT chlamydospores,endpoint,proportion,154,,lower,S008,,143
+M4-FUNG-0014:Q009,M4-FUNG-0014,Q009,EXPERIMENT,M4-FUNG-0014:E009,Δbik1 chlamydospores colonized by Ralstonia,6.65,6.65,%,observed Δbik1 chlamydospores,endpoint,proportion,301,,higher,S008,,144
+M4-FUNG-0014:Q010,M4-FUNG-0014,Q010,EXPERIMENT,M4-FUNG-0014:E009,colonization chi-square P value,0.031,0.031,P value,WT vs Δbik1 colonized/uncolonized chlamydospores,endpoint,chi-square,,,,S008,"χ²=4.682, df=1.",145
+M4-FUNG-0014:Q011,M4-FUNG-0014,Q011,EXPERIMENT,M4-FUNG-0014:E009,total bacterial-burden comparison P value,0.315,0.315,P value,GFP fluorescence area,endpoint,comparison,,,,S008,"Frequency of invasion differed, but total fluorescence burden across all spores did not.",146
+M4-FUNG-0014:Q012,M4-FUNG-0014,Q012,EXPERIMENT,M4-FUNG-0014:E008,purified-ralsolamycin bikaverin assay replicates,7,7.0,biological replicates,HPLC quantification,endpoint,n,,,,S008,,147
+M4-FUNG-0014:Q013,M4-FUNG-0014,Q013,EXPERIMENT,M4-FUNG-0014:E008,ralsolamycin effect under high nitrogen,approached low-N WT,,qualitative,bikaverin amount,endpoint,reported,,,increase,S008,Signal largely overrides nutritional repression.,148
+M4-FUNG-0015:Q001,M4-FUNG-0015,Q001,EXPERIMENT,M4-FUNG-0015:E001,MIBiG displayed-region length,47821,47821.0,bp,"119,085–166,905",sequence,derived inclusive,1,,,S001,,137
+M4-FUNG-0015:Q002,M4-FUNG-0015,Q002,EXPERIMENT,M4-FUNG-0015:E001,MIBiG locus-feature length,7821,7821.0,bp,"139,085–146,905",sequence,derived inclusive,1,,,S001,Essentially cicF alone.,138
+M4-FUNG-0015:Q003,M4-FUNG-0015,Q003,EXPERIMENT,M4-FUNG-0015:E002,deletion-defined required local genes,7,7.0,genes,cicA/B/C/D/E/F/H,deletion panel,count,,,,S003,cicG is physically internal but nonessential under assay.,139
+M4-FUNG-0015:Q004,M4-FUNG-0015,Q004,EXPERIMENT,M4-FUNG-0015:E002,cicG deletion effect,cichorine retained,,qualitative,cicGΔ vs parental,5 days,HPLC,,,no loss,S003,,140
+M4-FUNG-0015:Q005,M4-FUNG-0015,Q005,EXPERIMENT,M4-FUNG-0015:E001,YES cultivation temperature,37,37.0,°C,A. nidulans cultures,5 days,reported,,,,S003,,141
+M4-FUNG-0015:Q006,M4-FUNG-0015,Q006,EXPERIMENT,M4-FUNG-0015:E001,YES cultivation duration,5,5.0,days,A. nidulans cultures,endpoint,reported,,,,S003,,142
+M4-FUNG-0015:Q007,M4-FUNG-0015,Q007,EXPERIMENT,M4-FUNG-0015:E001,inoculum per 150-mm plate,10000000,10000000.0,spores,YES agar plate,start,reported,,,,S003,,143
+M4-FUNG-0015:Q008,M4-FUNG-0015,Q008,EXPERIMENT,M4-FUNG-0015:E003,acidified extraction pH,2,2.0,pH units,cicBΔ/cicCΔ aqueous fraction,isolation,reported,,,,S003,Required to recover acidic intermediates.,144
+M4-FUNG-0015:Q009,M4-FUNG-0015,Q009,UNRESOLVED_REFERENCE,M001,cichorine LC/MS m/z,194.4,194.4,m/z [M+H]+,purified cichorine,LC/MS,observed,,,,S003,Calculated 194.1.,145
+M4-FUNG-0015:Q010,M4-FUNG-0015,Q010,UNRESOLVED_REFERENCE,M002,3-methylorsellinic-acid LC/MS m/z,181.2,181.2,m/z [M-H]-,purified intermediate,LC/MS,observed,,,,S003,Calculated 181.1.,146
+M4-FUNG-0015:Q011,M4-FUNG-0015,Q011,UNRESOLVED_REFERENCE,M003,nidulol LC/MS m/z,193.6,193.6,m/z [M-H]-,purified intermediate,LC/MS,observed,,,,S003,Calculated 193.1.,147
+M4-FUNG-0015:Q012,M4-FUNG-0015,Q012,EXPERIMENT,M4-FUNG-0015:E006,major BGCs deleted in genetic-dereplication chassis,8,8.0,BGCs,LO8030 platform,engineering,reported,,,,S005,More than 244 kb deleted in total in the dereplication strategy.,148
+M4-FUNG-0015:Q013,M4-FUNG-0015,Q013,EXPERIMENT,M4-FUNG-0015:E005,phytotoxic analogue assay concentration,0.005,0.005,M,Zea mays / Medicago polymorpha leaf bioassay,endpoint,reported,,,,S006,Used for the three 2019 novel cichorine analogues.,149
+M4-FUNG-0016:Q001,M4-FUNG-0016,Q001,EXPERIMENT,M4-FUNG-0016:E001,MIBiG region length,38231,38231.0,bp,AB072893.1,sequence,exact,1,,,S001,,134
+M4-FUNG-0016:Q002,M4-FUNG-0016,Q002,EXPERIMENT,M4-FUNG-0016:E001,cluster gene count,9,9.0,genes,mlcH/G/F/A/C/B/D/E/R,cluster,count,1,,,S001,,135
+M4-FUNG-0016:Q003,M4-FUNG-0016,Q003,EXPERIMENT,M4-FUNG-0016:E002,cosmid functional genes highlighted,7,7.0,genes,mlcA–F + mlcR,engineering construct,reported,1,,,S004,,136
+M4-FUNG-0016:Q004,M4-FUNG-0016,Q004,EXPERIMENT,M4-FUNG-0016:E004,MlcR high-copy production increase,50,50.0,percent,compactin,engineered high-copy regulator strain,reported,,,increase,S006,,137
+M4-FUNG-0016:Q005,M4-FUNG-0016,Q005,UNRESOLVED_REFERENCE,M001,compactin formula,C23H36O6,,formula,compound,structure,exact,,,,S001,,138
+M4-FUNG-0017:Q001,M4-FUNG-0017,Q001,EXPERIMENT,M4-FUNG-0017:E002,cloned locus length,31000,31000.0,bp,JX971534.1,sequence,exact,1,,,S001; S002,,135
+M4-FUNG-0017:Q002,M4-FUNG-0017,Q002,EXPERIMENT,M4-FUNG-0017:E002,MIBiG CDS count,8,8.0,CDSs,BGC0000045,sequence,count,1,,,S001,,136
+M4-FUNG-0017:Q003,M4-FUNG-0017,Q003,EXPERIMENT,M4-FUNG-0017:E002,minimal directly demonstrated biosynthetic genes,2,2.0,genes,curS1 + curS2,heterologous sufficiency,count,,,,S003,CurR/CurE absent from reconstruction.,137
+M4-FUNG-0017:Q004,M4-FUNG-0017,Q004,EXPERIMENT,M4-FUNG-0017:E003,dehydrocurvularin isolated yield,6,6.0,mg/L,dual-PKS S. cerevisiae culture,2 d after YP addition,isolated yield,,,,S003,,138
+M4-FUNG-0017:Q005,M4-FUNG-0017,Q005,EXPERIMENT,M4-FUNG-0017:E003,11-hydroxycurvularin isolated yield,2.5,2.5,mg/L,dual-PKS S. cerevisiae culture,2 d after YP addition,isolated yield,,,,S003,,139
+M4-FUNG-0017:Q006,M4-FUNG-0017,Q006,EXPERIMENT,M4-FUNG-0017:E003,11α:11β hydroxycurvularin ratio,3:1,,ratio,11-hydroxycurvularin mixture,product analysis,reported,,,,S003,,140
+M4-FUNG-0017:Q007,M4-FUNG-0017,Q007,EXPERIMENT,M4-FUNG-0017:E003,yeast culture temperature,30,30.0,°C,BJ5464-NpgA,production,reported,,,,S003,,141
+M4-FUNG-0017:Q008,M4-FUNG-0017,Q008,EXPERIMENT,M4-FUNG-0017:E003,yeast agitation,250,250.0,rpm,BJ5464-NpgA,production,reported,,,,S003,,142
+M4-FUNG-0017:Q009,M4-FUNG-0017,Q009,EXPERIMENT,M4-FUNG-0017:E003,induction/growth transition OD600,0.6,0.6,OD600,before YP addition,culture,reported,,,,S003,,143
+M4-FUNG-0017:Q010,M4-FUNG-0017,Q010,UNRESOLVED_REFERENCE,G005,CurS1 extension cycles,3,3.0,polyketide extensions,tetraketide starter synthesis,biosynthetic model,reported,,,,S003,,144
+M4-FUNG-0017:Q011,M4-FUNG-0017,Q011,UNRESOLVED_REFERENCE,G002,CurS2 extension cycles,4,4.0,polyketide extensions,after tetraketide starter transfer,biosynthetic model,reported,,,,S003,,145
+M4-FUNG-0017:Q012,M4-FUNG-0017,Q012,UNRESOLVED_REFERENCE,G002,final macrocycle size,12,12.0,membered ring,dehydrocurvularin,biosynthesis,reported,,,,S003,Distinct from 14-membered RAL systems.,146
+M4-FUNG-0017:Q013,M4-FUNG-0017,Q013,UNRESOLVED_REFERENCE,G002,AtCURS2 protein length,2083,2083.0,amino acids,AtCURS2,sequence,reported,,,,S003,,147
+M4-FUNG-0017:Q014,M4-FUNG-0017,Q014,UNRESOLVED_REFERENCE,G005,AtCURS1 protein length,2388,2388.0,amino acids,AtCURS1,sequence,reported,,,,S003,,148
+M4-FUNG-0018:Q001,M4-FUNG-0018,Q001,EXPERIMENT,M4-FUNG-0018:E001,MIBiG region length,25000,25000.0,bp,FJ977165.1,sequence,exact,1,,,S001,,136
+M4-FUNG-0018:Q002,M4-FUNG-0018,Q002,EXPERIMENT,M4-FUNG-0018:E001,DEP cluster CDS count,6,6.0,genes,DEP1–DEP6,sequence/transcriptional boundary,count,1,,,S001; S003,,137
+M4-FUNG-0018:Q003,M4-FUNG-0018,Q003,EXPERIMENT,M4-FUNG-0018:E005,cabbage virulence reduction in depudecin-minus mutants,10,10.0,%,relative lesion/virulence phenotype,infection endpoint,reported approximate,,,lower,S003; S006,Statistically significant in defining study.,138
+M4-FUNG-0018:Q004,M4-FUNG-0018,Q004,EXPERIMENT,M4-FUNG-0018:E006,Arabidopsis depudecin-dependent virulence effect,not significant,,qualitative,WT vs depudecin-minus mutants,infection endpoint,reported,,,no difference,S003,,139
+M4-FUNG-0018:Q005,M4-FUNG-0018,Q005,EXPERIMENT,M4-FUNG-0018:E007,lower production-favoring temperature,23,23.0,°C,A. brassicicola culture panel,endpoint,reported,,,,S005,Depudecin decreases when temperature increases to 30°C.,140
+M4-FUNG-0018:Q006,M4-FUNG-0018,Q006,EXPERIMENT,M4-FUNG-0018:E007,higher comparison temperature,30,30.0,°C,A. brassicicola culture panel,endpoint,reported,,,lower depudecin,S005,,141
+M4-FUNG-0018:Q007,M4-FUNG-0018,Q007,EXPERIMENT,M4-FUNG-0018:E007,nitrate reduction/removal effect at 23°C,increase,,qualitative,depudecin production,endpoint,reported,,,higher,S005,,142
+M4-FUNG-0018:Q008,M4-FUNG-0018,Q008,EXPERIMENT,M4-FUNG-0018:E007,ammonium chloride addition effect at 23°C,increase,,qualitative,depudecin production,endpoint,reported,,,higher,S005,,143
+M4-FUNG-0018:Q009,M4-FUNG-0018,Q009,EXPERIMENT,M4-FUNG-0018:E008,epigenetic modifiers changing metabolite profile,0,0.0,effective tested classes,"5-AZA, SAHA, SBHA under tested liquid-culture conditions",endpoint,reported negative,,,no effect,S005,,144
+M4-FUNG-0018:Q010,M4-FUNG-0018,Q010,UNRESOLVED_REFERENCE,M001,depudecin molecular formula,C11H16O4,,formula,depudecin,structure,exact,,,,S001,,145
+M4-FUNG-0018:Q011,M4-FUNG-0018,Q011,EXPERIMENT,M4-FUNG-0018:E009,F. langsethiae DEP protein identity to A. brassicicola homologs,64.1,64.1,to 79.7 %,DEP proteins,sequence comparison,reported range,,,,S006,Comparative evidence.,146
+M4-FUNG-0019:Q001,M4-FUNG-0019,Q001,EXPERIMENT,M4-FUNG-0019:E001,MIBiG pksA-region length,52829,52829.0,bp,DQ149246.3,sequence,exact,1,,,S001,,164
+M4-FUNG-0019:Q002,M4-FUNG-0019,Q002,EXPERIMENT,M4-FUNG-0019:E001,MIBiG CDS count,20,20.0,CDSs,BGC0000048,sequence,count,1,,,S001,Most are flanking genes rather than proven biosynthetic genes.,165
+M4-FUNG-0019:Q003,M4-FUNG-0019,Q003,EXPERIMENT,M4-FUNG-0019:E004,known dothistromin genes in fragmented programme,20,20.0,genes,six loci on chromosome 12,genome/pathway mapping,reported,,,,S012,Later pathway-count statement.,166
+M4-FUNG-0019:Q004,M4-FUNG-0019,Q004,EXPERIMENT,M4-FUNG-0019:E004,chromosome-12 size carrying dispersed pathway,1.3,1.3,Mb,D. septosporum reference genome,genome,reported,,,,S006; S007,,167
+M4-FUNG-0019:Q005,M4-FUNG-0019,Q005,EXPERIMENT,M4-FUNG-0019:E004,chromosome-12 dothistromin loci,6,6.0,loci,fragmented programme,genome,count,,,,S006; S007,,168
+M4-FUNG-0019:Q006,M4-FUNG-0019,Q006,EXPERIMENT,M4-FUNG-0019:E003,highest dothistromin production per dry weight window,4,4.0,to 6 days,DB culture,time course,reported window,,,,S005,,169
+M4-FUNG-0019:Q007,M4-FUNG-0019,Q007,EXPERIMENT,M4-FUNG-0019:E003,dothistromin concentration-per-mL peak,6,6.0,day,DB culture,time course,reported,,,,S005,,170
+M4-FUNG-0019:Q008,M4-FUNG-0019,Q008,EXPERIMENT,M4-FUNG-0019:E005,NorB expression change in ΔDsAflR,24,24.0,fold lower,chromosome-11 NorB transcript,endpoint,reported,,,lower,S007,Candidate extra-programme gene.,171
+M4-FUNG-0019:Q009,M4-FUNG-0019,Q009,EXPERIMENT,M4-FUNG-0019:E008,mature lesion observation window,8,8.0,to 12 weeks,P. radiata infection,infection,reported,,,,S008,,172
+M4-FUNG-0019:Q010,M4-FUNG-0019,Q010,EXPERIMENT,M4-FUNG-0019:E008,sporulation reduction in dothistromin-deficient lesions,>25,,fold,mutant vs WT lesion sporulation,mature lesions,reported,,,lower,S008,From primary virulence study discussion/results.,173
+M4-FUNG-0019:Q011,M4-FUNG-0019,Q011,EXPERIMENT,M4-FUNG-0019:E007,productive-state H3K9 acetylation,higher,,qualitative,dothistromin loci,early productive state,reported,,,higher,S010,,174
+M4-FUNG-0019:Q012,M4-FUNG-0019,Q012,EXPERIMENT,M4-FUNG-0019:E007,productive-state H3K27me3,lower,,qualitative,dispersed chromosome-12 genes,early productive state,reported,,,lower,S010,,175
+M4-FUNG-0019:Q013,M4-FUNG-0019,Q013,EXPERIMENT,M4-FUNG-0019:E007,productive-state H3K9me3,lower,,qualitative,dothistromin loci,early productive state,reported,,,lower,S010,,176
+M4-FUNG-0020:Q001,M4-FUNG-0020,Q001,EXPERIMENT,M4-FUNG-0020:E001,MIBiG displayed-region length,46502,46502.0,bp,"AACD01000135.1:108,096–154,597",sequence,derived inclusive,1,,,S001,,145
+M4-FUNG-0020:Q002,M4-FUNG-0020,Q002,EXPERIMENT,M4-FUNG-0020:E001,MIBiG locus-feature length,26552,26552.0,bp,"122,623–149,174",sequence,derived inclusive,1,,,S001,,146
+M4-FUNG-0020:Q003,M4-FUNG-0020,Q003,EXPERIMENT,M4-FUNG-0020:E007,MIBiG locus CDS count,10,10.0,genes,AN7907–AN7916,sequence,count,1,,,S001,,147
+M4-FUNG-0020:Q004,M4-FUNG-0020,Q004,EXPERIMENT,M4-FUNG-0020:E007,local genes required for F9775A/B,3,3.0,genes,orsA/orsB/orsC,deletion panel,count,,,,S003,,148
+M4-FUNG-0020:Q005,M4-FUNG-0020,Q005,EXPERIMENT,M4-FUNG-0020:E006,local genes required for orsellinic acid,1,1.0,gene,orsA,deletion/sufficiency,count,,,,S003,,149
+M4-FUNG-0020:Q006,M4-FUNG-0020,Q006,EXPERIMENT,M4-FUNG-0020:E003,actinomycete strains screened,58,58.0,strains,soil-dwelling actinomycetes,coculture screen,reported,,,,S004,Only one strong inducer identified in defining screen.,150
+M4-FUNG-0020:Q007,M4-FUNG-0020,Q007,EXPERIMENT,M4-FUNG-0020:E009,MvlA-overexpression suppression of ΔveA F9775 activation,4,4.0,to 5 fold,F9775A/B relative yield,48 h,reported range,,,lower,S007,,151
+M4-FUNG-0020:Q008,M4-FUNG-0020,Q008,EXPERIMENT,M4-FUNG-0020:E009,GMM growth temperature,37,37.0,°C,regulator experiment,36–60 h,reported,,,,S007,,152
+M4-FUNG-0020:Q009,M4-FUNG-0020,Q009,EXPERIMENT,M4-FUNG-0020:E009,GMM agitation,250,250.0,rpm,regulator experiment,36–60 h,reported,,,,S007,,153
+M4-FUNG-0020:Q010,M4-FUNG-0020,Q010,EXPERIMENT,M4-FUNG-0020:E009,key metabolite comparison time,48,48.0,h,ΔveA and mvlA/gcnE backgrounds,metabolite assay,reported,,,,S007,,154
+M4-FUNG-0020:Q011,M4-FUNG-0020,Q011,EXPERIMENT,M4-FUNG-0020:E010,early primary-metabolism stage,20,20.0,h,2026 WT vs ΔcclA multi-omics,stage,reported,,,,S009,,155
+M4-FUNG-0020:Q012,M4-FUNG-0020,Q012,EXPERIMENT,M4-FUNG-0020:E010,stationary/secondary-metabolism stage,48,48.0,h,2026 WT vs ΔcclA multi-omics,stage,reported,,,,S009,,156
+M4-FUNG-0020:Q013,M4-FUNG-0020,Q013,EXPERIMENT,M4-FUNG-0020:E010,genes upregulated in ΔcclA at early stage,2971,2971.0,genes,A. nidulans genome,20 h,reported,,,,S009,"Includes several SM clusters, among them orsellinic acid.",157
+M4-FUNG-0021:Q001,M4-FUNG-0021,Q001,EXPERIMENT,M4-FUNG-0021:E001,MIBiG displayed-region length,62742,62742.0,bp,"AF155773.5:2,097–64,838",sequence,derived inclusive,1,,,S001,,146
+M4-FUNG-0021:Q002,M4-FUNG-0021,Q002,EXPERIMENT,M4-FUNG-0021:E001,current FUM programme gene count,16,16.0,genes,FUM21 + FUM1–3/6–8/10–11/13–19,cluster,count,1,,,S008,,147
+M4-FUNG-0021:Q003,M4-FUNG-0021,Q003,EXPERIMENT,M4-FUNG-0021:E001,FUM21 expression rise,12,12.0,to 48 h,GYAM M-3125,time course,reported,,,,S005,,148
+M4-FUNG-0021:Q004,M4-FUNG-0021,Q004,EXPERIMENT,M4-FUNG-0021:E001,structural FUM1/FUM8 major expression rise,48,48.0,to 72 h,GYAM M-3125,time course,reported,,,,S005,,149
+M4-FUNG-0021:Q005,M4-FUNG-0021,Q005,EXPERIMENT,M4-FUNG-0021:E001,cracked-maize toxin assay duration,21,21.0,days,M-3125/Δfum21,endpoint,reported,,,,S005,,150
+M4-FUNG-0021:Q006,M4-FUNG-0021,Q006,EXPERIMENT,M4-FUNG-0021:E007,ICI glutamine concentration,6,6.0,mM,self-protection experiments,culture,reported,,,,S008,,151
+M4-FUNG-0021:Q007,M4-FUNG-0021,Q007,EXPERIMENT,M4-FUNG-0021:E007,FB1 marker fraction of total FB,80,80.0,% approximately,M-3125 under cited conditions,product profile,reported,,,,S008,,152
+M4-FUNG-0021:Q008,M4-FUNG-0021,Q008,EXPERIMENT,M4-FUNG-0021:E007,self-protection culture duration,7,7.0,days,FB1 quantification,endpoint,reported,,,,S008,,153
+M4-FUNG-0021:Q009,M4-FUNG-0021,Q009,EXPERIMENT,M4-FUNG-0021:E007,gene-expression culture duration,2,2.0,days,qRT-PCR,endpoint,reported,,,,S008,,154
+M4-FUNG-0021:Q010,M4-FUNG-0021,Q010,EXPERIMENT,M4-FUNG-0021:E004,residual B-series fumonisin in Δfum13,10,10.0,% of WT approximately,fum13 deletion culture,endpoint,reported,,,lower,S018,,155
+M4-FUNG-0021:Q011,M4-FUNG-0021,Q011,EXPERIMENT,M4-FUNG-0021:E009,TSA concentration,1,1.0,µM,Czapek chromatin experiment,7 days,reported,,,,S013,,156
+M4-FUNG-0021:Q012,M4-FUNG-0021,Q012,EXPERIMENT,M4-FUNG-0021:E009,Czapek culture duration,7,7.0,days,chromatin/FB1 assay,endpoint,reported,,,,S013,,157
+M4-FUNG-0021:Q013,M4-FUNG-0021,Q013,EXPERIMENT,M4-FUNG-0021:E001,GYAM pH,3,3.0,pH,FUM21 study,culture,reported,,,,S005,,158
+M4-FUNG-0021:Q014,M4-FUNG-0021,Q014,EXPERIMENT,M4-FUNG-0021:E001,GYAM incubation temperature,28,28.0,°C,FUM21 study,culture,reported,,,,S005,,159
+M4-FUNG-0022:Q001,M4-FUNG-0022,Q001,EXPERIMENT,M4-FUNG-0022:E001,MIBiG region length,53327,53327.0,bp,EU449979.1,sequence,exact,1,,,S001,,144
+M4-FUNG-0022:Q002,M4-FUNG-0022,Q002,EXPERIMENT,M4-FUNG-0022:E001,MIBiG CDS count,17,17.0,CDSs,16 canonical FUM genes + cpm1,sequence,count,1,,,S001,,145
+M4-FUNG-0022:Q003,M4-FUNG-0022,Q003,EXPERIMENT,M4-FUNG-0022:E001,F. oxysporum vs F. verticillioides FUM coding-sequence identity,88,88.0,to 92 %,coding regions,comparative sequence,reported range,,,,S003,,146
+M4-FUNG-0022:Q004,M4-FUNG-0022,Q004,EXPERIMENT,M4-FUNG-0022:E001,F. oxysporum vs F. verticillioides intergenic identity,40,40.0,to 77 %,intergenic regions,comparative sequence,reported range,,,,S003,,147
+M4-FUNG-0022:Q005,M4-FUNG-0022,Q005,EXPERIMENT,M4-FUNG-0022:E003,Fum8 key residue,580,580.0,amino-acid position,FoFUM8/FvFUM8,site-directed mutagenesis,reported,,,,S004,Valine associated with FC; alanine with FB.,148
+M4-FUNG-0022:Q006,M4-FUNG-0022,Q006,EXPERIMENT,M4-FUNG-0022:E003,modified FoFUM8 transformants assessed,5,5.0,transformants,V580A construct,fumonisin assay,n,,,,S004,,149
+M4-FUNG-0022:Q007,M4-FUNG-0022,Q007,EXPERIMENT,M4-FUNG-0022:E003,modified FvFUM8 transformants assessed,5,5.0,transformants,A580V construct,fumonisin assay,n,,,,S004,,150
+M4-FUNG-0022:Q008,M4-FUNG-0022,Q008,EXPERIMENT,M4-FUNG-0022:E004,V8 preculture duration,7,7.0,days,NRRL39464,preculture,reported,,,,S004,,151
+M4-FUNG-0022:Q009,M4-FUNG-0022,Q009,EXPERIMENT,M4-FUNG-0022:E004,cracked-maize assay amount,4,4.0,g,kernel medium,production,reported,,,,S004,,152
+M4-FUNG-0022:Q010,M4-FUNG-0022,Q010,EXPERIMENT,M4-FUNG-0022:E004,cracked-maize production duration,10,10.0,days,NRRL39464,production,reported,,,,S004,,153
+M4-FUNG-0022:Q011,M4-FUNG-0022,Q011,EXPERIMENT,M4-FUNG-0022:E004,biological replicate cultures,3,3.0,replicates,WT/Δfum15 fumonisin assay,production,n,,,,S004,,154
+M4-FUNG-0022:Q012,M4-FUNG-0022,Q012,EXPERIMENT,M4-FUNG-0022:E004,hydroxy-FC1 after FUM15 deletion,retained,,qualitative,Δfum15 vs WT,endpoint,LC-MS,,,no loss,S004,,155
+M4-FUNG-0023:Q001,M4-FUNG-0023,Q001,EXPERIMENT,M4-FUNG-0023:E001,MIBiG region length,11857,11857.0,bp,AY604568.1,sequence,exact,1,,,S001,,141
+M4-FUNG-0023:Q002,M4-FUNG-0023,Q002,EXPERIMENT,M4-FUNG-0023:E001,MIBiG CDS count,1,1.0,CDS,fusA,sequence,count,1,,,S001,,142
+M4-FUNG-0023:Q003,M4-FUNG-0023,Q003,EXPERIMENT,M4-FUNG-0023:E002,FUS transcriptional-cluster genes,9,9.0,genes,fus1–fus9,cluster,count,1,,,S003; S007,,143
+M4-FUNG-0023:Q004,M4-FUNG-0023,Q004,EXPERIMENT,M4-FUNG-0023:E003,minimal canonical fusarin genes,4,4.0,genes,fus1/fus2/fus8/fus9,functional sufficiency,count,,,,S003,,144
+M4-FUNG-0023:Q005,M4-FUNG-0023,Q005,EXPERIMENT,M4-FUNG-0023:E002,high-N glutamine condition,60,60.0,mM,F. fujikuroi,inducing culture,reported,,,,S003,,145
+M4-FUNG-0023:Q006,M4-FUNG-0023,Q006,EXPERIMENT,M4-FUNG-0023:E002,low-N glutamine condition,6,6.0,mM,F. fujikuroi,comparison,reported,,,,S003,,146
+M4-FUNG-0023:Q007,M4-FUNG-0023,Q007,EXPERIMENT,M4-FUNG-0023:E003,mutant metabolite assay duration,4,4.0,days,60 mM glutamine cultures,endpoint,reported,,,,S003,,147
+M4-FUNG-0023:Q008,M4-FUNG-0023,Q008,EXPERIMENT,M4-FUNG-0023:E006,fusA induction window,5,5.0,to 7 days,high-N F. fujikuroi,time course,reported window,,,,S004,,148
+M4-FUNG-0023:Q009,M4-FUNG-0023,Q009,EXPERIMENT,M4-FUNG-0023:E009,high-N nitrate condition,120,120.0,mM NaNO3,comparative Fusarium panel,endpoint,reported,,,,S006,,149
+M4-FUNG-0023:Q010,M4-FUNG-0023,Q010,EXPERIMENT,M4-FUNG-0023:E008,minimum FUS transcript decrease in ΔFvstuA,15,15.0,fold,FUS genes vs WT,RNA-seq,reported lower bound,,,lower,S015,Many genes fell ~27–80-fold or more.,150
+M4-FUNG-0023:Q011,M4-FUNG-0023,Q011,UNRESOLVED_REFERENCE,M001,fusarin C molecular formula,C23H29NO7,,formula,PubChem CID 6435894,current authoritative compound record,exact,,,,S009,,151
+M4-FUNG-0023:Q012,M4-FUNG-0023,Q012,UNRESOLVED_REFERENCE,M001,MCF-7 stimulatory concentration range,0.1,0.1,to 20 µM,fusarin C,cell assay,reported range,,,,S012,Growth inhibitory above ~50 µM.,152
+M4-FUNG-0024:Q001,M4-FUNG-0024,Q001,EXPERIMENT,M4-FUNG-0024:E001,MIBiG displayed-region length,55000,55000.0,bp,GU574478.1,sequence,exact,1,,,S001,,150
+M4-FUNG-0024:Q002,M4-FUNG-0024,Q002,EXPERIMENT,M4-FUNG-0024:E001,MIBiG displayed CDS count,21,21.0,CDSs,BGC0000070,sequence,count,1,,,S001,,151
+M4-FUNG-0024:Q003,M4-FUNG-0024,Q003,EXPERIMENT,M4-FUNG-0024:E001,annotated gsf cluster genes,13,13.0,genes,gsfA–K + gsfR1/R2,cluster,count,1,,,S003,,152
+M4-FUNG-0024:Q004,M4-FUNG-0024,Q004,EXPERIMENT,M4-FUNG-0024:E008,minimal fully reconstructed chemical-core enzymes,7,7.0,enzymes,GsfA/B/C/D/E/F/I,cell-free total biosynthesis,count,,,,S004,,153
+M4-FUNG-0024:Q005,M4-FUNG-0024,Q005,EXPERIMENT,M4-FUNG-0024:E001,native culture temperature,28,28.0,°C,IBT5753,production,reported,,,,S003,,154
+M4-FUNG-0024:Q006,M4-FUNG-0024,Q006,EXPERIMENT,M4-FUNG-0024:E003,positive ΔgsfI disruptants characterized,2,2.0,mutants,ΔgsfI-IV5 and ΔgsfI-IV11,screen,reported,,,,S003,Approximately 100 glufosinate-resistant transformants were screened.,155
+M4-FUNG-0024:Q007,M4-FUNG-0024,Q007,EXPERIMENT,M4-FUNG-0024:E003,dechlorogriseofulvin isolated from ΔgsfI,28,28.0,mg,2-L stationary culture,isolation,reported,,,,S003,,156
+M4-FUNG-0024:Q008,M4-FUNG-0024,Q008,EXPERIMENT,M4-FUNG-0024:E003,ΔgsfI culture volume for isolation,2,2.0,L,stationary liquid culture,isolation,reported,,,,S003,,157
+M4-FUNG-0024:Q009,M4-FUNG-0024,Q009,EXPERIMENT,M4-FUNG-0024:E003,GsfI in-vitro conversion of griseophenone C,50,50.0,% approximately,substrate conversion,enzyme assay,reported,,,,S004,,158
+M4-FUNG-0024:Q010,M4-FUNG-0024,Q010,EXPERIMENT,M4-FUNG-0024:E008,GsfA polyketide building units,1,1.0,acetyl-CoA + 6 malonyl-CoA,heptaketide scaffold,biosynthesis,reported stoichiometry,,,,S004,,159
+M4-FUNG-0025:Q001,M4-FUNG-0025,Q001,EXPERIMENT,M4-FUNG-0025:E001,BGC0000076 length,36275,36275.0,bp,EU520417.1,sequence,exact,1,,,S001; S002,,136
+M4-FUNG-0025:Q002,M4-FUNG-0025,Q002,EXPERIMENT,M4-FUNG-0025:E001,hpm CDS count,9,9.0,genes,hpm1–hpm9,cluster,count,1,,,S001,,137
+M4-FUNG-0025:Q003,M4-FUNG-0025,Q003,EXPERIMENT,M4-FUNG-0025:E001,DSM11931 vs DSM11932 cluster nucleotide divergence,0.1,0.1,% approximately,cluster sequence,comparison,reported approximate,,,,S003,Most substitutions silent.,138
+M4-FUNG-0025:Q004,M4-FUNG-0025,Q004,EXPERIMENT,M4-FUNG-0025:E002,DSM11931 successful colonies under best transformation procedure,0,0.0,colonies,per attempted transformation protocol,endpoint,reported,,,,S003,,139
+M4-FUNG-0025:Q005,M4-FUNG-0025,Q005,EXPERIMENT,M4-FUNG-0025:E002,DSM11932 colony yield under same best procedure,1,1.0,colony approximately,per transformation,endpoint,reported average,,,,S003,,140
+M4-FUNG-0025:Q006,M4-FUNG-0025,Q006,EXPERIMENT,M4-FUNG-0025:E003,4-O-desmethylhypothemycin in best hpm5-disruption reisolate,65,65.0,mg/L approximately,DSM11932 mutant,production,reported,,,,S003,,141
+M4-FUNG-0025:Q007,M4-FUNG-0025,Q007,EXPERIMENT,M4-FUNG-0025:E003,"7′,8′-dihydrohypothemycin in best hpm5-disruption reisolate",45,45.0,mg/L approximately,DSM11932 mutant,production,reported,,,,S003,,142
+M4-FUNG-0025:Q008,M4-FUNG-0025,Q008,EXPERIMENT,M4-FUNG-0025:E003,hypothemycin in best hpm5-disruption reisolate,<1,,mg/L,DSM11932 mutant,production,reported,,,,S003,,143
+M4-FUNG-0025:Q009,M4-FUNG-0025,Q009,EXPERIMENT,M4-FUNG-0025:E003,wild-type hypothemycin under same production conditions,800,800.0,mg/L,DSM11932 WT comparison,production,reported,,,,S003,,144
+M4-FUNG-0025:Q010,M4-FUNG-0025,Q010,EXPERIMENT,M4-FUNG-0025:E003,"wild-type 7′,8′-dihydrohypothemycin",180,180.0,mg/L,DSM11932 WT comparison,production,reported,,,,S003,,145
+M4-FUNG-0025:Q011,M4-FUNG-0025,Q011,EXPERIMENT,M4-FUNG-0025:E003,wild-type 4-O-desmethylhypothemycin,10,10.0,mg/L,DSM11932 WT comparison,production,reported,,,,S003,,146
+M4-FUNG-0025:Q012,M4-FUNG-0025,Q012,EXPERIMENT,M4-FUNG-0025:E004,dual-PKS positive yeast clones,7,7.0,of 8 clones,Hpm3+Hpm8,screen,reported,,,,S003,,147
+M4-FUNG-0025:Q013,M4-FUNG-0025,Q013,EXPERIMENT,M4-FUNG-0025:E004,DHZ titer in positive dual-PKS yeast clones,20,20.0,mg/L approximately,yeast culture,endpoint,reported,,,,S003,,148
+M4-FUNG-0025:Q014,M4-FUNG-0025,Q014,EXPERIMENT,M4-FUNG-0025:E006,Hpm5 conversion of 4-O-desmethylhypothemycin,100,100.0,%,60-min in-vitro assay,enzyme assay,reported,,,,S003,,149
+M4-FUNG-0025:Q015,M4-FUNG-0025,Q015,EXPERIMENT,M4-FUNG-0025:E006,Hpm7 conversion of desepoxyhypothemycin,86,86.0,%,60-min in-vitro assay,enzyme assay,reported,,,,S003,,150
+M4-FUNG-0025:Q016,M4-FUNG-0025,Q016,EXPERIMENT,M4-FUNG-0025:E007,Hpm2 isomerization equilibrium trans fraction,85,85.0,% approximately,RAL olefin equilibrium,enzyme assay,reported,,,,S003,,151
+M4-FUNG-0025:Q017,M4-FUNG-0025,Q017,EXPERIMENT,M4-FUNG-0025:E007,Hpm2 isomerization equilibrium cis fraction,15,15.0,% approximately,RAL olefin equilibrium,enzyme assay,reported,,,,S003,,152
+M4-FUNG-0026:Q001,M4-FUNG-0026,Q001,EXPERIMENT,M4-FUNG-0026:E001,BGC0000077 length,42765,42765.0,bp,EU520418.1,sequence,exact,1,,,S001; S002,,136
+M4-FUNG-0026:Q002,M4-FUNG-0026,Q002,EXPERIMENT,M4-FUNG-0026:E001,MIBiG CDS count,10,10.0,CDSs,hpm1–hpm9 + orf10,cluster,count,1,,,S001; S002,,137
+M4-FUNG-0026:Q003,M4-FUNG-0026,Q003,EXPERIMENT,M4-FUNG-0026:E001,DSM11931 vs DSM11932 cluster nucleotide divergence,0.1,0.1,% approximately,cluster sequence,comparison,reported approximate,,,,S003,Most substitutions silent.,138
+M4-FUNG-0026:Q004,M4-FUNG-0026,Q004,EXPERIMENT,M4-FUNG-0026:E002,DSM11931 successful colonies under best transformation procedure,0,0.0,colonies,per attempted transformation protocol,endpoint,reported,,,,S003,,139
+M4-FUNG-0026:Q005,M4-FUNG-0026,Q005,EXPERIMENT,M4-FUNG-0026:E002,DSM11932 colony yield under same best procedure,1,1.0,colony approximately,per transformation,endpoint,reported average,,,,S003,,140
+M4-FUNG-0026:Q006,M4-FUNG-0026,Q006,EXPERIMENT,M4-FUNG-0026:E003,4-O-desmethylhypothemycin in best hpm5-disruption reisolate,65,65.0,mg/L approximately,DSM11932 mutant,production,reported,,,,S003,,141
+M4-FUNG-0026:Q007,M4-FUNG-0026,Q007,EXPERIMENT,M4-FUNG-0026:E003,"7′,8′-dihydrohypothemycin in best hpm5-disruption reisolate",45,45.0,mg/L approximately,DSM11932 mutant,production,reported,,,,S003,,142
+M4-FUNG-0026:Q008,M4-FUNG-0026,Q008,EXPERIMENT,M4-FUNG-0026:E003,hypothemycin in best hpm5-disruption reisolate,<1,,mg/L,DSM11932 mutant,production,reported,,,,S003,,143
+M4-FUNG-0026:Q009,M4-FUNG-0026,Q009,EXPERIMENT,M4-FUNG-0026:E003,wild-type hypothemycin under same production conditions,800,800.0,mg/L,DSM11932 WT comparison,production,reported,,,,S003,,144
+M4-FUNG-0026:Q010,M4-FUNG-0026,Q010,EXPERIMENT,M4-FUNG-0026:E003,"wild-type 7′,8′-dihydrohypothemycin",180,180.0,mg/L,DSM11932 WT comparison,production,reported,,,,S003,,145
+M4-FUNG-0026:Q011,M4-FUNG-0026,Q011,EXPERIMENT,M4-FUNG-0026:E003,wild-type 4-O-desmethylhypothemycin,10,10.0,mg/L,DSM11932 WT comparison,production,reported,,,,S003,,146
+M4-FUNG-0026:Q012,M4-FUNG-0026,Q012,EXPERIMENT,M4-FUNG-0026:E004,dual-PKS positive yeast clones,7,7.0,of 8 clones,Hpm3+Hpm8,screen,reported,,,,S003,,147
+M4-FUNG-0026:Q013,M4-FUNG-0026,Q013,EXPERIMENT,M4-FUNG-0026:E004,DHZ titer in positive dual-PKS yeast clones,20,20.0,mg/L approximately,yeast culture,endpoint,reported,,,,S003,,148
+M4-FUNG-0026:Q014,M4-FUNG-0026,Q014,EXPERIMENT,M4-FUNG-0026:E006,Hpm5 conversion of 4-O-desmethylhypothemycin,100,100.0,%,60-min in-vitro assay,enzyme assay,reported,,,,S003,,149
+M4-FUNG-0026:Q015,M4-FUNG-0026,Q015,EXPERIMENT,M4-FUNG-0026:E006,Hpm7 conversion of desepoxyhypothemycin,86,86.0,%,60-min in-vitro assay,enzyme assay,reported,,,,S003,,150
+M4-FUNG-0026:Q016,M4-FUNG-0026,Q016,EXPERIMENT,M4-FUNG-0026:E007,Hpm2 isomerization equilibrium trans fraction,85,85.0,% approximately,RAL olefin equilibrium,enzyme assay,reported,,,,S003,,151
+M4-FUNG-0026:Q017,M4-FUNG-0026,Q017,EXPERIMENT,M4-FUNG-0026:E007,Hpm2 isomerization equilibrium cis fraction,15,15.0,% approximately,RAL olefin equilibrium,enzyme assay,reported,,,,S003,,152
+M4-FUNG-0027:Q001,M4-FUNG-0027,Q001,EXPERIMENT,M4-FUNG-0027:E001,MIBiG displayed region length,55428,55428.0,bp,AH007774.2,sequence,exact,1,,,S001,,147
+M4-FUNG-0027:Q002,M4-FUNG-0027,Q002,EXPERIMENT,M4-FUNG-0027:E001,MIBiG displayed CDS count,17,17.0,CDSs,AH007774.2,sequence,count,1,,,S001,Excludes essential LovB.,148
+M4-FUNG-0027:Q003,M4-FUNG-0027,Q003,EXPERIMENT,M4-FUNG-0027:E003,LovB approximate protein size,335,335.0,kDa,recombinant LovB,protein,reported,,,,S005,,149
+M4-FUNG-0027:Q004,M4-FUNG-0027,Q004,EXPERIMENT,M4-FUNG-0027:E003,LovB chain-extension rounds,8,8.0,extensions,nonaketide assembly,cell-free reconstitution,reported,,,,S005,Produces nine-carbonyl-unit backbone including starter.,150
+M4-FUNG-0027:Q005,M4-FUNG-0027,Q005,EXPERIMENT,M4-FUNG-0027:E003,LovB catalytic operations,35,35.0,reactions approximately,one DML assembly cycle,mechanistic estimate,reported,,,,S005,Illustrates iterative programming complexity.,151
+M4-FUNG-0027:Q006,M4-FUNG-0027,Q006,EXPERIMENT,M4-FUNG-0027:E003,NADPH concentration,2,2.0,mM,typical purified LovB/LovC assay,reaction,reported,,,,S005,,152
+M4-FUNG-0027:Q007,M4-FUNG-0027,Q007,EXPERIMENT,M4-FUNG-0027:E003,SAM concentration,2,2.0,mM,typical purified LovB/LovC assay,reaction,reported,,,,S005,,153
+M4-FUNG-0027:Q008,M4-FUNG-0027,Q008,EXPERIMENT,M4-FUNG-0027:E007,defined glucose concentration,40,40.0,g/L,defined glucose/glutamate medium,fermentation,reported,,,,S010,,154
+M4-FUNG-0027:Q009,M4-FUNG-0027,Q009,EXPERIMENT,M4-FUNG-0027:E007,defined glutamate concentration,9.8,9.8,g/L,defined glucose/glutamate medium,fermentation,reported,,,,S010,,155
+M4-FUNG-0027:Q010,M4-FUNG-0027,Q010,EXPERIMENT,M4-FUNG-0027:E007,fermentor agitation,400,400.0,rpm,reported production fermentations,fermentation,reported,,,,S010,,156
+M4-FUNG-0027:Q011,M4-FUNG-0027,Q011,EXPERIMENT,M4-FUNG-0027:E007,aeration,1,1.0,vvm,reported production fermentations,fermentation,reported,,,,S010,,157
+M4-FUNG-0027:Q012,M4-FUNG-0027,Q012,EXPERIMENT,M4-FUNG-0027:E008,NAC concentration in SSF test,100,100.0,mM,solid-state fermentation,redox perturbation,reported,,,,S013,,158
+M4-FUNG-0027:Q013,M4-FUNG-0027,Q013,EXPERIMENT,M4-FUNG-0027:E008,ROS reduction with NAC,53,53.0,%,SSF treatment vs control,endpoint,reported,,,lower,S013,,159
+M4-FUNG-0027:Q014,M4-FUNG-0027,Q014,EXPERIMENT,M4-FUNG-0027:E008,lovastatin reduction with NAC,79,79.0,%,SSF treatment vs control,endpoint,reported,,,lower,S013,,160
+M4-FUNG-0028:Q001,M4-FUNG-0028,Q001,EXPERIMENT,M4-FUNG-0028:E001,current BGC0000089 functional gene count,0,0.0,genes,current MIBiG-derived functional database,database,reported,,,,S004,,131
+M4-FUNG-0028:Q002,M4-FUNG-0028,Q002,EXPERIMENT,M4-FUNG-0028:E002,historical lovastatin genes across AF141924.1 + AF141925.1,17,17.0,genes,combined legacy representation,genome comparison,reported,,,,S003,,132
+M4-FUNG-0028:Q003,M4-FUNG-0028,Q003,EXPERIMENT,M4-FUNG-0028:E002,historical genes on AF141925.1,14,14.0,genes,partial accession,genome comparison,reported,,,,S003,,133
+M4-FUNG-0028:Q004,M4-FUNG-0028,Q004,EXPERIMENT,M4-FUNG-0028:E002,historical genes on AF141924.1,3,3.0,genes,partial accession,genome comparison,reported,,,,S003,,134
+M4-FUNG-0029:Q001,M4-FUNG-0029,Q001,EXPERIMENT,M4-FUNG-0029:E001,MIBiG displayed-region length,45000,45000.0,bp,DQ176595.1,sequence,exact,1,,,S001,,136
+M4-FUNG-0029:Q002,M4-FUNG-0029,Q002,EXPERIMENT,M4-FUNG-0029:E001,original BAC-defined putative cluster size,42,42.0,kb approximately,mps01,sequence region,reported approximate,,,,S003,MIBiG display extends to 45 kb.,137
+M4-FUNG-0029:Q003,M4-FUNG-0029,Q003,EXPERIMENT,M4-FUNG-0029:E001,cluster gene count,9,9.0,genes,mokA–mokI,cluster,count,1,,,S001; S003,,138
+M4-FUNG-0029:Q004,M4-FUNG-0029,Q004,EXPERIMENT,M4-FUNG-0029:E003,mokH-overexpression MK output,1.7,1.7,fold WT,T-mokH1 vs WT,time course,reported,,,higher,S005,,139
+M4-FUNG-0029:Q005,M4-FUNG-0029,Q005,EXPERIMENT,M4-FUNG-0029:E004,glutamate concentration,10,10.0,mM,fermentation medium,treatment,reported,,,,S006,,140
+M4-FUNG-0029:Q006,M4-FUNG-0029,Q006,EXPERIMENT,M4-FUNG-0029:E004,glutamate-medium maximal MK,215.4,215.4,mg/L,Monascus M1,day 11,reported,3,NR,higher,S006,Comparative Monascus M1 experiment; source reports 215.4 mg/L in glutamate medium.,141
+M4-FUNG-0029:Q007,M4-FUNG-0029,Q007,EXPERIMENT,M4-FUNG-0029:E004,original-medium maximal MK,68.6,68.6,mg/L,Monascus M1,day 8,reported,3,,,S006,Abstract also reports a 48.4→215.4 mg/L comparison; use time-resolved maxima here.,142
+M4-FUNG-0029:Q008,M4-FUNG-0029,Q008,EXPERIMENT,M4-FUNG-0029:E004,mokA expression change with glutamate,63.5,63.5,% decrease,versus original medium,day 8,reported,3,,lower,S006,Other mokB–I transcripts were significantly upregulated.,143
+M4-FUNG-0029:Q009,M4-FUNG-0029,Q009,EXPERIMENT,M4-FUNG-0029:E004,glutamate-medium maximal biomass,36.7,36.7,mg/L as reported,Monascus M1,day 5,reported,3,NR,higher,S006,Unit retained exactly from the primary paper; unusually low biomass magnitude may reflect the source's reporting convention and is not normalized or corrected here.,144
+M4-FUNG-0029:Q010,M4-FUNG-0029,Q010,EXPERIMENT,M4-FUNG-0029:E005,temperature-shift MK concentration,34.5,34.5,µg/mL,30°C 6 d →25°C 15 d,day 21,reported,,,higher,S007,,145
+M4-FUNG-0029:Q011,M4-FUNG-0029,Q011,EXPERIMENT,M4-FUNG-0029:E005,constant-30°C MK concentration,2.11,2.11,µg/mL,30°C 21 d,day 21,reported,,,,S007,,146
+M4-FUNG-0029:Q012,M4-FUNG-0029,Q012,EXPERIMENT,M4-FUNG-0029:E005,temperature-shift MK fold difference,16,16.0,fold approximately,shift vs constant 30°C,day 21,reported,,,higher,S007,,147
+M4-FUNG-0029:Q013,M4-FUNG-0029,Q013,EXPERIMENT,M4-FUNG-0029:E005,maximum biomass temperature-shift,0.477,0.477,g dry cell mass/dish,shift cultivation,endpoint,reported,,,lower,S007,,148
+M4-FUNG-0029:Q014,M4-FUNG-0029,Q014,EXPERIMENT,M4-FUNG-0029:E005,maximum biomass constant 30°C,0.581,0.581,g dry cell mass/dish,constant cultivation,endpoint,reported,,,,S007,,149
+M4-FUNG-0029:Q015,M4-FUNG-0029,Q015,EXPERIMENT,M4-FUNG-0029:E006,Δmpclr4 MK change,52.6,52.6,%,vs WT,end of fermentation,reported,,,higher,S010,,150
+M4-FUNG-0029:Q016,M4-FUNG-0029,Q016,EXPERIMENT,M4-FUNG-0029:E006,Δmpdot1 MK output,43.5,43.5,% of WT,vs WT,end of fermentation,reported,,,lower,S010,,151
+M4-FUNG-0029:Q017,M4-FUNG-0029,Q017,EXPERIMENT,M4-FUNG-0029:E007,mokI-overexpression MK change,41.39,41.39,%,vs parental M. pilosus,endpoint,reported,,,higher,S008,,152
+M4-FUNG-0029:Q018,M4-FUNG-0029,Q018,EXPERIMENT,M4-FUNG-0029:E008,mokE-overexpression MK change,32.1,32.1,%,vs MS-1,endpoint,reported,,,higher,S009,,153
+M4-FUNG-0029:Q019,M4-FUNG-0029,Q019,EXPERIMENT,M4-FUNG-0029:E008,ΔmokE MK production,0,0.0,detectable MK,ΔmokE,endpoint,reported,,,lower,S009,Complementation restores synthesis.,154
+M4-FUNG-0030:Q001,M4-FUNG-0030,Q001,EXPERIMENT,M4-FUNG-0030:E001,PKS/PKS-hybrid genes screened,25,25.0,genes,PM1 genome,systematic screen,count,1,,,S003,,133
+M4-FUNG-0030:Q002,M4-FUNG-0030,Q002,EXPERIMENT,M4-FUNG-0030:E002,neighboring ORFs additionally knocked down,14,14.0,ORFs,5 upstream + 9 downstream,boundary screen,count,1,,,S003,,134
+M4-FUNG-0030:Q003,M4-FUNG-0030,Q003,EXPERIMENT,M4-FUNG-0030:E002,functional genes in red-pigment cluster,5,5.0,genes,pks3 + rp1–rp4,boundary result,count,1,,,S003,,135
+M4-FUNG-0030:Q004,M4-FUNG-0030,Q004,EXPERIMENT,M4-FUNG-0030:E002,neighboring tested ORFs with WT-like pigment phenotype,10,10.0,ORFs,orf1–orf10 excluding rp1–rp4,boundary result,count,1,,,S003,,136
+M4-FUNG-0030:Q005,M4-FUNG-0030,Q005,EXPERIMENT,M4-FUNG-0030:E002,pks3 residual transcript,1,1.0,"% WT, less than",pks3-KD,endpoint,reported,,,lower,S003,,137
+M4-FUNG-0030:Q006,M4-FUNG-0030,Q006,EXPERIMENT,M4-FUNG-0030:E002,rp1 residual transcript,15,15.0,% WT,rp1-KD,endpoint,reported,,,lower,S003,,138
+M4-FUNG-0030:Q007,M4-FUNG-0030,Q007,EXPERIMENT,M4-FUNG-0030:E002,rp2 residual transcript,23,23.0,% WT,rp2-KD,endpoint,reported,,,lower,S003,,139
+M4-FUNG-0030:Q008,M4-FUNG-0030,Q008,EXPERIMENT,M4-FUNG-0030:E002,rp3 residual transcript,33,33.0,% WT,rp3-KD,endpoint,reported,,,lower,S003,,140
+M4-FUNG-0030:Q009,M4-FUNG-0030,Q009,EXPERIMENT,M4-FUNG-0030:E002,rp4 residual transcript,29,29.0,% WT,rp4-KD,endpoint,reported,,,lower,S003,,141
+M4-FUNG-0030:Q010,M4-FUNG-0030,Q010,EXPERIMENT,M4-FUNG-0030:E003,RPMI glucose concentration,5,5.0,%,RPMI1640,culture,reported,,,,S003,,142
+M4-FUNG-0030:Q011,M4-FUNG-0030,Q011,EXPERIMENT,M4-FUNG-0030:E003,RPMI incubation temperature,25,25.0,°C,liquid pigment/metabolomics assay,culture,reported,,,,S003,,143
+M4-FUNG-0030:Q012,M4-FUNG-0030,Q012,EXPERIMENT,M4-FUNG-0030:E003,RPMI agitation,250,250.0,rpm,liquid pigment/metabolomics assay,culture,reported,,,,S003,,144
+M4-FUNG-0030:Q013,M4-FUNG-0030,Q013,EXPERIMENT,M4-FUNG-0030:E003,RPMI incubation time,100,100.0,h,liquid pigment/metabolomics assay,endpoint,reported,,,,S003,,145
+M4-FUNG-0030:Q014,M4-FUNG-0030,Q014,EXPERIMENT,M4-FUNG-0030:E003,WT UV-Vis absorption maxima,373;405;499;553,,nm,culture medium,endpoint,reported,,,,S003,499 nm red-color maximum absent in pks3/rp1–rp4 knockdowns.,146
+M4-FUNG-0030:Q015,M4-FUNG-0030,Q015,EXPERIMENT,M4-FUNG-0030:E003,monascorubrin retention time,20.6,20.6,min,UHPLC,endpoint,reported,,,,S003,,147
+M4-FUNG-0030:Q016,M4-FUNG-0030,Q016,EXPERIMENT,M4-FUNG-0030:E003,monascorubrin [M+Na]+,405.1672,405.1672,m/z,UHPLC-MS,endpoint,reported,,,,S003,,148
+M4-FUNG-0030:Q017,M4-FUNG-0030,Q017,EXPERIMENT,M4-FUNG-0030:E003,monascorubrin [M+H]+,383.1865,383.1865,m/z,MS/MS precursor,endpoint,reported,,,,S003,,149
+M4-FUNG-0030:Q018,M4-FUNG-0030,Q018,EXPERIMENT,M4-FUNG-0030:E003,ankaflavin retention time,18.9,18.9,min,UHPLC,endpoint,reported,,,,S003,,150
+M4-FUNG-0030:Q019,M4-FUNG-0030,Q019,EXPERIMENT,M4-FUNG-0030:E003,ankaflavin [M+H]+,387.2166,387.2166,m/z,UHPLC-MS,endpoint,reported,,,,S003,,151
+M4-FUNG-0030:Q020,M4-FUNG-0030,Q020,EXPERIMENT,M4-FUNG-0030:E003,citrinin retention time,12.8,12.8,min,UHPLC,endpoint,reported,,,,S003,,152
+M4-FUNG-0030:Q021,M4-FUNG-0030,Q021,EXPERIMENT,M4-FUNG-0030:E003,citrinin [M+H]+,251.0914,251.0914,m/z,UHPLC-MS,endpoint,reported,,,,S003,,153
+M4-FUNG-0030:Q022,M4-FUNG-0030,Q022,EXPERIMENT,M4-FUNG-0030:E003,compound-1 increase in rp2/rp3/rp4 knockdowns,2.8,2.8,to 6.4 fold WT,branch mutants,endpoint,reported range,,,higher,S003,,154
+M4-FUNG-0030:Q023,M4-FUNG-0030,Q023,EXPERIMENT,M4-FUNG-0030:E003,red-pigment mixture size,16,16.0,"compounds, more than",RPMI1640 culture,metabolomic profile,reported lower bound,,,,S003,,155
+M4-FUNG-0031:Q001,M4-FUNG-0031,Q001,EXPERIMENT,M4-FUNG-0031:E001,MIBiG displayed-region length,45562,45562.0,bp,BN001308.1,sequence,exact,1,,,S001,,144
+M4-FUNG-0031:Q002,M4-FUNG-0031,Q002,EXPERIMENT,M4-FUNG-0031:E001,MIBiG curated-locus span,24251,24251.0,bp,"4,379,755–4,404,005",sequence,inclusive calculation,1,,,S001,,145
+M4-FUNG-0031:Q003,M4-FUNG-0031,Q003,EXPERIMENT,M4-FUNG-0031:E001,MIBiG CDS count,12,12.0,CDSs,mdp locus display,sequence,count,1,,,S001,,146
+M4-FUNG-0031:Q004,M4-FUNG-0031,Q004,EXPERIMENT,M4-FUNG-0031:E005,minimal additional xanthone genes outside mdp locus,3,3.0,genes,xptA/xptB/xptC,functional programme,count,,,,S004,AN7999 tested but not required.,147
+M4-FUNG-0031:Q005,M4-FUNG-0031,Q005,EXPERIMENT,M4-FUNG-0031:E002,standard deletion-culture duration,5,5.0,days,mdp/xpt studies,endpoint,reported,,,,S003; S004,,148
+M4-FUNG-0031:Q006,M4-FUNG-0031,Q006,EXPERIMENT,M4-FUNG-0031:E002,standard deletion-culture temperature,37,37.0,°C,mdp/xpt studies,culture,reported,,,,S004,,149
+M4-FUNG-0031:Q007,M4-FUNG-0031,Q007,EXPERIMENT,M4-FUNG-0031:E006,XptB DMAPP Km,0.024,0.024,mM,purified XptB,enzyme kinetics,reported,,,,S008,,150
+M4-FUNG-0031:Q008,M4-FUNG-0031,Q008,EXPERIMENT,M4-FUNG-0031:E006,XptB DMAPP kcat,0.13,0.13,s^-1,purified XptB,enzyme kinetics,reported,,,,S008,,151
+M4-FUNG-0031:Q009,M4-FUNG-0031,Q009,EXPERIMENT,M4-FUNG-0031:E006,XptB accepted-xanthone Km range,0.081,0.081,to 1.1 mM,accepted xanthone substrates,enzyme kinetics,reported range,,,,S008,,152
+M4-FUNG-0031:Q010,M4-FUNG-0031,Q010,EXPERIMENT,M4-FUNG-0031:E006,XptB accepted-xanthone kcat range,0.02,0.02,to 0.5 s^-1,accepted xanthone substrates,enzyme kinetics,reported range,,,,S008,,153
+M4-FUNG-0031:Q011,M4-FUNG-0031,Q011,EXPERIMENT,M4-FUNG-0031:E006,metal-ion activity enhancement,8,8.0,fold up to,Mn2+/Co2+ vs basal,enzyme assay,reported maximum,,,higher,S008,,154
+M4-FUNG-0032:Q001,M4-FUNG-0032,Q001,EXPERIMENT,M4-FUNG-0032:E001,MIBiG displayed-region length,33515,33515.0,bp,HQ731031.1,sequence,exact,1,,,S001,,139
+M4-FUNG-0032:Q002,M4-FUNG-0032,Q002,EXPERIMENT,M4-FUNG-0032:E001,gene-bearing MIBiG locus span,25486,25486.0,bp,"7,000–32,485",sequence,inclusive calculation,1,,,S001,,140
+M4-FUNG-0032:Q003,M4-FUNG-0032,Q003,EXPERIMENT,M4-FUNG-0032:E001,database CDS count,8,8.0,CDSs,mpaA–mpaH,sequence,count,1,,,S001,mpaD/E are actually one native fusion transcript.,141
+M4-FUNG-0032:Q004,M4-FUNG-0032,Q004,EXPERIMENT,M4-FUNG-0032:E003,native mpaDE cDNA length,2562,2562.0,bp,IBT23078,fusion transcript,reported,1,,,S004,,142
+M4-FUNG-0032:Q005,M4-FUNG-0032,Q005,EXPERIMENT,M4-FUNG-0032:E003,mpaDE intron count,6,6.0,introns,IBT23078 fusion gene,gene structure,reported,1,,,S004,,143
+M4-FUNG-0032:Q006,M4-FUNG-0032,Q006,EXPERIMENT,M4-FUNG-0032:E001,YES production temperature,25,25.0,°C,IBT23078 WT/mutant,culture,reported,,,,S003,,144
+M4-FUNG-0032:Q007,M4-FUNG-0032,Q007,EXPERIMENT,M4-FUNG-0032:E001,YES production duration,7,7.0,days,IBT23078 WT/mutant,endpoint,reported,,,,S003,,145
+M4-FUNG-0032:Q008,M4-FUNG-0032,Q008,EXPERIMENT,M4-FUNG-0032:E001,candidate mpaC deletion transformants initially identified,9,9.0,transformants,IBT23078,screen,reported,,,,S003,Only one purified segregant yielded clean loss phenotype after single-spore purification.,146
+M4-FUNG-0032:Q009,M4-FUNG-0032,Q009,EXPERIMENT,M4-FUNG-0032:E001,single spores initiated during purification,198,198.0,spores,nine candidate mutants,purification,reported,,,,S003,,147
+M4-FUNG-0032:Q010,M4-FUNG-0032,Q010,EXPERIMENT,M4-FUNG-0032:E001,germinating spores advanced,49,49.0,spores,purification,screen,reported,,,,S003,,148
+M4-FUNG-0032:Q011,M4-FUNG-0032,Q011,EXPERIMENT,M4-FUNG-0032:E008,MpaG DMMPA complex resolution,2,2.0,Å,SAH/DMMPA-bound MpaG',X-ray structure,reported,,,,S008,PDB 8XTG.,149
+M4-FUNG-0032:Q012,M4-FUNG-0032,Q012,EXPERIMENT,M4-FUNG-0032:E008,MpaG catalytic residues,H306-E362,,dyad,MpaG',mechanism,reported,,,,S008,,150
+M4-FUNG-0032:Q013,M4-FUNG-0032,Q013,EXPERIMENT,M4-FUNG-0032:E008,MpaG engineered residue,Q267A,,variant,MpaG',protein engineering,reported,,,higher,S008,Improved catalytic efficiency for all three tested substrates.,151
+M4-FUNG-0033:Q001,M4-FUNG-0033,Q001,EXPERIMENT,M4-FUNG-0033:E001,MIBiG displayed-region length,46675,46675.0,bp,BN001302.1,sequence,exact,1,,,S001,,132
+M4-FUNG-0033:Q002,M4-FUNG-0033,Q002,EXPERIMENT,M4-FUNG-0033:E001,MIBiG sole-CDS count,1,1.0,CDS,wA,sequence,count,1,,,S001,,133
+M4-FUNG-0033:Q003,M4-FUNG-0033,Q003,EXPERIMENT,M4-FUNG-0033:E001,wA genomic CDS span,6675,6675.0,bp,"1,136,199–1,142,873",sequence,inclusive calculation,1,,,S001,,134
+M4-FUNG-0033:Q004,M4-FUNG-0033,Q004,EXPERIMENT,M4-FUNG-0033:E001,WA predicted protein length,1986,1986.0,amino acids,processed wA transcript,sequence,reported,1,,,S003,,135
+M4-FUNG-0033:Q005,M4-FUNG-0033,Q005,EXPERIMENT,M4-FUNG-0033:E003,vegetative YG yeast extract,0.5,0.5,% w/v,YG medium,growth,reported,,,,S005,,136
+M4-FUNG-0033:Q006,M4-FUNG-0033,Q006,EXPERIMENT,M4-FUNG-0033:E003,vegetative YG glucose,2,2.0,% w/v,YG medium,growth,reported,,,,S005,,137
+M4-FUNG-0033:Q007,M4-FUNG-0033,Q007,EXPERIMENT,M4-FUNG-0033:E003,vegetative agitation,300,300.0,rpm,YG submerged culture,growth,reported,,,,S005,,138
+M4-FUNG-0033:Q008,M4-FUNG-0033,Q008,EXPERIMENT,M4-FUNG-0033:E003,conidiation-induction aeration,250,250.0,mL/min per dish,filter culture,development,reported,,,,S005,,139
+M4-FUNG-0033:Q009,M4-FUNG-0033,Q009,EXPERIMENT,M4-FUNG-0033:E003,laccase rise onset,10,10.0,to 16 h,after conidiation induction,developmental time course,reported range,,,higher,S005,,140
+M4-FUNG-0033:Q010,M4-FUNG-0033,Q010,EXPERIMENT,M4-FUNG-0033:E003,laccase peak,30,30.0,to 36 h,after conidiation induction,developmental time course,reported range,,,higher,S005,,141
+M4-FUNG-0033:Q011,M4-FUNG-0033,Q011,EXPERIMENT,M4-FUNG-0033:E006,chaA/fwA phenotype scoring temperature,37,37.0,°C,solid colony assay,48 h assay,reported,,,,S008,,142
+M4-FUNG-0033:Q012,M4-FUNG-0033,Q012,EXPERIMENT,M4-FUNG-0033:E006,chaA/fwA phenotype scoring duration,48,48.0,h,solid colony assay,endpoint,reported,,,,S008,,143
+M4-FUNG-0033:Q013,M4-FUNG-0033,Q013,UNRESOLVED_REFERENCE,M001,YWA1 molecular formula,C14H12O6,,formula,YWA1,structure,exact,,,,S012,,144
+M4-FUNG-0033:Q014,M4-FUNG-0033,Q014,EXPERIMENT,M4-FUNG-0033:E006,original fwA1 deleted segment,2241,2241.0,bp,fwA1 allele,genotype,reported,,,,S008,Original allele disrupted three genes; clean AN1088 deletion resolves fwA identity.,145
+M4-FUNG-0034:Q001,M4-FUNG-0034,Q001,EXPERIMENT,M4-FUNG-0034:E001,MIBiG region length,40217,40217.0,bp,KF899892.1,sequence,exact,1,,,S001,,145
+M4-FUNG-0034:Q002,M4-FUNG-0034,Q002,EXPERIMENT,M4-FUNG-0034:E003,cluster gene count,15,15.0,genes,patA–patO naming set,cluster,count,1,,,S003; S006,,146
+M4-FUNG-0034:Q003,M4-FUNG-0034,Q003,EXPERIMENT,M4-FUNG-0034:E003,biosynthetic pathway length,10,10.0,steps,patulin pathway,mechanistic,reported,,,,S006,,147
+M4-FUNG-0034:Q004,M4-FUNG-0034,Q004,EXPERIMENT,M4-FUNG-0034:E002,apple cultivars tested,13,13.0,cultivars,ΔpatL pathogenicity study,host panel,reported,,,,S004,,148
+M4-FUNG-0034:Q005,M4-FUNG-0034,Q005,EXPERIMENT,M4-FUNG-0034:E006,velvet proteins with demonstrated positive involvement,3,3.0,proteins,VeA/VelB/VelC,regulation,count,,,,S006,VosA was not similarly required.,149
+M4-FUNG-0034:Q006,M4-FUNG-0034,Q006,EXPERIMENT,M4-FUNG-0034:E004,major subcellular compartments represented,7,7.0,compartment classes,cytosol/nucleus/ER/plasma membrane/vacuole/vesicles/cell wall,spatial pathway,inference count,,,,S006,,150
+M4-FUNG-0034:Q007,M4-FUNG-0034,Q007,UNRESOLVED_REFERENCE,M001,patulin formula,C7H6O4,,formula,patulin,structure,exact,,,,S001,,151
+M4-FUNG-0035:Q001,M4-FUNG-0035,Q001,EXPERIMENT,M4-FUNG-0035:E001,MIBiG displayed-region length,40346,40346.0,bp,KC145148.1,sequence,exact,1,,,S001,,143
+M4-FUNG-0035:Q002,M4-FUNG-0035,Q002,EXPERIMENT,M4-FUNG-0035:E001,named pta genes,16,16.0,genes,ptaA–ptaM plus ptaR1–R3,cluster,count,1,,,S001,,144
+M4-FUNG-0035:Q003,M4-FUNG-0035,Q003,EXPERIMENT,M4-FUNG-0035:E001,gene-bearing locus start,4104,4104.0,bp,ptaA start,sequence,exact,1,,,S001,,145
+M4-FUNG-0035:Q004,M4-FUNG-0035,Q004,EXPERIMENT,M4-FUNG-0035:E001,gene-bearing locus end,40345,40345.0,bp,ptaM end,sequence,exact,1,,,S001,"MIBiG locus descriptor rounds to 40,346.",146
+M4-FUNG-0035:Q005,M4-FUNG-0035,Q005,EXPERIMENT,M4-FUNG-0035:E007,RES-1214-1 ETA-receptor IC50,1.5,1.5,µM,ET-1 binding assay,endpoint,reported,,,,S009,,147
+M4-FUNG-0035:Q006,M4-FUNG-0035,Q006,EXPERIMENT,M4-FUNG-0035:E007,RES-1214-2 ETA-receptor IC50,10,10.0,µM,ET-1 binding assay,endpoint,reported,,,,S009,Some secondary sources quote 20 µM; primary PubMed abstract reports 10 µM.,148
+M4-FUNG-0035:Q007,M4-FUNG-0035,Q007,UNRESOLVED_REFERENCE,M001,pestheic-acid molecular formula,C17H15ClO8,,formula,pestheic acid / RES-1214-2,structure,exact,,,,S007,,149
+M4-FUNG-0035:Q008,M4-FUNG-0035,Q008,UNRESOLVED_REFERENCE,M001,pestheic-acid PubChem CID,9842980,9842980.0,CID,RES-1214-2,database,exact,,,,S007,PubChem annotation notes pestheic-acid naming.,150
+M4-FUNG-0035:Q009,M4-FUNG-0035,Q009,UNRESOLVED_REFERENCE,ORGANISM,strain taxon ID,1229662,1229662.0,NCBI/UniProt taxonomy ID,W106-1 / CGMCC3.15140,taxonomy,exact,,,,S002,,151
+M4-FUNG-0035:Q010,M4-FUNG-0035,Q010,UNRESOLVED_REFERENCE,ORGANISM,isolation year,2005,2005.0,year,W106-1,April,reported,,,,S012,,152
+M4-FUNG-0035:Q011,M4-FUNG-0035,Q011,UNRESOLVED_REFERENCE,ORGANISM,known secondary metabolites reported from W106-1 by 2015 genome study,88,88.0,metabolites,P. fici W106-1,genome/natural-product survey,reported,,,,S004,Shows unusually rich secondary-metabolic capacity; not all belong to pta cluster.,153
+M4-FUNG-0036:Q001,M4-FUNG-0036,Q001,EXPERIMENT,M4-FUNG-0036:E003,displayed BGC length,47392,47392.0,bp,CM000174.1,sequence,exact,1,,,S001,,134
+M4-FUNG-0036:Q002,M4-FUNG-0036,Q002,EXPERIMENT,M4-FUNG-0036:E003,gene count,9,9.0,genes,pyr locus,cluster,count,1,,,S001,,135
+M4-FUNG-0036:Q003,M4-FUNG-0036,Q003,EXPERIMENT,M4-FUNG-0036:E004,transcription timepoints,24 and 48,,h,dual biofilm,time course,reported,,,,S008,,136
+M4-FUNG-0036:Q004,M4-FUNG-0036,Q004,EXPERIMENT,M4-FUNG-0036:E004,biofilm endpoint,5,5.0,days,dual biofilm,phenotype,reported,,,,S008,,137
+M4-FUNG-0036:Q005,M4-FUNG-0036,Q005,EXPERIMENT,M4-FUNG-0036:E004,pyripyropene MIC vs P. aeruginosa,>10,,µg/mL,tested range,MIC,reported,,,,S008,,138
+M4-FUNG-0036:Q006,M4-FUNG-0036,Q006,UNRESOLVED_REFERENCE,M001,formula,C31H37NO10,,formula,pyripyropene A,structure,exact,,,,S001,,139
+M4-FUNG-0037:Q001,M4-FUNG-0037,Q001,EXPERIMENT,M4-FUNG-0037:E001,MIBiG region length,31332,31332.0,bp,EU520419.1,sequence,exact,1,,,S001,,130
+M4-FUNG-0037:Q002,M4-FUNG-0037,Q002,EXPERIMENT,M4-FUNG-0037:E001,MIBiG gene count,5,5.0,genes,rdc1–rdc5,cluster,count,1,,,S001,,131
+M4-FUNG-0037:Q003,M4-FUNG-0037,Q003,EXPERIMENT,M4-FUNG-0037:E002,Rdc1 additional extension cycles after Rdc5 starter,4,4.0,iterations,Rdc1,mechanistic,reported,,,,S004,,132
+M4-FUNG-0037:Q004,M4-FUNG-0037,Q004,EXPERIMENT,M4-FUNG-0037:E005,halides compared,4,4.0,salts,NaBr/NaF/NaCl/NaI,perturbation panel,count,,,,S006,Only bromide selectively suppressed radicicol via rdc2 transcription.,133
+M4-FUNG-0037:Q005,M4-FUNG-0037,Q005,UNRESOLVED_REFERENCE,M001,radicicol formula,C18H17ClO6,,formula,radicicol,structure,exact,,,,S001,,134
+M4-FUNG-0038:Q001,M4-FUNG-0038,Q001,EXPERIMENT,M4-FUNG-0038:E001,MIBiG displayed-region length,21000,21000.0,bp,AB514562.1,sequence,exact,1,,,S001,,137
+M4-FUNG-0038:Q002,M4-FUNG-0038,Q002,EXPERIMENT,M4-FUNG-0038:E001,cluster gene count,6,6.0,genes,sol1–sol6,cluster,count,1,,,S001; S003,,138
+M4-FUNG-0038:Q003,M4-FUNG-0038,Q003,EXPERIMENT,M4-FUNG-0038:E001,Sol1 malonyl-CoA extender count,7,7.0,malonyl-CoA units,desmethylprosolanapyrone I assembly,mechanistic,reported,,,,S007,One acetyl-CoA starter plus seven extenders.,139
+M4-FUNG-0038:Q004,M4-FUNG-0038,Q004,EXPERIMENT,M4-FUNG-0038:E005,AO-sol1 desmethylprosolanapyrone I titer,120,120.0,mg/kg,A. oryzae culture,endpoint,reported,,,,S006,,140
+M4-FUNG-0038:Q005,M4-FUNG-0038,Q005,EXPERIMENT,M4-FUNG-0038:E005,AO-sol1/2 prosolanapyrone I titer,26,26.0,mg/kg,A. oryzae culture,endpoint,reported,,,,S006,,141
+M4-FUNG-0038:Q006,M4-FUNG-0038,Q006,EXPERIMENT,M4-FUNG-0038:E005,AO-sol1/2 host-oxidation byproduct 11a titer,9,9.0,mg/kg,A. oryzae culture,endpoint,reported,,,,S006,Vicinal-diol side product.,142
+M4-FUNG-0038:Q007,M4-FUNG-0038,Q007,EXPERIMENT,M4-FUNG-0038:E005,AO-sol1/2/6 prosolanapyrone II titer,12.5,12.5,mg/kg,A. oryzae culture,endpoint,reported,,,,S006,Clean desired product after corrected Sol6 introduction.,143
+M4-FUNG-0038:Q008,M4-FUNG-0038,Q008,EXPERIMENT,M4-FUNG-0038:E005,AO-sol1/2/6/5 solanapyrone C titer,47.3,47.3,mg/kg,A. oryzae culture,endpoint,reported,,,,S006,Nonenzymatic ethanolamine adduct of solanapyrone A in host.,144
+M4-FUNG-0038:Q009,M4-FUNG-0038,Q009,EXPERIMENT,M4-FUNG-0038:E003,native WT/Δsol5 metabolite culture age,18,18.0,days,ALS1/Δsol5,LC-MS comparison,reported,,,,S004,,145
+M4-FUNG-0038:Q010,M4-FUNG-0038,Q010,EXPERIMENT,M4-FUNG-0038:E003,A. solani growth-phenotype observation,3,3.0,weeks,ALS1/ALS2 WT and mutants on PDA,growth,reported,,,,S004,,146
+M4-FUNG-0038:Q011,M4-FUNG-0038,Q011,EXPERIMENT,M4-FUNG-0038:E003,growth-curve replicate count,5,5.0,replicates,WT vs Δsol5 PDA growth,growth assay,reported,,,,S004,Figure-reported n=5.,147
+M4-FUNG-0038:Q012,M4-FUNG-0038,Q012,UNRESOLVED_REFERENCE,M001,solanapyrone D formula,C18H22O4,,formula,solanapyrone D,structure,exact,,,,S001,,148
+M4-FUNG-0038:Q013,M4-FUNG-0038,Q013,EXPERIMENT,M4-FUNG-0038:E005,host side-products after Sol2 before Sol6,4,4.0,major side products,11a–11d,heterologous execution,reported count,,,,S006,Terminal-olefin oxidation followed by chain shortening in A. oryzae.,149
+M4-FUNG-0038:Q014,M4-FUNG-0038,Q014,EXPERIMENT,M4-FUNG-0038:E003,solanapyrone A LC-MS retention time,4.21,4.21,min,WT ALS1/AR628 culture extract,18 d,reported,,,,S004,Study-specific chromatographic method.,150
+M4-FUNG-0038:Q015,M4-FUNG-0038,Q015,EXPERIMENT,M4-FUNG-0038:E003,solanapyrone C LC-MS retention time,4.03,4.03,min,WT ALS1/AR628 culture extract,18 d,reported,,,,S004,Study-specific chromatographic method.,151
+M4-FUNG-0039:Q001,M4-FUNG-0039,Q001,EXPERIMENT,M4-FUNG-0039:E002,MIBiG region length,59725,59725.0,bp,U34740.1,sequence,exact,1,,,S001,,153
+M4-FUNG-0039:Q002,M4-FUNG-0039,Q002,EXPERIMENT,M4-FUNG-0039:E002,historically coregulated transcripts,25,25.0,transcripts,~60-kb ST cluster,cluster definition,reported,,,,S003,,154
+M4-FUNG-0039:Q003,M4-FUNG-0039,Q003,EXPERIMENT,M4-FUNG-0039:E002,current MIBiG listed CDSs,17,17.0,CDSs,current feature table,database,inference count,,,,S001,,155
+M4-FUNG-0039:Q004,M4-FUNG-0039,Q004,EXPERIMENT,M4-FUNG-0039:E002,historically named stc genes absent from current MIBiG feature table,8,8.0,genes,stcD/G/H/M/N/P/R/X,database audit,inference count,,,,S001; S003; S007,,156
+M4-FUNG-0039:Q005,M4-FUNG-0039,Q005,EXPERIMENT,M4-FUNG-0039:E005,Nor- mutants isolated,176,176.0,mutants,NOR-screen,genetic screen,reported,,,,S006,,157
+M4-FUNG-0039:Q006,M4-FUNG-0039,Q006,EXPERIMENT,M4-FUNG-0039:E005,Nor- mutants with WT growth/development,83,83.0,mutants,subset of 176,screen,reported,,,,S006,,158
+M4-FUNG-0039:Q007,M4-FUNG-0039,Q007,EXPERIMENT,M4-FUNG-0039:E005,mutations linked to stc cluster among 83,60,60.0,mutants,subset,linkage,reported,,,,S006,,159
+M4-FUNG-0039:Q008,M4-FUNG-0039,Q008,EXPERIMENT,M4-FUNG-0039:E005,unlinked mutations among 83,23,23.0,mutants,subset,linkage,reported,,,,S006,,160
+M4-FUNG-0039:Q009,M4-FUNG-0039,Q009,EXPERIMENT,M4-FUNG-0039:E005,unlinked mutants losing NOR through loss of aflR expression,3,3.0,mutants,subset of 23,regulatory screen,reported,,,,S006,,161
+M4-FUNG-0039:Q010,M4-FUNG-0039,Q010,EXPERIMENT,M4-FUNG-0039:E008,low-glucose condition,1,1.0,% glucose,light-cross-talk assay,culture,reported,,,,S011,Light lowers ST vs dark.,162
+M4-FUNG-0039:Q011,M4-FUNG-0039,Q011,EXPERIMENT,M4-FUNG-0039:E008,high-glucose condition,2,2.0,% glucose,light-cross-talk assay,culture,reported,,,,S011,Light increases ST vs dark.,163
+M4-FUNG-0039:Q012,M4-FUNG-0039,Q012,UNRESOLVED_REFERENCE,M001,sterigmatocystin formula,C18H12O6,,formula,sterigmatocystin,structure,exact,,,,S001,,164
+M4-FUNG-0040:Q001,M4-FUNG-0040,Q001,EXPERIMENT,M4-FUNG-0040:E001,MIBiG displayed-region length,48060,48060.0,bp,"EQ962655.1:1,793,486–1,841,545",sequence,exact,1,,,S001,,147
+M4-FUNG-0040:Q002,M4-FUNG-0040,Q002,EXPERIMENT,M4-FUNG-0040:E001,knockout-supported locus length,32135,32135.0,bp,"1,805,625–1,837,759",sequence,inclusive calculation,1,,,S001,,148
+M4-FUNG-0040:Q003,M4-FUNG-0040,Q003,EXPERIMENT,M4-FUNG-0040:E001,unique biological loci in MIBiG display,12,12.0,loci,TSTA_117720–TSTA_117830,annotation,count,1,,,S001,Alternative models excluded.,149
+M4-FUNG-0040:Q004,M4-FUNG-0040,Q004,EXPERIMENT,M4-FUNG-0040:E001,alternative duplicate gene models,3,3.0,models,117730/117760/117810,annotation,count,1,,,S001,,150
+M4-FUNG-0040:Q005,M4-FUNG-0040,Q005,EXPERIMENT,M4-FUNG-0040:E001,minimum genes for tropolone nucleus,3,3.0,genes,TropA/TropB/TropC,functional programme,reported,1,,,S003,,151
+M4-FUNG-0040:Q006,M4-FUNG-0040,Q006,EXPERIMENT,M4-FUNG-0040:E001,TropA approximate protein mass,294,294.0,kDa,TropA,protein,reported,,,,S003,,152
+M4-FUNG-0040:Q007,M4-FUNG-0040,Q007,EXPERIMENT,M4-FUNG-0040:E001,TropA malonyl-CoA extender count,3,3.0,malonyl-CoA units,3-methylorcinaldehyde assembly,mechanistic,reported,,,,S011,"Plus acetyl starter, methylation and reductive release.",153
+M4-FUNG-0040:Q008,M4-FUNG-0040,Q008,EXPERIMENT,M4-FUNG-0040:E008,TropB kcat,0.298,0.298,s^-1,native 3-methylorcinaldehyde substrate,steady-state kinetics,reported,,,,S005,±0.006 s^-1.,154
+M4-FUNG-0040:Q009,M4-FUNG-0040,Q009,EXPERIMENT,M4-FUNG-0040:E008,TropB kcat uncertainty,0.006,0.006,s^-1,native substrate,steady-state kinetics,reported,,,,S005,,155
+M4-FUNG-0040:Q010,M4-FUNG-0040,Q010,EXPERIMENT,M4-FUNG-0040:E009,TropC-family mechanistic paper year,2025,2025.0,year,JACS radical ring-expansion study,publication,exact,,,,S007,,156
+M4-FUNG-0040:Q011,M4-FUNG-0040,Q011,UNRESOLVED_REFERENCE,G013,TropG start coordinate,1847386,1847386.0,bp,TSTA_117860,genome,reported,,,,S006,"Outside MIBiG end 1,841,545.",157
+M4-FUNG-0040:Q012,M4-FUNG-0040,Q012,UNRESOLVED_REFERENCE,G013,TropG end coordinate,1848446,1848446.0,bp,TSTA_117860,genome,reported,,,,S006,,158
+M4-FUNG-0040:Q013,M4-FUNG-0040,Q013,UNRESOLVED_REFERENCE,G013,distance from MIBiG displayed end to TropG start,5841,5841.0,bp,"1,841,545 to 1,847,386",derived,calculated,,,,S001; S006,,159
+M4-FUNG-0040:Q014,M4-FUNG-0040,Q014,UNRESOLVED_REFERENCE,M001,stipitatic-acid formula,C8H6O5,,formula,stipitatic acid,structure,exact,,,,S001; S009,,160
+M4-FUNG-0041:Q001,M4-FUNG-0041,Q001,EXPERIMENT,M4-FUNG-0041:E006,known Tox1 genes,10,10.0,genes,current programme,2023 architecture,count,1,,,S009,,136
+M4-FUNG-0041:Q002,M4-FUNG-0041,Q002,EXPERIMENT,M4-FUNG-0041:E006,Tox1A genes,6,6.0,genes,chr12;6,architecture,count,1,,,S009,,137
+M4-FUNG-0041:Q003,M4-FUNG-0041,Q003,EXPERIMENT,M4-FUNG-0041:E006,Tox1B genes,4,4.0,genes,chr6;12,architecture,count,1,,,S009,,138
+M4-FUNG-0041:Q004,M4-FUNG-0041,Q004,EXPERIMENT,M4-FUNG-0041:E006,Tox1A Race-T-specific DNA,634,634.0,kb approx,three gene-pair islands,architecture,reported,,,,S009,Coding genes total only ~18.9 kb.,139
+M4-FUNG-0041:Q005,M4-FUNG-0041,Q005,EXPERIMENT,M4-FUNG-0041:E006,Tox1B Race-T-specific loop,210,210.0,kb approx,RED3/2/1/DEC1,architecture,reported,,,,S009,,140
+M4-FUNG-0041:Q006,M4-FUNG-0041,Q006,EXPERIMENT,M4-FUNG-0041:E006,Tox1-associated Race-T-specific DNA,1,1.0,Mb approx,supervirulence-associated inserts,genome,reported,,,,S009,,141
+M4-FUNG-0041:Q007,M4-FUNG-0041,Q007,EXPERIMENT,M4-FUNG-0041:E006,PKS1/TOX10 to OXI1/TOX9 separation,225,225.0,kb,Tox1A,distance,reported,,,,S009,,142
+M4-FUNG-0041:Q008,M4-FUNG-0041,Q008,EXPERIMENT,M4-FUNG-0041:E006,PKS2/LAM1 to PKS1/TOX10 separation,153,153.0,kb,Tox1A,distance,reported,,,,S009,,143
+M4-FUNG-0041:Q009,M4-FUNG-0041,Q009,EXPERIMENT,M4-FUNG-0041:E005,light/dark culture duration,8,8.0,days,CMX,endpoint,reported,,,,S007,,144
+M4-FUNG-0041:Q010,M4-FUNG-0041,Q010,UNRESOLVED_REFERENCE,M002,major T-toxin chain length,41,41.0,carbons,major component,compound,reported,,,,S009; S012,,145
+M4-FUNG-0042:Q001,M4-FUNG-0042,Q001,EXPERIMENT,M4-FUNG-0042:E001,MIBiG displayed-region length,13275,13275.0,bp,JN257714.1,sequence,exact,1,,,S001,,132
+M4-FUNG-0042:Q002,M4-FUNG-0042,Q002,EXPERIMENT,M4-FUNG-0042:E001,MIBiG gene count,5,5.0,genes,adaR/D/C/B/A,cluster,count,1,,,S001,,133
+M4-FUNG-0042:Q003,M4-FUNG-0042,Q003,EXPERIMENT,M4-FUNG-0042:E002,heterologous TAN-1612 production time,2,2.0,days,S. cerevisiae BJ5464-NpgA,culture,reported,,,,S011,Review summarizing 2011 yeast reconstruction.,134
+M4-FUNG-0042:Q004,M4-FUNG-0042,Q004,EXPERIMENT,M4-FUNG-0042:E003,AptB Mn2+ ions per monomer,1.5,1.5,Mn ions/monomer,Mn-enriched AptB,metal analysis,reported,,,,S003,"Homolog mechanistic evidence, not direct AdaB metal stoichiometry.",135
+M4-FUNG-0042:Q005,M4-FUNG-0042,Q005,EXPERIMENT,M4-FUNG-0042:E003,Mn-AptB tetracyclic product apparent formation rate,17,17.0,ng/min,AdaA+AdaC substrate system,time course,reported,,,,S003,Homologous MβL mechanistic assay.,136
+M4-FUNG-0042:Q006,M4-FUNG-0042,Q006,EXPERIMENT,M4-FUNG-0042:E003,AptB anthracenone-product rate,0.7,0.7,ng/min,hydrolysis/alternate product context,time course,reported,,,,S003,~25-fold lower than tetracyclic-product turnover in cited assay.,137
+M4-FUNG-0042:Q007,M4-FUNG-0042,Q007,EXPERIMENT,M4-FUNG-0042:E004,orange colonies in kusA+ + gRNA background,75,75.0,% approximately,CRISPR transformants,screen,reported,,,higher,S006,AdaR overexpression provides colored-product reporter.,138
+M4-FUNG-0042:Q008,M4-FUNG-0042,Q008,EXPERIMENT,M4-FUNG-0042:E004,correct homologous replacement in screened orange colonies,5,5.0,of 9,kusA+ + gRNA,PCR validation,reported,,,,S006,,139
+M4-FUNG-0042:Q009,M4-FUNG-0042,Q009,EXPERIMENT,M4-FUNG-0042:E004,orange colonies in kusA- + gRNA background,93,93.0,% approximately,CRISPR transformants,screen,reported,,,higher,S006,,140
+M4-FUNG-0042:Q010,M4-FUNG-0042,Q010,EXPERIMENT,M4-FUNG-0042:E004,correct replacement in screened kusA- orange colonies,9,9.0,of 9,kusA- + gRNA,PCR validation,reported,,,,S006,,141
+M4-FUNG-0042:Q011,M4-FUNG-0042,Q011,EXPERIMENT,M4-FUNG-0042:E005,optimized yeast production increase,450,450.0,> fold,relative to prior reported S. cerevisiae yield,production,reported lower bound,,,higher,S008,,142
+M4-FUNG-0042:Q012,M4-FUNG-0042,Q012,EXPERIMENT,M4-FUNG-0042:E006,S. boulardii TAN-1612 titer,6.1,6.1,mg/L,best reported strain,endpoint,mean,,,higher,S008,,143
+M4-FUNG-0042:Q013,M4-FUNG-0042,Q013,EXPERIMENT,M4-FUNG-0042:E006,S. boulardii TAN-1612 titer uncertainty,2.3,2.3,mg/L,best reported strain,endpoint,±,,,,S008,,144
+M4-FUNG-0042:Q014,M4-FUNG-0042,Q014,UNRESOLVED_REFERENCE,M001,TAN-1612 molecular formula,C21H18O9,,formula,TAN-1612,structure,exact,,,,S001,,145
+M4-FUNG-0042:Q015,M4-FUNG-0042,Q015,UNRESOLVED_REFERENCE,M002,desmethyl TAN-1612 molecular formula,C20H16O9,,formula,desmethyl TAN-1612,structure,exact,,,,S001,,146
+M4-FUNG-0043:Q001,M4-FUNG-0043,Q001,EXPERIMENT,M4-FUNG-0043:E001,displayed region length,47141,47141.0,bp,CH476602.1,sequence,exact,1,,,S001,,134
+M4-FUNG-0043:Q002,M4-FUNG-0043,Q002,EXPERIMENT,M4-FUNG-0043:E001,MIBiG displayed CDS count,9,9.0,CDSs,ATEG_06272–06280,database,count,1,,,S001,,135
+M4-FUNG-0043:Q003,M4-FUNG-0043,Q003,EXPERIMENT,M4-FUNG-0043:E001,experimentally defined at genes,8,8.0,genes,atA–G + atX,functional boundary,count,1,,,S003,,136
+M4-FUNG-0043:Q004,M4-FUNG-0043,Q004,EXPERIMENT,M4-FUNG-0043:E001,neighborhood genes tested,12,12.0,genes,ATEG_06270–06282,deletion screen,reported,,,,S003,,137
+M4-FUNG-0043:Q005,M4-FUNG-0043,Q005,EXPERIMENT,M4-FUNG-0043:E002,GS-NX 6-MSA titer,193.6,193.6,mg/L,npgA+atX P. pastoris,48 h,reported,,,,S004,,138
+M4-FUNG-0043:Q006,M4-FUNG-0043,Q006,EXPERIMENT,M4-FUNG-0043:E002,GS-NXAE benzenetriol titer,77.8,77.8,mg/L,AtX+AtA+AtE,48 h,reported,,,,S004,,139
+M4-FUNG-0043:Q007,M4-FUNG-0043,Q007,EXPERIMENT,M4-FUNG-0043:E003,GS-NXAED terremutin titer,49,49.0,mg/L,AtX+A+E+D,48 h,reported,,,,S004,,140
+M4-FUNG-0043:Q008,M4-FUNG-0043,Q008,EXPERIMENT,M4-FUNG-0043:E004,GS-NXAEDC terreic acid titer,0.9,0.9,mg/L,AtX+A+E+D+C,shake flask,reported,,,,S004,,141
+M4-FUNG-0044:Q001,M4-FUNG-0044,Q001,EXPERIMENT,M4-FUNG-0044:E001,MIBiG displayed-region length,52759,52759.0,bp,"CH476594.1:399,827–452,585",sequence,exact,1,,,S001,,143
+M4-FUNG-0044:Q002,M4-FUNG-0044,Q002,EXPERIMENT,M4-FUNG-0044:E001,evidence-supported locus length,32759,32759.0,bp,"399,827–432,585",sequence,inclusive calculation,1,,,S001,,144
+M4-FUNG-0044:Q003,M4-FUNG-0044,Q003,EXPERIMENT,M4-FUNG-0044:E001,ter BGC gene count,11,11.0,genes,terA–J + terR,functional locus,count,1,,,S003; S011,,145
+M4-FUNG-0044:Q004,M4-FUNG-0044,Q004,EXPERIMENT,M4-FUNG-0044:E003,PDB versus glucose-minimal PterA induction,200,200.0,to 500 fold,PterA:lacZ,48–72 h,reported range,,,higher,S004,,146
+M4-FUNG-0044:Q005,M4-FUNG-0044,Q005,EXPERIMENT,M4-FUNG-0044:E003,fruit-juice promoter activity relative to PDB,5,5.0,>= fold,banana/carrot/peach/apple juice,24–48 h,reported lower bound,,,higher,S004,,147
+M4-FUNG-0044:Q006,M4-FUNG-0044,Q006,EXPERIMENT,M4-FUNG-0044:E003,Sabouraud/YPD activity relative to PDB,10,10.0,to 30 %,PterA:lacZ,48–72 h,reported range,,,,S004,,148
+M4-FUNG-0044:Q007,M4-FUNG-0044,Q007,EXPERIMENT,M4-FUNG-0044:E003,glucose+1% casamino-acids induction,20,20.0,to 30 fold,versus glucose minimal,reporter,reported range,,,higher,S004,,149
+M4-FUNG-0044:Q008,M4-FUNG-0044,Q008,EXPERIMENT,M4-FUNG-0044:E002,terA expression relative to terB,8,8.0,to 14 fold,shared bidirectional promoter,inducing conditions,reported range,,,higher,S005; S011,,150
+M4-FUNG-0044:Q009,M4-FUNG-0044,Q009,EXPERIMENT,M4-FUNG-0044:E006,fruit lesion photographs,40,40.0,h,banana peel,spot assay,reported,,,,S004,First image timepoint.,151
+M4-FUNG-0044:Q010,M4-FUNG-0044,Q010,EXPERIMENT,M4-FUNG-0044:E006,fruit lesion photographs second timepoint,60,60.0,h,banana peel,spot assay,reported,,,,S004,,152
+M4-FUNG-0044:Q011,M4-FUNG-0044,Q011,EXPERIMENT,M4-FUNG-0044:E006,fruit-extract dilution series endpoint,256,256.0,fold dilution,starting from undiluted extract,spot assay,reported maximum displayed dilution,,,,S004,,153
+M4-FUNG-0044:Q012,M4-FUNG-0044,Q012,EXPERIMENT,M4-FUNG-0044:E007,iron-reduction pH optimum,3,3.0,to 4 pH,terrein ferric-reduction reaction,cell-free,reported range,,,,S004,,154
+M4-FUNG-0044:Q013,M4-FUNG-0044,Q013,EXPERIMENT,M4-FUNG-0044:E008,high iron condition,200,200.0,µM FeCl3,growth assay,pre-growth/iron replete,reported,,,,S004,,155
+M4-FUNG-0044:Q014,M4-FUNG-0044,Q014,EXPERIMENT,M4-FUNG-0044:E008,low iron condition,2,2.0,µM FeCl3,growth assay,iron-limited,reported,,,,S004,,156
+M4-FUNG-0044:Q015,M4-FUNG-0044,Q015,EXPERIMENT,M4-FUNG-0044:E008,zero-iron condition,0,0.0,µM FeCl3,growth assay,iron-limited,reported,,,,S004,,157
+M4-FUNG-0044:Q016,M4-FUNG-0044,Q016,UNRESOLVED_REFERENCE,M001,terrein molecular formula,C8H10O3,,formula,terrein,structure,exact,,,,S003; S012,,158
+M4-FUNG-0044:Q017,M4-FUNG-0044,Q017,UNRESOLVED_REFERENCE,M008,PMA molecular formula,C7H8O4,,formula,terrein oxidation product,structure,exact,,,,S004,,159
+M4-FUNG-0044:Q018,M4-FUNG-0044,Q018,UNRESOLVED_REFERENCE,MIBiG,current database product formula,C8H10O3,,formula,isoterrein,database,exact,,,,S001,Same formula does not imply same stereochemical identity.,160
+M4-FUNG-0045:Q001,M4-FUNG-0045,Q001,EXPERIMENT,M4-FUNG-0045:E001,MIBiG displayed length,51400,51400.0,bp,GU574477.1,sequence,exact,1,,,S001,,139
+M4-FUNG-0045:Q002,M4-FUNG-0045,Q002,EXPERIMENT,M4-FUNG-0045:E001,named functional vrt genes,14,14.0,genes,vrtA–L + vrtR1/R2,functional programme,literature count,1,,,S003,,140
+M4-FUNG-0045:Q003,M4-FUNG-0045,Q003,EXPERIMENT,M4-FUNG-0045:E001,current displayed CDS features,22,22.0,CDSs,MIBiG interval,database,current count,1,,,S001,,141
+M4-FUNG-0045:Q004,M4-FUNG-0045,Q004,UNRESOLVED_REFERENCE,M001,viridicatumtoxin formula,C30H31NO10,,formula,compound,structure,exact,,,,S001,,142
+M4-FUNG-0046:Q001,M4-FUNG-0046,Q001,EXPERIMENT,M4-FUNG-0046:E001,MIBiG display length,45340,45340.0,bp,ACJE01000012.1,sequence,exact,1,,,S001,,135
+M4-FUNG-0046:Q002,M4-FUNG-0046,Q002,EXPERIMENT,M4-FUNG-0046:E002,yan cluster genes,10,10.0,genes,yanA-I + yanR,functional programme,reported,1,,,S003,,136
+M4-FUNG-0046:Q003,M4-FUNG-0046,Q003,EXPERIMENT,M4-FUNG-0046:E002,named branch congeners F-J,5,5.0,congeners,yanuthone branches,metabolites,reported,,,,S003,,137
+M4-FUNG-0046:Q004,M4-FUNG-0046,Q004,UNRESOLVED_REFERENCE,M001,yanuthone D formula,C28H38O8,,formula,compound,structure,exact,,,,S001,,138
+M4-FUNG-0047:Q001,M4-FUNG-0047,Q001,EXPERIMENT,M4-FUNG-0047:E001,MIBiG displayed length,44724,44724.0,bp,CH476597.1,sequence,exact,1,,,S001,,135
+M4-FUNG-0047:Q002,M4-FUNG-0047,Q002,EXPERIMENT,M4-FUNG-0047:E001,functional cluster genes,9,9.0,genes,ata functional set,deletion-defined,reported,1,,,S003,,136
+M4-FUNG-0047:Q003,M4-FUNG-0047,Q003,EXPERIMENT,M4-FUNG-0047:E001,pathway natural products isolated,17,17.0,compounds,WT + mutants,study total,reported,,,,S003,,137
+M4-FUNG-0047:Q004,M4-FUNG-0047,Q004,EXPERIMENT,M4-FUNG-0047:E001,novel natural products,9,9.0,compounds,study total,novelty,reported,,,,S003,,138
+M4-FUNG-0047:Q005,M4-FUNG-0047,Q005,UNRESOLVED_REFERENCE,M001,acetylaranotin formula,C22H20N2O8S2,,formula,compound,structure,exact,,,,S001,,139
+M4-FUNG-0048:Q001,M4-FUNG-0048,Q001,EXPERIMENT,M4-FUNG-0048:E001,MIBiG display length,47132,47132.0,bp,DS027698.1,sequence,exact,1,,,S001,,131
+M4-FUNG-0048:Q002,M4-FUNG-0048,Q002,EXPERIMENT,M4-FUNG-0048:E001,functional genes,3,3.0,genes,anaPS/PT/AT,core,count,1,,,S003,,132
+M4-FUNG-0048:Q003,M4-FUNG-0048,Q003,EXPERIMENT,M4-FUNG-0048:E002,AnaPT Km DMAPP,156,156.0,µM,AnaPT,steady-state,reported,,,,S003,,133
+M4-FUNG-0048:Q004,M4-FUNG-0048,Q004,EXPERIMENT,M4-FUNG-0048:E002,AnaPT Km benzodiazepinedione,232,232.0,µM,AnaPT,steady-state,reported,,,,S003,,134
+M4-FUNG-0048:Q005,M4-FUNG-0048,Q005,EXPERIMENT,M4-FUNG-0048:E002,AnaPT kcat,1.5,1.5,s^-1,AnaPT,steady-state,reported,,,,S003,,135
+M4-FUNG-0048:Q006,M4-FUNG-0048,Q006,EXPERIMENT,M4-FUNG-0048:E003,AnaAT Km acetyl-CoA,96,96.0,µM,AnaAT,steady-state,reported,,,,S003,,136
+M4-FUNG-0048:Q007,M4-FUNG-0048,Q007,EXPERIMENT,M4-FUNG-0048:E003,AnaAT Km aszonalenin,61,61.0,µM,AnaAT,steady-state,reported,,,,S003,,137
+M4-FUNG-0048:Q008,M4-FUNG-0048,Q008,EXPERIMENT,M4-FUNG-0048:E003,AnaAT kcat,0.14,0.14,s^-1,AnaAT,steady-state,reported,,,,S003,,138
+M4-FUNG-0049:Q001,M4-FUNG-0049,Q001,EXPERIMENT,M4-FUNG-0049:E001,sequenced neighborhood,63,63.0,kb,around APS1,sequence,reported,,,,S003,,136
+M4-FUNG-0049:Q002,M4-FUNG-0049,Q002,EXPERIMENT,M4-FUNG-0049:E002,genes in neighborhood tested,19,19.0,genes,local survey,deletion screen,reported,,,,S003,,137
+M4-FUNG-0049:Q003,M4-FUNG-0049,Q003,EXPERIMENT,M4-FUNG-0049:E002,genes required in source deletion study,8,8.0,genes,functional core,deletion-defined,reported,,,,S003,,138
+M4-FUNG-0049:Q004,M4-FUNG-0049,Q004,EXPERIMENT,M4-FUNG-0049:E001,apicidin-deficient T-DNA mutants,24,24.0,mutants,screen,count,reported,,,,S003,,139
+M4-FUNG-0049:Q005,M4-FUNG-0049,Q005,UNRESOLVED_REFERENCE,APS1,APS1 ORF length,15488,15488.0,bp,APS1,coding sequence,reported,,,,S003,,140
+M4-FUNG-0049:Q006,M4-FUNG-0049,Q006,UNRESOLVED_REFERENCE,APS1,APS1 predicted protein mass,567,567.0,kDa,APS1,protein,reported,,,,S003,,141
+M4-FUNG-0049:Q007,M4-FUNG-0049,Q007,UNRESOLVED_REFERENCE,M001,apicidin formula,C34H49N5O6,,formula,compound,structure,exact,,,,S001,,142
+M4-FUNG-0049:Q008,M4-FUNG-0049,Q008,EXPERIMENT,M4-FUNG-0049:E005,apicidin production,5,5.0,fold,wild type,rice-culture endpoint,reported comparison,3,NR,increase,S003,Three APS2-overexpression transformants were reported to produce about fivefold more apicidin than wild type in rice culture.,143
+M4-FUNG-0050:Q001,M4-FUNG-0050,Q001,EXPERIMENT,M4-FUNG-0050:E001,MIBiG region length,35683,35683.0,bp,EU886741.1,sequence,exact,1,,,S001,,131
+M4-FUNG-0050:Q002,M4-FUNG-0050,Q002,UNRESOLVED_REFERENCE,G001,aba1 ORF length,34980,34980.0,bp,aba1,coding sequence,exact,1,,,S003,,132
+M4-FUNG-0050:Q003,M4-FUNG-0050,Q003,UNRESOLVED_REFERENCE,G001,Aba1 protein length,11659,11659.0,aa,Aba1,protein,reported,1,,,S003,,133
+M4-FUNG-0050:Q004,M4-FUNG-0050,Q004,UNRESOLVED_REFERENCE,G001,Aba1 calculated molecular mass,1286254,1286254.0,Da,Aba1,protein,reported,1,,,S003,,134
+M4-FUNG-0050:Q005,M4-FUNG-0050,Q005,UNRESOLVED_REFERENCE,G001,biosynthetic modules,9,9.0,modules,Aba1,architecture,reported,1,,,S003,,135
+M4-FUNG-0050:Q006,M4-FUNG-0050,Q006,UNRESOLVED_REFERENCE,G001,embedded methylation domains,4,4.0,domains,Aba1,architecture,reported,1,,,S003,,136
+M4-FUNG-0050:Q007,M4-FUNG-0050,Q007,UNRESOLVED_REFERENCE,M001,aureobasidin A formula,C60H92N8O11,,formula,compound,structure,exact,,,,S001,,137
+M4-FUNG-0051:Q001,M4-FUNG-0051,Q001,EXPERIMENT,M4-FUNG-0051:E001,MIBiG display length,41205,41205.0,bp,FJ439897.1,sequence,exact,1,,,S001,,131
+M4-FUNG-0051:Q002,M4-FUNG-0051,Q002,EXPERIMENT,M4-FUNG-0051:E002,insect host species tested,3,3.0,species,virulence panel,count,reported,,,,S003,,132
+M4-FUNG-0051:Q003,M4-FUNG-0051,Q003,UNRESOLVED_REFERENCE,M001,bassianolide formula,C48H84N4O12,,formula,compound,structure,exact,,,,S001,,133
+M4-FUNG-0052:Q001,M4-FUNG-0052,Q001,EXPERIMENT,M4-FUNG-0052:E001,MIBiG display length,33475,33475.0,bp,EU886196.1,sequence,exact,1,,,S001,,131
+M4-FUNG-0052:Q002,M4-FUNG-0052,Q002,UNRESOLVED_REFERENCE,G002,BbBEAS protein length,3189,3189.0,aa,BbBEAS,protein,reported,1,,,S003,,132
+M4-FUNG-0052:Q003,M4-FUNG-0052,Q003,UNRESOLVED_REFERENCE,G002,BbBEAS molecular mass,351.9,351.9,kDa,BbBEAS,protein,reported,1,,,S003,,133
+M4-FUNG-0052:Q004,M4-FUNG-0052,Q004,EXPERIMENT,M4-FUNG-0052:E003,insect hosts tested,3,3.0,species,virulence panel,count,reported,,,,S003,,134
+M4-FUNG-0052:Q005,M4-FUNG-0052,Q005,UNRESOLVED_REFERENCE,M001,beauvericin formula,C45H57N3O9,,formula,compound,structure,reported,,,,S005,,135
+M4-FUNG-0053:Q001,M4-FUNG-0053,Q001,EXPERIMENT,M4-FUNG-0053:E001,historical seed-locus length,26881,26881.0,bp,JPKY01000002.1,sequence,derived,1,,,S001,,133
+M4-FUNG-0053:Q002,M4-FUNG-0053,Q002,EXPERIMENT,M4-FUNG-0053:E001,PcbAB ORF length,11136,11136.0,bp,pcbAB,coding sequence,reported,1,,,S003,,134
+M4-FUNG-0053:Q003,M4-FUNG-0053,Q003,EXPERIMENT,M4-FUNG-0053:E001,PcbAB protein length,3712,3712.0,aa,PcbAB,protein,reported,1,,,S003,,135
+M4-FUNG-0053:Q004,M4-FUNG-0053,Q004,EXPERIMENT,M4-FUNG-0053:E003,CefM transmembrane segments,12,12.0,segments,CefM,protein topology,reported,1,,,S005,,136
+M4-FUNG-0053:Q005,M4-FUNG-0053,Q005,EXPERIMENT,M4-FUNG-0053:E003,microbody abundance timepoint,72,72.0,h,differentiating culture,localization,reported,,,,S005,,137
+M4-FUNG-0053:Q006,M4-FUNG-0053,Q006,EXPERIMENT,M4-FUNG-0053:E004,cefR overexpression effect on PenN secretion,60,60.0,percent decrease up to,PenN secretion,engineering,reported max,,,decrease,S006,,138
+M4-FUNG-0053:Q007,M4-FUNG-0053,Q007,EXPERIMENT,M4-FUNG-0053:E005,cefT amplification effect on CPC,100,100.0,percent increase up to,CPC production,engineering,reported max,,,increase,S012,,139
+M4-FUNG-0054:Q001,M4-FUNG-0054,Q001,EXPERIMENT,M4-FUNG-0054:E001,historical seed-locus length,5771,5771.0,bp,JPKY01000040.1,sequence,derived,1,,,S001,,131
+M4-FUNG-0054:Q002,M4-FUNG-0054,Q002,EXPERIMENT,M4-FUNG-0054:E001,cefEF-cefG intergenic separation,1114,1114.0,bp,divergent promoter region,genomic organization,reported,1,,,S003,,132
+M4-FUNG-0054:Q003,M4-FUNG-0054,Q003,UNRESOLVED_REFERENCE,M004,cephalosporin C formula,C16H21N3O8S,,formula,compound,structure,reported,,,,S005,,133
+M4-FUNG-0055:Q001,M4-FUNG-0055,Q001,EXPERIMENT,M4-FUNG-0055:E001,MIBiG displayed region length,43979,43979.0,bp,,,,,,,S001,,131
+M4-FUNG-0055:Q002,M4-FUNG-0055,Q002,EXPERIMENT,M4-FUNG-0055:E001,displayed CDS count,15,15.0,genes,,,,,,,S001,,132
+M4-FUNG-0056:Q001,M4-FUNG-0056,Q001,EXPERIMENT,M4-FUNG-0056:E001,MIBiG displayed region length,110488,110488.0,bp,,,,,,,S001,,142
+M4-FUNG-0056:Q002,M4-FUNG-0056,Q002,EXPERIMENT,M4-FUNG-0056:E001,displayed CDS count,20,20.0,genes,,,,,,,S001,,143
+M4-FUNG-0056:Q003,M4-FUNG-0056,Q003,EXPERIMENT,M4-FUNG-0056:E001,experimentally defined sim programme,12,12.0,genes,,,,,,,S005,,144
+M4-FUNG-0056:Q004,M4-FUNG-0056,Q004,EXPERIMENT,M4-FUNG-0056:E004,cytosporin output change,26.15,26.15,%,,,,,,increase,S005,,145
+M4-FUNG-0057:Q001,M4-FUNG-0057,Q001,EXPERIMENT,M4-FUNG-0057:E001,MIBiG region length,106198,106198.0,bp,,,,,,,S001,,143
+M4-FUNG-0057:Q002,M4-FUNG-0057,Q002,EXPERIMENT,M4-FUNG-0057:E001,displayed CDS count,21,21.0,genes,,,,,,,S001,,144
+M4-FUNG-0057:Q003,M4-FUNG-0057,Q003,EXPERIMENT,M4-FUNG-0057:E006,locust WT LT50,105.4,105.4,h,,,,,,,S004,,145
+M4-FUNG-0057:Q004,M4-FUNG-0057,Q004,EXPERIMENT,M4-FUNG-0057:E006,locust ΔdtxS2 LT50,112.4,112.4,h,,,,,,increase vs WT,S004,,146
+M4-FUNG-0057:Q005,M4-FUNG-0057,Q005,EXPERIMENT,M4-FUNG-0057:E006,silkworm WT LT50,79.3,79.3,h,,,,,,,S004,,147
+M4-FUNG-0057:Q006,M4-FUNG-0057,Q006,EXPERIMENT,M4-FUNG-0057:E006,silkworm ΔdtxS2 LT50,88,88.0,h,,,,,,increase vs WT,S004,,148
+M4-FUNG-0058:Q001,M4-FUNG-0058,Q001,EXPERIMENT,M4-FUNG-0058:E001,local ecd genes,12,12.0,genes,,,,,,,S004,,132
+M4-FUNG-0058:Q002,M4-FUNG-0058,Q002,EXPERIMENT,M4-FUNG-0058:E003,EcdA protein length,7260,7260.0,aa,,,,,,,S004,,133
+M4-FUNG-0058:Q003,M4-FUNG-0058,Q003,EXPERIMENT,M4-FUNG-0058:E003,EcdI protein length,559,559.0,aa,,,,,,,S004,,134
+M4-FUNG-0059:Q001,M4-FUNG-0059,Q001,EXPERIMENT,M4-FUNG-0059:E001,MIBiG region length,10934,10934.0,bp,,,,,,,S001,,119
+M4-FUNG-0059:Q002,M4-FUNG-0059,Q002,EXPERIMENT,M4-FUNG-0059:E001,esyn1 ORF length,9393,9393.0,bp,,,,,,,S004,,120
+M4-FUNG-0059:Q003,M4-FUNG-0059,Q003,EXPERIMENT,M4-FUNG-0059:E001,Esyn1 protein length,3131,3131.0,aa,,,,,,,S004,,121
+M4-FUNG-0059:Q004,M4-FUNG-0059,Q004,EXPERIMENT,M4-FUNG-0059:E001,Esyn1 reported molecular mass,346.9,346.9,kDa,,,,,,,S004,,122
+M4-FUNG-0060:Q001,M4-FUNG-0060,Q001,EXPERIMENT,M4-FUNG-0060:E001,MIBiG displayed region length,19379,19379.0,bp,,,,,,,S001,,126
+M4-FUNG-0060:Q002,M4-FUNG-0060,Q002,EXPERIMENT,M4-FUNG-0060:E001,displayed genes,6,6.0,genes,,,,,,,S001,,127
+M4-FUNG-0061:Q001,M4-FUNG-0061,Q001,EXPERIMENT,M4-FUNG-0061:E001,MIBiG evidence-locus length,24812,24812.0,bp,,,,,,,S001,,128
+M4-FUNG-0061:Q002,M4-FUNG-0061,Q002,EXPERIMENT,M4-FUNG-0061:E001,MIBiG locus genes,5,5.0,genes,,,,,,,S001,,129
+M4-FUNG-0062:Q001,M4-FUNG-0062,Q001,EXPERIMENT,M4-FUNG-0062:E001,MIBiG evidence-locus length,18536,18536.0,bp,,,,,,,S001,,127
+M4-FUNG-0062:Q002,M4-FUNG-0062,Q002,EXPERIMENT,M4-FUNG-0062:E001,HcpA protein length,6064,6064.0,aa,,,,,,,S004,,128
+M4-FUNG-0062:Q003,M4-FUNG-0062,Q003,EXPERIMENT,M4-FUNG-0062:E001,MIBiG cyclic congeners,10,10.0,compounds,,,,,,,S001,,129
+M4-FUNG-0062:Q004,M4-FUNG-0062,Q004,EXPERIMENT,M4-FUNG-0062:E001,profiling time,168,168.0,h,,,,,,,S004,,130
+M4-FUNG-0063:Q001,M4-FUNG-0063,Q001,EXPERIMENT,M4-FUNG-0063:E001,historical representative interval length,26265,26265.0,bp,,,,,,,S003,,134
+M4-FUNG-0063:Q002,M4-FUNG-0063,Q002,EXPERIMENT,M4-FUNG-0063:E001,historical MIBiG displayed features,14,14.0,features,,,,,,,S001,,135
+M4-FUNG-0064:Q001,M4-FUNG-0064,Q001,EXPERIMENT,M4-FUNG-0064:E005,TOX2 mapped span,600,600.0,kb,,,approximate,,,,S004,,128
+M4-FUNG-0064:Q002,M4-FUNG-0064,Q002,EXPERIMENT,M4-FUNG-0064:E005,major TOX2 chromosome size,3.5,3.5,Mb,,,,,,,S004,,129
+M4-FUNG-0064:Q003,M4-FUNG-0064,Q003,EXPERIMENT,M4-FUNG-0064:E005,second TOXE-bearing chromosome,0.7,0.7,Mb,,,,,,,S004,,130
+M4-FUNG-0064:Q004,M4-FUNG-0064,Q004,EXPERIMENT,M4-FUNG-0064:E001,HTS1 ORF length,15.7,15.7,kb,,,,,,,S013,,131
+M4-FUNG-0064:Q005,M4-FUNG-0064,Q005,EXPERIMENT,M4-FUNG-0064:E001,HTS protein mass,574.6,574.6,kDa,,,,,,,S013,,132
+M4-FUNG-0064:Q006,M4-FUNG-0064,Q006,EXPERIMENT,M4-FUNG-0064:E006,progeny with at least one TOX2 gene loss,8,8.0,progeny,~200 examined,,0.04,,,,S009,,133
+M4-FUNG-0065:Q001,M4-FUNG-0065,Q001,EXPERIMENT,M4-FUNG-0065:E001,MIBiG evidence-locus length,22264,22264.0,bp,,,,,,,S001,,128
+M4-FUNG-0065:Q002,M4-FUNG-0065,Q002,EXPERIMENT,M4-FUNG-0065:E001,functional has genes,8,8.0,genes,,,,,,,S003,,129
+M4-FUNG-0065:Q003,M4-FUNG-0065,Q003,EXPERIMENT,M4-FUNG-0065:E001,current generated region length,46730,46730.0,bp,,,,,,,S001,,130
+M4-FUNG-0066:Q001,M4-FUNG-0066,Q001,EXPERIMENT,M4-FUNG-0066:E001,amplified region length,56820,56820.0,bp,,,,,,,S001; S003,,125
+M4-FUNG-0066:Q002,M4-FUNG-0066,Q002,EXPERIMENT,M4-FUNG-0066:E001,ORFs in amplified region,16,16.0,ORFs,,,,,,,S003,,126
+M4-FUNG-0066:Q003,M4-FUNG-0066,Q003,EXPERIMENT,M4-FUNG-0066:E001,established catalytic core genes,3,3.0,genes,,,,,,,S003; S006,,127
+M4-FUNG-0066:Q004,M4-FUNG-0066,Q004,EXPERIMENT,M4-FUNG-0066:E002,high-producer copy-number range,~6–14,,copies,,,,,,,S003; S004,,128
+M4-FUNG-0067:Q001,M4-FUNG-0067,Q001,EXPERIMENT,M4-FUNG-0067:E001,current MIBiG region length,59497,59497.0,bp,,,,,,,S001,,124
+M4-FUNG-0067:Q002,M4-FUNG-0067,Q002,EXPERIMENT,M4-FUNG-0067:E001,direct catalytic core genes,3,3.0,genes,,,,,,,S001; S003,,125
+M4-FUNG-0067:Q003,M4-FUNG-0067,Q003,EXPERIMENT,M4-FUNG-0067:E001,pcbAB span,11376,11376.0,bp,,,,,,,S001,,126
+M4-FUNG-0068:Q001,M4-FUNG-0068,Q001,EXPERIMENT,M4-FUNG-0068:E001,evidence-locus length,20659,20659.0,bp,,,,,,,S001,,131
+M4-FUNG-0068:Q002,M4-FUNG-0068,Q002,EXPERIMENT,M4-FUNG-0068:E001,functional locus genes,7,7.0,genes,,,,,,,S001; S003,,132
+M4-FUNG-0068:Q003,M4-FUNG-0068,Q003,EXPERIMENT,M4-FUNG-0068:E001,recorded pathway metabolites,7,7.0,metabolites,,,,,,,S001,,133
+M4-FUNG-0069:Q001,M4-FUNG-0069,Q001,EXPERIMENT,M4-FUNG-0069:E001,evidence-locus length,9759,9759.0,bp,,,,,,,S001,,125
+M4-FUNG-0069:Q002,M4-FUNG-0069,Q002,EXPERIMENT,M4-FUNG-0069:E001,reconstructed pathway proteins,5,5.0,proteins,,,,,,,S003,,126
+M4-FUNG-0069:Q003,M4-FUNG-0069,Q003,EXPERIMENT,M4-FUNG-0069:E001,current generated MIBiG region length,42913,42913.0,bp,,,,,,,S001,,127
+M4-FUNG-0070:Q001,M4-FUNG-0070,Q001,EXPERIMENT,M4-FUNG-0070:E001,direct functional genes,4,4.0,genes,,,,,,,S003,,123
+M4-FUNG-0070:Q002,M4-FUNG-0070,Q002,EXPERIMENT,M4-FUNG-0070:E003,VlmS NRPS modules,7,7.0,modules,,,,,,,S004,,124
+M4-FUNG-0070:Q003,M4-FUNG-0070,Q003,EXPERIMENT,M4-FUNG-0070:E003,VlmS epimerization domains,3,3.0,domains,"modules 2, 3 and 6",,,,,,S004,,125
+M4-FUNG-0071:Q001,M4-FUNG-0071,Q001,EXPERIMENT,M4-FUNG-0071:E001,MIBiG evidence-locus length,28295,28295.0,bp,,,,,,,S001,,139
+M4-FUNG-0071:Q002,M4-FUNG-0071,Q002,EXPERIMENT,M4-FUNG-0071:E001,current generated region length,40923,40923.0,bp,,,,,,,S001,,140
+M4-FUNG-0071:Q003,M4-FUNG-0071,Q003,EXPERIMENT,M4-FUNG-0071:E001,displayed CDS count,19,19.0,genes,,,,,,,S001,,141
+M4-FUNG-0071:Q004,M4-FUNG-0071,Q004,EXPERIMENT,M4-FUNG-0071:E001,UstA YAIG repeats,16,16.0,repeats,,,,,,,S004,,142
+M4-FUNG-0072:Q001,M4-FUNG-0072,Q001,EXPERIMENT,M4-FUNG-0072:E003,resolved aflatrem loci,2,2.0,loci,separate chromosomes,,,,,,S004,,129
+M4-FUNG-0072:Q002,M4-FUNG-0072,Q002,EXPERIMENT,M4-FUNG-0072:E003,known pathway genes,8,8.0,genes,ATM1 + ATM2,,,,,,S004,,130
+M4-FUNG-0072:Q003,M4-FUNG-0072,Q003,EXPERIMENT,M4-FUNG-0072:E001,ATM1 genes,3,3.0,genes,,,,,,,S003,,131
+M4-FUNG-0072:Q004,M4-FUNG-0072,Q004,EXPERIMENT,M4-FUNG-0072:E003,ATM2 genes,5,5.0,genes,,,,,,,S004,,132
+M4-FUNG-0073:Q001,M4-FUNG-0073,Q001,EXPERIMENT,M4-FUNG-0073:E001,core co-regulated BcBOT genes,5,5.0,genes,BcBOT1-BcBOT5,,,,,,,,129
+M4-FUNG-0073:Q002,M4-FUNG-0073,Q002,EXPERIMENT,M4-FUNG-0073:E004,expanded local BOT-region genes,7,7.0,genes,including BcBot6/BcBot7,,,,,,,,130
+M4-FUNG-0073:Q003,M4-FUNG-0073,Q003,EXPERIMENT,M4-FUNG-0073:E001,MIBiG interval length,29501,29501.0,bp,CP009816.1:2216500-2246000,,,,,,,,131
+M4-FUNG-0074:Q001,M4-FUNG-0074,Q001,EXPERIMENT,M4-FUNG-0074:E001,PR-toxin reduction after prx1-prx4 silencing,65-75,,percent,relative to control,,,,,,,,135
+M4-FUNG-0074:Q002,M4-FUNG-0074,Q002,EXPERIMENT,M4-FUNG-0074:E003,PR-toxin reduction after ORF5/6/8 silencing,20-40,,percent,relative to control,,,,,,,,136
+M4-FUNG-0074:Q003,M4-FUNG-0074,Q003,EXPERIMENT,M4-FUNG-0074:E002,PR-toxin production in P. chrysogenum npe10,2.6,2.6,fold,versus Wisconsin 54-1255,,,,,,,,137
+M4-FUNG-0074:Q004,M4-FUNG-0074,Q004,EXPERIMENT,M4-FUNG-0074:E003,local cluster size,approximately 22.4,,kb,11 ORFs,,,,,,,,138
+M4-FUNG-0075:Q001,M4-FUNG-0075,Q001,EXPERIMENT,M4-FUNG-0075:E001,PbcR-responsive cluster genes,7,7.0,genes,,,,,,up,S003,,128
+M4-FUNG-0075:Q002,M4-FUNG-0075,Q002,EXPERIMENT,M4-FUNG-0075:E001,AN1594 transcript change,785,785.0,fold,,,,,,up,S003,DNA-array value reported for oe:PbcR versus FGSC A4.,129
+M4-FUNG-0075:Q003,M4-FUNG-0075,Q003,EXPERIMENT,M4-FUNG-0075:E001,AN1592 transcript change,673,673.0,fold,,,,,,up,S003,,130
+M4-FUNG-0075:Q004,M4-FUNG-0075,Q004,EXPERIMENT,M4-FUNG-0075:E004,modern identified product set,7,7.0,diterpenoids,,,,,,,S006,one new dimeric isopimarane derivative plus six known isopimarane diterpenoids.,131
+M4-FUNG-0076:Q001,M4-FUNG-0076,Q001,EXPERIMENT,M4-FUNG-0076:E001,cloned BGC length,15629,15629.0,bp,region,NA,NA,NA,NA,NA,S001; S003,,127
+M4-FUNG-0076:Q002,M4-FUNG-0076,Q002,EXPERIMENT,M4-FUNG-0076:E001,cluster ORFs,6,6.0,genes,region,NA,NA,NA,NA,NA,S001; S003,,128
+M4-FUNG-0076:Q003,M4-FUNG-0076,Q003,EXPERIMENT,M4-FUNG-0076:E002,minimal enzymes for total heterologous biosynthesis,4,4.0,enzymes,A. oryzae reconstruction,NA,NA,NA,NA,NA,S004,,129
+M4-FUNG-0076:Q004,M4-FUNG-0076,Q004,EXPERIMENT,M4-FUNG-0076:E004,PbP450-1 membrane-anchor deletion effect,nearly abolished,,qualitative production,versus intact PbP450-1,NA,NA,NA,NR,down,S005,No numerical fold-change reported in abstract; preserve as qualitative.,130
+M4-FUNG-0323:Q001,M4-FUNG-0323,Q001,BGC,M4-FUNG-0323,canonical locus span,5465 bp,,,,,,,,,S001;S004,,91
+M4-FUNG-0323:Q002,M4-FUNG-0323,Q002,BGC,M4-FUNG-0323,standardized production titer,NR,,,,,,,,,S002,,92
+M4-FUNG-0324:Q001,M4-FUNG-0324,Q001,BGC,M4-FUNG-0324,fusatinic-acid plant assay,10 µM treatment reported in detached-leaf assay,,,,,,,,,S002,,91
+M4-FUNG-0324:Q002,M4-FUNG-0324,Q002,BGC,M4-FUNG-0324,standardized fungal production titer,NR,,,,,,,,,S002;S003,,92
+M4-FUNG-0325:Q001,M4-FUNG-0325,Q001,BGC,M4-FUNG-0325,canonical perA locus span,8322 bp,,,,,,,,,S001;S004,,89
+M4-FUNG-0325:Q002,M4-FUNG-0325,Q002,BGC,M4-FUNG-0325,standardized peramine titer,NR,,,,,,,,,S002,,90
+M4-FUNG-0326:Q001,M4-FUNG-0326,Q001,BGC,M4-FUNG-0326,canonical locus span,21830 bp,,,,,,,,,S001;S004,,89
+M4-FUNG-0326:Q002,M4-FUNG-0326,Q002,BGC,M4-FUNG-0326,standardized product titer,NR,,,,,,,,,S002,,90
+M4-FUNG-0327:Q001,M4-FUNG-0327,Q001,BGC,M4-FUNG-0327,canonical BGC0002167 span,15099 bp,,,,,,,,,S001;S004,,89
+M4-FUNG-0327:Q002,M4-FUNG-0327,Q002,BGC,M4-FUNG-0327,standardized product titer,NR,,,,,,,,,S002,,90
+M4-FUNG-0328:Q001,M4-FUNG-0328,Q001,BGC,M4-FUNG-0328,CalH structure,PDB 7DMB (SAH complex),,,,,,,,,S002,,91
+M4-FUNG-0328:Q002,M4-FUNG-0328,Q002,BGC,M4-FUNG-0328,standardized native titer,NR,,,,,,,,,S002,,92
+M4-FUNG-0329:Q001,M4-FUNG-0329,Q001,BGC,M4-FUNG-0329,canonical locus span,44935 bp,,,,,,,,,S001;S004,,89
+M4-FUNG-0329:Q002,M4-FUNG-0329,Q002,BGC,M4-FUNG-0329,standardized native titer,NR,,,,,,,,,S002,,90
+M4-FUNG-0330:Q001,M4-FUNG-0330,Q001,BGC,M4-FUNG-0330,Ev460pks candidate context,1 of 6 selected HR-PKS candidates from 22 HR-PKS genes in producer,,,,,,,,,S002,,91
+M4-FUNG-0330:Q002,M4-FUNG-0330,Q002,BGC,M4-FUNG-0330,standardized product titer,NR,,,,,,,,,S002,,92
+M4-FUNG-0331:Q001,M4-FUNG-0331,Q001,BGC,M4-FUNG-0331,canonical locus span,7351 bp,,,,,,,,,S001;S004,,90
+M4-FUNG-0331:Q002,M4-FUNG-0331,Q002,BGC,M4-FUNG-0331,standardized product titer,NR,,,,,,,,,S002,,91
+M4-FUNG-0332:Q001,M4-FUNG-0332,Q001,BGC,M4-FUNG-0332,fusaoctaxin A in infected wheat coleoptiles,approximately 0.3 nmol/coleoptile at 3 dpi and approximately 0.7 nmol/coleoptile at 7 dpi,,,,,,,,,S002,,92
+M4-FUNG-0332:Q002,M4-FUNG-0332,Q002,BGC,M4-FUNG-0332,fusaoctaxin A extracted ion,m/z [M+H]+ 773.5 ± 0.5,,,,,,,,,S002,,93
+M4-FUNG-0332:Q003,M4-FUNG-0332,Q003,BGC,M4-FUNG-0332,canonical locus span,54915 bp,,,,,,,,,S001;S004,,94
+M4-FUNG-0333:Q001,M4-FUNG-0333,Q001,BGC,M4-FUNG-0333,fumihopaside A molecular formula,C36H60O10,,,,,,,,,S006,,92
+M4-FUNG-0333:Q002,M4-FUNG-0333,Q002,BGC,M4-FUNG-0333,fumihopaside A accurate mass,652.4186 Da,,,,,,,,,S006,,93
+M4-FUNG-0333:Q003,M4-FUNG-0333,Q003,BGC,M4-FUNG-0333,canonical source locus span,7686 bp,,,,,,,,,S004,,94
+M4-FUNG-0426:Q001,M4-FUNG-0426,Q001,EXPERIMENT,M4-FUNG-0426:E001,canonical source locus length,50173,50173.0,bp,CH476604.1:647421-697593,sequence,derived inclusive length,1,NA,NA,S001,"Current MIBiG display region is broader, but canonical locus coordinates remain 647421-697593.",131
+M4-FUNG-0426:Q002,M4-FUNG-0426,Q002,EXPERIMENT,M4-FUNG-0426:E001,core PKS/NRPS-family enzymes in collaborative programme,4,4.0,enzymes,two-cluster programme,NA,reported,1,NA,NA,S002,"Two nonreducing PKSs, one highly reducing PKS and one NRPS-like enzyme.",132
+M4-FUNG-0426:Q003,M4-FUNG-0426,Q003,EXPERIMENT,M4-FUNG-0426:E002,transcription factors coordinating pathway crosstalk,3,3.0,transcription factors,two-cluster programme,NA,reported,1,NA,NA,S002,Count comes directly from defining study abstract/result.,133
+M4-FUNG-0427:Q001,M4-FUNG-0427,Q001,EXPERIMENT,M4-FUNG-0427:E001,canonical BGC interval length,26854,26854.0,bp,,,,,,,,,134
+M4-FUNG-0427:Q002,M4-FUNG-0427,Q002,EXPERIMENT,M4-FUNG-0427:E001,genes in current MIBiG interval,7,7.0,count,,,,,,,,,135
+M4-FUNG-0427:Q003,M4-FUNG-0427,Q003,EXPERIMENT,M4-FUNG-0427:E005,canonical MIBiG products listed,5,5.0,count,,,,,,,,,136
+M4-FUNG-0428:Q001,M4-FUNG-0428,Q001,EXPERIMENT,M4-FUNG-0428:E002,canonical MIBiG interval length,52321,52321.0,bp,WBSA01000009.1 interval,sequence,derived,1,NA,NA,S001,1291223-1238903+1.,131
+M4-FUNG-0429:Q001,M4-FUNG-0429,Q001,EXPERIMENT,M4-FUNG-0429:E001,canonical interval length,43845,43845.0,bp,ADNJ02000001.1 interval,sequence,derived,1,NA,NA,S001,6782169-6738325+1.,131
+M4-FUNG-0430:Q001,M4-FUNG-0430,Q001,EXPERIMENT,M4-FUNG-0430:E001,canonical submitted interval length,8963,8963.0,bp,CH476594.1 interval,sequence,derived,1,NA,NA,S001,1977735-1968773+1.,131
+M4-FUNG-0431:Q001,M4-FUNG-0431,Q001,EXPERIMENT,M4-FUNG-0431:E001,canonical interval length,21223,21223.0,bp,CH476610.1 interval,sequence,derived,1,NA,NA,S001,254985-233763+1.,131
+M4-FUNG-0432:Q001,M4-FUNG-0432,Q001,EXPERIMENT,M4-FUNG-0432:E001,canonical interval length,41122,41122.0,bp,CH476597.1 interval,sequence,derived,1,NA,NA,S001,145729-104608+1.,131
+M4-FUNG-0432:Q002,M4-FUNG-0432,Q002,EXPERIMENT,M4-FUNG-0432:E001,genes listed in canonical MIBiG locus,19,19.0,count,BGC0002273.2,current database,reported,1,NA,NA,S002,Most lack direct pathway-step evidence.,132
+M4-FUNG-0433:Q001,M4-FUNG-0433,Q001,EXPERIMENT,M4-FUNG-0433:E001,canonical locus length,2779,2779.0,bp,CH476596.1 interval,sequence,derived,1,NA,NA,S001,330691-327913+1.,131
+M4-FUNG-0434:Q001,M4-FUNG-0434,Q001,EXPERIMENT,M4-FUNG-0434:E001,canonical locus length,10320,10320.0,bp,KZ821395.1 interval,sequence,derived,1,NA,NA,S001,54696-44377+1.,131
+M4-FUNG-0434:Q002,M4-FUNG-0434,Q002,EXPERIMENT,M4-FUNG-0434:E002,reported AnOMT assay duration,30,30.0,min,in-vitro reaction,endpoint,reported,NR,NR,product formation vs boiled control,S003,Quantitative conversion fraction NR in dossier.,132
+M4-FUNG-0435:Q001,M4-FUNG-0435,Q001,EXPERIMENT,M4-FUNG-0435:E002,canonical locus length,3813,3813.0,bp,CH236925.1 interval,sequence,derived,1,NA,NA,S001,721894-718082+1.,131
+M4-FUNG-0435:Q002,M4-FUNG-0435,Q002,EXPERIMENT,M4-FUNG-0435:E002,growth-assay temperature,37,37.0,°C,solid minimal medium,3 d,reported,NR,NA,NA,S003,Figure 5 assay condition.,132
+M4-FUNG-0435:Q003,M4-FUNG-0435,Q003,EXPERIMENT,M4-FUNG-0435:E002,high glycine-betaine supplementation,1,1.0,mM,solid minimal medium,3 d,reported condition,NR,NA,Δatrr growth phenotype / choline rescue,S003,Used as physiological challenge.,133
+M4-FUNG-0436:Q001,M4-FUNG-0436,Q001,EXPERIMENT,M4-FUNG-0436:E001,canonical locus length,3145,3145.0,bp,JQ681152.1 interval,sequence,derived,1,NA,NA,S001,15051-11907+1.,131
+M4-FUNG-0437:Q001,M4-FUNG-0437,Q001,EXPERIMENT,M4-FUNG-0437:E001,canonical submitted interval length,28520,28520.0,bp,CDHK01000003.1 interval,sequence,derived,1,NA,NA,S001,3059149-3030630+1.,131
+M4-FUNG-0437:Q002,M4-FUNG-0437,Q002,EXPERIMENT,M4-FUNG-0437:E003,full-length BrsA molecular mass,113.6,113.6,kDa,purified protein,enzyme characterization,reported,NR,NA,NA,S003,Reported for the purified full-length NRPS.,132
+M4-FUNG-0437:Q003,M4-FUNG-0437,Q003,EXPERIMENT,M4-FUNG-0437:E001,current antiSMASH/MIBiG display context length,43099,43099.0,bp,current generated region,current database,reported,1,NA,NA,S002,"Broader than the 28,520-bp canonical source interval.",133
+M4-FUNG-0438:Q001,M4-FUNG-0438,Q001,EXPERIMENT,M4-FUNG-0438:E001,canonical submitted interval length,12937,12937.0,bp,JH814846.1 interval,sequence,derived,1,NA,NA,S001,120433-107497+1.,131
+M4-FUNG-0438:Q002,M4-FUNG-0438,Q002,EXPERIMENT,M4-FUNG-0438:E002,δ-6 protoilludene fraction of Omp6 products,95,95.0,%,recombinant product mixture,endpoint,reported,NR,NR,major product,S003,Historical Omp6 enzyme.,132
+M4-FUNG-0438:Q003,M4-FUNG-0438,Q003,EXPERIMENT,M4-FUNG-0438:E003,δ-6 protoilludene fraction of Omp7 products,96,96.0,%,recombinant product mixture,endpoint,reported,NR,NR,major product,S003,Historical Omp7 enzyme.,133
+M4-FUNG-0438:Q004,M4-FUNG-0438,Q004,EXPERIMENT,M4-FUNG-0438:E003,pentalenene fraction of Omp7 products,0.7,0.7,%,recombinant product mixture,endpoint,reported,NR,NR,minor product,S003,Do not assign to BGC0002279 specifically without mapping.,134
+M4-FUNG-0439:Q001,M4-FUNG-0439,Q001,EXPERIMENT,M4-FUNG-0439:E001,canonical submitted interval length,1899,1899.0,bp,AHIW01001288.1 interval,sequence,derived,1,NA,NA,S001,30073-28175+1.,131
+M4-FUNG-0439:Q002,M4-FUNG-0439,Q002,EXPERIMENT,M4-FUNG-0439:E002,δ-6 protoilludene fraction of Omp6 products,95,95.0,%,recombinant product mixture,endpoint,reported,NR,NR,major product,S003,Historical Omp6 enzyme.,132
+M4-FUNG-0439:Q003,M4-FUNG-0439,Q003,EXPERIMENT,M4-FUNG-0439:E003,δ-6 protoilludene fraction of Omp7 products,96,96.0,%,recombinant product mixture,endpoint,reported,NR,NR,major product,S003,Historical Omp7 enzyme.,133
+M4-FUNG-0439:Q004,M4-FUNG-0439,Q004,EXPERIMENT,M4-FUNG-0439:E003,pentalenene fraction of Omp7 products,0.7,0.7,%,recombinant product mixture,endpoint,reported,NR,NR,minor product,S003,Do not assign to BGC0002280 specifically without mapping.,134
+M4-FUNG-0440:Q001,M4-FUNG-0440,Q001,EXPERIMENT,M4-FUNG-0440:E005,canonical interval length,23109,23109.0,bp,BCHB01000008.1 interval,sequence,derived,1,NA,NA,S001,1994750-1971642+1.,131
+M4-FUNG-0440:Q002,M4-FUNG-0440,Q002,EXPERIMENT,M4-FUNG-0440:E001,compound 6 titer,2,2.0,mg/L,heterologous culture,endpoint,reported,NR,NR,produced,S003,SmbA+SmbB.,132
+M4-FUNG-0440:Q003,M4-FUNG-0440,Q003,EXPERIMENT,M4-FUNG-0440:E002,intermediate 13 titer,3.7,3.7,mg/L,heterologous culture,endpoint,reported,NR,NR,produced,S003,SmbE-containing reconstruction.,133
+M4-FUNG-0440:Q004,M4-FUNG-0440,Q004,EXPERIMENT,M4-FUNG-0440:E003,N-demethylsambutoxin titer,2,2.0,mg/L,heterologous culture,endpoint,reported,NR,NR,produced,S003,SmbF-containing reconstruction.,134
+M4-FUNG-0440:Q005,M4-FUNG-0440,Q005,EXPERIMENT,M4-FUNG-0440:E004,SmbG KM,54.7 ± 11.4,,µM,N-demethylsambutoxin substrate,kinetic assay,reported,NR,NR,NA,S003,Purified SmbG.,135
+M4-FUNG-0440:Q006,M4-FUNG-0440,Q006,EXPERIMENT,M4-FUNG-0440:E004,SmbG kcat,1.70 ± 0.13,,min^-1,N-demethylsambutoxin substrate,kinetic assay,reported,NR,NR,NA,S003,Purified SmbG.,136
+M4-FUNG-0440:Q007,M4-FUNG-0440,Q007,EXPERIMENT,M4-FUNG-0440:E004,SmbG kcat/KM,3.1×10^4,,min^-1 M^-1,N-demethylsambutoxin substrate,kinetic assay,reported,NR,NR,NA,S003,Calculated/reported catalytic efficiency.,137
+M4-FUNG-0441:Q001,M4-FUNG-0441,Q001,EXPERIMENT,M4-FUNG-0441:E001,canonical submitted interval length,37984,37984.0,bp,MT109335.1 interval,sequence,derived,1,NA,NA,S001,37984-1+1.,131
+M4-FUNG-0441:Q002,M4-FUNG-0441,Q002,EXPERIMENT,M4-FUNG-0441:E001,canonical genes,11,11.0,count,BGC0002290,current database,reported,1,NA,NA,S002,bisA-bisK.,132
+M4-FUNG-0441:Q003,M4-FUNG-0441,Q003,EXPERIMENT,M4-FUNG-0441:E001,canonical listed products,12,12.0,count,BGC0002290,current database,reported,1,NA,NA,S001; S002,"Includes final products, branches and intermediates.",133
+M4-FUNG-0442:Q001,M4-FUNG-0442,Q001,EXPERIMENT,M4-FUNG-0442:E003,canonical interval length,22627,22627.0,bp,MK449412.1 interval,sequence,derived,1,NA,NA,S001,22627-1+1.,131
+M4-FUNG-0442:Q002,M4-FUNG-0442,Q002,EXPERIMENT,M4-FUNG-0442:E002,P-selectivity of three compared laccases,>95,,% ee,three enzymes,endpoint,reported,NR,NR,P-selective,S003,Comparative enzyme-class result.,132
+M4-FUNG-0442:Q003,M4-FUNG-0442,Q003,EXPERIMENT,M4-FUNG-0442:E003,canonical genes,4,4.0,count,BGC0002301,current database,reported,1,NA,NA,S002,Only AshL/AshP assigned in detail here.,133
+M4-FUNG-0443:Q001,M4-FUNG-0443,Q001,EXPERIMENT,M4-FUNG-0443:E003,canonical interval length,25713,25713.0,bp,MK376933.1,sequence,derived,1,NA,NA,S001,25713-1+1.,131
+M4-FUNG-0443:Q002,M4-FUNG-0443,Q002,EXPERIMENT,M4-FUNG-0443:E004,PvhB conversion of 6 or 7,>95,,%,substrate,12 h,reported,NR,NR,conversion,S003,Both substrates.,132
+M4-FUNG-0443:Q003,M4-FUNG-0443,Q003,EXPERIMENT,M4-FUNG-0443:E004,PvhB KM for 6,571.6 ± 69.3,,µM,substrate 6,kinetic assay,reported,NR,NR,NA,S003,Purified PvhB.,133
+M4-FUNG-0443:Q004,M4-FUNG-0443,Q004,EXPERIMENT,M4-FUNG-0443:E004,PvhB kcat for 6,2.6 ± 0.1,,min^-1,substrate 6,kinetic assay,reported,NR,NR,NA,S003,Purified PvhB.,134
+M4-FUNG-0443:Q005,M4-FUNG-0443,Q005,EXPERIMENT,M4-FUNG-0443:E004,PvhB KM for 7,550.1 ± 36.7,,µM,substrate 7,kinetic assay,reported,NR,NR,NA,S003,Purified PvhB.,135
+M4-FUNG-0443:Q006,M4-FUNG-0443,Q006,EXPERIMENT,M4-FUNG-0443:E004,PvhB kcat for 7,37.5 ± 3.5,,min^-1,substrate 7,kinetic assay,reported,NR,NR,NA,S003,~15-fold specificity advantage relative to 6.,136
+M4-FUNG-0443:Q007,M4-FUNG-0443,Q007,EXPERIMENT,M4-FUNG-0443:E003,varicidin A / B MIC vs Candida albicans,8 / 16,,µg/mL,A / B,endpoint,reported,NR,NR,antifungal,S003,Bioactivity assay in defining study.,137
+M4-FUNG-0444:Q001,M4-FUNG-0444,Q001,EXPERIMENT,M4-FUNG-0444:E001,canonical submitted interval length,7143,7143.0,bp,AM920435.1 interval,sequence,derived,1,NA,NA,S001,2517120-2509978+1.,131
+M4-FUNG-0444:Q002,M4-FUNG-0444,Q002,EXPERIMENT,M4-FUNG-0444:E001,canonical genes,2,2.0,count,BGC0002320,current database,reported,1,NA,NA,S002,Pc20g10860 and Pc20g10870.,132
+M4-FUNG-0444:Q003,M4-FUNG-0444,Q003,EXPERIMENT,M4-FUNG-0444:E001,current MIBiG display context length,22795,22795.0,bp,generated region,current database,reported,1,NA,NA,S002,Broader than submitted canonical interval.,133
+M4-FUNG-0445:Q001,M4-FUNG-0445,Q001,EXPERIMENT,M4-FUNG-0445:E001,canonical submitted interval length,6666,6666.0,bp,CP034458.1 interval,sequence,derived,1,NA,NA,S001,1436146-1429481+1.,131
+M4-FUNG-0445:Q002,M4-FUNG-0445,Q002,EXPERIMENT,M4-FUNG-0445:E001,PUL1 transcript reduction in snf2 mutant,>100,,fold,mutant versus WT,RNA-seq comparison,reported,WT n=2; mutant n=3,NA,down,S003,Figure 3/transcript analysis.,132
+M4-FUNG-0445:Q003,M4-FUNG-0445,Q003,EXPERIMENT,M4-FUNG-0445:E001,PUL2 transcript reduction in snf2 mutant,2000,2000.0,fold,mutant versus WT,RNA-seq comparison,reported,WT n=2; mutant n=3,NA,down,S003,Most dramatic reported PUL reduction.,133
+M4-FUNG-0445:Q004,M4-FUNG-0445,Q004,EXPERIMENT,M4-FUNG-0445:E001,PUL3 transcript reduction in snf2 mutant,>100,,fold,mutant versus WT,RNA-seq comparison,reported,WT n=2; mutant n=3,NA,down,S003,PUL4 was lowly expressed and less affected.,134
+M4-FUNG-0445:Q005,M4-FUNG-0445,Q005,EXPERIMENT,M4-FUNG-0445:E001,canonical PUL genes,4,4.0,count,BGC0002321,current database,reported,1,NA,NA,S002,PUL3-PUL4-PUL2-PUL1 across submitted interval.,135
+M4-FUNG-0446:Q001,M4-FUNG-0446,Q001,EXPERIMENT,M4-FUNG-0446:E001,canonical submitted interval length,18134,18134.0,bp,CH476597.1 interval,sequence,derived,1,NA,NA,S001,2164193-2146060+1.,131
+M4-FUNG-0446:Q002,M4-FUNG-0446,Q002,EXPERIMENT,M4-FUNG-0446:E001,canonical interval genes,6,6.0,count,BGC0002348,current database,reported,1,NA,NA,S002,Only MelA and TyrP have strong direct functional assignment.,132
+M4-FUNG-0446:Q003,M4-FUNG-0446,Q003,EXPERIMENT,M4-FUNG-0446:E001,current MIBiG generated region length,42779,42779.0,bp,generated display context,current database,reported,1,NA,NA,S002,"Broader than submitted 18,134-bp locus.",133
+M4-FUNG-0447:Q001,M4-FUNG-0447,Q001,EXPERIMENT,M4-FUNG-0447:E001,canonical interval length,52355,52355.0,bp,BCKA01000016.1 interval,sequence,derived,1,NA,NA,S001,263083-210729+1.,131
+M4-FUNG-0447:Q002,M4-FUNG-0447,Q002,EXPERIMENT,M4-FUNG-0447:E003,CtdE conversion of intermediate 2,>30,,%,500 µM substrate 2,2 h,reported,NR,NR,conversion,S003,"2 µM CtdE, 5 mM NADH, 100 µM FAD, pH 7.6.",132
+M4-FUNG-0447:Q003,M4-FUNG-0447,Q003,EXPERIMENT,M4-FUNG-0447:E004,CtdE-FAD crystal resolution,2.1,2.1,Å,structure,crystallography,reported,1,NA,NA,S003,CtdE-FAD complex.,133
+M4-FUNG-0447:Q004,M4-FUNG-0447,Q004,EXPERIMENT,M4-FUNG-0447:E004,CtdE-FAD-3 crystal resolution,1.9,1.9,Å,structure,crystallography,reported,1,NA,NA,S003,Substrate-bound complex.,134
+M4-FUNG-0448:Q001,M4-FUNG-0448,Q001,EXPERIMENT,M4-FUNG-0448:E002,canonical submitted interval length,52968,52968.0,bp,QNVK01000015.1 interval,sequence,derived,1,NA,NA,S001,156063-103096+1.,131
+M4-FUNG-0448:Q002,M4-FUNG-0448,Q002,EXPERIMENT,M4-FUNG-0448:E001,reported weak cytotoxicity range,~70–90,,µM IC50,four human breast-cancer cell lines,endpoint,reported range,NR,NR,cytotoxic,S003,Family-level summary from defining paper.,132
+M4-FUNG-0449:Q001,M4-FUNG-0449,Q001,EXPERIMENT,M4-FUNG-0449:E002,canonical interval length,21541,21541.0,bp,ADNJ02000014.1 interval,sequence,derived,1,NA,NA,S001,74527-52987+1.,131
+M4-FUNG-0449:Q002,M4-FUNG-0449,Q002,EXPERIMENT,M4-FUNG-0449:E001,common DDP intermediate 4 titer,87,87.0,mg/L,heterologous culture,endpoint,reported,NR,NR,produced,S003,,132
+M4-FUNG-0449:Q003,M4-FUNG-0449,Q003,EXPERIMENT,M4-FUNG-0449:E002,subglutinol A titer,89,89.0,mg/L,heterologous culture,endpoint,reported,NR,NR,produced,S003,,133
+M4-FUNG-0449:Q004,M4-FUNG-0449,Q004,EXPERIMENT,M4-FUNG-0449:E002,subglutinol B titer,6,6.0,mg/L,heterologous culture,endpoint,reported,NR,NR,produced,S003,,134
+M4-FUNG-0449:Q005,M4-FUNG-0449,Q005,EXPERIMENT,M4-FUNG-0449:E003,subglutinol A DL-1 growth IC50,12,12.0,nM,Drosophila DL-1 cells,endpoint,reported,NR,NR,growth inhibition,S003,,135
+M4-FUNG-0449:Q006,M4-FUNG-0449,Q006,EXPERIMENT,M4-FUNG-0449:E004,subglutinol A adult-fly dose,3.5,3.5,ng/fly,adult Drosophila,1 h,reported dose,NR,NA,paralysis/unmoving increased,S003,,136
+M4-FUNG-0450:Q001,M4-FUNG-0450,Q001,EXPERIMENT,M4-FUNG-0450:E001,retired canonical submitted interval length,1537,1537.0,bp,CM000575.1 interval,sequence,derived,1,NA,NA,S001,Boundary is biologically inconsistent with ten-gene pathway.,131
+M4-FUNG-0450:Q002,M4-FUNG-0450,Q002,EXPERIMENT,M4-FUNG-0450:E001,FDDP-D titer,5,5.0,mg/L,full dpfg GHIJK heterologous branch,endpoint,reported,NR,NR,major product,S003,,132
+M4-FUNG-0450:Q003,M4-FUNG-0450,Q003,EXPERIMENT,M4-FUNG-0450:E001,FDDP-E titer,2,2.0,mg/L,full dpfg GHIJK heterologous branch,endpoint,reported,NR,NR,minor product,S003,,133
+M4-FUNG-0450:Q004,M4-FUNG-0450,Q004,EXPERIMENT,M4-FUNG-0450:E001,FDDP-B/intermediate 11 titer,20,20.0,mg/L,dpfgGHI heterologous branch,endpoint,reported,NR,NR,produced,S003,,134
+M4-FUNG-0451:Q001,M4-FUNG-0451,Q001,EXPERIMENT,M4-FUNG-0451:E001,canonical submitted interval length,71639,71639.0,bp,CM004458.1 interval,sequence,derived,1,NA,NA,S001,480233-408595+1.,131
+M4-FUNG-0451:Q002,M4-FUNG-0451,Q002,EXPERIMENT,M4-FUNG-0451:E001,higginsianin A titer,28,28.0,mg/L,full dpchGHF heterologous branch,endpoint,reported,NR,NR,produced,S003,,132
+M4-FUNG-0451:Q003,M4-FUNG-0451,Q003,EXPERIMENT,M4-FUNG-0451:E004,higginsianin E A431 IC50,1.0,1.0,µM,A431 cells,endpoint,reported,NR,NR,antiproliferative,S005,,133
+M4-FUNG-0451:Q004,M4-FUNG-0451,Q004,EXPERIMENT,M4-FUNG-0451:E003,higginsianin B screening concentration,30,30.0,µM,Arabidopsis seedling reporter screen,1 h pretreatment,reported,NR,NA,JA-defence reporter inhibition,S006,,134
+M4-FUNG-0452:Q001,M4-FUNG-0452,Q001,EXPERIMENT,M4-FUNG-0452:E001,canonical locus length,51164,51164.0,bp,MT353658.1,sequence,reported/derived,1,NA,NA,S001,,131
+M4-FUNG-0452:Q002,M4-FUNG-0452,Q002,EXPERIMENT,M4-FUNG-0452:E001,genome size,39.13,39.13,Mb,sequenced genome,assembly,reported,1,NA,NA,S003,,132
+M4-FUNG-0452:Q003,M4-FUNG-0452,Q003,EXPERIMENT,M4-FUNG-0452:E001,genome completeness,99,99.0,%,assembly,assembly,reported,1,NA,NA,S003,,133
+M4-FUNG-0452:Q004,M4-FUNG-0452,Q004,EXPERIMENT,M4-FUNG-0452:E001,predicted protein-coding genes,11711,11711.0,count,genome,annotation,reported,1,NA,NA,S003,,134
+M4-FUNG-0452:Q005,M4-FUNG-0452,Q005,EXPERIMENT,M4-FUNG-0452:E002,canonical candidate-cluster genes,21,21.0,count,BGC0002438,current database,reported,1,NA,NA,S002,,135
+M4-FUNG-0452:Q006,M4-FUNG-0452,Q006,EXPERIMENT,M4-FUNG-0452:E002,sporidesmin A share of reported sporidesmin family,~90,,%,sporidesmin congeners,historical/toxin context,reported,NR,NA,major congener,S003,,136
+M4-FUNG-0453:Q001,M4-FUNG-0453,Q001,EXPERIMENT,M4-FUNG-0453:E002,canonical submitted interval length,14615,14615.0,bp,DQ335628.2 interval,sequence,derived,1,NA,NA,S001,14729-115+1.,131
+M4-FUNG-0453:Q002,M4-FUNG-0453,Q002,EXPERIMENT,M4-FUNG-0453:E001,Pro1 Km for FPP,0.53,0.53,µM,FPP,kinetic assay,reported,NR,NR,NA,S005,Native/recombinant protoilludene-synthase characterization.,132
+M4-FUNG-0453:Q003,M4-FUNG-0453,Q003,EXPERIMENT,M4-FUNG-0453:E001,Pro1 temperature optimum,22,22.0,°C,enzyme assay,activity profile,reported,NR,NA,optimum,S005,Activity falls strongly above 35 °C.,133
+M4-FUNG-0453:Q004,M4-FUNG-0453,Q004,EXPERIMENT,M4-FUNG-0453:E001,MgCl2 optimum,5,5.0,mM,enzyme assay,activity profile,reported,NR,NA,optimum,S005,Cofactor optimum.,134
+M4-FUNG-0453:Q005,M4-FUNG-0453,Q005,EXPERIMENT,M4-FUNG-0453:E001,Pro1 pH optimum,7.2,7.2,pH,MOPS-buffered assay,activity profile,reported,NR,NA,optimum,S005,Reported biochemical optimum.,135
+M4-FUNG-0454:Q001,M4-FUNG-0454,Q001,EXPERIMENT,M4-FUNG-0454:E001,canonical interval length,44425,44425.0,bp,MN642086.1 interval,sequence,derived,1,NA,NA,S001,44425-1+1.,131
+M4-FUNG-0454:Q002,M4-FUNG-0454,Q002,EXPERIMENT,M4-FUNG-0454:E004,compound 2 NO inhibition,36.6 ± 2.4,,%,LPS-induced NO at 10 µM,endpoint,reported,NR,NR,inhibition,S003,Congener-specific; compound numbering follows defining study.,132
+M4-FUNG-0454:Q003,M4-FUNG-0454,Q003,EXPERIMENT,M4-FUNG-0454:E004,sestersorokinicin A / compound 4 NO inhibition,24.9 ± 2.1,,%,LPS-induced NO at 10 µM,endpoint,reported,NR,NR,inhibition,S003,Direct in-vitro bioactivity.,133
+M4-FUNG-0454:Q004,M4-FUNG-0454,Q004,EXPERIMENT,M4-FUNG-0454:E001,canonical MIBiG products,1,1.0,count,BGC0002459,current source ledger,reported,1,NA,NA,S001,Canonical endpoint is preterpestacin I; broader native congeners are contextual.,134
+M4-FUNG-0455:Q001,M4-FUNG-0455,Q001,EXPERIMENT,M4-FUNG-0455:E001,canonical interval length,47950,47950.0,bp,MG777490.1 interval,sequence,derived,1,NA,NA,S001; S002,50732-2783+1.,131
+M4-FUNG-0455:Q002,M4-FUNG-0455,Q002,EXPERIMENT,M4-FUNG-0455:E001,annotated PKS genes,32,32.0,count,C. uncialis genome,genome analysis,reported,1 genome,NA,NA,S003,Only one candidate met the predicted usnic-acid domain criteria.,132
+M4-FUNG-0455:Q003,M4-FUNG-0455,Q003,EXPERIMENT,M4-FUNG-0455:E002,candidate core transcripts detected,2,2.0,genes,mpas and mpao,sampled lichen state,qualitative RT-PCR,NR,NA,detected,S003,No causal perturbation accompanies detection.,133
+M4-FUNG-0456:Q001,M4-FUNG-0456,Q001,EXPERIMENT,M4-FUNG-0456:E003,canonical interval length,53110,53110.0,bp,MT489695.1 interval,sequence,reported,1,NA,NA,S001; S002,Canonical locus length.,131
+M4-FUNG-0456:Q002,M4-FUNG-0456,Q002,EXPERIMENT,M4-FUNG-0456:E001,adametizine A isolated amount,15.2,15.2,mg,fractionated native extract,endpoint,reported,NR,NR,isolated,S003,Major stable congener.,132
+M4-FUNG-0456:Q003,M4-FUNG-0456,Q003,EXPERIMENT,M4-FUNG-0456:E001,penigainamide A / B / FA2097 isolated amounts,1.0 / 0.2 / 1.2,,mg,native extract,endpoint,reported,NR,NR,isolated,S003,Shows low-abundance/unstable congener recovery.,133
+M4-FUNG-0456:Q004,M4-FUNG-0456,Q004,EXPERIMENT,M4-FUNG-0456:E004,adametizine A PC-3 IC50,6.3 ± 1.4,,µM,PC-3 cells,endpoint,reported,NR,NR,cytotoxic,S003,Compound-specific.,134
+M4-FUNG-0456:Q005,M4-FUNG-0456,Q005,EXPERIMENT,M4-FUNG-0456:E004,adametizine A LNCaP IC50,0.5 ± 0.03,,µM,LNCaP cells,endpoint,reported,NR,NR,cytotoxic,S003,~10-fold stronger than PC-3 in reported assay.,135
+M4-FUNG-0457:Q001,M4-FUNG-0457,Q001,EXPERIMENT,M4-FUNG-0457:E001,true progenies / producers / nonproducers,42 / 24 / 18,,count,100 initial progenies,cross analysis,reported,42 true progenies,NA,phenotype segregation,S003,58 parental-haplotype isolates excluded as possible conidial derivatives.,131
+M4-FUNG-0457:Q002,M4-FUNG-0457,Q002,EXPERIMENT,M4-FUNG-0457:E004,ELISA detection limit,0.22,0.22,ppm,fumonisin screening,endpoint,reported,NR,0.22 ppm,NA,S003,Screening threshold.,132
+M4-FUNG-0457:Q003,M4-FUNG-0457,Q003,EXPERIMENT,M4-FUNG-0457:E004,LC-MS/MS LOQ FB1 / FB2 / FB3,0.1 / 0.1 / 0.05,,ppm,individual congeners,endpoint,reported,NR,as listed,NA,S003,ND means below LOQ.,133
+M4-FUNG-0457:Q004,M4-FUNG-0457,Q004,EXPERIMENT,M4-FUNG-0457:E004,G9 donor FB1 / FB2 / FB3,>50 / >50 / 3.70,,ppm,Gfc0825009,endpoint,reported,1 donor strain,see LOQ,producer,S003,Representative donor-strain values in Table 2.,134
+M4-FUNG-0457:Q005,M4-FUNG-0457,Q005,EXPERIMENT,M4-FUNG-0457:E003,FUM21 p.G678* full-length-integration complementation,0 / 13,,fumonisin-positive / full-length transformants,mutant FUM21 construct,endpoint,reported,13,0.22 ppm ELISA,no recovery,S003,Supports p.G678* as causal FUM21 lesion.,135
+M4-FUNG-0457:Q006,M4-FUNG-0457,Q006,EXPERIMENT,M4-FUNG-0457:E003,canonical interval length,50387,50387.0,bp,HQ622717.1,sequence,reported,1,NA,NA,S001; S002,Current MIBiG display length.,136
+M4-FUNG-0458:Q001,M4-FUNG-0458,Q001,EXPERIMENT,M4-FUNG-0458:E001,canonical locus length,25320,25320.0,bp,MT876600.1 interval,sequence,derived,1,NA,NA,S001,25320-1+1.,132
+M4-FUNG-0458:Q002,M4-FUNG-0458,Q002,EXPERIMENT,M4-FUNG-0458:E001,xenoacremone A [M+H]+,478.2563,478.2563,m/z,native extract peak,7 days,reported,NR,NR,detected,S003,Formula C29H36NO5 for protonated ion.,133
+M4-FUNG-0458:Q003,M4-FUNG-0458,Q003,EXPERIMENT,M4-FUNG-0458:E003,canonical genes,7,7.0,count,BGC0002505,current database,reported,1,NA,NA,S002,XenA-G.,134
+M4-FUNG-0459:Q001,M4-FUNG-0459,Q001,EXPERIMENT,M4-FUNG-0459:E001,canonical interval length,18330,18330.0,bp,MN832834.1 interval,sequence,reported,1,NA,NA,S001; S002,Canonical submitted locus.,133
+M4-FUNG-0459:Q002,M4-FUNG-0459,Q002,EXPERIMENT,M4-FUNG-0459:E001,canonical genes,6,6.0,count,BGC0002507,current database,reported,1,NA,NA,S002,spoP/B/R/F/L/M.,134
+M4-FUNG-0460:Q001,M4-FUNG-0460,Q001,EXPERIMENT,M4-FUNG-0460:E001,canonical submitted interval length,19428,19428.0,bp,KE598559.1 interval,sequence,derived,1,NA,NA,S001; S002,593574-574147+1.,131
+M4-FUNG-0460:Q002,M4-FUNG-0460,Q002,EXPERIMENT,M4-FUNG-0460:E001,PKS21/brq5 transcript abundance,195,195.0,fold,purple versus white chemotype,transcriptome comparison,reported fold-change,NR,NR,higher in producer,S003,Strongest PKS expression contrast.,132
+M4-FUNG-0460:Q003,M4-FUNG-0460,Q003,EXPERIMENT,M4-FUNG-0460:E001,brq2 transcript abundance,256,256.0,fold,purple versus white chemotype,transcriptome comparison,reported fold-change,NR,NR,higher in producer,S003,Export role remains hypothetical despite strong expression.,133
+M4-FUNG-0460:Q004,M4-FUNG-0460,Q004,EXPERIMENT,M4-FUNG-0460:E001,brq6 transcript abundance,3,3.0,fold,purple versus white chemotype,transcriptome comparison,reported fold-change,NR,NR,higher in producer,S003,Lower expression contrast than other core genes.,134
+M4-FUNG-0460:Q005,M4-FUNG-0460,Q005,EXPERIMENT,M4-FUNG-0460:E002,biruloquinone AChE inhibition IC50,27.1,27.1,µg/mL,AChE assay,endpoint,reported,NR,NR,inhibition,S005,Compound-level activity.,135
+M4-FUNG-0460:Q006,M4-FUNG-0460,Q006,EXPERIMENT,M4-FUNG-0460:E002,PC12 protective concentration range,1–25,,µg/mL,PC12 cell assays,endpoint,reported tested/protective range,NR,NR,protective effect reported,S005,Separate bioactivity assay; not evidence of lichen ecological role.,136
+M4-FUNG-0491:Q001,M4-FUNG-0491,Q001,EXPERIMENT,M4-FUNG-0491:E001,canonical submitted interval length,6468,6468.0,bp,LC073704.1 interval,sequence,derived,1,NA,NA,S001,6568-101+1.,132
+M4-FUNG-0492:Q001,M4-FUNG-0492,Q001,EXPERIMENT,M4-FUNG-0492:E002,submitted cluster interval length,57000,57000.0,bp,KP742486.1 interval,sequence,direct/derived,1,NA,NA,S001; S002,1-57000 inclusive.,132
+M4-FUNG-0493:Q001,M4-FUNG-0493,Q001,EXPERIMENT,M4-FUNG-0493:E001,submitted functional interval length,30932,30932.0,bp,AB981314.1:101-31032,sequence,derived,1,NA,NA,S001; S002,31032-101+1.,132
+M4-FUNG-0493:Q002,M4-FUNG-0493,Q002,EXPERIMENT,M4-FUNG-0493:E001,dedicated enzymes functionally characterized,12,12.0,enzymes,complete pathway,study,reported,1 study,NA,NA,S003,Defining paper states complete pathway determined by characterizing 12 dedicated enzymes.,133
+M4-FUNG-0494:Q001,M4-FUNG-0494,Q001,EXPERIMENT,M4-FUNG-0494:E001,heterologously reconstituted DDP pathways,10,10.0,pathways,study total,endpoint,reported,1 study,NA,NA,S003,"Five native, four extended and one shunt pathway.",132
+M4-FUNG-0494:Q002,M4-FUNG-0494,Q002,EXPERIMENT,M4-FUNG-0494:E001,DDPs produced,22,22.0,compounds,study total,endpoint,reported,1 study,NA,NA,S003,Across native/extended/shunt pathways.,133
+M4-FUNG-0494:Q003,M4-FUNG-0494,Q003,EXPERIMENT,M4-FUNG-0494:E001,new DDP analogues,15,15.0,compounds,study total,endpoint,reported,1 study,NA,NA,S003,New analogues generated by synthetic-biology pathway design.,134
+M4-FUNG-0494:Q004,M4-FUNG-0494,Q004,EXPERIMENT,M4-FUNG-0494:E002,new shearones,9,9.0,compounds,shearones A-I,endpoint,reported,1 study,NA,NA,S005,Genome-mined esdp pathway reconstruction.,135
+M4-FUNG-0496:Q001,M4-FUNG-0496,Q001,EXPERIMENT,M4-FUNG-0496:E002,strain panel size,55,55.0,strains,panel,endpoint,reported,55,NA,NA,S003,Natural genotype–chemotype association.,133
+M4-FUNG-0496:Q002,M4-FUNG-0496,Q002,EXPERIMENT,M4-FUNG-0496:E002,mpaC natural deletion length,174,174.0,bp,mpaC,sequence,reported,1 recurrent deletion,NA,low-production association,S003,,134
+M4-FUNG-0498:Q001,M4-FUNG-0498,Q001,EXPERIMENT,M4-FUNG-0498:E002,transformations directly elucidated,13,13.0,transformations,of 17,study,reported,1,NA,NA,S004,,133
+M4-FUNG-0501:Q001,M4-FUNG-0501,Q001,EXPERIMENT,M4-FUNG-0501:E001,sordaricin titer,20,20.0,mg/L,A. nidulans reconstruction,endpoint,reported,1,NA,NA,S004,,133
+M4-FUNG-0501:Q002,M4-FUNG-0501,Q002,EXPERIMENT,M4-FUNG-0501:E002,sordaricin titer,2,2.0,mg/L,S. cerevisiae reconstruction,endpoint,reported,1,NA,NA,S004,,134
+M4-FUNG-0502:Q001,M4-FUNG-0502,Q001,EXPERIMENT,M4-FUNG-0502:E001,A549/MCF-7/HeLa cytotoxicity across halovir series,1.3-3.3,,μM,IC50,endpoint,reported range,NR,NR,active,S003,Accessible primary abstract reports the range across tested lipopeptaibols rather than compound-by-cell-line values.,132
+M4-FUNG-0503:Q001,M4-FUNG-0503,Q001,EXPERIMENT,M4-FUNG-0503:E001,ketone 12 titer,2,2.0,mg/L,A. nidulans heterologous culture,endpoint,reported,NR,NR,NA,S003,,133
+M4-FUNG-0503:Q002,M4-FUNG-0503,Q002,EXPERIMENT,M4-FUNG-0503:E002,SDR reaction completion,72,72.0,h,reaction,within 72 h,reported completion time,NR,NA,toward deoxyakanthomycin,S003,,134
+M4-FUNG-0504:Q001,M4-FUNG-0504,Q001,EXPERIMENT,M4-FUNG-0504:E001,xylaroamide A inhibition of BT-549,2.5,2.5,μM,IC50,endpoint,reported,NR,NR,active,S003,,133
+M4-FUNG-0504:Q002,M4-FUNG-0504,Q002,EXPERIMENT,M4-FUNG-0504:E001,xylaroamide A inhibition of RKO,9.5,9.5,μM,IC50,endpoint,reported,NR,NR,active,S003,,134
+M4-FUNG-0506:Q001,M4-FUNG-0506,Q001,EXPERIMENT,M4-FUNG-0506:E002,(+)-δ-cadinol titer,225,225.0,mg/L,fed-batch culture,48 h,reported,NR,NR,up vs unoptimized production,S003,,133
+M4-FUNG-0506:Q002,M4-FUNG-0506,Q002,EXPERIMENT,M4-FUNG-0506:E002,volumetric productivity,4.7,4.7,mg/L/h,fed-batch culture,48 h,reported,NR,NA,NA,S003,,134
+M4-FUNG-0507:Q001,M4-FUNG-0507,Q001,EXPERIMENT,M4-FUNG-0507:E002,(+)-δ-cadinol titer,395,395.0,mg/L,fed-batch culture,48 h,reported,NR,NR,up vs unoptimized production,S003,,133
+M4-FUNG-0507:Q002,M4-FUNG-0507,Q002,EXPERIMENT,M4-FUNG-0507:E002,volumetric productivity,8.2,8.2,mg/L/h,fed-batch culture,48 h,reported,NR,NA,NA,S003,,134
+M4-FUNG-0507:Q003,M4-FUNG-0507,Q003,EXPERIMENT,M4-FUNG-0507:E003,Copu9 crystal-structure resolution,1.83,1.83,Å,PDB 7OFL,structure determination,reported,1,NA,NA,S003; S004,,135
+M4-FUNG-0509:Q001,M4-FUNG-0509,Q001,EXPERIMENT,M4-FUNG-0509:E001,conidial inoculum,10^4/mL,,conidia,AMM-Fe culture,day 0,reported,NR,NA,NA,S003,,133
+M4-FUNG-0509:Q002,M4-FUNG-0509,Q002,EXPERIMENT,M4-FUNG-0509:E001,metachelin C HR-ESI-MS [M+H]+,934.4670,934.467,m/z,compound 1,isolation endpoint,observed,1,NA,NA,S003,Calculated 934.4668.,134
+M4-FUNG-0510:Q001,M4-FUNG-0510,Q001,EXPERIMENT,M4-FUNG-0510:E002,antibacterial MIC of active new chlorinated compound,12.5,12.5,μg/mL,tested S. aureus/MRSA strains,endpoint,reported shared MIC,NR,NR,active,S003,,133
+M4-FUNG-0513:Q001,M4-FUNG-0513,Q001,EXPERIMENT,M4-FUNG-0513:E002,sordarial recovered,41,41.0,mg,per 8 L culture,endpoint,reported isolated amount,NR,NR,positive,S003,,132
+M4-FUNG-0513:Q002,M4-FUNG-0513,Q002,EXPERIMENT,M4-FUNG-0513:E002,intermediate 2 recovered,10.7,10.7,mg,per 8 L culture,endpoint,reported isolated amount,NR,NR,positive,S003,,133
+M4-FUNG-0513:Q003,M4-FUNG-0513,Q003,EXPERIMENT,M4-FUNG-0513:E002,intermediate 3 recovered,8.6,8.6,mg,per 8 L culture,endpoint,reported isolated amount,NR,NR,positive,S003,,134
+M4-FUNG-0514:Q001,M4-FUNG-0514,Q001,EXPERIMENT,M4-FUNG-0514:E002,spirotryprostatin G HL-60 IC50,6,6.0,μM,HL-60 cells,endpoint,IC50,NR,NR,active,S003,,132
+M4-FUNG-0514:Q002,M4-FUNG-0514,Q002,EXPERIMENT,M4-FUNG-0514:E002,compound 4 HL-60 IC50,7.9,7.9,μM,HL-60 cells,endpoint,IC50,NR,NR,active,S003,,133
+M4-FUNG-0514:Q003,M4-FUNG-0514,Q003,EXPERIMENT,M4-FUNG-0514:E002,cyclotryprostatin F MCF-7 IC50,7.6,7.6,μM,MCF-7 cells,endpoint,IC50,NR,NR,active,S003,,134
+M4-FUNG-0514:Q004,M4-FUNG-0514,Q004,EXPERIMENT,M4-FUNG-0514:E002,cyclotryprostatin G MCF-7 IC50,10.8,10.8,μM,MCF-7 cells,endpoint,IC50,NR,NR,active,S003,,135
+M4-FUNG-0514:Q005,M4-FUNG-0514,Q005,EXPERIMENT,M4-FUNG-0514:E002,compound 5 MCF-7 IC50,5.1,5.1,μM,MCF-7 cells,endpoint,IC50,NR,NR,active,S003,,136
+M4-FUNG-0519:Q001,M4-FUNG-0519,Q001,EXPERIMENT,M4-FUNG-0519:E003,dendrothelin A LC50 day 7,0.472,0.472,μM,M. incognita J2,7 days,LC50,NR,NR,toxic,S003,,132
+M4-FUNG-0519:Q002,M4-FUNG-0519,Q002,EXPERIMENT,M4-FUNG-0519:E003,dendrothelin A LC50 day 14,0.167,0.167,μM,M. incognita J2,14 days,LC50,NR,NR,toxic,S003,,133
+M4-FUNG-0519:Q003,M4-FUNG-0519,Q003,EXPERIMENT,M4-FUNG-0519:E002,purified recombinant dendrothelin A,400,400.0,μg,purified batch,endpoint,reported recovery ≥95% purity,NR,NR,positive,S003,,134
+M4-FUNG-0520:Q001,M4-FUNG-0520,Q001,EXPERIMENT,M4-FUNG-0520:E003,lentinulin A LC50 day 1,0.341,0.341,μM,M. incognita J2,1 day,LC50,NR,NR,toxic,S003,,132
+M4-FUNG-0520:Q002,M4-FUNG-0520,Q002,EXPERIMENT,M4-FUNG-0520:E002,purified recombinant lentinulin A,800,800.0,μg,purified batch,endpoint,reported recovery ≥95% purity,NR,NR,positive,S003,,133
+M4-FUNG-0520:Q003,M4-FUNG-0520,Q003,EXPERIMENT,M4-FUNG-0520:E003,test concentration range,0.1–3,,μM,M. incognita J2,1–14 days,dose range,NR,NR,NA,S003,,134
+M4-FUNG-0522:Q001,M4-FUNG-0522,Q001,EXPERIMENT,M4-FUNG-0522:E002,inducer concentration range associated with dbaI transcriptional response,0.5-1,,µg/mL,culture medium,induction endpoint,reported active tested range,NR,NR,up,S004,Reported response at the two highest tested concentrations; lower tested concentrations were largely insufficient.,132
+M4-FUNG-0522:Q002,M4-FUNG-0522,Q002,EXPERIMENT,M4-FUNG-0522:E003,native deletion-panel induction window,2,2.0,days,culture,endpoint,experimental window,NA,NA,NA,S004,Analytical metabolomics window used for gene-deletion comparisons.,133
+M4-FUNG-0522:Q003,M4-FUNG-0522,Q003,EXPERIMENT,M4-FUNG-0522:E005,"indicator inhibition-zone phenotype, reference extract",1.6 ± 0.1,,cm,zone extent,endpoint,mean ± SD,4,NR,higher than ΔdbaI extract,S004,Matched ΔdbaI value reported as 0.2 ± 0.4 cm; p≤0.01.,134
+M4-FUNG-0522:Q004,M4-FUNG-0522,Q004,EXPERIMENT,M4-FUNG-0522:E005,indicator inhibition-zone phenotype under iron-limited assay,2.6 ± 0.4,,cm,zone extent,endpoint,mean ± SD,4,NR,increased,S004,Reported p≤0.001.,135
+M4-FUNG-0522:Q005,M4-FUNG-0522,Q005,EXPERIMENT,M4-FUNG-0522:E005,outer growth-zone phenotype under iron-limited assay,3.9 ± 0.5,,cm,zone extent,endpoint,mean ± SD,4,NR,present,S004,Reported p≤0.001; interpreted as an iron-redistribution/chelation phenotype.,136
+M4-FUNG-0524:Q001,M4-FUNG-0524,Q001,EXPERIMENT,M4-FUNG-0524:E004,maximum reported heterologous/native production enhancement,35,35.0,fold,relative to native producer,endpoint,up to,NR,NR,increase,S003,Headline maximum across measured colletochlorin-family products; not assigned to every congener.,132
+M4-FUNG-0524:Q002,M4-FUNG-0524,Q002,EXPERIMENT,M4-FUNG-0524:E002,initial reconstruction culture duration,3,3.0,days,yeast culture,endpoint,experimental duration,NA,NA,NA,S003,Initial BJNBC-008 OA detection experiment.,133
+M4-FUNG-0525:Q001,M4-FUNG-0525,Q001,EXPERIMENT,M4-FUNG-0525:E003,sartorypyrone A/G-related products 3 and 4,>100,,fold reduction,relative to intact spyA refactored strain,endpoint,EIC comparison,NR,NR,decrease,S003,Trace 3/4 remain after spyA deletion.,132
+M4-FUNG-0525:Q002,M4-FUNG-0525,Q002,EXPERIMENT,M4-FUNG-0525:E004,sartorypyrones F and D (compounds 1 and 2),>100,,fold increase,relative to intact refactored BGC strain,endpoint,EIC comparison,NR,NR,increase,S003,Accumulation occurs when SpyB-dependent acetylation is removed.,133
+M4-FUNG-0525:Q003,M4-FUNG-0525,Q003,EXPERIMENT,M4-FUNG-0525:E001,pathway-related characterized compounds,12,12.0,count,study total,study,reported count,NA,NA,NA,S003,"Includes endpoints, intermediates and shunt products.",134
+M4-FUNG-0525:Q004,M4-FUNG-0525,Q004,EXPERIMENT,M4-FUNG-0525:E001,previously unreported compounds among pathway set,7,7.0,count,study total,study,reported count,NA,NA,NA,S003,Primary abstract reports seven compounds had not been isolated previously.,135
+M4-FUNG-0528:Q001,M4-FUNG-0528,Q001,EXPERIMENT,M4-FUNG-0528:E001,purified luteodienoside A,22,22.0,mg,from 2.0 kg basmati rice culture,,,,,,,,133
+M4-FUNG-0528:Q002,M4-FUNG-0528,Q002,EXPERIMENT,M4-FUNG-0528:E004,luteodienoside A/B peaks after glucinol feeding,7,7.0,fold enhancement,versus unfed LtbA culture,,,,,,,,134
+M4-FUNG-0528:Q003,M4-FUNG-0528,Q003,EXPERIMENT,M4-FUNG-0528:E001,bioactivity threshold tested without activity,100,100.0,μg/mL,maximum tested concentration for compounds 1-3,,,,,,,,135
+M4-FUNG-0533:Q001,M4-FUNG-0533,Q001,EXPERIMENT,M4-FUNG-0533:E005,L-731.120,0.1,0.1,mg/L,"heterologous culture, approximately",,,,,,,,133
+M4-FUNG-0567:Q001,M4-FUNG-0567,Q001,EXPERIMENT,M4-FUNG-0567:E001,valine isocyanide antibacterial threshold against E. coli,125,125.0,uM,synthetic compound assay; inhibition reported at and above threshold,,,,,,,,132
+M4-FUNG-0570:Q001,M4-FUNG-0570,Q001,EXPERIMENT,M4-FUNG-0570:E001,heterologous cultivation duration,7,7.0,days,A. nidulans rice culture,,,,,,,,132
+M4-FUNG-0570:Q002,M4-FUNG-0570,Q002,EXPERIMENT,M4-FUNG-0570:E003,GdlS protein length,411,411.0,aa,encoded by 1236-bp CDS,,,,,,,,133
+M4-FUNG-0570:Q003,M4-FUNG-0570,Q003,EXPERIMENT,M4-FUNG-0570:E003,calculated GdlS molecular mass,46.7,46.7,kDa,reported calculated value,,,,,,,,134
+M4-FUNG-0572:Q001,M4-FUNG-0572,Q001,EXPERIMENT,M4-FUNG-0572:E001,beauvericin increase after HDA1 deletion,~1000,,fold,relative to wild type; reported approximately,,,,,,,,132
+M4-FUNG-0573:Q001,M4-FUNG-0573,Q001,EXPERIMENT,M4-FUNG-0573:E001,productive culture duration,7,7.0,days,LB + 2% fructose condition,,,,,,,,132
+M4-FUNG-0573:Q002,M4-FUNG-0573,Q002,EXPERIMENT,M4-FUNG-0573:E001,malpibaldin A [M+H]+,586.3963,586.3963,m/z,HRMS value reported in pathway study,,,,,,,,133
+M4-FUNG-0573:Q003,M4-FUNG-0573,Q003,EXPERIMENT,M4-FUNG-0573:E001,malpibaldin B [M+H]+,625.4062,625.4062,m/z,HRMS value reported,,,,,,,,134
+M4-FUNG-0573:Q004,M4-FUNG-0573,Q004,EXPERIMENT,M4-FUNG-0573:E001,malpibaldin C [M+H]+,602.3912,602.3912,m/z,HRMS value reported,,,,,,,,135
+M4-FUNG-0574:Q001,M4-FUNG-0574,Q001,EXPERIMENT,M4-FUNG-0574:E001,TndC protein length,764,764.0,aa,bifunctional type I diterpene synthase,,,,,,,,132
+M4-FUNG-0574:Q002,M4-FUNG-0574,Q002,EXPERIMENT,M4-FUNG-0574:E001,deposited tnd BGC length,20599,20599.0,bp,MW248390:1-20599,,,,,,,,133
+M4-FUNG-0575:Q001,M4-FUNG-0575,Q001,EXPERIMENT,M4-FUNG-0575:E001,productive culture duration,7,7.0,days,LB + 2% fructose,,,,,,,,132
+M4-FUNG-0575:Q002,M4-FUNG-0575,Q002,EXPERIMENT,M4-FUNG-0575:E001,malpicyclin A-D MIC range against Gram-positive test bacteria,97.3-357.8,,uM,reported range across compounds/tests,,,,,,,,133
+M4-FUNG-0575:Q003,M4-FUNG-0575,Q003,EXPERIMENT,M4-FUNG-0575:E001,critical micelle concentration reported for malpicyclin test material,147,147.0,uM,equivalent to 93.9 ug/mL; contextual physicochemical measurement,,,,,,,,134
+M4-FUNG-0575:Q004,M4-FUNG-0575,Q004,EXPERIMENT,M4-FUNG-0575:E001,malpicyclin A [M+H]+,645.4074,645.4074,m/z,HRMS value,,,,,,,,135
+M4-FUNG-0576:Q001,M4-FUNG-0576,Q001,EXPERIMENT,M4-FUNG-0576:E001,NRPS4 module count,5,5.0,modules,for a six-residue cyclic peptide; basis of iterative-module proposal,,,,,,,,132
+M4-FUNG-0576:Q002,M4-FUNG-0576,Q002,EXPERIMENT,M4-FUNG-0576:E001,fusahexin peptide residue count,6,6.0,residues,D-Ala/L-Leu/D-allo-Thr/L-Pro/D-Leu/L-Leu,,,,,,,,133
+M4-FUNG-0577:Q001,M4-FUNG-0577,Q001,EXPERIMENT,M4-FUNG-0577:E002,EchPT2 product-diversity output,at least 23,,prenylated derivatives,2- to 4-fold prenylated derivatives across echinulin/neoechinulin substrates,,,,,,,,131
+M4-FUNG-0577:Q002,M4-FUNG-0577,Q002,EXPERIMENT,M4-FUNG-0577:E002,EchPS revised length,2113,2113.0,amino acids,corrected EYE98744 annotation reported in 2017 study,,,,,,,,132
+M4-FUNG-0577:Q003,M4-FUNG-0577,Q003,EXPERIMENT,M4-FUNG-0577:E002,EchPT1 length,417,417.0,amino acids,2017 study,,,,,,,,133
+M4-FUNG-0577:Q004,M4-FUNG-0577,Q004,EXPERIMENT,M4-FUNG-0577:E002,EchPT2 length,408,408.0,amino acids,2017 study,,,,,,,,134
+M4-FUNG-0578:Q001,M4-FUNG-0578,Q001,EXPERIMENT,M4-FUNG-0578:E004,heterologous culture duration,12,12.0,days,rice culture before RNA isolation,,,,,,,,131
+M4-FUNG-0578:Q002,M4-FUNG-0578,Q002,EXPERIMENT,M4-FUNG-0578:E003,UcdE deduced protein length,457,457.0,aa,KIA75360,,,,,,,,132
+M4-FUNG-0578:Q003,M4-FUNG-0578,Q003,EXPERIMENT,M4-FUNG-0578:E003,UcdE calculated molecular mass,51.9,51.9,kDa,deduced native polypeptide,,,,,,,,133
+M4-FUNG-0578:Q004,M4-FUNG-0578,Q004,EXPERIMENT,M4-FUNG-0578:E003,purified His6-UcdE yield,1.9,1.9,mg/L,E. coli culture,,,,,,,,134
+M4-FUNG-0579:Q001,M4-FUNG-0579,Q001,EXPERIMENT,M4-FUNG-0579:E001,native cultivation duration,7,7.0,days,crude extract analysis,,,,,,,,131
+M4-FUNG-0579:Q002,M4-FUNG-0579,Q002,EXPERIMENT,M4-FUNG-0579:E002,experimentally sufficient core cluster size,4,4.0,genes,NRPS + FMO + two acetyltransferases,,,,,,,,132
+M4-FUNG-0580:Q001,M4-FUNG-0580,Q001,EXPERIMENT,M4-FUNG-0580:E002,core enzymes experimentally assigned,5,5.0,enzymes,PbaABCDE leading to γ-lactam formation,,,,,,,,131
+M4-FUNG-0580:Q002,M4-FUNG-0580,Q002,EXPERIMENT,M4-FUNG-0580:E001,resolved natural-product stereoisomers,8,8.0,stereoisomers,four A-D enantiomer pairs,,,,,,,,132
+M4-FUNG-0580:Q003,M4-FUNG-0580,Q003,EXPERIMENT,M4-FUNG-0580:E002,PbaE identity to PhqI query,42,42.0,percent sequence identity,candidate-cluster discovery; not functional evidence by itself,,,,,,,,133
+M4-FUNG-0581:Q001,M4-FUNG-0581,Q001,EXPERIMENT,M4-FUNG-0581:E001,biosynthetic genes heterologously expressed,14,14.0,genes,complete reported pathway programme,,,,,,,,137
+M4-FUNG-0581:Q002,M4-FUNG-0581,Q002,EXPERIMENT,M4-FUNG-0581:E003,ΔphoE rice cultivation duration,40,40.0,days,2025 metabolic-shunting follow-up,,,,,,,,138
+M4-FUNG-0581:Q003,M4-FUNG-0581,Q003,EXPERIMENT,M4-FUNG-0581:E003,predicted BGC count in SYSU-MS4722 genome,130,130.0,BGCs,"2025 genome-mining context, not phomoxanthone-specific",,,,,,,,139
+M4-FUNG-0582:Q001,M4-FUNG-0582,Q001,EXPERIMENT,M4-FUNG-0582:E003,roseopurpurin C Kiapp for CDK2,44,44.0,nM,±8 nM,,,,,,,,133
+M4-FUNG-0582:Q002,M4-FUNG-0582,Q002,EXPERIMENT,M4-FUNG-0582:E003,enzyme concentration used for ATP-competitive analysis,5,5.0,nM,CDK2/cyclin E1,,,,,,,,134
+M4-FUNG-0582:Q003,M4-FUNG-0582,Q003,EXPERIMENT,M4-FUNG-0582:E003,commercial depsides/depsidones screened,19,19.0,compounds,none IC50 <10 µM,,,,,,,,135
+M4-FUNG-0582:Q004,M4-FUNG-0582,Q004,EXPERIMENT,M4-FUNG-0582:E003,tight-binding threshold observation,7.5,7.5,nM,tight binding observed above this CDK2/cyclin E1 concentration,,,,,,,,136
+M4-FUNG-0583:Q001,M4-FUNG-0583,Q001,EXPERIMENT,M4-FUNG-0583:E001,productive nitrate concentration,6,6.0,mM NaNO3,synthetic ICI,,,,,,,,131
+M4-FUNG-0583:Q002,M4-FUNG-0583,Q002,EXPERIMENT,M4-FUNG-0583:E001,culture duration,7,7.0,days,metabolite analysis,,,,,,,,132
+M4-FUNG-0583:Q003,M4-FUNG-0583,Q003,EXPERIMENT,M4-FUNG-0583:E003,functional fusamarin BGC size,4,4.0,genes,FMAN_15220-15223,,,,,,,,133
+M4-FUNG-0583:Q004,M4-FUNG-0583,Q004,EXPERIMENT,M4-FUNG-0583:E004,high nitrate repressive condition,120,120.0,mM NaNO3,nonproductive/repressive,,,,,,,,134
+M4-FUNG-0584:Q001,M4-FUNG-0584,Q001,EXPERIMENT,M4-FUNG-0584:E001,pycnidione native yield reported in study,2,2.0,mg isolated,native CF-236968 culture,,,,,,,,131
+M4-FUNG-0592:Q001,M4-FUNG-0592,Q001,EXPERIMENT,M4-FUNG-0592:E001,Ao415 knockout total siderophore decrease,~60,,percent,relative to WT in reported study,,,,,,,,131
+M4-FUNG-0592:Q002,M4-FUNG-0592,Q002,EXPERIMENT,M4-FUNG-0592:E001,predatory-ring reduction in Ao415 knockout,23.21,23.21,percent,reported phenotype,,,,,,,,132
+M4-FUNG-0592:Q003,M4-FUNG-0592,Q003,EXPERIMENT,M4-FUNG-0592:E001,spore-yield increase in Ao415 knockout,37.34,37.34,percent,reported phenotype,,,,,,,,133
+M4-FUNG-0593:Q001,M4-FUNG-0593,Q001,EXPERIMENT,M4-FUNG-0593:E001,(+)-aristolochene titer,50,50.0,mg/L,72 h flask culture,,,,,,,,131
+M4-FUNG-0593:Q002,M4-FUNG-0593,Q002,EXPERIMENT,M4-FUNG-0593:E001,production endpoint,72,72.0,h,heterologous flask culture,,,,,,,,132
+M4-FUNG-0594:Q001,M4-FUNG-0594,Q001,EXPERIMENT,M4-FUNG-0594:E002,FDDP-D [M+H]+ observed m/z,503.3003,503.3003,m/z,Q6 mycelial extract,,,,,,,,130
+M4-FUNG-0594:Q002,M4-FUNG-0594,Q002,EXPERIMENT,M4-FUNG-0594:E002,FDDP-D retention time,5.71,5.71,min,Q6 mycelial extract,,,,,,,,131
+M4-FUNG-0594:Q003,M4-FUNG-0594,Q003,EXPERIMENT,M4-FUNG-0594:E002,FDDP-E [M+H]+ observed m/z,487.3054,487.3054,m/z,Q6 mycelial extract,,,,,,,,132
+M4-FUNG-0594:Q004,M4-FUNG-0594,Q004,EXPERIMENT,M4-FUNG-0594:E002,FDDP-E retention time,6.13,6.13,min,Q6 mycelial extract,,,,,,,,133
+M4-FUNG-0594:Q005,M4-FUNG-0594,Q005,UNRESOLVED_REFERENCE,S001,historical MIBiG locus length,24141,24141.0,bp,HG970333.1 interval,,,,,,,,134
+M4-FUNG-0595:Q001,M4-FUNG-0595,Q001,EXPERIMENT,M4-FUNG-0595:E001,physodic-chemotype genome assembly size,~34,,Mb,,,,,,,,,130
+M4-FUNG-0595:Q002,M4-FUNG-0595,Q002,EXPERIMENT,M4-FUNG-0595:E002,olivetoric-chemotype genome assembly size,~37,,Mb,,,,,,,,,131
+M4-FUNG-0595:Q003,M4-FUNG-0595,Q003,EXPERIMENT,M4-FUNG-0595:E003,homologous BGCs shared by both chemotypes,51,51.0,clusters,,,,,,,,,132
+M4-FUNG-0595:Q004,M4-FUNG-0595,Q004,EXPERIMENT,M4-FUNG-0595:E003,shared NR-PKS clusters evaluated,8,8.0,clusters,,,,,,,,,133
+M4-FUNG-0595:Q005,M4-FUNG-0595,Q005,EXPERIMENT,M4-FUNG-0595:E003,genes in candidate cluster 4,10,10.0,genes,,,,,,,,,134
+M4-FUNG-0596:Q001,M4-FUNG-0596,Q001,EXPERIMENT,M4-FUNG-0596:E003,macrophasetin A/C antibacterial assay,10,10.0,µg/mL,,,,,,,,,130
+M4-FUNG-0596:Q002,M4-FUNG-0596,Q002,UNRESOLVED_REFERENCE,S001,canonical locus length,34344,34344.0,bp,,,,,,,,,131
+M4-FUNG-0597:Q001,M4-FUNG-0597,Q001,EXPERIMENT,M4-FUNG-0597:E002,proteasome inhibition,potent,,qualitative,,,,,,,,,130
+M4-FUNG-0598:Q001,M4-FUNG-0598,Q001,EXPERIMENT,M4-FUNG-0598:E001,Malformin A2/C after mlfA deletion,abolished,,qualitative,,,,,,,,,130
+M4-FUNG-0598:Q002,M4-FUNG-0598,Q002,EXPERIMENT,M4-FUNG-0598:E002,malformin production after complementation,restored,,qualitative,,,,,,,,,131
+M4-FUNG-0598:Q003,M4-FUNG-0598,Q003,UNRESOLVED_REFERENCE,S001,canonical interval length,15468,15468.0,bp,,,,,,,,,132
+M4-FUNG-0599:Q001,M4-FUNG-0599,Q001,EXPERIMENT,M4-FUNG-0599:E001,taslactam D formation,detected/characterized,,qualitative,,,,,,,,,130
+M4-FUNG-0600:Q001,M4-FUNG-0600,Q001,EXPERIMENT,M4-FUNG-0600:E001,ascochitine after pksAC deletion,abolished,,qualitative,,,,,,,,,130
+M4-FUNG-0600:Q002,M4-FUNG-0600,Q002,EXPERIMENT,M4-FUNG-0600:E003,ascochitine requirement for pathogenicity,not essential,,qualitative,,,,,,,,,131
+M4-FUNG-0600:Q003,M4-FUNG-0600,Q003,UNRESOLVED_REFERENCE,S001,AV22 canonical interval length,32293,32293.0,bp,,,,,,,,,132
+M4-FUNG-0601:Q001,M4-FUNG-0601,Q001,EXPERIMENT,M4-FUNG-0601:E003,AnuG product,"(2S,9S)-annullatin D",,qualitative,,,,,,,,,130
+M4-FUNG-0601:Q002,M4-FUNG-0601,Q002,UNRESOLVED_REFERENCE,S001,canonical interval length,28399,28399.0,bp,,,,,,,,,131
+M4-FUNG-0602:Q001,M4-FUNG-0602,Q001,EXPERIMENT,M4-FUNG-0602:E001,fusaproliferin after FUP1 disruption,absent,,qualitative,,,,,,,,,130
+M4-FUNG-0602:Q002,M4-FUNG-0602,Q002,EXPERIMENT,M4-FUNG-0602:E003,terpestacin in ΔFUP5,~8-fold elevated,,relative,,,,,,,,,131
+M4-FUNG-0602:Q003,M4-FUNG-0602,Q003,UNRESOLVED_REFERENCE,S001,canonical interval length,16677,16677.0,bp,,,,,,,,,132
+M4-FUNG-0603:Q001,M4-FUNG-0603,Q001,EXPERIMENT,M4-FUNG-0603:E002,CpaA product,cAATrp,,qualitative,,,,,,,,,130
+M4-FUNG-0603:Q002,M4-FUNG-0603,Q002,EXPERIMENT,M4-FUNG-0603:E003,CpaD product,β-CPA,,qualitative,,,,,,,,,131
+M4-FUNG-0603:Q003,M4-FUNG-0603,Q003,UNRESOLVED_REFERENCE,S001,canonical interval length,23501,23501.0,bp,,,,,,,,,132
+M4-FUNG-0604:Q001,M4-FUNG-0604,Q001,EXPERIMENT,M4-FUNG-0604:E003,TvTS-PT product,HexPP,,qualitative,,,,,,,,,130
+M4-FUNG-0604:Q002,M4-FUNG-0604,Q002,EXPERIMENT,M4-FUNG-0604:E003,TvTS-TC product,talaropentaene,,qualitative,,,,,,,,,131
+M4-FUNG-0604:Q003,M4-FUNG-0604,Q003,UNRESOLVED_REFERENCE,S001,canonical interval length,2510,2510.0,bp,,,,,,,,,132
+M4-FUNG-0605:Q001,M4-FUNG-0605,Q001,EXPERIMENT,M4-FUNG-0605:E001,heterologous MpMS product,macrophomene,,qualitative,,,,,,,,,130
+M4-FUNG-0605:Q002,M4-FUNG-0605,Q002,EXPERIMENT,M4-FUNG-0605:E002,purified MpMS product,macrophomene,,qualitative,,,,,,,,,131
+M4-FUNG-0605:Q003,M4-FUNG-0605,Q003,UNRESOLVED_REFERENCE,S001,canonical interval length,2619,2619.0,bp,,,,,,,,,132
+M4-FUNG-0606:Q001,M4-FUNG-0606,Q001,EXPERIMENT,M4-FUNG-0606:E001,isolated colleterpenol,30.5,30.5,mg,,,,,,,,,130
+M4-FUNG-0606:Q002,M4-FUNG-0606,Q002,EXPERIMENT,M4-FUNG-0606:E001,GC retention time,24.2,24.2,min,,,,,,,,,131
+M4-FUNG-0606:Q003,M4-FUNG-0606,Q003,UNRESOLVED_REFERENCE,S001,canonical interval length,2721,2721.0,bp,,,,,,,,,132
+M4-FUNG-0607:Q001,M4-FUNG-0607,Q001,EXPERIMENT,M4-FUNG-0607:E002,functional EAS genes reported for P. ipomoeae,14,14.0,genes,,,,,,,,,130
+M4-FUNG-0608:Q001,M4-FUNG-0608,Q001,UNRESOLVED_REFERENCE,S001,canonical EAS interval length,78101,78101.0,bp,,,,,,,,,130
+M4-FUNG-0609:Q001,M4-FUNG-0609,Q001,UNRESOLVED_REFERENCE,S001,canonical IDT interval length,20301,20301.0,bp,,,,,,,,,130
+M4-FUNG-0609:Q002,M4-FUNG-0609,Q002,EXPERIMENT,M4-FUNG-0609:E001,canonical indole-diterpene products listed,11,11.0,compounds,,,,,,,,,131

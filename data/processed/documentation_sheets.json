@@ -1,0 +1,310 @@
+{
+  "SUMMARY": [
+    [
+      "Fungal BGC Atlas \u2014 609 dossier snapshot"
+    ],
+    [
+      "Version \u2014 21 August 2026, 18:10 IST"
+    ],
+    [
+      "Metric",
+      "Value",
+      "Notes"
+    ],
+    [
+      "BGC dossiers",
+      609,
+      "All 609 BGC rows are linked to MIBiG accessions"
+    ],
+    [
+      "Unique organism keys",
+      371
+    ],
+    [
+      "Strain labels",
+      1018
+    ],
+    [
+      "BGC facet rows",
+      7800
+    ],
+    [
+      "Gene rows",
+      1572
+    ],
+    [
+      "Metabolite rows",
+      807
+    ],
+    [
+      "Experiment rows",
+      915
+    ],
+    [
+      "Experiment-term links",
+      4707
+    ],
+    [
+      "Measurements",
+      936
+    ],
+    [
+      "Observations",
+      1641
+    ],
+    [
+      "Claims",
+      1534
+    ],
+    [
+      "Relationships",
+      1264
+    ],
+    [
+      "Conflicts / uncertainties",
+      995
+    ],
+    [
+      "Sources",
+      2575
+    ],
+    [
+      "Evidence links",
+      47768
+    ],
+    [
+      "Scalar assertions",
+      24502
+    ],
+    [
+      "Compact legacy facts",
+      813
+    ],
+    [
+      "TERM rows",
+      3042
+    ],
+    [
+      "Normalization queue rows",
+      882
+    ],
+    [
+      "Raw biological rows",
+      30851
+    ],
+    [
+      "Normalization snapshot",
+      "1,900 eligible TERM rows reviewed",
+      "1,095 eligible Phase-1 TERM rows remained at the time this copy was created"
+    ]
+  ],
+  "README": [
+    [
+      "About this workbook"
+    ],
+    [
+      "Scope",
+      "609 fungal biosynthetic gene-cluster dossiers, each linked to a MIBiG accession."
+    ],
+    [
+      "Data organization",
+      "Separate tables contain BGCs, organisms, strains, facets, genes, metabolites, experiments, experimental terms, measurements, observations, claims, relationships, conflicts, sources and evidence links."
+    ],
+    [
+      "Source traceability",
+      "SOURCE and EVIDENCE_LINK contain literature and database provenance."
+    ],
+    [
+      "Raw data",
+      "RAW_ROW retains non-empty biological source rows."
+    ],
+    [
+      "Normalization",
+      "TERM contains raw and canonical term labels; NORMALIZATION_QUEUE contains mappings that remain unresolved."
+    ],
+    [
+      "Missing or uncertain values",
+      "Explicit missingness and uncertainty states are retained where present."
+    ],
+    [
+      "Snapshot",
+      "Static shareable copy created 21 August 2026. The working normalization file remains separate."
+    ]
+  ],
+  "SCHEMA": [
+    [
+      "table",
+      "unit",
+      "purpose"
+    ],
+    [
+      "BGC",
+      "one row per dossier/BGC",
+      "stable identifiers and minimally interpreted core descriptors"
+    ],
+    [
+      "ORGANISM",
+      "one row per taxon-resolved organism key",
+      "taxonomy entity separated from BGC"
+    ],
+    [
+      "STRAIN",
+      "one row per exact strain label within organism context",
+      "strain entity for experiment linkage"
+    ],
+    [
+      "BGC_FACET",
+      "one BGC \u00d7 independent categorization axis \u00d7 value",
+      "multi-axis categorization without forcing a single BGC class"
+    ],
+    [
+      "GENE",
+      "one dossier-local gene record",
+      "gene architecture/function evidence"
+    ],
+    [
+      "METABOLITE",
+      "one dossier-local metabolite record",
+      "product/intermediate evidence"
+    ],
+    [
+      "EXPERIMENT",
+      "one experimental event",
+      "event envelope; conditions/actions linked separately"
+    ],
+    [
+      "TERM",
+      "one exact typed raw concept",
+      "vocabulary layer for conditions, interventions, assays and time"
+    ],
+    [
+      "EXPERIMENT_LINK",
+      "one experiment \u00d7 typed term link",
+      "hyperedge membership; separates action/state/assay/context components"
+    ],
+    [
+      "MEASUREMENT",
+      "one reported measurement",
+      "quantitative/text measured value with explicit subject"
+    ],
+    [
+      "OBSERVATION",
+      "one outcome or measurement observation",
+      "observation layer separated from actions/state"
+    ],
+    [
+      "CLAIM",
+      "one claim",
+      "reported/synthesized claims separate from measured observations"
+    ],
+    [
+      "RELATIONSHIP",
+      "one explicit relation",
+      "graph-ready relation; free-text relations remain unresolved until normalized"
+    ],
+    [
+      "CONFLICT",
+      "one conflict/uncertainty",
+      "preserve disagreement rather than collapse it"
+    ],
+    [
+      "SOURCE",
+      "one dossier-local source",
+      "literature/database provenance"
+    ],
+    [
+      "EVIDENCE_LINK",
+      "one record \u00d7 source link",
+      "many-to-many provenance"
+    ],
+    [
+      "ASSERTION",
+      "one scalar field/value assertion",
+      "atomic long-form fact ledger across schema generations"
+    ],
+    [
+      "COMPACT_FACT",
+      "one compact legacy row",
+      "structured salvage layer for older dossier generations; evaluative label column excluded"
+    ],
+    [
+      "NORMALIZATION_QUEUE",
+      "one unresolved row/reference",
+      "explicit backlog; no forced interpretation"
+    ],
+    [
+      "PROVENANCE_EXCLUDED",
+      "one excluded evaluative/administrative location",
+      "track what was excluded without carrying the bias-prone value"
+    ],
+    [
+      "RAW_ROW",
+      "one nonempty biological source row",
+      "lossless audit layer for not-yet-normalized information"
+    ]
+  ],
+  "FEATURE_POLICY": [
+    [
+      "Data families",
+      "Contents"
+    ],
+    [
+      "Identifiers and administration",
+      "Dossier IDs, accessions, source metadata and record identifiers"
+    ],
+    [
+      "BGC facets",
+      "Independent categorical descriptors attached to a BGC"
+    ],
+    [
+      "Experimental terms",
+      "Conditions, interventions, media, developmental states, time, sample matrices and analytical methods"
+    ],
+    [
+      "Measurements and observations",
+      "Quantitative measurements and qualitative experimental outcomes"
+    ],
+    [
+      "Sources and evidence links",
+      "Literature/database records and links from scientific records to supporting sources"
+    ],
+    [
+      "Missingness and uncertainty",
+      "Explicit recorded states such as NR, NF, NA, UNCERTAIN and CONFLICTING"
+    ]
+  ],
+  "VIEW_SPEC": [
+    [
+      "Table group",
+      "Main tables"
+    ],
+    [
+      "BGC identity and context",
+      "BGC, ORGANISM, STRAIN, BGC_FACET"
+    ],
+    [
+      "Genes and products",
+      "GENE, METABOLITE"
+    ],
+    [
+      "Experiments and conditions",
+      "EXPERIMENT, TERM, EXPERIMENT_LINK"
+    ],
+    [
+      "Experimental results",
+      "MEASUREMENT, OBSERVATION"
+    ],
+    [
+      "Interpretive records",
+      "CLAIM, RELATIONSHIP, CONFLICT"
+    ],
+    [
+      "Sources and traceability",
+      "SOURCE, EVIDENCE_LINK, ASSERTION"
+    ],
+    [
+      "Legacy / unresolved / raw",
+      "COMPACT_FACT, NORMALIZATION_QUEUE, PROVENANCE_EXCLUDED, RAW_ROW"
+    ]
+  ]
+}

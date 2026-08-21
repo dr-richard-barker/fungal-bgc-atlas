@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# LaTeX build artifacts (main.pdf is committed; intermediates are not)
+manuscript/latex/*.aux
+manuscript/latex/*.log
+manuscript/latex/*.bbl
+manuscript/latex/*.bcf
+manuscript/latex/*.blg
+manuscript/latex/*.out
+manuscript/latex/*.run.xml
+manuscript/latex/*.fls
+manuscript/latex/*.fdb_latexmk
+manuscript/latex/sections/*.aux
+
+# OS
+.DS_Store

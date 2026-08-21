@@ -1,0 +1,41 @@
+\section{Introduction}
+
+Fungi are prolific producers of secondary metabolites -- polyketides, non-ribosomal peptides,
+terpenoids and hybrids thereof -- with roles spanning virulence, chemical ecology, and pharmacology,
+from aflatoxins and other mycotoxins to clinically important natural products. The genes responsible
+for a given metabolite are typically physically clustered in the genome as a biosynthetic gene
+cluster (BGC), and the Minimum Information about a Biosynthetic Gene cluster (MIBiG) standard and
+its accompanying database have become the community reference point for recording which BGCs have
+been characterised and what they are reported to produce \citep{terlouw2023mibig}.
+
+A MIBiG accession, however, is deliberately a minimal record: cluster boundaries, a product name,
+and a small set of controlled fields. The primary evidence behind that record -- which individual
+gene was actually disrupted and shown to be required, which metabolite congener was directly
+detected versus inferred, under what culture conditions, with what caveats, and whether independent
+studies agree -- lives only in the cited literature, in a different format for every paper, and is
+not itself queryable. This creates a substantial gap between what is nominally known about a fungal
+BGC and what can be programmatically retrieved, compared across BGCs, or checked for internal
+disagreement.
+
+\todo{Introduction -- add 2--4 discipline-specific citations here once verified (e.g. antiSMASH/BGC
+genome-mining tools, prior fungal-BGC or natural-product knowledge-graph resources, and any of the
+609 dossiers' own source papers that motivate specific examples). None are included yet because
+fabricating bibliographic details from memory is deliberately avoided; see
+\texttt{manuscript/latex/references.bib} for a note on this.}
+
+The FAIR principles -- that data and the tools built on them should be Findable, Accessible,
+Interoperable and Reusable \citep{wilkinson2016fair} -- provide a natural design target for closing
+this gap: rather than re-reading primary literature for every comparative question, the evidence
+itself should be captured once, in a documented schema, with explicit provenance and with
+disagreement preserved rather than silently resolved.
+
+Here we present the \textbf{Fungal BGC Atlas}, a resource that applies this design to 609 fungal
+BGC dossiers, each linked to a MIBiG accession. Every dossier was built by large-language-model
+(LLM)-assisted extraction from the primary literature and MIBiG record, followed by full manual
+review of all 609 dossiers by the curator (Methods). The Atlas resolves each dossier into its
+constituent genes, metabolites, experiments, measurements, claims and relationships, all linked back
+to their supporting sources, and explicitly records the facets, uncertainties and unresolved
+normalisation questions that a single-value schema would otherwise discard. We describe the
+resource's construction and content, summarise its composition, and present an interactive web
+dashboard and archived data/code package that make the Atlas directly usable for cross-BGC
+comparison and genome-mining hypothesis generation.

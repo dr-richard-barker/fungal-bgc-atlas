@@ -1,0 +1,35 @@
+{
+  "title": "Fungal BGC Atlas: a curated, evidence-linked knowledge base of 609 literature- and MIBiG-derived fungal biosynthetic gene cluster dossiers",
+  "description": "<p>A curated, evidence-linked knowledge base of 609 fungal biosynthetic gene cluster (BGC) dossiers, each anchored to a MIBiG accession and built by large-language-model-assisted extraction from primary literature followed by full manual review of every dossier. Beyond the cluster-level record, the Atlas resolves each dossier into genes, metabolites, experiments, measurements, claims and curated subject-predicate-object relationships (a knowledge graph), all traceable to source records through explicit evidence links. Structural and functional context is captured along 27 independent facet axes (biosynthesis class, chemistry, ecology, genome context and activation conditions), and conflicts or unresolved uncertainties between sources are preserved as first-class records rather than collapsed into a forced consensus. Packaged as a relational SQLite database, a knowledge graph (GraphML/JSON/CSV), a self-contained interactive HTML dashboard (taxonomy, chemistry, facet explorer, knowledge graph, evidence/provenance, conflicts, a searchable dossier browser with cross-table detail views, and a live data dictionary), publication-quality dated figures, manuscript tables, and supplementary material. The entire resource is deterministically rebuildable from the source data via a single Python entry point.</p>",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "biosynthetic gene clusters",
+    "fungal natural products",
+    "MIBiG",
+    "secondary metabolism",
+    "knowledge graph",
+    "FAIR data",
+    "curated database",
+    "evidence provenance",
+    "mycology",
+    "natural product genome mining",
+    "reproducible research"
+  ],
+  "creators": [
+    {
+      "name": "Barker, Richard",
+      "affiliation": "University of Wisconsin-Madison",
+      "orcid": "0000-0002-0002-0002"
+    }
+  ],
+  "related_identifiers": [
+    {"relation": "references", "identifier": "10.1093/nar/gkac1049", "resource_type": "publication-article"},
+    {"relation": "references", "identifier": "10.1038/sdata.2016.18", "resource_type": "publication-article"},
+    {"relation": "isSupplementTo", "identifier": "https://github.com/dr-richard-barker/fungal-bgc-atlas", "resource_type": "software"}
+  ],
+  "communities": [],
+  "version": "0.1.0",
+  "language": "eng"
+}

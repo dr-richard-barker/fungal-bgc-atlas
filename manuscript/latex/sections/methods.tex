@@ -1,0 +1,65 @@
+\section{Materials and methods}
+
+\subsection{Data curation}
+
+Each of the 609 dossiers originates from a MIBiG accession and its associated primary reference(s).
+Structured fields (BGC identity and boundaries, organism and strain, genes, metabolites, experiments,
+measurements, claims, relationships, and source citations) were extracted from the primary literature
+and the MIBiG record using Claude (Anthropic) large language models
+\todo{Methods -- state the exact Claude model version(s) and extraction date range once confirmed; left as a placeholder rather than guessed}.
+Every one of the 609 dossiers was then \textbf{fully manually reviewed} by the curator against the
+cited literature before being included in this snapshot; this is a completeness property of the
+current release, not a partial-sample audit.
+
+Extraction outputs were passed through a normalisation layer (the \texttt{TERM} vocabulary and
+\texttt{NORMALIZATION\_QUEUE} tables) that reconciles free-text labels for experimental conditions,
+interventions, assays and taxonomy against a controlled vocabulary where possible. Values that could
+not yet be confidently normalised (composite labels, type mismatches, or terms awaiting review) are
+retained rather than forced into a canonical bucket, and are tracked explicitly: 882 \texttt{TERM}
+rows remained in the normalisation queue at the time of this snapshot (Results). Similarly, where
+independent sources disagreed, or a boundary or causal claim was ambiguous, this was recorded as a
+\texttt{CONFLICT} row with an explicit issue type and status rather than resolved by editorial
+fiat -- 995 such records exist in the current snapshot, of which 220 remain explicitly \emph{open}.
+
+\subsection{Database construction}
+
+All code is released under \texttt{scripts/} in the project repository and is orchestrated by a
+single entry point, \texttt{run\_all.py}, so the entire resource is deterministically rebuildable
+from the source workbook:
+
+\begin{enumerate}
+  \item \textbf{\texttt{parse\_xlsx.py}} reads the 23 data tables and 5 documentation sheets from the
+    source workbook and writes one clean CSV per table.
+  \item \textbf{\texttt{build\_database.py}} loads the parsed tables into a documented SQLite
+    database (\texttt{data/db/fungal\_bgc\_atlas.db}, schema in \texttt{db/schema.sql}), with every
+    table's row count asserted against the source workbook's own summary counts as a build-time
+    regression check.
+  \item \textbf{\texttt{build\_graph.py}} constructs two graphs: a literal knowledge graph of the
+    curated subject--predicate--object \texttt{RELATIONSHIP} triples, and an entity-linkage graph
+    joining BGC, organism, gene, metabolite and source nodes on \texttt{dossier\_id}, exported as
+    GraphML, JSON and CSV edge/node lists.
+  \item \textbf{\texttt{compute\_stats.py}} computes every descriptive statistic used in this
+    manuscript and in the dashboard directly from the parsed tables, and emits both CSV and
+    \LaTeX{}-ready table snippets (\texttt{tables/}).
+  \item \textbf{\texttt{make\_figures.py}} renders dated, publication-quality figure snapshots
+    (300\,dpi PNG + vector SVG) to \texttt{figures/<date>/}, with an accompanying manifest.
+  \item \textbf{\texttt{build\_dashboard.py}} renders the interactive dashboard
+    (\texttt{docs/index.html}) described in Results.
+\end{enumerate}
+
+The relational schema comprises 23 tables sharing \texttt{dossier\_id} as a common join key (Table~1
+of the online Data Dictionary panel; full schema in \texttt{db/schema.sql}), spanning identity and
+administration (\texttt{BGC}, \texttt{ORGANISM}, \texttt{STRAIN}), independent categorisation
+(\texttt{BGC\_FACET}, 27 axes), molecular content (\texttt{GENE}, \texttt{METABOLITE}), experimental
+context (\texttt{EXPERIMENT}, \texttt{TERM}, \texttt{EXPERIMENT\_LINK}), results
+(\texttt{MEASUREMENT}, \texttt{OBSERVATION}), interpretive records (\texttt{CLAIM},
+\texttt{RELATIONSHIP}, \texttt{CONFLICT}), provenance (\texttt{SOURCE}, \texttt{EVIDENCE\_LINK},
+\texttt{ASSERTION}), and curation-audit tables (\texttt{COMPACT\_FACT}, \texttt{COVERAGE},
+\texttt{DOSSIER\_SCHEMA}, \texttt{NORMALIZATION\_QUEUE}, \texttt{PROVENANCE\_EXCLUDED},
+\texttt{RAW\_ROW}).
+
+The interactive dashboard is a single self-contained HTML page using Plotly for charting and a
+small vanilla-JavaScript component for the searchable dossier browser, requiring no server or
+build step to view. A GitHub Actions workflow rebuilds the database, graph, statistics, figures and
+dashboard on every push to the main branch and deploys the result to GitHub Pages, so the published
+resource is always reproducible from the checked-in source data and code.

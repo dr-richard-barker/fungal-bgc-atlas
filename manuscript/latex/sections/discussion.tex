@@ -1,0 +1,47 @@
+\section{Discussion}
+
+The Fungal BGC Atlas is designed to complement, not replace, MIBiG: MIBiG remains the authoritative,
+minimal, sequence-anchored record of a BGC, while the Atlas captures the surrounding evidence --
+which gene was shown to matter, which metabolite was actually detected, under what conditions, by
+whom, and with what caveats -- as structured, queryable, and independently citable data. By
+resolving each dossier into genes, metabolites, experiments, measurements, claims and typed
+relationships, all linked back to source records, cross-cluster questions that previously required
+re-reading the primary literature (which predicates most often co-occur with a given chemical class;
+which BGCs have unresolved boundary disputes; which experimental conditions are associated with a
+given activation state) become directly queryable against the SQLite database or the knowledge
+graph.
+
+Three design choices follow the FAIR principles \citep{wilkinson2016fair} directly. First,
+\textbf{Interoperability} is served by a documented relational schema in which every table shares
+\texttt{dossier\_id} as a join key, so the entity-linkage and knowledge-graph views in the dashboard
+are direct database queries rather than bespoke integration code. Second, \textbf{Reusability} is
+protected by preserving disagreement and unresolved normalisation explicitly (995 conflict records,
+882 open normalisation-queue rows) rather than silently forcing a single value, so a downstream user
+can see exactly where the curated record is contested or provisional. Third, \textbf{Findability and
+Accessibility} are served by packaging the database, knowledge graph, figures, tables, supplementary
+material and code together for Zenodo archival under an open licence, with a live interactive
+dashboard as the primary point of entry.
+
+\subsection{Limitations}
+
+Two limitations follow directly from the current snapshot's construction and are stated explicitly
+rather than hidden. First, taxonomic resolution is incomplete: phylum could be resolved for 178 of
+371 organisms and genus for organisms underlying 283 of 609 dossiers at this snapshot; the remainder
+await taxonomy normalisation and are tracked in \texttt{NORMALIZATION\_QUEUE} rather than assigned a
+placeholder value. Second, while every dossier was fully manually reviewed by the curator, this
+release reflects a single-curator review pass; broadening review to multiple independent curators,
+and formalising inter-curator agreement on the \texttt{CONFLICT} and normalisation-status fields,
+is a natural next step and is discussed as future work below.
+\todo{Discussion -- add the exact LLM model version(s)/dates here alongside the limitation statement once confirmed (Methods).}
+
+\subsection{Future work}
+
+The build pipeline (Materials and methods) is designed so that on-boarding additional BGCs is an
+append-and-rebuild operation rather than a schema change: new dossiers extend the same 23-table
+schema, are validated by the same row-count and referential-integrity checks, and immediately appear
+in the dashboard and knowledge graph. Natural extensions include: closing the normalisation queue
+(882 open \texttt{TERM} rows) through continued curator review; resolving the remaining open
+conflicts (220 of 995) as new evidence becomes available; cross-linking dossiers to external
+resources beyond MIBiG (e.g.\ chemical structure databases for the 807 curated metabolites); and
+opening the curation workflow to community contribution with the same evidence-linked,
+conflict-preserving schema enforced at ingestion.

@@ -1,0 +1,23 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 Richard Barker and contributors.
+
+This work — comprising the source code, curated database schema, generated
+database, knowledge graph, dashboard, figures, tables, supplementary material
+and manuscript in this repository — is licensed under the Creative Commons
+Attribution 4.0 International License. You are free to share and adapt the
+material for any purpose, even commercially, provided you give appropriate
+credit, provide a link to the license, and indicate if changes were made.
+
+Full license text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+------------------------------------------------------------------------------
+Third-party data attribution
+------------------------------------------------------------------------------
+Every dossier in this resource is anchored to a MIBiG (Minimum Information
+about a Biosynthetic Gene cluster) accession (https://mibig.secondarymetabolites.org).
+Primary experimental evidence is drawn from the cited literature; see
+data/processed/source.csv, supplementary/supp_table10_source_bibliography.csv
+and the manuscript references for the individual source records and DOIs.
+Please cite the relevant MIBiG accessions and primary literature, in addition
+to this resource, when reusing the integrated data.

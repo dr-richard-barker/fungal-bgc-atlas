@@ -1,0 +1,62 @@
+% Fungal BGC Atlas manuscript, prepared in the style of the journal Database (Oxford Academic).
+% NOTE: this uses a clean standard article-class preamble, not OUP's proprietary
+% submission class file (not safely reproducible offline) -- swap in the official
+% oup-authoring-template class at submission time if the journal requires it.
+\documentclass[11pt]{article}
+
+\usepackage[margin=2.5cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{times}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{amsmath}
+\usepackage[colorlinks=true, linkcolor=blue, citecolor=blue, urlcolor=blue]{hyperref}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage{authblk}
+\usepackage{lineno}
+\usepackage{setspace}
+\usepackage{xcolor}
+
+\newcommand{\todo}[1]{\textcolor{red}{\textbf{[TODO: #1]}}}
+
+\title{\textbf{The Fungal BGC Atlas: a curated, evidence-linked knowledge base\\
+of 609 literature- and MIBiG-derived fungal biosynthetic\\
+gene cluster dossiers}}
+
+\author[1]{Richard Barker\thanks{Correspondence: \texttt{dr.richard.barker@gmail.com}}}
+\affil[1]{University of Wisconsin--Madison, Madison, WI, USA}
+
+\date{}
+
+\begin{document}
+\doublespacing
+\linenumbers
+\maketitle
+\begin{center}
+\textit{Article type: Database. Prepared in the format of the journal \emph{Database} (Oxford Academic).}
+\end{center}
+
+\input{sections/abstract}
+
+\newpage
+\input{sections/introduction}
+\input{sections/methods}
+\input{sections/results}
+\input{sections/discussion}
+\input{sections/availability}
+
+\section*{Conflict of interest}
+None declared.
+
+\section*{Funding}
+\todo{Funding -- confirm before submission (e.g. institutional support, grant numbers, or ``no external funding was received for this work'').}
+
+\section*{Acknowledgements}
+\todo{Acknowledgements -- confirm before submission (e.g. curators, reviewers, computing resources).}
+
+\bibliographystyle{unsrtnat}
+\bibliography{references}
+
+\end{document}

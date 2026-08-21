@@ -1,0 +1,14 @@
+Metric,Value,Notes
+BGC dossiers,609,All linked to MIBiG accessions
+Unique organisms,371,"3 phyla, 68 genera"
+Strain labels,1018,
+Genes,1572,
+Metabolites,807,
+Experiments,915,
+Measurements,936,
+Claims,1534,
+Relationships (KG triples),1264,
+Conflicts / uncertainties,995,"preserved, not collapsed"
+Sources,2575,
+Evidence links,47768,record <-> source provenance
+Publication span,1991-2024,

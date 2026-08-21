@@ -1,0 +1,28 @@
+\section{Data availability}
+
+The Fungal BGC Atlas database, knowledge graph, source code, figures, tables and supplementary
+material are freely available under the Creative Commons Attribution 4.0 International licence
+(CC-BY-4.0) at:
+
+\begin{itemize}
+  \item \textbf{Interactive dashboard:} \url{https://dr-richard-barker.github.io/fungal-bgc-atlas/}
+  \item \textbf{Source repository (code + data + manuscript):}
+    \url{https://github.com/dr-richard-barker/fungal-bgc-atlas}
+  \item \textbf{Archived release (Zenodo):} \todo{Zenodo DOI -- to be assigned when the repository is
+    deposited; this manuscript is prepared alongside the Zenodo packaging (\texttt{.zenodo.json},
+    \texttt{CITATION.cff}) but the deposit itself is a separate step.}
+\end{itemize}
+
+All code used to parse the source workbook, build the relational database and knowledge graph,
+compute the statistics reported here, render the figures, and build the dashboard is provided in
+\texttt{scripts/} and orchestrated by \texttt{run\_all.py}, so the entire resource is
+deterministically reproducible from the checked-in source data.
+
+\section*{Availability of source code and requirements}
+\begin{itemize}
+  \item Project name: Fungal BGC Atlas
+  \item Project home page: \url{https://github.com/dr-richard-barker/fungal-bgc-atlas}
+  \item Operating system(s): Platform independent
+  \item Programming language: Python 3.9+ (build pipeline); HTML/JavaScript (dashboard)
+  \item License: CC-BY-4.0
+\end{itemize}
