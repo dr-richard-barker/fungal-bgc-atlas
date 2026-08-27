@@ -55,9 +55,17 @@ footer { padding:1.5rem 2rem; text-align:center; color:var(--muted); font-size:.
 
 <!-- COSE shared overlay theme, loaded after the page's own CSS so it can re-point
      the --bg/--fg/--accent/etc. tokens above and add the toggleable map rail. -->
-<link rel="stylesheet" href="assets/cose-theme.css" />
+<link rel="stylesheet" href="https://dr-richard-barker.github.io/Plant_response_to_radiation/cose/cose-theme.css" />
+<link rel="stylesheet" href="https://dr-richard-barker.github.io/Plant_response_to_radiation/cose/cose-chrome.css" />
+<link rel="stylesheet" href="https://dr-richard-barker.github.io/Plant_response_to_radiation/cose/cose-map.css" />
+<style>
+  /* Layering CoSE rails above page components */
+  .topbar.cose-dark, .topbar.cose-light { z-index: 10001 !important; }
+  .sitebar.cose-dark, .sitebar.cose-light { z-index: 10000 !important; }
+  .map-scrim { z-index: 9999 !important; }
+</style>
 </head>
-<body data-site-id="fungal-bgc-atlas">
+<body data-site-id="fungal-bgc-atlas" data-brand-logo="assets/cose-logo.png">
 <header class="hero">
   <h1>Fungal BGC Atlas</h1>
   <p>An interactive, evidence-linked explorer for 609 curated fungal biosynthetic gene
