@@ -530,11 +530,8 @@ def build_dashboard() -> None:
 <title>Fungal BGC Atlas</title>
 <script src="https://cdn.plot.ly/plotly-2.35.2.min.js" charset="utf-8"></script>
 {PAGE_CSS}
-<!-- COSE shared overlay theme, loaded after the page's own CSS so it can re-point
-     the --bg/--fg/--accent/etc. tokens above and add the toggleable map rail. -->
-<link rel="stylesheet" href="assets/cose-theme.css" />
 </head>
-<body data-site-id="fungal-bgc-atlas">
+<body>
 <header class="hero">
   <h1>Fungal BGC Atlas</h1>
   <p>An interactive, evidence-linked explorer for {len(d['bgc'])} curated fungal biosynthetic gene
@@ -550,8 +547,7 @@ def build_dashboard() -> None:
   <a href="https://github.com/dr-richard-barker/fungal-bgc-atlas">Source &amp; data on GitHub</a>
 </footer>
 {PAGE_JS}
-<script src="assets/sites.js"></script>
-<script src="assets/theme.js"></script>
+  <script defer src="https://visitor-analytics.astrobotany.workers.dev/a.js"></script>
 </body>
 </html>"""
 

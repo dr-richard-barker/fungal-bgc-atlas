@@ -52,20 +52,8 @@ table#dossier-table tr:hover { background:var(--card); cursor:pointer; }
 footer { padding:1.5rem 2rem; text-align:center; color:var(--muted); font-size:.8rem; border-top:1px solid var(--line); }
 @media (max-width:800px) { .browser-layout { grid-template-columns:1fr; } }
 </style>
-
-<!-- COSE shared overlay theme, loaded after the page's own CSS so it can re-point
-     the --bg/--fg/--accent/etc. tokens above and add the toggleable map rail. -->
-<link rel="stylesheet" href="https://dr-richard-barker.github.io/Plant_response_to_radiation/cose/cose-theme.css" />
-<link rel="stylesheet" href="https://dr-richard-barker.github.io/Plant_response_to_radiation/cose/cose-chrome.css" />
-<link rel="stylesheet" href="https://dr-richard-barker.github.io/Plant_response_to_radiation/cose/cose-map.css" />
-<style>
-  /* Layering CoSE rails above page components */
-  .topbar.cose-dark, .topbar.cose-light { z-index: 10001 !important; }
-  .sitebar.cose-dark, .sitebar.cose-light { z-index: 10000 !important; }
-  .map-scrim { z-index: 9999 !important; }
-</style>
 </head>
-<body data-site-id="fungal-bgc-atlas" data-brand-logo="assets/cose-logo.png">
+<body>
 <header class="hero">
   <h1>Fungal BGC Atlas</h1>
   <p>An interactive, evidence-linked explorer for 609 curated fungal biosynthetic gene
@@ -151,6 +139,20 @@ footer { padding:1.5rem 2rem; text-align:center; color:var(--muted); font-size:.
       <h3>View groups</h3><table class="dict-table"><thead><tr><th>Table group</th><th>Main tables</th></tr></thead><tbody><tr><td>BGC identity and context</td><td>BGC, ORGANISM, STRAIN, BGC_FACET</td></tr><tr><td>Genes and products</td><td>GENE, METABOLITE</td></tr><tr><td>Experiments and conditions</td><td>EXPERIMENT, TERM, EXPERIMENT_LINK</td></tr><tr><td>Experimental results</td><td>MEASUREMENT, OBSERVATION</td></tr><tr><td>Interpretive records</td><td>CLAIM, RELATIONSHIP, CONFLICT</td></tr><tr><td>Sources and traceability</td><td>SOURCE, EVIDENCE_LINK, ASSERTION</td></tr><tr><td>Legacy / unresolved / raw</td><td>COMPACT_FACT, NORMALIZATION_QUEUE, PROVENANCE_EXCLUDED, RAW_ROW</td></tr></tbody></table>
     </section>
 </main>
+
+<section>
+  <div class="wrap">
+    <h2>Key Results & Figures</h2>
+    <p class="sub">Key findings and visual summaries from this study.</p>
+    <div class="cards" style="margin-top:22px">
+      <div class="card">
+        <h3>Summary</h3>
+        <p><em>Figures and results are currently being compiled. Please refer to the repository data folders for early analysis outputs.</em></p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <footer>
   Fungal BGC Atlas &middot; CC-BY-4.0 &middot;
   <a href="https://github.com/dr-richard-barker/fungal-bgc-atlas">Source &amp; data on GitHub</a>
@@ -252,9 +254,6 @@ function showDossier(id) {
   `;
 }
 </script>
-
-<script src="assets/sites.js"></script>
-<script src="assets/theme.js"></script>
   <script defer src="https://visitor-analytics.astrobotany.workers.dev/a.js"></script>
 </body>
 </html>
